@@ -1,3 +1,9 @@
+# custom rules
+/Assets/Local/
+/Assets/Wwise/
+
+# default unity rules
+
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
