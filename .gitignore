@@ -1,3 +1,7 @@
+#custom rules
+/Assets/Wwise/
+/Assets/Local/
+
 
 # default unity rules
 
