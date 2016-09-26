@@ -11,6 +11,7 @@ namespace Mini2.Sample
 
     public class SampleScript : Singleton<SampleScript>
     {
+        // bla bla lba
 
         #region fields
 
