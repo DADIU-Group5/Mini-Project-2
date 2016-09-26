@@ -11,9 +11,7 @@ namespace Mini2.Sample
 
     public class SampleScript : Singleton<SampleScript>
     {
-        /// <summary>
-        /// awokd aodkawkd aokd awokawofk æakfaæl kfaøl
-        /// </summary>
+        // bla bla lba
 
         #region fields
 
