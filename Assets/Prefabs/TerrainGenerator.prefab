@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000010428370336}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010428370336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012115612558}
+  - 114: {fileID: 114000011055888802}
+  m_Layer: 0
+  m_Name: TerrainGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012115612558
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010428370336}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000011055888802
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010428370336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92a296cd92507e443a229fd5c828adb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chunkLength: 1
+  moveSpeed: 2
+  spawnPoint: {x: 0, y: 0, z: 10}
+  destroyZPos: -5
+  levelData:
+    levelInfo: rgbswrrrrrrbbbbbsssss
+  chunkDatabase:
+  - name: Red
+    id: 114
+    type: 1
+    obj: {fileID: 1000011300008514, guid: b43cc584b5693f04e95776235dca31a9, type: 2}
+  - name: Blue
+    id: 98
+    type: 1
+    obj: {fileID: 1000013645508744, guid: ac2c483195360cd469f2dda2e1b12b2e, type: 2}
+  - name: Green
+    id: 103
+    type: 1
+    obj: {fileID: 1000010554379848, guid: 7db3fa105c4856a47b203e2574c3720a, type: 2}
+  - name: Black
+    id: 115
+    type: 2
+    obj: {fileID: 1000011300008514, guid: bfda8fc2dd8319747a7a86912344d1df, type: 2}
+  - name: White
+    id: 119
+    type: 0
+    obj: {fileID: 1000011300008514, guid: fc3717ca3b2c0794786fc347fb87e909, type: 2}
