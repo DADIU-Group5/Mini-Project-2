@@ -40,7 +40,7 @@ GameObject:
   - 114: {fileID: 114000011138879834}
   - 114: {fileID: 114000011601621408}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: PirateEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86,7 +86,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99781b3463b81a14f89683bc72281713, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
