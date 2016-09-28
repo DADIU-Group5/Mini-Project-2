@@ -10,12 +10,16 @@ public class InputManager : MonoBehaviour {
     private Vector2 touchOrigin;    // Used to store the origin of the touch.
     private bool canSwipe;  // Used to store whether or not the player can swipe.
     private Touch myTouch;  // Used to detect when the finger is touching the screen.
+    private PlayerMovement playerMovement;
+    private Player player;
 
     // Use this for initialization
     void Start()
     {
         touchOrigin = -Vector2.one; // Initialize touchOrigin to (-1,-1).
         canSwipe = true;    // Initialize canSwipe to true;
+        playerMovement = GetComponent<PlayerMovement>();
+        player = GetComponent<Player>();
     }
 
     // Update is called once per frame
@@ -95,8 +99,9 @@ public class InputManager : MonoBehaviour {
      */
     private void swipeUp()
     {
+
         canSwipe = false;
-        Debug.Log("North!");
+        playerMovement.SwipeUp();
     }
 
     /**
@@ -105,7 +110,7 @@ public class InputManager : MonoBehaviour {
     private void swipeDown()
     {
         canSwipe = false;
-        Debug.Log("South!");
+        playerMovement.SwipeDown();
     }
 
     /**
@@ -114,7 +119,7 @@ public class InputManager : MonoBehaviour {
     private void swipeRight()
     {
         canSwipe = false;
-        Debug.Log("East!");
+        player.SwipeRight();
     }
 
     /**
@@ -123,6 +128,6 @@ public class InputManager : MonoBehaviour {
     private void swipeLeft()
     {
         canSwipe = false;
-        Debug.Log("West!");
+        player.SwipeLeft();
     }
 }
