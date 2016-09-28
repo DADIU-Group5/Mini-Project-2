@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Obstacle : TerrainMovement {
 
-    public WeakAgainst weakAgainst;
+    public EnemyType weakAgainst;
     public GameObject obstacleModel;
 
     void Start()
@@ -28,10 +28,3 @@ public class Obstacle : TerrainMovement {
     }
 
 }
-
-public enum WeakAgainst
-{
-    Pirate,
-    Space,
-    Mayan
-};

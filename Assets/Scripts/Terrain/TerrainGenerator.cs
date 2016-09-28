@@ -9,16 +9,16 @@ public class TerrainGenerator : MonoBehaviour {
     [Tooltip("Speed at which the chunks move (how fast they leave the screen)")]
     public float moveSpeed = 5;
     [Tooltip("The position where the chunks spawn (chunks only move on the z axis)")]
-    public Vector3 spawnPoint = new Vector3(0, 0, 5);
+    public Vector3 spawnPoint = new Vector3(10, 0, 0);
     [Tooltip("The Z-pos where the chunks despawn, should be more than 1 unit away from spawn z")]
-    public float destroyZPos = -5;
+    public float destroyXPos = -5;
 
     [Header("Enemy things")]
     [Space(10)]
     [Tooltip("An empty with the EmptyEnemy script attached")]
     public GameObject emptyEnemy;
     [Tooltip("The z-value where the enemies should spawn")]
-    public float enemySpawnZ = 5;
+    public float enemySpawnX = 5;
 
     [Header("Level Data")]
     [Space(20)]
@@ -50,7 +50,7 @@ public class TerrainGenerator : MonoBehaviour {
             return;
         }
 
-        if(lastChunk.transform.position.z + chunkLength < spawnPoint.z)
+        if(lastChunk.transform.position.x + chunkLength < spawnPoint.x)
         {
             CreateNewChunk();
         }
@@ -84,15 +84,15 @@ public class TerrainGenerator : MonoBehaviour {
     void SpawnChunk(ChunkData CD)
     {
         spawnedChunks++;
-        GameObject newChunk = Instantiate(CD.obj, lastChunk.transform.position + Vector3.forward * chunkLength, Quaternion.identity) as GameObject;
-        newChunk.GetComponent<TerrainMovement>().Setup(moveSpeed, destroyZPos);
+        GameObject newChunk = Instantiate(CD.obj, lastChunk.transform.position + Vector3.right * chunkLength, Quaternion.identity) as GameObject;
+        newChunk.GetComponent<TerrainMovement>().Setup(moveSpeed, destroyXPos);
         lastChunk = newChunk;
     }
 
     void CreateEnemies(ChunkData CD)
     {
         GameObject newEnemy = Instantiate(emptyEnemy, lastChunk.transform.position, Quaternion.identity) as GameObject;
-        newEnemy.GetComponent<EmptyEnemy>().Setup(enemySpawnZ,CD.enemyType);
+        newEnemy.GetComponent<EmptyEnemy>().Setup(enemySpawnX,CD.enemyType);
         newEnemy.transform.parent = lastChunk.transform;
     }
 
@@ -141,7 +141,7 @@ public class ChunkData
     //type 0 == nothing, type 1 == can spawn enemies, type 2 == obstacle.
     public TerrainType type = 0;
     [Tooltip("Only if type is enemy")]
-    public WeakAgainst enemyType;
+    public EnemyType enemyType;
     public GameObject obj;
 }
 

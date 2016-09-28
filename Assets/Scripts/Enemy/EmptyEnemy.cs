@@ -4,10 +4,10 @@ using System.Collections;
 public class EmptyEnemy : MonoBehaviour {
 
     float spawnPos = 0;
-    WeakAgainst becomeType;
+    EnemyType becomeType;
     bool setup = false;
 
-    public void Setup(float _spawnPos, WeakAgainst type)
+    public void Setup(float _spawnPos, EnemyType type)
     {
         spawnPos = _spawnPos;
         becomeType = type;
@@ -28,7 +28,7 @@ public class EmptyEnemy : MonoBehaviour {
 
     void MakeRealEnemy()
     {
-        Debug.Log("Make it a real enemy of type: "+becomeType);
+        EnemySpawner.instance.SpawnEnemy(transform.position.x, this, becomeType);
         Destroy(gameObject);
     }
 }

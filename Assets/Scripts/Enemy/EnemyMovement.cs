@@ -9,7 +9,7 @@ public class EnemyMovement : MonoBehaviour
     [Range(0.0f, 10.0f)]
     public float enemySpeed = 1.0f;
     [Range(-10.0f, 10.0f)]
-    public float destroyPoint = 0.0f;
+    public float destroyPoint = -5.0f;
 
     private Rigidbody enemyRb;
 
@@ -20,9 +20,9 @@ public class EnemyMovement : MonoBehaviour
 	
 	void Update ()
     {
-        if (this.gameObject.transform.position.x <= destroyPoint)
+        if (gameObject.transform.position.x <= destroyPoint)
         {
-            this.gameObject.GetComponent<Enemy>().DestroySelf();
+            gameObject.GetComponent<Enemy>().DestroySelf();
         }
         else
         {
