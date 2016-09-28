@@ -208,6 +208,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 114000010082751656, guid: d8cda473b2ac1e740886b7a4861186e6,
+        type: 2}
+      propertyPath: laneWidth
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d8cda473b2ac1e740886b7a4861186e6, type: 2}
   m_IsPrefabParent: 0
@@ -545,7 +550,7 @@ Prefab:
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
       propertyPath: chunkDatabase.Array.size
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000012115612558, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc, type: 2}
       propertyPath: m_LocalPosition.x
@@ -682,7 +687,7 @@ Prefab:
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
       propertyPath: levelData.levelInfo
-      value: bbbbbbbbbbabsbkbbbtbbwbbrbb
+      value: bbbbbbbbbbabsbkbbbtbbwbbrbbebbbbbbbbbb
       objectReference: {fileID: 0}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
@@ -791,6 +796,32 @@ Prefab:
       propertyPath: chunkDatabase.Array.data[2].enemyType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[7].name
+      value: END
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[7].id
+      value: 101
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[7].type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[7].enemyType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[7].obj
+      value: 
+      objectReference: {fileID: 1000012519122946, guid: da4978ddc5aa8d04a97094e1c2632d21,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc, type: 2}
   m_IsPrefabParent: 0
