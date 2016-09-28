@@ -20,8 +20,10 @@ public class Enemy : MonoBehaviour
         Destroy(this.gameObject);
     }
 
-    public void AssignEnemyType()
+    public void AssignEnemyType(int _lane, EnemyType _type)
     {
-
+        lane = _lane;
+        enemyType = _type;
+        EnemyManager.instance.AddEnemyToLane(lane, gameObject);
     }
 }
