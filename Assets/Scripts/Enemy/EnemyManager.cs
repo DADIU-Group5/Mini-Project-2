@@ -61,9 +61,13 @@ public class EnemyManager : Singleton<EnemyManager>
 
     public Enemy GetEnemyInLaneWithinDist(float f, int lane)
     {
-        if(GetDistToNearestEnemyInLane(lane) > f)
+        if(GetDistToNearestEnemyInLane(lane) < f)
         {
-            return NextEnemyInLane(lane).GetComponent<Enemy>();
+            GameObject temp = NextEnemyInLane(lane);
+            if (temp != null)
+            {
+                return temp.GetComponent<Enemy>();
+            }
         }
         return null;
     }

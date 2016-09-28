@@ -17,7 +17,7 @@ public class Enemy : MonoBehaviour
     public void DestroySelf()
     {
         EnemyManager.instance.RemoveEnemyFromLane(lane);
-        Destroy(this.gameObject);
+        Destroy(gameObject);
     }
 
     public void DestroyedByPlayer()

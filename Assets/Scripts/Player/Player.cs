@@ -12,12 +12,10 @@ public class Player : MonoBehaviour
 {
     public PlayerState state;
     public GameObject formCube;
-    public ScoreManager scoreManager;
 
     void Start()
     {
         ChangeForm();
-        scoreManager = GetComponent<ScoreManager>();
     }
 
     public void SwipeRight()
@@ -52,7 +50,7 @@ public class Player : MonoBehaviour
         Debug.Log("Changing form");
         if (state.form == 0)
         {
-            formCube.gameObject.GetComponent<Renderer>().material.color = Color.black;
+            formCube.gameObject.GetComponent<Renderer>().material.color = Color.red;
         }
         else if ((int)state.form == 1)
         {
@@ -60,7 +58,7 @@ public class Player : MonoBehaviour
         }
         else if ((int)state.form == 2)
         {
-            formCube.gameObject.GetComponent<Renderer>().material.color = Color.red;
+            formCube.gameObject.GetComponent<Renderer>().material.color = Color.blue;
         }
     }
 
