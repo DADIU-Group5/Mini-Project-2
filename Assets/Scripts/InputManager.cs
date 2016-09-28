@@ -17,7 +17,6 @@ public class InputManager : MonoBehaviour {
     void Start()
     {
         touchOrigin = -Vector2.one; // Initialize touchOrigin to (-1,-1).
-        canSwipe = true;    // Initialize canSwipe to true;
         playerMovement = GetComponent<PlayerMovement>();
         player = GetComponent<Player>();
     }
@@ -28,15 +27,53 @@ public class InputManager : MonoBehaviour {
         if (Input.touchCount > 0)
         {
             // Touch detected, handle it!
-            handleTouch();
+            HandleTouch();
+        }
+
+#if UNITY_EDITOR
+        FakeSwipe();
+#endif
+    }
+
+    #region fake swipe control (pc)
+
+#if UNITY_EDITOR
+
+    private void FakeSwipe()
+    {
+        GetArrowKeysInput();
+    }
+
+    private void GetArrowKeysInput()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            SwipeLeft();
+        }
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            SwipeRight();
+        }
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            SwipeUp();
+        }
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            SwipeDown();
         }
     }
+
+#endif
+
+
+    #endregion
 
     /**
      * Handles when the player is touching the screen.
      * Passes on responsibility to handleSwipe() if a swipe is detected.
      */
-    private void handleTouch()
+    private void HandleTouch()
     {
         // Store the first touch detected.
         myTouch = Input.touches[0];
@@ -44,14 +81,13 @@ public class InputManager : MonoBehaviour {
         // Check if the phase of that touch is the start of a touch event.
         if (myTouch.phase == TouchPhase.Began)
         {
-            // If so, set touchOrigin to the position of that touch
             touchOrigin = myTouch.position;
             canSwipe = true;
         }
         // If not, we are in the middle of a swipe and need to perform the swipe.
         else if (myTouch.phase == TouchPhase.Moved && canSwipe)
         {
-            handleSwipe();
+            HandleSwipe();
         }
     }
 
@@ -59,7 +95,7 @@ public class InputManager : MonoBehaviour {
      * Handles when the player is currently swiping.
      * Calls swipe functions according to what is found.
      */
-    private void handleSwipe()
+    private void HandleSwipe()
     {
         // Detect how much in each direction that were swiped
         float xDirection = Mathf.Abs(myTouch.position.x - touchOrigin.x);
@@ -71,12 +107,12 @@ public class InputManager : MonoBehaviour {
             if (xDirection > pixelsForSwipe && touchOrigin.x < myTouch.position.x)
             {
                 // Attempt to swipe right
-                swipeRight();
+                SwipeRight();
             }
             else if (xDirection > pixelsForSwipe && touchOrigin.x > myTouch.position.x)
             {
                 // Attempt to swipe left
-                swipeLeft();
+                SwipeLeft();
             }
         }
         else
@@ -84,12 +120,12 @@ public class InputManager : MonoBehaviour {
             if (yDirection > pixelsForSwipe && touchOrigin.y < myTouch.position.y)
             {
                 //Attempt to swipe up
-                swipeUp();
+                SwipeUp();
             }
             else if (yDirection > pixelsForSwipe && touchOrigin.y > myTouch.position.y)
             {
                 //Attempt to swipe down
-                swipeDown();
+                SwipeDown();
             }
         }
     }
@@ -97,37 +133,41 @@ public class InputManager : MonoBehaviour {
     /**
      * Swipes up.
      */
-    private void swipeUp()
+    private void SwipeUp()
     {
 
         canSwipe = false;
         playerMovement.SwipeUp();
+        Debug.Log("swipe up");
     }
 
     /**
      * Swipes down.
      */
-    private void swipeDown()
+    private void SwipeDown()
     {
         canSwipe = false;
         playerMovement.SwipeDown();
+        Debug.Log("swipe down");
     }
 
     /**
      * Swipes right.
      */
-    private void swipeRight()
+    private void SwipeRight()
     {
         canSwipe = false;
         player.SwipeRight();
+        Debug.Log("swipe right");
     }
 
     /**
      * Swipes left.
      */
-    private void swipeLeft()
+    private void SwipeLeft()
     {
         canSwipe = false;
         player.SwipeLeft();
+        Debug.Log("swipe left");
     }
 }
