@@ -12,13 +12,21 @@ public class TerrainGenerator : MonoBehaviour {
     public Vector3 spawnPoint = new Vector3(0, 0, 5);
     [Tooltip("The Z-pos where the chunks despawn, should be more than 1 unit away from spawn z")]
     public float destroyZPos = -5;
- 
+
+    [Header("Enemy things")]
+    [Space(10)]
+    [Tooltip("An empty with the EmptyEnemy script attached")]
+    public GameObject emptyEnemy;
+    [Tooltip("The z-value where the enemies should spawn")]
+    public float enemySpawnZ = 5;
+
     [Header("Level Data")]
     [Space(20)]
     [Tooltip("The current levels data")]
     public LevelData levelData = new LevelData();
     [Tooltip("Chunk database, create the different chunks here. You should change values in the prefab, otherwise it won't be changed for all levels.")]
     public ChunkData[] chunkDatabase;
+
 
     //Private variables.
     private GameObject lastChunk;
@@ -53,21 +61,39 @@ public class TerrainGenerator : MonoBehaviour {
     /// </summary>
     void CreateNewChunk()
     {
-        GameObject temp = ParseCharToGO(terrains[spawnedChunks]);
-        if(temp == null)
+        ChunkData CD = ParseCharToGO(terrains[spawnedChunks]);
+        if(CD == null)
         {
             Debug.LogError(terrains[spawnedChunks] + " returns null, make sure that letter is in the chunk database!");
             return;
         }
-        spawnedChunks++;
-        GameObject newChunk = Instantiate(temp, lastChunk.transform.position+Vector3.forward*chunkLength, Quaternion.identity) as GameObject;
-        newChunk.GetComponent<TerrainMovement>().Setup(moveSpeed, destroyZPos);
 
-        lastChunk = newChunk;
+        SpawnChunk(CD);
+
+        if(CD.type == TerrainType.Enemy)
+        {
+            CreateEnemies(CD);
+        }
+        
         if(spawnedChunks >= levelData.levelInfo.Length)
         {
             spawnedAllChunks = true;
         }
+    }
+
+    void SpawnChunk(ChunkData CD)
+    {
+        spawnedChunks++;
+        GameObject newChunk = Instantiate(CD.obj, lastChunk.transform.position + Vector3.forward * chunkLength, Quaternion.identity) as GameObject;
+        newChunk.GetComponent<TerrainMovement>().Setup(moveSpeed, destroyZPos);
+        lastChunk = newChunk;
+    }
+
+    void CreateEnemies(ChunkData CD)
+    {
+        GameObject newEnemy = Instantiate(emptyEnemy, lastChunk.transform.position, Quaternion.identity) as GameObject;
+        newEnemy.GetComponent<EmptyEnemy>().Setup(enemySpawnZ,CD.enemyType);
+        newEnemy.transform.parent = lastChunk.transform;
     }
 
     /// <summary>
@@ -75,13 +101,13 @@ public class TerrainGenerator : MonoBehaviour {
     /// </summary>
     /// <param name="c"></param>
     /// <returns></returns>
-    GameObject ParseCharToGO(char c)
+    ChunkData ParseCharToGO(char c)
     {
         foreach (ChunkData item in chunkDatabase)
         {
             if(c == item.id)
             {
-                return item.obj;
+                return item;
             }
         }
         return null;
@@ -113,6 +139,13 @@ public class ChunkData
     public string name;
     public char id;
     //type 0 == nothing, type 1 == can spawn enemies, type 2 == obstacle.
-    public int type = 0;
-    public GameObject obj;  
+    public TerrainType type = 0;
+    [Tooltip("Only if type is enemy")]
+    public WeakAgainst enemyType;
+    public GameObject obj;
+}
+
+public enum TerrainType
+{
+    Empty, Enemy, Obstacle
 }
