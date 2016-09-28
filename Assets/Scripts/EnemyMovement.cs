@@ -22,6 +22,7 @@ public class EnemyMovement : MonoBehaviour
     {
         if (this.gameObject.transform.position.x <= destroyPoint)
         {
+            ScoreManager.instance.ModifyPoint(-1* this.gameObject.GetComponent<Enemy>().enemyPoints);
             this.gameObject.GetComponent<Enemy>().DestroySelf();
         }
         else
