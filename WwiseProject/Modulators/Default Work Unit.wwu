@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{59C43A3B-F3F8-4BFE-B6B0-DA5DAA9C09FB}" SchemaVersion="72">
+<WwiseDocument Type="WorkUnit" ID="{0F15CFB7-1962-4173-BDD6-0A5FCD79CF50}" SchemaVersion="72">
 	<Modulators>
-		<WorkUnit Name="Default Work Unit" ID="{59C43A3B-F3F8-4BFE-B6B0-DA5DAA9C09FB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0F15CFB7-1962-4173-BDD6-0A5FCD79CF50}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorLfo Name="sword metal" ID="{E9071BDF-3BA4-4E77-8FB2-E26FB193ABC7}" ShortID="34850292">
+					<PropertyList>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.1"/>
+					</PropertyList>
+				</ModulatorLfo>
+			</ChildrenList>
+		</WorkUnit>
 	</Modulators>
 </WwiseDocument>

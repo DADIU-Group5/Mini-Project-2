@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{9F8EC174-10A9-4A3F-905B-B27657EFB7DF}" SchemaVersion="72">
+<WwiseDocument Type="WorkUnit" ID="{9B2F27D4-95A3-45F6-9F38-458642BF3B65}" SchemaVersion="72">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{9F8EC174-10A9-4A3F-905B-B27657EFB7DF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9B2F27D4-95A3-45F6-9F38-458642BF3B65}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Soundbank1" ID="{65546F62-9755-484C-8059-0DC81E450CBD}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Default Work Unit" ID="{373B411A-10A1-42C9-BE76-622772C753B0}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Default Work Unit" ID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Default Work Unit" ID="{AEDB506B-D893-466E-B78B-0A28E1A48AA8}" WorkUnitID="{AEDB506B-D893-466E-B78B-0A28E1A48AA8}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

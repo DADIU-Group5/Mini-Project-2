@@ -18,6 +18,9 @@
 							<PropertyList>
 								<Property Name="DataFileName" Type="string" Value="/boxmodel.wav"/>
 							</PropertyList>
+							<ConvertedFileIDList>
+								<File Platform="Windows" ID="161915250"/>
+							</ConvertedFileIDList>
 						</PluginMediaSource>
 					</ChildrenList>
 				</Effect>
@@ -33,6 +36,9 @@
 							<PropertyList>
 								<Property Name="DataFileName" Type="string" Value="/boxmodel.wav"/>
 							</PropertyList>
+							<ConvertedFileIDList>
+								<File Platform="Mac" ID="161915250"/>
+							</ConvertedFileIDList>
 						</PluginMediaSource>
 					</ChildrenList>
 				</Effect>
@@ -64,7 +70,9 @@
 								<Property Name="DataFileName" Type="string" Value="/boxmodel.wav"/>
 							</PropertyList>
 							<ConvertedFileIDList>
-								<File ID="211286947"/>
+								<File Platform="Android" ID="298944768"/>
+								<File Platform="Mac" ID="211286947"/>
+								<File Platform="Windows" ID="459775695"/>
 							</ConvertedFileIDList>
 						</PluginMediaSource>
 					</ChildrenList>
@@ -80,6 +88,9 @@
 							<PropertyList>
 								<Property Name="DataFileName" Type="string" Value="/boxmodel.wav"/>
 							</PropertyList>
+							<ConvertedFileIDList>
+								<File Platform="Windows" ID="965606000"/>
+							</ConvertedFileIDList>
 						</PluginMediaSource>
 					</ChildrenList>
 				</Effect>
@@ -122,6 +133,10 @@
 							<PropertyList>
 								<Property Name="DataFileName" Type="string" Value="/boxmodel.wav"/>
 							</PropertyList>
+							<ConvertedFileIDList>
+								<File Platform="Android" ID="161915250"/>
+								<File Platform="Windows" ID="903989417"/>
+							</ConvertedFileIDList>
 						</PluginMediaSource>
 					</ChildrenList>
 				</Effect>
@@ -152,7 +167,7 @@
 								<Property Name="DataFileName" Type="string" Value="/boxmodel.wav"/>
 							</PropertyList>
 							<ConvertedFileIDList>
-								<File ID="161915250"/>
+								<File Platform="Mac" ID="298944768"/>
 							</ConvertedFileIDList>
 						</PluginMediaSource>
 					</ChildrenList>
@@ -168,6 +183,10 @@
 							<PropertyList>
 								<Property Name="DataFileName" Type="string" Value="/boxmodel.wav"/>
 							</PropertyList>
+							<ConvertedFileIDList>
+								<File Platform="Android" ID="459775695"/>
+								<File Platform="Mac" ID="475887784"/>
+							</ConvertedFileIDList>
 						</PluginMediaSource>
 					</ChildrenList>
 				</Effect>
