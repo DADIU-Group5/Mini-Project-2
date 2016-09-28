@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SoundController : MonoBehaviour {
+public class SoundTester : MonoBehaviour {
 
 	// Use this for initialization
 	void Start ()
@@ -22,7 +22,7 @@ public class SoundController : MonoBehaviour {
         }
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            AudioMaster.instance.PlayEvent("enemyBlolbMove", 1452.2f);
+            AudioMaster.instance.PlayEvent("enemyBlolbMove", 10.2f);
         }
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
