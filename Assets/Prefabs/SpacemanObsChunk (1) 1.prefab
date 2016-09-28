@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000010776236290}
   - 114: {fileID: 114000010996114784}
   m_Layer: 0
-  m_Name: SpacemanObsChunk
+  m_Name: SpacemanObsChunk (1) 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

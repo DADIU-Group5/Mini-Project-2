@@ -6,12 +6,12 @@ PlayerSettings:
   serializedVersion: 8
   productGUID: 832d915462faa4d44b286478cc521ee7
   AndroidProfiler: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 2
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: New Unity Project
+  companyName: DadiuTeam5
+  productName: MiniGame2
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenStyle: 0

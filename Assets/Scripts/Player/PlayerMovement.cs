@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     public void MoveUp()
     {
         playerState.lane++;
-        transform.Translate(0, 0, 10);
+        transform.Translate(0, 0, EnemySpawner.instance.GetLaneWidth());
         /*float step = speed * Time.deltaTime;
         transform.position = Vector3.MoveTowards(transform.position, target.position, step);*/
     }
@@ -37,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
     public void MoveDown()
     {
         playerState.lane--;
-        transform.Translate(0, 0, -10);
+        transform.Translate(0, 0, -EnemySpawner.instance.GetLaneWidth());
 
     }
 }
