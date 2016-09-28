@@ -25,6 +25,18 @@ public class Obstacle : TerrainMovement {
     public void PlayerInteraction()
     {
         ScoreManager.instance.ModifyPoint(1); //Needs to be better.
+        if (weakAgainst == EnemyType.Pirate)
+        {
+            AudioMaster.instance.PlayEvent("obstacleSuccesPirate");
+        }
+        else if (weakAgainst == EnemyType.Mayan)
+        {
+            AudioMaster.instance.PlayEvent("obstacleSuccesMayan");
+        }
+        else if (weakAgainst == EnemyType.Spaceman)
+        {
+            AudioMaster.instance.PlayEvent("obstacleSuccesSpaceman");
+        }
         RemoveObstacle();
     }
 

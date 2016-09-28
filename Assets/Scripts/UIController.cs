@@ -12,6 +12,7 @@ public class UIController : Singleton<UIController> {
 	public void ShowEndScreen()
     {
         scoreT.text = "Score: "+ScoreManager.instance.score;
+        AudioMaster.instance.PlayEvent("levelEnd");
         endPanel.SetActive(true);
     }
 
