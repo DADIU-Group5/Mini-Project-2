@@ -11,7 +11,7 @@ public class UIController : Singleton<UIController> {
 
 	public void ShowEndScreen()
     {
-        scoreT.text = "Score: ";//ScoreManager.instance.score;
+        scoreT.text = "Score: "+ScoreManager.instance.score;
         endPanel.SetActive(true);
     }
 

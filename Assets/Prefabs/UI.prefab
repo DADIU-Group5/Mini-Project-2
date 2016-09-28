@@ -128,6 +128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endPanel: {fileID: 1000011262679930}
+  scoreT: {fileID: 114000012858097660}
 --- !u!114 &114000010329464908
 MonoBehaviour:
   m_ObjectHideFlags: 1
