@@ -17,7 +17,12 @@ public class TerrainMovement : MonoBehaviour {
         transform.Translate(Vector3.back * speed * Time.deltaTime);
         if (transform.position.z < destroyPos)
         {
-            Destroy(gameObject);
+            Remove();
         }
 	}
+
+    public virtual void Remove()
+    {
+        Destroy(gameObject);
+    }
 }

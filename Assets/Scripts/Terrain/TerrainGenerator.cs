@@ -20,7 +20,6 @@ public class TerrainGenerator : MonoBehaviour {
     [Tooltip("Chunk database, create the different chunks here. You should change values in the prefab, otherwise it won't be changed for all levels.")]
     public ChunkData[] chunkDatabase;
 
-
     //Private variables.
     private GameObject lastChunk;
     private int spawnedChunks = 0;
@@ -86,6 +85,19 @@ public class TerrainGenerator : MonoBehaviour {
             }
         }
         return null;
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Debug.Log("space");
+            Obstacle temp = Obstacles.instance.GetNearestObstacle();
+            if (temp != null)
+            {
+                temp.PlayerInteraction();
+            }
+        }
     }
 }
 
