@@ -1,0 +1,42 @@
+Event	ID	Name			Wwise Object Path	Notes
+	131188813	enemySharkMove			\Default Work Unit\enemySharkMove	
+	230529865	enemyBlolbMove			\Default Work Unit\enemyBlolbMove	
+	312184219	obstacleSuccesPirate			\Default Work Unit\obstacleSuccesPirate	
+	387995228	enemySkeletonDeath			\Default Work Unit\enemySkeletonDeath	
+	989497648	enemyBlobDeath			\Default Work Unit\enemyBlobDeath	
+	1232697816	swordAttack			\Default Work Unit\swordAttack	
+	1269726684	rewardEnemy			\Default Work Unit\rewardEnemy	
+	1787186961	maskAttack			\Default Work Unit\maskAttack	
+	1872687458	laserAttack			\Default Work Unit\laserAttack	
+	2015977838	obstacleSuccesSpaceman			\Default Work Unit\obstacleSuccesSpaceman	
+	2030660008	pointLoss			\Default Work Unit\pointLoss	
+	2037204996	levelEnd			\Default Work Unit\levelEnd	
+	2200869491	rewardObstacle			\Default Work Unit\rewardObstacle	
+	2722909678	obstacleSuccesMayan			\Default Work Unit\obstacleSuccesMayan	
+	2924038817	enemySkeletonMove			\Default Work Unit\enemySkeletonMove	
+	3002559768	enemySharkDeath			\Default Work Unit\enemySharkDeath	
+	3147649906	obstacleJump			\Default Work Unit\obstacleJump	
+	3372421815	levelStart			\Default Work Unit\levelStart	
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	34850292	sword metal			\Default Work Unit\sword metal	
+
+Effect plug-ins	ID	Name	Type				Notes
+	361241791	sword3	Wwise Parametric EQ			
+	1934039728	New_Wwise_Matrix_Reverb	Wwise Matrix Reverb			
+	2454616260	sword	Wwise Parametric EQ			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	59720546	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Weapons\pirateSword\SoundSeed Woosh	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	199487326	Fart_BW_16107	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Mac\SFX\Fart_BW.16107_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\Fart_BW_16107		302060
+	466880421	Fart_BW_16108	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Mac\SFX\Fart_BW.16108_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\Fart_BW_16108		153412
+	547303617	laser2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Mac\SFX\laser2_7310B160.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser2		11030
+	559645394	Fart_SFXB_2033	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Mac\SFX\Fart_SFXB.2033_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\Fart_SFXB_2033		108252
+	614790623	Fart_BW_61633	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Mac\SFX\Fart_BW.61633_DFB4B055.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\Fart_BW_61633		73848
+	721673538	laser1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Mac\SFX\laser1_44BD0578.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser1		11695
+	762084009	laser4	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Mac\SFX\laser4_3F4E9A61.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser4		9875
+	962984383	laser3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Mac\SFX\laser3_164D752C.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser3		10710
+	1018279328	PoopFart_SFXB_2095	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Mac\SFX\PoopFart_SFXB.2095_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\PoopFart_SFXB_2095		473284
+

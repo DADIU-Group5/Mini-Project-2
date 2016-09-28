@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>/Users/Victor/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/WwiseProjects/gruppe5 minigame2/</ProjectRoot>
+		<SourceFilesRoot>/Users/Victor/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/WwiseProjects/gruppe5 minigame2/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/Victor/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/WwiseProjects/gruppe5 minigame2/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/Victor/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/WwiseProjects/gruppe5 minigame2/GeneratedSoundBanks/Mac/</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1647770721" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Soundbank1</ObjectPath>
+			<ShortName>Soundbank1</ShortName>
+			<Path>Soundbank1.bnk</Path>
+			<IncludedEvents>
+				<Event Id="989497648" Name="enemyBlobDeath" ObjectPath="\Events\Default Work Unit\enemyBlobDeath"/>
+				<Event Id="230529865" Name="enemyBlolbMove" ObjectPath="\Events\Default Work Unit\enemyBlolbMove"/>
+				<Event Id="3002559768" Name="enemySharkDeath" ObjectPath="\Events\Default Work Unit\enemySharkDeath"/>
+				<Event Id="131188813" Name="enemySharkMove" ObjectPath="\Events\Default Work Unit\enemySharkMove"/>
+				<Event Id="387995228" Name="enemySkeletonDeath" ObjectPath="\Events\Default Work Unit\enemySkeletonDeath"/>
+				<Event Id="2924038817" Name="enemySkeletonMove" ObjectPath="\Events\Default Work Unit\enemySkeletonMove"/>
+				<Event Id="1872687458" Name="laserAttack" ObjectPath="\Events\Default Work Unit\laserAttack"/>
+				<Event Id="2037204996" Name="levelEnd" ObjectPath="\Events\Default Work Unit\levelEnd"/>
+				<Event Id="3372421815" Name="levelStart" ObjectPath="\Events\Default Work Unit\levelStart"/>
+				<Event Id="1787186961" Name="maskAttack" ObjectPath="\Events\Default Work Unit\maskAttack"/>
+				<Event Id="3147649906" Name="obstacleJump" ObjectPath="\Events\Default Work Unit\obstacleJump"/>
+				<Event Id="2722909678" Name="obstacleSuccesMayan" ObjectPath="\Events\Default Work Unit\obstacleSuccesMayan"/>
+				<Event Id="312184219" Name="obstacleSuccesPirate" ObjectPath="\Events\Default Work Unit\obstacleSuccesPirate"/>
+				<Event Id="2015977838" Name="obstacleSuccesSpaceman" ObjectPath="\Events\Default Work Unit\obstacleSuccesSpaceman"/>
+				<Event Id="2030660008" Name="pointLoss" ObjectPath="\Events\Default Work Unit\pointLoss"/>
+				<Event Id="1269726684" Name="rewardEnemy" ObjectPath="\Events\Default Work Unit\rewardEnemy"/>
+				<Event Id="2200869491" Name="rewardObstacle" ObjectPath="\Events\Default Work Unit\rewardObstacle"/>
+				<Event Id="1232697816" Name="swordAttack" ObjectPath="\Events\Default Work Unit\swordAttack"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="199487326" Language="SFX">
+					<ShortName>Fart_BW.16107.wav</ShortName>
+					<Path>SFX/Fart_BW.16107_F74084CA.wem</Path>
+				</File>
+				<File Id="466880421" Language="SFX">
+					<ShortName>Fart_BW.16108.wav</ShortName>
+					<Path>SFX/Fart_BW.16108_F74084CA.wem</Path>
+				</File>
+				<File Id="547303617" Language="SFX">
+					<ShortName>laser2.wav</ShortName>
+					<Path>SFX/laser2_7310B160.wem</Path>
+				</File>
+				<File Id="559645394" Language="SFX">
+					<ShortName>Fart_SFXB.2033.wav</ShortName>
+					<Path>SFX/Fart_SFXB.2033_F74084CA.wem</Path>
+				</File>
+				<File Id="614790623" Language="SFX">
+					<ShortName>Fart_BW.61633.wav</ShortName>
+					<Path>SFX/Fart_BW.61633_DFB4B055.wem</Path>
+				</File>
+				<File Id="721673538" Language="SFX">
+					<ShortName>laser1.wav</ShortName>
+					<Path>SFX/laser1_44BD0578.wem</Path>
+				</File>
+				<File Id="762084009" Language="SFX">
+					<ShortName>laser4.wav</ShortName>
+					<Path>SFX/laser4_3F4E9A61.wem</Path>
+				</File>
+				<File Id="962984383" Language="SFX">
+					<ShortName>laser3.wav</ShortName>
+					<Path>SFX/laser3_164D752C.wem</Path>
+				</File>
+				<File Id="1018279328" Language="SFX">
+					<ShortName>PoopFart_SFXB.2095.wav</ShortName>
+					<Path>SFX/PoopFart_SFXB.2095_F74084CA.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
