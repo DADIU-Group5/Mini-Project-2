@@ -20,6 +20,12 @@ public class Enemy : MonoBehaviour
         Destroy(this.gameObject);
     }
 
+    public void DestroyedByPlayer()
+    {
+        ScoreManager.instance.ModifyPoint(1 * this.gameObject.GetComponent<Enemy>().enemyPoints);
+        DestroySelf();
+    }
+
     public void AssignEnemyType(int _lane, EnemyType _type)
     {
         lane = _lane;
