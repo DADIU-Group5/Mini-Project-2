@@ -7,6 +7,13 @@ public class EnemySpawner : Singleton<EnemySpawner>{
     public GameObject pirateObj;
     public GameObject mayanObj;
     public GameObject spaceObj;
+    [SerializeField]
+    float laneWidth = 1;
+
+    public float GetLaneWidth()
+    {
+        return laneWidth;
+    }
     
     public void SpawnEnemy(float pos, EmptyEnemy Ee, EnemyType type)
     {
@@ -24,7 +31,7 @@ public class EnemySpawner : Singleton<EnemySpawner>{
         {
             toSpawn = spaceObj;
         }
-        GameObject go = Instantiate(toSpawn, new Vector3(pos, 0, lane-1), Quaternion.identity) as GameObject;
+        GameObject go = Instantiate(toSpawn, new Vector3(pos, 0, (lane-1)*laneWidth), Quaternion.identity) as GameObject;
         go.GetComponent<Enemy>().AssignEnemyType(lane, type);
     }
 
