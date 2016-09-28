@@ -17,7 +17,13 @@ public class Enemy : MonoBehaviour
     public void DestroySelf()
     {
         EnemyManager.instance.RemoveEnemyFromLane(lane);
-        Destroy(this.gameObject);
+        Destroy(gameObject);
+    }
+
+    public void DestroyedByPlayer()
+    {
+        ScoreManager.instance.ModifyPoint(1 * this.gameObject.GetComponent<Enemy>().enemyPoints);
+        DestroySelf();
     }
 
     public void AssignEnemyType(int _lane, EnemyType _type)

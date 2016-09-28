@@ -24,6 +24,7 @@ public class Obstacle : TerrainMovement {
 
     public void PlayerInteraction()
     {
+        ScoreManager.instance.ModifyPoint(1); //Needs to be better.
         RemoveObstacle();
     }
 
