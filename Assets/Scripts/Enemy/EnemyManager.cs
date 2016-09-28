@@ -16,15 +16,56 @@ public class EnemyManager : Singleton<EnemyManager>
 
     public void AddEnemyToLane(int lane, GameObject go)
     {
+        if (lane > 2 || lane < 0)
+        {
+            Debug.LogError("Lane: " + lane + " Does not exist");
+            return;
+        }
         //add new enemy go to given lane
         enemiesInLane[lane].Add(go);
     }
 
+    /// <summary>
+    /// Returns null if there is no enemy, or lane does not exist.
+    /// </summary>
+    /// <param name="lane"></param>
+    /// <returns></returns>
     public GameObject NextEnemyInLane(int lane)
     {
+        if(lane > 2 || lane < 0)
+        {
+            Debug.LogError("Lane: " + lane + " Does not exist");
+            return null;
+        }
         //check first enemy go in given lane
-        GameObject tempGO = enemiesInLane[lane][0];
-        return tempGO;
+        if (enemiesInLane[lane].Count > 0)
+        {
+            return enemiesInLane[lane][0];
+        }
+        return null;
+    }
+
+    public float GetDistToNearestEnemyInLane(int lane)
+    {
+        GameObject temp = NextEnemyInLane(lane);
+        if(temp == null)
+        {
+            return Mathf.Infinity;
+        }
+        if(temp.transform.position.x < 0)
+        {
+            return Mathf.Infinity;
+        }
+        return temp.transform.position.x;
+    }
+
+    public Enemy GetEnemyInLaneWithinDist(float f, int lane)
+    {
+        if(GetDistToNearestEnemyInLane(lane) > f)
+        {
+            return NextEnemyInLane(lane).GetComponent<Enemy>();
+        }
+        return null;
     }
 
     public void RemoveEnemyFromLane(int lane)

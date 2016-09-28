@@ -33,12 +33,12 @@ public class Obstacles : Singleton<Obstacles> {
     /// Get the Z-pos of the first obstacle.
     /// </summary>
     /// <returns></returns>
-    public float GetZPosOfFirstObstacle()
+    public float GetXPosOfFirstObstacle()
     {
         if(allObstacles.Count > 0){
-            if (allObstacles[0].transform.position.z > 0)
+            if (allObstacles[0].transform.position.x > 0)
             {
-                return allObstacles[0].transform.position.z;
+                return allObstacles[0].transform.position.x;
             }
         }
         return Mathf.Infinity;
@@ -51,7 +51,7 @@ public class Obstacles : Singleton<Obstacles> {
     /// <returns></returns>
     public Obstacle GetNearestObstacleCloserThan(float f)
     {
-        if(GetZPosOfFirstObstacle() > f)
+        if(GetXPosOfFirstObstacle() > f)
         {
             return null;
         }
