@@ -20,7 +20,7 @@ public class EmptyEnemy : MonoBehaviour {
         {
             return;
         }
-	    if(transform.position.z < spawnPos)
+	    if(transform.position.x < spawnPos)
         {
             MakeRealEnemy();
         }
