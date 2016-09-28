@@ -30,13 +30,13 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	59720546	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Weapons\pirateSword\SoundSeed Woosh	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	199487326	Fart_BW_16107	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Android\SFX\Fart_BW.16107_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\Fart_BW_16107		302060
-	466880421	Fart_BW_16108	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Android\SFX\Fart_BW.16108_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\Fart_BW_16108		153412
-	547303617	laser2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Android\SFX\laser2_7310B160.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser2		11030
-	559645394	Fart_SFXB_2033	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Android\SFX\Fart_SFXB.2033_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\Fart_SFXB_2033		108252
-	614790623	Fart_BW_61633	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Android\SFX\Fart_BW.61633_DFB4B055.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\Fart_BW_61633		73848
-	721673538	laser1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Android\SFX\laser1_44BD0578.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser1		11695
-	762084009	laser4	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Android\SFX\laser4_3F4E9A61.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser4		9875
-	962984383	laser3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Android\SFX\laser3_164D752C.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser3		10710
-	1018279328	PoopFart_SFXB_2095	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Android\SFX\PoopFart_SFXB.2095_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\PoopFart_SFXB_2095		473284
+	199487326	Fart_BW_16107	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\Fart_BW.16107_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\Fart_BW_16107		302060
+	466880421	Fart_BW_16108	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\Fart_BW.16108_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\Fart_BW_16108		153412
+	547303617	laser2	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\laser2_BD23150F.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser2		11027
+	559645394	Fart_SFXB_2033	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\Fart_SFXB.2033_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\Fart_SFXB_2033		108252
+	614790623	Fart_BW_61633	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\Fart_BW.61633_3B500B30.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\Fart_BW_61633		73848
+	721673538	laser1	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\laser1_44BD0578.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser1		11695
+	762084009	laser4	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\laser4_3F4E9A61.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser4		9875
+	962984383	laser3	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\laser3_164D752C.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser3		10710
+	1018279328	PoopFart_SFXB_2095	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\PoopFart_SFXB.2095_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\PoopFart_SFXB_2095		473284
 
