@@ -5,6 +5,7 @@ public class Obstacle : TerrainMovement {
 
     public EnemyType weakAgainst;
     public GameObject obstacleModel;
+    bool beaten = false;
 
     void Start()
     {
@@ -19,11 +20,16 @@ public class Obstacle : TerrainMovement {
 
     void RemoveObstacle()
     {
+        beaten = true;
         Destroy(obstacleModel);
     }
 
     public void PlayerInteraction()
     {
+        if (beaten)
+        {
+            return;
+        }
         ScoreManager.instance.ModifyPoint(1); //Needs to be better.
         if (weakAgainst == EnemyType.Pirate)
         {
