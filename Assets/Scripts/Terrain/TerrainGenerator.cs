@@ -2,7 +2,6 @@
 using System.Collections;
 
 public class TerrainGenerator : MonoBehaviour {
-
     [Header("Setup")]
     [Tooltip("Length of each chunk")]
     public float chunkLength = 1;
@@ -26,7 +25,6 @@ public class TerrainGenerator : MonoBehaviour {
     public LevelData levelData = new LevelData();
     [Tooltip("Chunk database, create the different chunks here. You should change values in the prefab, otherwise it won't be changed for all levels.")]
     public ChunkData[] chunkDatabase;
-
 
     //Private variables.
     private GameObject lastChunk;
@@ -85,6 +83,7 @@ public class TerrainGenerator : MonoBehaviour {
     {
         spawnedChunks++;
         GameObject newChunk = Instantiate(CD.obj, lastChunk.transform.position + Vector3.right * chunkLength, Quaternion.identity) as GameObject;
+        newChunk.transform.parent = transform;
         newChunk.GetComponent<TerrainMovement>().Setup(moveSpeed, destroyXPos);
         lastChunk = newChunk;
     }
@@ -138,8 +137,7 @@ public class ChunkData
 {
     public string name;
     public char id;
-    //type 0 == nothing, type 1 == can spawn enemies, type 2 == obstacle.
-    public TerrainType type = 0;
+    public TerrainType type;
     [Tooltip("Only if type is enemy")]
     public EnemyType enemyType;
     public GameObject obj;
