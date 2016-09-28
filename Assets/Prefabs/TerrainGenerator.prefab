@@ -73,7 +73,7 @@ MonoBehaviour:
   - name: Black
     id: 115
     type: 2
-    obj: {fileID: 1000011300008514, guid: bfda8fc2dd8319747a7a86912344d1df, type: 2}
+    obj: {fileID: 1000012136224104, guid: bfda8fc2dd8319747a7a86912344d1df, type: 2}
   - name: White
     id: 119
     type: 0

@@ -14,10 +14,15 @@ public class TerrainMovement : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-        transform.Translate(Vector3.back * speed * Time.deltaTime);
-        if (transform.position.z < destroyPos)
+        transform.Translate(Vector3.left * speed * Time.deltaTime);
+        if (transform.position.x < destroyPos)
         {
-            Destroy(gameObject);
+            Remove();
         }
 	}
+
+    public virtual void Remove()
+    {
+        Destroy(gameObject);
+    }
 }
