@@ -16,7 +16,6 @@ public class SaveData : Singleton<SaveData> {
 	
 	public int GetStarsForLevel(int level)
     {
-        Debug.Log(PlayerPrefs.GetInt("LevelStars" + level) + " Stars gotten from level: " + level);
         return PlayerPrefs.GetInt("LevelStars" + level);
     }
 
