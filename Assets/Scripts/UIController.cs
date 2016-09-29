@@ -32,7 +32,6 @@ public class UIController : Singleton<UIController> {
         endPanel.SetActive(true);
         StarSystem.instance.CalculateScore();
         int stars = StarSystem.instance.starRating;
-        Debug.Log("stars: " + stars);
         if (stars != 0) {
             for (int i = 0; i < Mathf.Abs(stars); i++)
             {
@@ -43,6 +42,8 @@ public class UIController : Singleton<UIController> {
                 }
             }
         }
+        SaveData.instance.CompletedCurrentLevel();
+        SaveData.instance.SaveStarsForCurrentLevel(stars);
     }
 
     public void RestartGame()

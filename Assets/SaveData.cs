@@ -21,17 +21,23 @@ public class SaveData : Singleton<SaveData> {
 
     public void SaveStarsForLevel(int level, int stars)
     {
-        PlayerPrefs.SetInt("LevelStars" + level, stars);
+        if (PlayerPrefs.GetInt("LevelStars" + level) > stars)
+        {
+            PlayerPrefs.SetInt("LevelStars" + level, stars);
+        }
     }
 
     public void SaveStarsForCurrentLevel(int stars)
     {
-        PlayerPrefs.SetInt("LevelStars" + UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex, stars);
+        if (PlayerPrefs.GetInt("LevelStars" + UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex) > stars)
+        {
+            PlayerPrefs.SetInt("LevelStars" + UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex, stars);
+        }
     }
 
     public void CompletedCurrentLevel()
     {
-        PlayerPrefs.SetInt("LevelStars" + UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex+1, 0);
+        PlayerPrefs.SetInt("LevelStars" + (UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex+1), 0);
     }
 
     public bool IsLanguageEnglish()
