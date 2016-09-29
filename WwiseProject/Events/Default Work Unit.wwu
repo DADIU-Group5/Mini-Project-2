@@ -23,6 +23,13 @@
 								</Element>
 							</ElementList>
 						</Action>
+						<Action Name="Play" ID="{EAF94180-F935-4EB0-88D3-427F62EB4B98}" ShortID="926827628" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{955762EF-DCB2-4118-B9D7-4472DF2FC1EE}" Global="false">
+									<ObjectRef Name="swordAttackmetal" ID="{169B4BC6-C1A5-49F6-97DB-DE1717626F3A}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="maskAttack" ID="{43D482CC-9517-49D2-AB1A-840358548BB4}">
@@ -30,7 +37,7 @@
 						<Action Name="Play" ID="{43D115DD-44C4-46C8-9379-BF1BEC903AFE}" ShortID="679227217" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{846D86AD-965E-43B0-9883-4D020050D2B8}" Global="false">
-									<ObjectRef Name="Fart_BW_16107" ID="{1EC9D04C-3033-4582-BB86-B0AF87212A8C}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+									<ObjectRef Name="maskAttack" ID="{97AFB206-E51B-4238-9BDB-AADDAE371EAC}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -41,7 +48,7 @@
 						<Action Name="Play" ID="{203D70E2-9E8D-4D6B-A3EB-5C72A6F36FCD}" ShortID="966806431" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{71D0DA25-FB06-47E0-8055-AF842DA3D1B9}" Global="false">
-									<ObjectRef Name="Fart_BW_16108" ID="{5340A91F-0F59-403D-A385-91CA1314E58C}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+									<ObjectRef Name="skeletonDeath" ID="{1333A860-9633-4A0E-A524-2BD28A4DB65E}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -52,7 +59,7 @@
 						<Action Name="Play" ID="{7B264906-1D0D-414A-9A68-715A13C3FBFB}" ShortID="545092528" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{B9FC4DC5-4841-4159-97D9-F98085F6DBC4}" Global="false">
-									<ObjectRef Name="Fart_BW_61633" ID="{123A53C9-34A7-4401-8464-C2CA29CEBB33}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+									<ObjectRef Name="shark death" ID="{473CC822-8D0E-4039-BC73-1ECDF83616AE}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -74,7 +81,7 @@
 						<Action Name="Play" ID="{6041ECD9-60CF-4824-824E-E97D58AD2B4E}" ShortID="1020556768" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{C4E54B57-FC6A-4326-B778-9A6556338865}" Global="false">
-									<ObjectRef Name="PoopFart_SFXB_2095" ID="{814B176C-8F5B-4A53-8228-E5048C2F1836}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+									<ObjectRef Name="skeletonSteps" ID="{FCA42D15-1345-4826-BEAC-444DBDAD72F4}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
 								</Element>
 							</ElementList>
 						</Action>
