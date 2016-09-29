@@ -17,7 +17,7 @@
 						<Property Name="HFRatio" Type="Real32" Value="0.5"/>
 						<Property Name="NumberOfDelays" Type="int32" Value="16"/>
 						<Property Name="ReverbTime" Type="Real32" Value="0.3"/>
-						<Property Name="WetLevel" Type="Real32" Value="-13"/>
+						<Property Name="WetLevel" Type="Real32" Value="-20"/>
 					</PropertyList>
 				</Effect>
 				<Effect Name="sword" ID="{D56859F5-8A8A-4A07-95EC-4BB5453F0A43}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">

@@ -54,7 +54,7 @@ public class EnemyMovement : MonoBehaviour
             }
             else if (enemyType == EnemyType.Spaceman)
             {
-                AudioMaster.instance.PlayEvent("enemyBlobMove");
+                AudioMaster.instance.PlayEvent("enemyBlolbMove");
             }
             lastMoveSoundTime = Time.timeSinceLevelLoad;
         }
