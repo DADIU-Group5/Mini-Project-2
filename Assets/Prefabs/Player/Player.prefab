@@ -6568,7 +6568,6 @@ MonoBehaviour:
   state:
     lane: 1
     form: 0
-  formCube: {fileID: 0}
   pirateModel: {fileID: 1000013337075076}
   mayanModel: {fileID: 1000011675486166}
   spacemanModel: {fileID: 1000013401011472}

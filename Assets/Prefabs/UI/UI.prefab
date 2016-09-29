@@ -282,16 +282,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81cd281482e51cd40a280886705be716, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endPanel: {fileID: 1000011262679930}
-  scoreT: {fileID: 114000012858097660}
-  star1: {fileID: 1000011908235240}
-  star2: {fileID: 1000013049422526}
-  star3: {fileID: 1000010667916834}
-  levelEndText: {fileID: 114000011986729118}
-  MainMenuText: {fileID: 114000013617813186}
-  RetryText: {fileID: 114000013920045728}
-  NextLevelText: {fileID: 114000013029354982}
-  NextLevelButton: {fileID: 1000012575186322}
+  endPanel: {fileID: 55872928}
+  scoreT: {fileID: 0}
+  star1: {fileID: 55873952}
+  star2: {fileID: 4096}
+  star3: {fileID: 1684104239}
+  levelEndText: {fileID: 0}
+  MainMenuText: {fileID: 0}
+  RetryText: {fileID: 0}
+  NextLevelText: {fileID: 0}
+  NextLevelButton: {fileID: 1684104239}
 --- !u!114 &114000010329464908
 MonoBehaviour:
   m_ObjectHideFlags: 1
