@@ -6,7 +6,7 @@ public class SaveData : Singleton<SaveData> {
 
 	// Use this for initialization
 	void Start () {
-        DontDestroyOnLoad(gameObject);
+       // DontDestroyOnLoad(gameObject);
 	}
 
     public bool BeenPlayed(int level)

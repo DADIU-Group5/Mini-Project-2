@@ -135,10 +135,8 @@ public class InputManager : MonoBehaviour {
      */
     private void SwipeUp()
     {
-
         canSwipe = false;
         playerMovement.SwipeUp();
-        Debug.Log("swipe up");
     }
 
     /**
@@ -148,7 +146,6 @@ public class InputManager : MonoBehaviour {
     {
         canSwipe = false;
         playerMovement.SwipeDown();
-        Debug.Log("swipe down");
     }
 
     /**
@@ -158,7 +155,6 @@ public class InputManager : MonoBehaviour {
     {
         canSwipe = false;
         player.SwipeRight();
-        Debug.Log("swipe right");
     }
 
     /**
@@ -168,6 +164,5 @@ public class InputManager : MonoBehaviour {
     {
         canSwipe = false;
         player.SwipeLeft();
-        Debug.Log("swipe left");
     }
 }
