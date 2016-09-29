@@ -31,6 +31,13 @@ public class PlayerAttack : MonoBehaviour {
         {
             en.DestroyedByPlayer();
         }
+        else if (!en.hitByPlayer)
+        {
+            // Jump
+            en.hitByPlayer = true;
+            player.Jump();
+            Debug.Log("Yeeaaa 2");
+        }
     }
 
     void AttackObstacle()
@@ -45,9 +52,13 @@ public class PlayerAttack : MonoBehaviour {
         if (ob.weakAgainst == player.state.form)
         {
             ob.PlayerInteraction();
-        } /*else if (ob.weakAgainst != player.state.form)
+        }
+        else if (!ob.hitByPlayer)
         {
-            ob.PlayerInteraction(); // we should be doing something else here.
-        }*/
+            // Jump
+            ob.hitByPlayer = true;
+            player.Jump();
+            Debug.Log("Yeeaaa");
+        }
     }
 }
