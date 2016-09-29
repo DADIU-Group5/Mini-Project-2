@@ -6,6 +6,7 @@ using Mini2.Utils;
 public class StarSystem : Singleton<StarSystem> {
 
     public int maxPointsAvailable = 0;
+    [HideInInspector]
     public int starRating = 0;
     [Header("At which percentages a star is achieved:")]
     public float oneStarAt = 50;
