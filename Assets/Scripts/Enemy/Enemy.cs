@@ -8,6 +8,7 @@ public enum EnemyType
 
 public class Enemy : MonoBehaviour
 {
+    public bool hitByPlayer = false; // Whether the player has reached this enemy yet.
     public int lane;
     public EnemyType enemyType;
     [Range(1, 10f)]

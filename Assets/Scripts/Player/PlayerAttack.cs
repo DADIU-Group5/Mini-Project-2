@@ -23,32 +23,27 @@ public class PlayerAttack : MonoBehaviour {
     void AttackEnemy()
     {
         Enemy en = EnemyManager.instance.GetEnemyInLaneWithinDist(attackRange, lane);
-        if(en == null)
+        if(en == null || en.hitByPlayer)
         {
             return;
         }
         if (en.enemyType == player.state.form)
         {
             en.DestroyedByPlayer();
-            switch(player.state.form)
-            {
-                case EnemyType.Mayan:
-                    AudioMaster.instance.PlayEvent("maskAttack");
-                    break;
-                case EnemyType.Pirate:
-                    AudioMaster.instance.PlayEvent("swordAttack");
-                    break;
-                case EnemyType.Spaceman:
-                    AudioMaster.instance.PlayEvent("laserAttack");
-                    break;
-            }
+        }
+        else if (!en.hitByPlayer)
+        {
+            // Jump
+            en.hitByPlayer = true;
+            player.Jump();
+            Debug.Log("Yeeaaa 2");
         }
     }
 
     void AttackObstacle()
     {
         Obstacle ob = Obstacles.instance.GetNearestObstacleCloserThan(attackRange);
-        if(ob == null)
+        if(ob == null || ob.hitByPlayer)
         {
             return;
         }
@@ -57,28 +52,13 @@ public class PlayerAttack : MonoBehaviour {
         if (ob.weakAgainst == player.state.form)
         {
             ob.PlayerInteraction();
-            switch (player.state.form)
-            {
-                case EnemyType.Mayan:
-                    AudioMaster.instance.PlayEvent("obstacleSuccesMayan");
-                    break;
-                case EnemyType.Pirate:
-                    AudioMaster.instance.PlayEvent("obstacleSuccesPirate");
-                    break;
-                case EnemyType.Spaceman:
-                    AudioMaster.instance.PlayEvent("obstacleSuccesSpaceman");
-                    break;
-            }
-            AudioMaster.instance.PlayEvent("rewardObstacle");
         }
-        else
+        else if (!ob.hitByPlayer)
         {
-            // Jumps over obstacle
-            AudioMaster.instance.PlayEvent("obstacleJump");
+            // Jump
+            ob.hitByPlayer = true;
+            player.Jump();
+            Debug.Log("Yeeaaa");
         }
-        /*else if (ob.weakAgainst != player.state.form)
-        {
-            ob.PlayerInteraction(); // we should be doing something else here.
-        }*/
     }
 }
