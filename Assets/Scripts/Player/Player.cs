@@ -70,7 +70,6 @@ public class Player : MonoBehaviour
 
     public void ChangeForm()
     {
-        Debug.Log("Changing form");
         if (state.form == 0)
         {
             formCube.gameObject.GetComponent<Renderer>().material.color = Color.red;
