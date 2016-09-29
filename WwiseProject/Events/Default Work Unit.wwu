@@ -1,6 +1,214 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{BA488D49-D774-4964-95DC-2EEB54732427}" SchemaVersion="72">
+<WwiseDocument Type="WorkUnit" ID="{373B411A-10A1-42C9-BE76-622772C753B0}" SchemaVersion="72">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{BA488D49-D774-4964-95DC-2EEB54732427}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{373B411A-10A1-42C9-BE76-622772C753B0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="laserAttack" ID="{9648CC2E-442E-4FE1-8E5A-E07C51093104}">
+					<ChildrenList>
+						<Action Name="Play" ID="{40E5F124-3F77-446D-9CE6-BA2625A08CF5}" ShortID="12833251" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0AB991B5-63D0-4BE2-AB84-53EC8A7D52B5}" Global="false">
+									<ObjectRef Name="laserAttack" ID="{39BC2D7A-B058-4ED5-9A2A-4162A4032D93}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="swordAttack" ID="{45041578-A317-4C77-8511-A099634E4774}">
+					<ChildrenList>
+						<Action Name="Play" ID="{1176050D-4919-42F4-B31C-BFDD06352502}" ShortID="356463262" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{DE056FFD-91EA-497C-BD2D-C0C935C1EFDE}" Global="false">
+									<ObjectRef Name="pirateSword" ID="{F140C56C-F708-4634-ACBB-E07E484661D0}" WorkUnitID="{BB5DD793-F285-4F74-8D1D-DF7A4B893280}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{EAF94180-F935-4EB0-88D3-427F62EB4B98}" ShortID="926827628" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{955762EF-DCB2-4118-B9D7-4472DF2FC1EE}" Global="false">
+									<ObjectRef Name="swordAttackmetal" ID="{169B4BC6-C1A5-49F6-97DB-DE1717626F3A}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="maskAttack" ID="{43D482CC-9517-49D2-AB1A-840358548BB4}">
+					<ChildrenList>
+						<Action Name="Play" ID="{43D115DD-44C4-46C8-9379-BF1BEC903AFE}" ShortID="679227217" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{846D86AD-965E-43B0-9883-4D020050D2B8}" Global="false">
+									<ObjectRef Name="maskAttack" ID="{97AFB206-E51B-4238-9BDB-AADDAE371EAC}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="enemySkeletonDeath" ID="{C2374DD3-9231-40ED-8787-9CFCF84E209E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{203D70E2-9E8D-4D6B-A3EB-5C72A6F36FCD}" ShortID="966806431" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{71D0DA25-FB06-47E0-8055-AF842DA3D1B9}" Global="false">
+									<ObjectRef Name="skeletonDeath" ID="{1333A860-9633-4A0E-A524-2BD28A4DB65E}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="enemySharkDeath" ID="{2411FAA7-A248-43A4-9DC8-C5E5BA44D0B0}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7B264906-1D0D-414A-9A68-715A13C3FBFB}" ShortID="545092528" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B9FC4DC5-4841-4159-97D9-F98085F6DBC4}" Global="false">
+									<ObjectRef Name="shark death" ID="{473CC822-8D0E-4039-BC73-1ECDF83616AE}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="enemyBlobDeath" ID="{59ADFDA7-A9E0-4FF2-AA7A-60BCAD30895B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{97E3CFE4-ADE6-4764-A20F-2D7A1262F91E}" ShortID="890018066" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{33393AC4-EA47-40DF-836B-7640696B0C4B}" Global="false">
+									<ObjectRef Name="Fart_SFXB_2033" ID="{AE6ADAB9-2C91-4EB1-8A65-A2324094EBEF}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="enemySkeletonMove" ID="{E5A0E0B7-B50E-4705-B4EE-D32CF027782B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6041ECD9-60CF-4824-824E-E97D58AD2B4E}" ShortID="1020556768" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C4E54B57-FC6A-4326-B778-9A6556338865}" Global="false">
+									<ObjectRef Name="skeletonSteps" ID="{FCA42D15-1345-4826-BEAC-444DBDAD72F4}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="enemyBlolbMove" ID="{00BA249F-6B0F-4E38-B080-AD32A0566911}">
+					<ChildrenList>
+						<Action Name="Play" ID="{AFD1ED72-7530-4016-BED0-6B7E6B5E8B86}" ShortID="385325379" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{27B90B45-AE37-4130-A18A-96E73A2B8B35}" Global="false">
+									<ObjectRef Name="Fart_BW_16107" ID="{1EC9D04C-3033-4582-BB86-B0AF87212A8C}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="enemySharkMove" ID="{76345450-7B6E-476E-9A26-ACEAB45DCD2F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9E005624-54D6-48C9-821F-77B53B81AEBB}" ShortID="295627190" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BC2C4A8F-1F8A-415C-9B0B-509B1A6E8D83}" Global="false">
+									<ObjectRef Name="Fart_BW_16108" ID="{5340A91F-0F59-403D-A385-91CA1314E58C}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="rewardEnemy" ID="{4AC7D564-9922-4658-B579-00F5BCBB96D1}">
+					<ChildrenList>
+						<Action Name="Play" ID="{75F11839-D6A0-40A7-A3CF-64186CBF8336}" ShortID="549754617" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4E360975-6134-46D4-9A92-B97354044082}" Global="false">
+									<ObjectRef Name="Fart_BW_61633" ID="{123A53C9-34A7-4401-8464-C2CA29CEBB33}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="rewardObstacle" ID="{7A7BB01C-DD02-4809-8AB0-E9C1574AB128}">
+					<ChildrenList>
+						<Action Name="Play" ID="{0FC72A3D-9CB1-4631-ACA9-DD124382F537}" ShortID="1043070368" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0C2E7176-FF11-4B52-96D0-AA222BB1387F}" Global="false">
+									<ObjectRef Name="Fart_SFXB_2033" ID="{AE6ADAB9-2C91-4EB1-8A65-A2324094EBEF}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="pointLoss" ID="{C96254FD-708D-48E1-9B02-4336169A584F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{77AEF06C-433C-4EC0-AC23-84AEE99D0C12}" ShortID="192717525" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4041C8CD-01F3-4F65-ABD9-95DA42BF1D85}" Global="false">
+									<ObjectRef Name="PoopFart_SFXB_2095" ID="{814B176C-8F5B-4A53-8228-E5048C2F1836}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="obstacleSuccesPirate" ID="{5802FC06-D862-45F6-8909-C7402C240CA0}">
+					<ChildrenList>
+						<Action Name="Play" ID="{0620079D-94F0-42DB-BD8C-822A620028D0}" ShortID="58273860" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{59CB0A0D-BDC3-4CF8-92D8-A389F0ABDB04}" Global="false">
+									<ObjectRef Name="Fart_BW_16107" ID="{1EC9D04C-3033-4582-BB86-B0AF87212A8C}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="obstacleSuccesSpaceman" ID="{BD578EFF-3C62-4BFC-96A8-B2EB785E1C83}">
+					<ChildrenList>
+						<Action Name="Play" ID="{789E4BAF-BC06-42A9-8120-09F477BF56B3}" ShortID="584478038" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1D5CBD1A-D3DF-43DC-9032-5B182CA83F41}" Global="false">
+									<ObjectRef Name="Fart_BW_16108" ID="{5340A91F-0F59-403D-A385-91CA1314E58C}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="obstacleSuccesMayan" ID="{9673E186-5102-4577-BA62-F23EF945DB5A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{68BD70A5-2950-4D9F-BD04-D554C3DE60DA}" ShortID="476355962" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B1A97558-56A5-47A8-837D-FEDA879A9DC2}" Global="false">
+									<ObjectRef Name="Fart_BW_61633" ID="{123A53C9-34A7-4401-8464-C2CA29CEBB33}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="obstacleJump" ID="{53412FCC-E1A2-4307-8A3F-767556AD24A1}">
+					<ChildrenList>
+						<Action Name="Play" ID="{96449655-3A80-48F2-B2D3-171D37D6787F}" ShortID="332630150" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{FA87B2B6-2A07-43F4-871F-1F19E982468B}" Global="false">
+									<ObjectRef Name="Fart_SFXB_2033" ID="{AE6ADAB9-2C91-4EB1-8A65-A2324094EBEF}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="levelStart" ID="{B0E16A84-A943-455A-B767-E77F9BA4422F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7ACAFC73-8850-4DB3-A3F2-00CBC0241F3C}" ShortID="1004327517" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{01192669-74FD-41B0-AD5D-6403D4D4F078}" Global="false">
+									<ObjectRef Name="PoopFart_SFXB_2095" ID="{814B176C-8F5B-4A53-8228-E5048C2F1836}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="levelEnd" ID="{5DF9185A-1C1B-401B-98DF-6988005535C7}">
+					<ChildrenList>
+						<Action Name="Play" ID="{952B86C5-7D8C-4005-800B-98CEC08D8A1C}" ShortID="855322749" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F38D1C8B-50E1-4863-9434-8C2744851869}" Global="false">
+									<ObjectRef Name="Fart_BW_16107" ID="{1EC9D04C-3033-4582-BB86-B0AF87212A8C}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

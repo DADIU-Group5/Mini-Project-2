@@ -1,6 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{86C61FCC-CA2D-42D2-81AF-D3F914A9A20E}" SchemaVersion="72">
+<WwiseDocument Type="WorkUnit" ID="{E375462F-1E38-4008-853A-C5F885645CA5}" SchemaVersion="72">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{86C61FCC-CA2D-42D2-81AF-D3F914A9A20E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E375462F-1E38-4008-853A-C5F885645CA5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Wwise_Matrix_Reverb" ID="{B18EA0C2-1027-4E2B-898F-A581DC67E0CC}" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayLengthsMode" Type="int32" Value="1"/>
+						<Property Name="DelayTime1" Type="Real32" Value="3"/>
+						<Property Name="DelayTime2" Type="Real32" Value="22"/>
+						<Property Name="DelayTime3" Type="Real32" Value="5"/>
+						<Property Name="DelayTime4" Type="Real32" Value="23"/>
+						<Property Name="DelayTime5" Type="Real32" Value="10"/>
+						<Property Name="DelayTime6" Type="Real32" Value="11"/>
+						<Property Name="DelayTime7" Type="Real32" Value="35"/>
+						<Property Name="DelayTime8" Type="Real32" Value="6"/>
+						<Property Name="HFRatio" Type="Real32" Value="0.5"/>
+						<Property Name="NumberOfDelays" Type="int32" Value="16"/>
+						<Property Name="ReverbTime" Type="Real32" Value="0.3"/>
+						<Property Name="WetLevel" Type="Real32" Value="-20"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="sword" ID="{D56859F5-8A8A-4A07-95EC-4BB5453F0A43}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="5091">
+							<RTPCList>
+								<RTPC Name="" ID="{C15C2070-B3B2-4CEF-9F7C-05B721D13C13}" ShortID="188617675">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="sword metal" ID="{E9071BDF-3BA4-4E77-8FB2-E26FB193ABC7}" WorkUnitID="{0F15CFB7-1962-4173-BDD6-0A5FCD79CF50}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{9A6A6C35-3F6D-4A36-9955-E987B7B05897}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>4389.39903</YPos>
+												<Flags>21</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>4110.7781</YPos>
+												<Flags>53</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FrequencyBand2" Type="Real32" Value="4500">
+							<RTPCList>
+								<RTPC Name="" ID="{8AD284A6-9AA3-4F6D-BBA1-34EB9D6EDD1E}" ShortID="376081808">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="sword metal" ID="{E9071BDF-3BA4-4E77-8FB2-E26FB193ABC7}" WorkUnitID="{0F15CFB7-1962-4173-BDD6-0A5FCD79CF50}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{CB8D82DF-5C7E-4231-A698-79FF20EB0C6B}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>5874.72229</YPos>
+												<Flags>21</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>3712.10501</YPos>
+												<Flags>53</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FrequencyBand3" Type="Real32" Value="4000">
+							<RTPCList>
+								<RTPC Name="" ID="{3F5B498C-213D-4412-93F3-BF3A541D06C5}" ShortID="753789448">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="sword metal" ID="{E9071BDF-3BA4-4E77-8FB2-E26FB193ABC7}" WorkUnitID="{0F15CFB7-1962-4173-BDD6-0A5FCD79CF50}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{ADAAC698-AEDF-4F50-A81B-82E3CB50F0F9}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>3119.37775</YPos>
+												<Flags>21</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>7258.16465</YPos>
+												<Flags>53</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="GainBand1" Type="Real32" Value="11"/>
+						<Property Name="GainBand2" Type="Real32" Value="12"/>
+						<Property Name="GainBand3" Type="Real32" Value="10"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="50"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="71.7"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="86.4"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="sword2" ID="{D4874FF2-12EE-44AF-9887-FF863A4AFB26}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="1222"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="1475"/>
+						<Property Name="GainBand2" Type="Real32" Value="10.5"/>
+						<Property Name="GainBand3" Type="Real32" Value="14"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="23.5"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="64"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="sword3" ID="{B151E46F-C51F-453C-8478-03F14948FC33}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand1" Type="Real32" Value="548"/>
+						<Property Name="GainBand1" Type="Real32" Value="12"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

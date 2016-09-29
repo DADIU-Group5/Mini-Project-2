@@ -1,6 +1,1020 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{CD0927DA-9A0F-4E55-9BB6-D97F4C64BC6D}" SchemaVersion="72">
+<WwiseDocument Type="WorkUnit" ID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}" SchemaVersion="72">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{CD0927DA-9A0F-4E55-9BB6-D97F4C64BC6D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="placeholder farts" ID="{0FD14ABB-E71D-4E0E-BD55-C746C8626BE3}" ShortID="731950587">
+					<ChildrenList>
+						<Sound Name="Fart_BW_16107" ID="{1EC9D04C-3033-4582-BB86-B0AF87212A8C}" ShortID="352877858" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fart_BW_16107" ID="{34821598-44B3-402C-825D-F66396162702}" ShortID="199487326">
+									<Language>SFX</Language>
+									<AudioFile>Fart_BW.16107.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fart_BW_16107" ID="{34821598-44B3-402C-825D-F66396162702}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Fart_BW_16108" ID="{5340A91F-0F59-403D-A385-91CA1314E58C}" ShortID="213510168" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fart_BW_16108" ID="{5A48B96F-1EC2-4091-B0C5-4E196E973FEC}" ShortID="466880421">
+									<Language>SFX</Language>
+									<AudioFile>Fart_BW.16108.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fart_BW_16108" ID="{5A48B96F-1EC2-4091-B0C5-4E196E973FEC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Fart_BW_61633" ID="{123A53C9-34A7-4401-8464-C2CA29CEBB33}" ShortID="572007989" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fart_BW_61633" ID="{8A81718E-3BFB-42D9-84BC-09A2216EB948}" ShortID="614790623">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0137067833698031"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Fart_BW.61633.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fart_BW_61633" ID="{8A81718E-3BFB-42D9-84BC-09A2216EB948}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Fart_SFXB_2033" ID="{AE6ADAB9-2C91-4EB1-8A65-A2324094EBEF}" ShortID="362329753" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fart_SFXB_2033" ID="{B4BB97FE-9062-4D21-8CE3-9AC00C1A9630}" ShortID="559645394">
+									<Language>SFX</Language>
+									<AudioFile>Fart_SFXB.2033.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fart_SFXB_2033" ID="{B4BB97FE-9062-4D21-8CE3-9AC00C1A9630}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PoopFart_SFXB_2095" ID="{814B176C-8F5B-4A53-8228-E5048C2F1836}" ShortID="1017505618" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PoopFart_SFXB_2095" ID="{F0B845D9-539B-4928-8E36-DC841497DF2F}" ShortID="1018279328">
+									<Language>SFX</Language>
+									<AudioFile>PoopFart_SFXB.2095.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PoopFart_SFXB_2095" ID="{F0B845D9-539B-4928-8E36-DC841497DF2F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="attackSounds" ID="{D5002197-01D0-4CC7-BED5-B54FB006C632}" ShortID="654271898">
+					<ChildrenList>
+						<RandomSequenceContainer Name="laserAttack" ID="{39BC2D7A-B058-4ED5-9A2A-4162A4032D93}" ShortID="822569023">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{741C7283-1490-4F74-9E2C-C5A44B7237C3}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="super duper compressed" ID="{57DF8DDD-92B2-404D-B393-BF7317B5B28F}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="laser4" ID="{8CA952AF-C4B7-4245-8FF2-75A63877DE39}" ShortID="622502520" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="laser4" ID="{8EE4943C-5216-4C0B-BC4E-B68AB90B7D74}" ShortID="762084009">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0050301559080963"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.482894967177243"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>laser4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="laser4" ID="{8EE4943C-5216-4C0B-BC4E-B68AB90B7D74}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="laser3" ID="{9AB00D58-134E-41FF-8ABC-EC8960C7D2F2}" ShortID="524548892" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="laser3" ID="{ACD6E310-EDF6-48FD-8B4B-81C665B08083}" ShortID="962984383">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00571608315098465"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.384882932166302"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>laser3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="laser3" ID="{ACD6E310-EDF6-48FD-8B4B-81C665B08083}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="laser2" ID="{0C7A4E03-A68A-41A3-A5D0-919C5F70ED24}" ShortID="316966770" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="laser2" ID="{ED681B72-17F1-4871-9231-67D3DB93C2A3}" ShortID="547303617">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0038869438366157"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.676328227571116"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>laser2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="laser2" ID="{ED681B72-17F1-4871-9231-67D3DB93C2A3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="laser1" ID="{D2EF1CA9-7D00-423F-AC4A-9F40AD868842}" ShortID="254104631" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="laser1" ID="{795A3411-E6C8-421C-8278-B66491A399B2}" ShortID="721673538">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00437636761487969"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.74398249452954"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>laser1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="laser1" ID="{795A3411-E6C8-421C-8278-B66491A399B2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="maskAttack" ID="{97AFB206-E51B-4238-9BDB-AADDAE371EAC}" ShortID="335051152">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="mask voodoo" ID="{7F61C498-900A-4606-81B3-85044DA9E073}" ShortID="836972269" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C2D4424A-B533-4F80-9AF3-9B5F6C3F04EC}">
+														<PropertyList>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="mask voodoo" ID="{2413780F-7A74-41C2-9AAC-C7A5B04293A2}" ShortID="522403318">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.525164341721371"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.750234773887674"/>
+												<Property Name="FadeOutShape" Type="int16" Value="3"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.6761503920496"/>
+												<Property Name="TrimEnd" Type="Real64" Value="9.45295815098468"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>mask voodoo.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="mask voodoo" ID="{2413780F-7A74-41C2-9AAC-C7A5B04293A2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="mask voodoo2" ID="{DCF47144-16E4-4427-B6CA-6AF008035876}" ShortID="174563870" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="mask voodoo2" ID="{CADF502C-0B42-4BFC-86E5-702EFB0ECA76}" ShortID="858796464">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.900281728665208"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.88090153172867"/>
+												<Property Name="FadeOutShape" Type="int16" Value="3"/>
+												<Property Name="TrimEnd" Type="Real64" Value="6.27196270970095"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>mask voodoo2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="mask voodoo2" ID="{CADF502C-0B42-4BFC-86E5-702EFB0ECA76}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="mask voodoo3" ID="{42F665F9-0A22-4600-A5EC-5A03D464D5A3}" ShortID="112389802" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="mask voodoo3" ID="{CBFF100A-9D59-4939-9A47-6A254592C720}" ShortID="641084870">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.236323873997082"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="3.57861866338439"/>
+												<Property Name="FadeOutShape" Type="int16" Value="3"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.67990032366886"/>
+												<Property Name="TrimEnd" Type="Real64" Value="10.5670532230124"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>mask voodoo3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="mask voodoo3" ID="{CBFF100A-9D59-4939-9A47-6A254592C720}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="swordAttackmetal" ID="{169B4BC6-C1A5-49F6-97DB-DE1717626F3A}" ShortID="31476021">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{699C9D5D-24FE-4E23-93DD-33A882593840}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="kniv1" ID="{BB98859F-00D3-4149-A30D-5BCFDF549223}" ShortID="91630640" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="kniv1" ID="{08AE5B5B-0171-4697-97EE-0342F50DE96B}" ShortID="662973777">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0191466083150984"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.13129102844639"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.61105032822757"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>kniv1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="kniv1" ID="{08AE5B5B-0171-4697-97EE-0342F50DE96B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="kniv2" ID="{8FF9E9A6-3F79-4E82-873F-B263E6586BB5}" ShortID="297911213" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="kniv2" ID="{D600FFC9-C408-4691-914C-1D4F57A0170E}" ShortID="922238736">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0300875273522976"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.12855579868709"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.64113785557987"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>kniv2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="kniv2" ID="{D600FFC9-C408-4691-914C-1D4F57A0170E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="kniv3" ID="{5D8EC7D3-F7C2-47EF-975A-5F8E3EB27D8D}" ShortID="963844284" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="kniv3" ID="{41586BD6-3D49-4E81-9043-1554960C9D24}" ShortID="980460444">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0328227571115973"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0328227571115969"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.21881838074398"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.36323851203501"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>kniv3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="kniv3" ID="{41586BD6-3D49-4E81-9043-1554960C9D24}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="kniv4" ID="{E6BAA655-2DCE-47E2-A562-2B6B075AF9C6}" ShortID="120672953" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="kniv4" ID="{4B226397-994F-47D9-9D20-ECAEEF5049E0}" ShortID="204934564">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00875273522975939"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.135667396061269"/>
+												<Property Name="FadeOutShape" Type="int16" Value="3"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.2144420131291"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.44857768052516"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>kniv4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="kniv4" ID="{4B226397-994F-47D9-9D20-ECAEEF5049E0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="kniv5" ID="{970A6CDC-3A39-48A7-A8AC-313B4F14F312}" ShortID="45776075" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="kniv5" ID="{3712A8B3-019B-450D-A6BC-5FD28B04C0A7}" ShortID="49989946">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0218818380743984"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.183260393873085"/>
+												<Property Name="FadeOutShape" Type="int16" Value="3"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.10065645514223"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.37964989059081"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>kniv5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="kniv5" ID="{3712A8B3-019B-450D-A6BC-5FD28B04C0A7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="kniv6" ID="{5FD83A64-DE32-457F-91B1-E678646DEBB3}" ShortID="799756518" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="kniv6" ID="{D56AAC62-0169-4F5C-9624-B0C460AE774F}" ShortID="650274525">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0590809628008752"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.12636761487965"/>
+												<Property Name="FadeOutShape" Type="int16" Value="3"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.02407002188184"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.26531728665208"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>kniv6.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="kniv6" ID="{D56AAC62-0169-4F5C-9624-B0C460AE774F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="kniv7" ID="{C891EFD3-518C-4363-B9AA-54CADA5DB402}" ShortID="920809964" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="kniv7" ID="{B532E13A-B7B0-412A-A8A4-19686E1FE1F7}" ShortID="425034902">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00875273522975928"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.13019693654267"/>
+												<Property Name="FadeOutShape" Type="int16" Value="3"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.517505470459519"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.726477024070022"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>kniv7.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="kniv7" ID="{B532E13A-B7B0-412A-A8A4-19686E1FE1F7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="kniv8" ID="{FB8AD12F-61FD-4FFF-A9B9-DEDC58776D16}" ShortID="140285208" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="kniv8" ID="{665BE1E1-2977-4B76-BD0D-6758F56D8E4B}" ShortID="88987367">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00765864332603938"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.12910284463895"/>
+												<Property Name="FadeOutShape" Type="int16" Value="3"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.393873085339168"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.63129102844639"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>kniv8.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="kniv8" ID="{665BE1E1-2977-4B76-BD0D-6758F56D8E4B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="kniv9" ID="{022CA5C3-0264-482F-BD2E-6031B828A3DE}" ShortID="230967986" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="kniv9" ID="{8C4F76AF-B82A-437E-AEC6-56EE6741DD29}" ShortID="834934271">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00875273522975933"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0536105032822757"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.456236323851203"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.684901531728665"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>kniv9.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="kniv9" ID="{8C4F76AF-B82A-437E-AEC6-56EE6741DD29}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="enemies" ID="{DC5FD0D0-E79A-4E5E-B174-D6FAE03B8AAE}" ShortID="837603338">
+					<ChildrenList>
+						<RandomSequenceContainer Name="skeletonSteps" ID="{FCA42D15-1345-4826-BEAC-444DBDAD72F4}" ShortID="1050761374">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="skelet step9" ID="{18412304-7462-4043-B870-07E6631D9A9F}" ShortID="313329290" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="skelet step9" ID="{347298EE-7002-4CBA-9BC6-81139B7C1092}" ShortID="249956793">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0106673960612692"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.099288840262582"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.233862144420131"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>skelet step9.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="skelet step9" ID="{347298EE-7002-4CBA-9BC6-81139B7C1092}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="skelet step8" ID="{6258277B-3DAC-4340-9C8D-1224B99ED0D8}" ShortID="75320838" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="skelet step8" ID="{12609CAA-97D8-4998-BE19-35F0872F260E}" ShortID="1073089635">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0172319474835886"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.075492341356674"/>
+												<Property Name="FadeOutShape" Type="int16" Value="3"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.297866520787746"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>skelet step8.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="skelet step8" ID="{12609CAA-97D8-4998-BE19-35F0872F260E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="skelet step7" ID="{1B209324-80A3-4CBB-A74C-7AD024F83B43}" ShortID="564599249" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="skelet step7" ID="{5E800C05-0DC9-438D-9363-DF1B5A0F3862}" ShortID="805093994">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00328227571115974"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.025164113785558"/>
+												<Property Name="FadeOutShape" Type="int16" Value="3"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.277352297592998"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>skelet step7.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="skelet step7" ID="{5E800C05-0DC9-438D-9363-DF1B5A0F3862}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="skelet step6" ID="{83C27018-74CA-4511-A04D-3449FE7487CA}" ShortID="119142464" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="skelet step6" ID="{9A1C9623-A08F-40B5-A998-F328DFB943CC}" ShortID="3687924">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0131291028446389"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.199398249452954"/>
+												<Property Name="FadeOutShape" Type="int16" Value="3"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.210065645514223"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>skelet step6.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="skelet step6" ID="{9A1C9623-A08F-40B5-A998-F328DFB943CC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="skelet step5" ID="{82FD410E-3DCA-4438-8E7F-4F8F9C421890}" ShortID="67432088" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="skelet step5" ID="{F514C255-1C54-4726-B3BA-762BBD849693}" ShortID="864567352">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0155908096280087"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0861597374179431"/>
+												<Property Name="FadeOutShape" Type="int16" Value="3"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.237964989059081"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>skelet step5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="skelet step5" ID="{F514C255-1C54-4726-B3BA-762BBD849693}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="skelet step4" ID="{2F2D1E5B-52F4-47AC-BB03-B191E7D76496}" ShortID="24154812" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="skelet step4" ID="{F52811DE-46D1-4913-95BC-2A9F85F6B724}" ShortID="106976220">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.012308533916849"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0426695842450766"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.327407002188184"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>skelet step4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="skelet step4" ID="{F52811DE-46D1-4913-95BC-2A9F85F6B724}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="skelet step3" ID="{098B0728-83D7-4C28-BBC7-947B7C727C44}" ShortID="890691870" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="skelet step3" ID="{7282BBC9-8E4A-493E-8F1E-B2150405D8C6}" ShortID="475251126">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0891684901531729"/>
+												<Property Name="FadeOutShape" Type="int16" Value="3"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0738512035010941"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>skelet step3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="skelet step3" ID="{7282BBC9-8E4A-493E-8F1E-B2150405D8C6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="skelet step2" ID="{0D1EA0C5-5657-49B7-8D42-E7CBAE30F15F}" ShortID="711346227" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="skelet step2" ID="{C7ED1722-0EE8-4EAE-A818-3B5D40257FCD}" ShortID="35348800">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00574398249452951"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0073851203501093"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.317560175054705"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>skelet step2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="skelet step2" ID="{C7ED1722-0EE8-4EAE-A818-3B5D40257FCD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="skelet step1" ID="{41CF0818-078A-4865-84BC-136D8837702C}" ShortID="70183507" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="skelet step1" ID="{8F852595-90C4-4D7E-8EC5-8388C1C7C64C}" ShortID="481533011">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00382932166301969"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0235229759299782"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.221006564551422"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>skelet step1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="skelet step1" ID="{8F852595-90C4-4D7E-8EC5-8388C1C7C64C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="skeletonDeath" ID="{1333A860-9633-4A0E-A524-2BD28A4DB65E}" ShortID="1001939592">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="skelet death3" ID="{F2AB89F5-1A51-40C9-A892-AD1B09813B99}" ShortID="972121053" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{330402E9-E138-4FEA-928D-47B0F39E1865}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-300"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="skelet death3" ID="{03C575B3-14AA-48BB-9A4D-36A0D029EAC9}" ShortID="769500426">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0689277899343545"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.390590809628009"/>
+												<Property Name="FadeOutShape" Type="int16" Value="3"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.221553610503282"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.14551422319475"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>skelet death3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="skelet death3" ID="{03C575B3-14AA-48BB-9A4D-36A0D029EAC9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="skelet death2" ID="{E8A9F68C-ADFB-4EF3-AA0E-781FA129E6C7}" ShortID="485354514" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{303846CD-0CE0-4756-8079-EF49DEDD55A3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-300"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="skelet death2" ID="{49E1A632-1BF1-4E20-A23C-37C485341C5C}" ShortID="991799614">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0213347921225383"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.101750547045952"/>
+												<Property Name="FadeOutShape" Type="int16" Value="3"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.722100656455142"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>skelet death2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="skelet death2" ID="{49E1A632-1BF1-4E20-A23C-37C485341C5C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="skelet death" ID="{6F1A83E9-6A01-43FB-8D74-4D7CDB772A0F}" ShortID="590368458" Type="SoundFX">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E8DF49F7-652B-4FB3-BAF5-BE13339B37EA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="skelet death" ID="{9CBC7B6E-D8F0-4A8D-893B-F7197DE157F6}" ShortID="338687880">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0833304157549234"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.863606126914661"/>
+												<Property Name="FadeOutShape" Type="int16" Value="3"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.588363238512035"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>skelet death.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="skelet death" ID="{9CBC7B6E-D8F0-4A8D-893B-F7197DE157F6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="shark death" ID="{473CC822-8D0E-4039-BC73-1ECDF83616AE}" ShortID="869049780" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{416E397E-D7FA-4557-8581-82D4F8C137D1}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="20"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{BD38B28D-EAC1-4E08-A8D9-FA0F785AC8A4}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="20"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0C0E706E-0C87-4C5A-AC30-A3BD71C6CC46}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="30"/>
+													<Property Name="Min" Type="Real64" Value="-30"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="shark death" ID="{53535FBA-1F55-4B91-8068-397D62BEB7DB}" ShortID="125529509">
+									<Language>SFX</Language>
+									<AudioFile>shark death.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="shark death" ID="{53535FBA-1F55-4B91-8068-397D62BEB7DB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

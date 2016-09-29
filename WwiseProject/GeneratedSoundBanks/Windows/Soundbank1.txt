@@ -1,0 +1,138 @@
+Event	ID	Name			Wwise Object Path	Notes
+	131188813	enemySharkMove			\Default Work Unit\enemySharkMove	
+	230529865	enemyBlolbMove			\Default Work Unit\enemyBlolbMove	
+	312184219	obstacleSuccesPirate			\Default Work Unit\obstacleSuccesPirate	
+	387995228	enemySkeletonDeath			\Default Work Unit\enemySkeletonDeath	
+	989497648	enemyBlobDeath			\Default Work Unit\enemyBlobDeath	
+	1232697816	swordAttack			\Default Work Unit\swordAttack	
+	1269726684	rewardEnemy			\Default Work Unit\rewardEnemy	
+	1787186961	maskAttack			\Default Work Unit\maskAttack	
+	1872687458	laserAttack			\Default Work Unit\laserAttack	
+	2015977838	obstacleSuccesSpaceman			\Default Work Unit\obstacleSuccesSpaceman	
+	2030660008	pointLoss			\Default Work Unit\pointLoss	
+	2037204996	levelEnd			\Default Work Unit\levelEnd	
+	2200869491	rewardObstacle			\Default Work Unit\rewardObstacle	
+	2722909678	obstacleSuccesMayan			\Default Work Unit\obstacleSuccesMayan	
+	2924038817	enemySkeletonMove			\Default Work Unit\enemySkeletonMove	
+	3002559768	enemySharkDeath			\Default Work Unit\enemySharkDeath	
+	3147649906	obstacleJump			\Default Work Unit\obstacleJump	
+	3372421815	levelStart			\Default Work Unit\levelStart	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	822163944	SS_Air_RPM			\Factory SoundSeed Air Game Syncs\SS_Air_RPM	
+	1029930033	SS_Air_Fury			\Factory SoundSeed Air Game Syncs\SS_Air_Fury	
+	1351367891	SS_Air_Fear			\Factory SoundSeed Air Game Syncs\SS_Air_Fear	
+	2648548617	SS_Air_Month			\Factory SoundSeed Air Game Syncs\SS_Air_Month	
+	3002758120	SS_Air_Freefall			\Factory SoundSeed Air Game Syncs\SS_Air_Freefall	
+	3074696722	SS_Air_Size			\Factory SoundSeed Air Game Syncs\SS_Air_Size	
+	3203397129	SS_Air_TimeOfDay			\Factory SoundSeed Air Game Syncs\SS_Air_TimeOfDay	
+	3715662592	SS_Air_Storm			\Factory SoundSeed Air Game Syncs\SS_Air_Storm	
+	3847924954	SS_Air_Presence			\Factory SoundSeed Air Game Syncs\SS_Air_Presence	
+	4160247818	SS_Air_Turbulence			\Factory SoundSeed Air Game Syncs\SS_Air_Turbulence	
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	34850292	sword metal			\Default Work Unit\sword metal	
+
+Effect plug-ins	ID	Name	Type				Notes
+	361241791	sword3	Wwise Parametric EQ			
+	1934039728	New_Wwise_Matrix_Reverb	Wwise Matrix Reverb			
+	2454616260	sword	Wwise Parametric EQ			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	25868842	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Wind Ambiences\Polar Winds\SoundSeed Air Wind	
+	39885879	SoundSeed Air Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Weapons\Arrows\Arrow\SoundSeed Air Woosh	
+	45385959	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Golf Club\SoundSeed Woosh	
+	59720546	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Weapons\pirateSword\SoundSeed Woosh	
+	60142098	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Vehicles\Airplane\Rumble\SoundSeed Air Wind	
+	60410286	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Weapons\Arrows\Silence\Wwise Silence	
+	71084047	SoundSeed Air Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Arrows\Arrows_02\Arrow\SoundSeed Air Woosh	
+	71113179	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Wind Ambiences\Eerie Tunnel\SoundSeed Air Wind	
+	73647974	SoundSeed Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Surf\Random Wavebreak\Random_Wave02\SoundSeed Wind	
+	111857556	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Wind Ambiences\Grove\SoundSeed Air Wind	
+	137670514	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Wooden Staff\SoundSeed Woosh	
+	158738632	SoundSeed Air Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Arrows\Arrows_04\Arrow\SoundSeed Air Woosh	
+	162772315	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Urban Scene\Random Car Pass-by_05\Car Pass-by\SoundSeed Woosh	
+	169132707	SoundSeed Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Surf\Random Wavebreak\Random_Wave01\SoundSeed Wind	
+	174409972	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Arrows\Arrows_04\Silence\Wwise Silence	
+	188214797	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Urban Scene\Random Car Pass-by_04\Car Pass-by\SoundSeed Woosh	
+	223736328	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Weapons\Generic Weapon Swing\SoundSeed Woosh	
+	229589517	Ville	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Urban Scene\Background City Noise\Ville	
+	232816868	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Arrows\Arrows_02\Silence\Wwise Silence	
+	292002125	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Fly-By Dagger\SoundSeed Woosh	
+	309043750	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Urban Scene\Random Car Pass-by_01\Silence\Wwise Silence	
+	309737562	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Wind Ambiences\Kansas\SoundSeed Air Wind	
+	347125916	SoundSeed Air Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Arrows\Arrows_06\Arrow\SoundSeed Air Woosh	
+	356319053	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Urban Scene\Random Car Pass-by_01\Car Pass-by\SoundSeed Woosh	
+	365762760	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Urban Scene\Random Car Pass-by_03\Car Pass-by\SoundSeed Woosh	
+	372799448	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Urban Scene\Random Car Pass-by_02\Silence\Wwise Silence	
+	400146702	SoundSeed Air Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Vehicles\Locomotive\SoundSeed Air Woosh	Variations on a mechanical theme. Made for looping.
+	414142681	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Arrows\Arrows_03\Silence\Wwise Silence	
+	480750206	SoundSeed Air Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Arrows\Arrows_01\Arrow\SoundSeed Air Woosh	
+	482980946	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Arrows\Arrows_06\Silence\Wwise Silence	
+	504047276	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Urban Scene\Random Car Pass-by_04\Silence\Wwise Silence	
+	511713507	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Surf\Random Wavebreak\Silence\Wwise Silence	
+	517142054	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Vehicles\Car Pass-by\SoundSeed Woosh	
+	563948639	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Zorro\SoundSeed Woosh	
+	588094097	SoundSeed Air Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Arrows\Arrows_05\Arrow\SoundSeed Air Woosh	
+	606150867	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Wind Ambiences\Polar Winds\SoundSeed Air Wind	
+	640643725	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Vehicles\Airplane\Jets\SoundSeed Air Wind	
+	642198329	SoundSeed Air Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Vehicles\Chopper\SoundSeed Air Woosh	Variations on a mechanical theme. Made for looping.
+	663109749	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Wind Ambiences\Eerie Tunnel\SoundSeed Air Wind	
+	675627263	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Wind Ambiences\Weeping Willows\SoundSeed Air Wind	
+	685503655	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Urban Scene\Random Car Pass-by_02\Car Pass-by\SoundSeed Woosh	
+	687451945	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Ogre's Club Swing\SoundSeed Woosh	
+	699772409	SoundSeed Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Surf\Surf\SoundSeed Wind	
+	702525742	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Arrows\Arrows_01\Silence\Wwise Silence	
+	709782740	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Arrows\Arrows_05\Silence\Wwise Silence	
+	745928427	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Urban Scene\Random Car Pass-by_06\Silence\Wwise Silence	
+	761686719	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Weapons\Wooden Staff\SoundSeed Woosh	
+	767342224	SoundSeed Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Waterfall\SoundSeed Wind	
+	773812617	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Urban Scene\Random Car Pass-by_05\Silence\Wwise Silence	
+	789939026	SoundSeed Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Surf\Random Wavebreak\Random_Wave03\SoundSeed Wind	
+	790704623	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Urban Scene\Random Car Pass-by_03\Silence\Wwise Silence	
+	809721861	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Generic Weapon Swing\SoundSeed Woosh	
+	849098007	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Parachute Jump\SoundSeed Air Wind	
+	855318940	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Wind Ambiences\Weeping Willows\SoundSeed Air Wind	
+	932020803	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Wind Ambiences\Grove\SoundSeed Air Wind	
+	949017482	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Urban Scene\Random Car Pass-by_06\Car Pass-by\SoundSeed Woosh	
+	964146970	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Weapons\Fly-By Dagger\SoundSeed Woosh	
+	993923566	SoundSeed Air Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Arrows\Arrows_03\Arrow\SoundSeed Air Woosh	
+	1018093596	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Weapons\Ogre's Club Swing\SoundSeed Woosh	
+	1055663783	SoundSeed Air Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Wings\SoundSeed Air Woosh	Each wing beating, made for looping.
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	3687924	skelet step6	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step6_4089EDE8.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step6		47686
+	35348800	skelet step2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step2_B26CAF63.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step2		38204
+	49989946	kniv5	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv5_1FA6C38F.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv5		24668
+	88987367	kniv8	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv8_F44040FA.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv8		21004
+	106976220	skelet step4	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step4_EFC0CB74.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step4		37334
+	125529509	shark death	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\shark death_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\shark death		645024
+	199487326	Fart_BW_16107	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\Fart_BW.16107_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\Fart_BW_16107		302060
+	204934564	kniv4	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv4_81B2DCA6.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv4		20714
+	249956793	skelet step9	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step9_286C180C.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step9		45588
+	338687880	skelet death	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet death_7D882960.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonDeath\skelet death		151736
+	425034902	kniv7	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv7_F4C0D355.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv7		18494
+	466880421	Fart_BW_16108	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\Fart_BW.16108_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\Fart_BW_16108		153412
+	475251126	skelet step3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step3_1FE83BF6.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step3		37650
+	481533011	skelet step1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step1_5521D68C.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step1		24670
+	522403318	mask voodoo	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\mask voodoo_46AFBF40.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\maskAttack\mask voodoo		1019092
+	547303617	laser2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\laser2_7310B160.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser2		11030
+	559645394	Fart_SFXB_2033	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\Fart_SFXB.2033_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\Fart_SFXB_2033		108252
+	614790623	Fart_BW_61633	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\Fart_BW.61633_DFB4B055.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\Fart_BW_61633		73848
+	641084870	mask voodoo3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\mask voodoo3_1048CB4F.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\maskAttack\mask voodoo3		1214960
+	650274525	kniv6	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv6_6C377423.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv6		21342
+	662973777	kniv1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv1_E75DA812.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv1		78470
+	721673538	laser1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\laser1_44BD0578.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser1		11695
+	762084009	laser4	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\laser4_3F4E9A61.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser4		9875
+	769500426	skelet death3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet death3_6D6AAD3A.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonDeath\skelet death3		81556
+	805093994	skelet step7	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step7_F22DA6E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step7		19700
+	834934271	kniv9	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv9_FFBF8498.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv9		20232
+	858796464	mask voodoo2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\mask voodoo2_B870CED5.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\maskAttack\mask voodoo2		1106436
+	864567352	skelet step5	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step5_DC4F9EFF.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step5		45226
+	922238736	kniv2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv2_E8F93F43.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv2		75814
+	962984383	laser3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\laser3_164D752C.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser3		10710
+	980460444	kniv3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv3_E18A81AF.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv3		12800
+	991799614	skelet death2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet death2_91B86F10.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonDeath\skelet death2		68674
+	1018279328	PoopFart_SFXB_2095	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\PoopFart_SFXB.2095_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\PoopFart_SFXB_2095		473284
+	1073089635	skelet step8	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step8_689F5F44.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step8		39940
+

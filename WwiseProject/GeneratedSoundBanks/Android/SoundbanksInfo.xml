@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\GeneratedSoundBanks\Android\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1647770721" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Soundbank1</ObjectPath>
+			<ShortName>Soundbank1</ShortName>
+			<Path>Soundbank1.bnk</Path>
+			<IncludedEvents>
+				<Event Id="989497648" Name="enemyBlobDeath" ObjectPath="\Events\Default Work Unit\enemyBlobDeath"/>
+				<Event Id="230529865" Name="enemyBlolbMove" ObjectPath="\Events\Default Work Unit\enemyBlolbMove"/>
+				<Event Id="3002559768" Name="enemySharkDeath" ObjectPath="\Events\Default Work Unit\enemySharkDeath"/>
+				<Event Id="131188813" Name="enemySharkMove" ObjectPath="\Events\Default Work Unit\enemySharkMove"/>
+				<Event Id="387995228" Name="enemySkeletonDeath" ObjectPath="\Events\Default Work Unit\enemySkeletonDeath"/>
+				<Event Id="2924038817" Name="enemySkeletonMove" ObjectPath="\Events\Default Work Unit\enemySkeletonMove"/>
+				<Event Id="1872687458" Name="laserAttack" ObjectPath="\Events\Default Work Unit\laserAttack"/>
+				<Event Id="2037204996" Name="levelEnd" ObjectPath="\Events\Default Work Unit\levelEnd"/>
+				<Event Id="3372421815" Name="levelStart" ObjectPath="\Events\Default Work Unit\levelStart"/>
+				<Event Id="1787186961" Name="maskAttack" ObjectPath="\Events\Default Work Unit\maskAttack"/>
+				<Event Id="3147649906" Name="obstacleJump" ObjectPath="\Events\Default Work Unit\obstacleJump"/>
+				<Event Id="2722909678" Name="obstacleSuccesMayan" ObjectPath="\Events\Default Work Unit\obstacleSuccesMayan"/>
+				<Event Id="312184219" Name="obstacleSuccesPirate" ObjectPath="\Events\Default Work Unit\obstacleSuccesPirate"/>
+				<Event Id="2015977838" Name="obstacleSuccesSpaceman" ObjectPath="\Events\Default Work Unit\obstacleSuccesSpaceman"/>
+				<Event Id="2030660008" Name="pointLoss" ObjectPath="\Events\Default Work Unit\pointLoss"/>
+				<Event Id="1269726684" Name="rewardEnemy" ObjectPath="\Events\Default Work Unit\rewardEnemy"/>
+				<Event Id="2200869491" Name="rewardObstacle" ObjectPath="\Events\Default Work Unit\rewardObstacle"/>
+				<Event Id="1232697816" Name="swordAttack" ObjectPath="\Events\Default Work Unit\swordAttack"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="3687924" Language="SFX">
+					<ShortName>skelet step6.wav</ShortName>
+					<Path>SFX/skelet step6_4089EDE8.wem</Path>
+				</File>
+				<File Id="35348800" Language="SFX">
+					<ShortName>skelet step2.wav</ShortName>
+					<Path>SFX/skelet step2_B26CAF63.wem</Path>
+				</File>
+				<File Id="49989946" Language="SFX">
+					<ShortName>kniv5.wav</ShortName>
+					<Path>SFX/kniv5_1FA6C38F.wem</Path>
+				</File>
+				<File Id="88987367" Language="SFX">
+					<ShortName>kniv8.wav</ShortName>
+					<Path>SFX/kniv8_F44040FA.wem</Path>
+				</File>
+				<File Id="106976220" Language="SFX">
+					<ShortName>skelet step4.wav</ShortName>
+					<Path>SFX/skelet step4_EFC0CB74.wem</Path>
+				</File>
+				<File Id="125529509" Language="SFX">
+					<ShortName>shark death.wav</ShortName>
+					<Path>SFX/shark death_F74084CA.wem</Path>
+				</File>
+				<File Id="199487326" Language="SFX">
+					<ShortName>Fart_BW.16107.wav</ShortName>
+					<Path>SFX\Fart_BW.16107_F74084CA.wem</Path>
+				</File>
+				<File Id="204934564" Language="SFX">
+					<ShortName>kniv4.wav</ShortName>
+					<Path>SFX/kniv4_81B2DCA6.wem</Path>
+				</File>
+				<File Id="249956793" Language="SFX">
+					<ShortName>skelet step9.wav</ShortName>
+					<Path>SFX/skelet step9_286C180C.wem</Path>
+				</File>
+				<File Id="338687880" Language="SFX">
+					<ShortName>skelet death.wav</ShortName>
+					<Path>SFX/skelet death_7D882960.wem</Path>
+				</File>
+				<File Id="425034902" Language="SFX">
+					<ShortName>kniv7.wav</ShortName>
+					<Path>SFX/kniv7_F4C0D355.wem</Path>
+				</File>
+				<File Id="466880421" Language="SFX">
+					<ShortName>Fart_BW.16108.wav</ShortName>
+					<Path>SFX\Fart_BW.16108_F74084CA.wem</Path>
+				</File>
+				<File Id="475251126" Language="SFX">
+					<ShortName>skelet step3.wav</ShortName>
+					<Path>SFX/skelet step3_1FE83BF6.wem</Path>
+				</File>
+				<File Id="481533011" Language="SFX">
+					<ShortName>skelet step1.wav</ShortName>
+					<Path>SFX/skelet step1_5521D68C.wem</Path>
+				</File>
+				<File Id="522403318" Language="SFX">
+					<ShortName>mask voodoo.wav</ShortName>
+					<Path>SFX/mask voodoo_46AFBF40.wem</Path>
+				</File>
+				<File Id="547303617" Language="SFX">
+					<ShortName>laser2.wav</ShortName>
+					<Path>SFX\laser2_BD23150F.wem</Path>
+				</File>
+				<File Id="559645394" Language="SFX">
+					<ShortName>Fart_SFXB.2033.wav</ShortName>
+					<Path>SFX\Fart_SFXB.2033_F74084CA.wem</Path>
+				</File>
+				<File Id="614790623" Language="SFX">
+					<ShortName>Fart_BW.61633.wav</ShortName>
+					<Path>SFX\Fart_BW.61633_3B500B30.wem</Path>
+				</File>
+				<File Id="641084870" Language="SFX">
+					<ShortName>mask voodoo3.wav</ShortName>
+					<Path>SFX/mask voodoo3_1048CB4F.wem</Path>
+				</File>
+				<File Id="650274525" Language="SFX">
+					<ShortName>kniv6.wav</ShortName>
+					<Path>SFX/kniv6_6C377423.wem</Path>
+				</File>
+				<File Id="662973777" Language="SFX">
+					<ShortName>kniv1.wav</ShortName>
+					<Path>SFX/kniv1_E75DA812.wem</Path>
+				</File>
+				<File Id="721673538" Language="SFX">
+					<ShortName>laser1.wav</ShortName>
+					<Path>SFX\laser1_44BD0578.wem</Path>
+				</File>
+				<File Id="762084009" Language="SFX">
+					<ShortName>laser4.wav</ShortName>
+					<Path>SFX\laser4_3F4E9A61.wem</Path>
+				</File>
+				<File Id="769500426" Language="SFX">
+					<ShortName>skelet death3.wav</ShortName>
+					<Path>SFX/skelet death3_6D6AAD3A.wem</Path>
+				</File>
+				<File Id="805093994" Language="SFX">
+					<ShortName>skelet step7.wav</ShortName>
+					<Path>SFX/skelet step7_F22DA6E9.wem</Path>
+				</File>
+				<File Id="834934271" Language="SFX">
+					<ShortName>kniv9.wav</ShortName>
+					<Path>SFX/kniv9_FFBF8498.wem</Path>
+				</File>
+				<File Id="858796464" Language="SFX">
+					<ShortName>mask voodoo2.wav</ShortName>
+					<Path>SFX/mask voodoo2_B870CED5.wem</Path>
+				</File>
+				<File Id="864567352" Language="SFX">
+					<ShortName>skelet step5.wav</ShortName>
+					<Path>SFX/skelet step5_DC4F9EFF.wem</Path>
+				</File>
+				<File Id="922238736" Language="SFX">
+					<ShortName>kniv2.wav</ShortName>
+					<Path>SFX/kniv2_E8F93F43.wem</Path>
+				</File>
+				<File Id="962984383" Language="SFX">
+					<ShortName>laser3.wav</ShortName>
+					<Path>SFX\laser3_164D752C.wem</Path>
+				</File>
+				<File Id="980460444" Language="SFX">
+					<ShortName>kniv3.wav</ShortName>
+					<Path>SFX/kniv3_E18A81AF.wem</Path>
+				</File>
+				<File Id="991799614" Language="SFX">
+					<ShortName>skelet death2.wav</ShortName>
+					<Path>SFX/skelet death2_91B86F10.wem</Path>
+				</File>
+				<File Id="1018279328" Language="SFX">
+					<ShortName>PoopFart_SFXB.2095.wav</ShortName>
+					<Path>SFX\PoopFart_SFXB.2095_F74084CA.wem</Path>
+				</File>
+				<File Id="1073089635" Language="SFX">
+					<ShortName>skelet step8.wav</ShortName>
+					<Path>SFX/skelet step8_689F5F44.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
