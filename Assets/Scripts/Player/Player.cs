@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 [System.Serializable]
 public class PlayerState
@@ -70,24 +71,28 @@ public class Player : MonoBehaviour
 
     public void ChangeForm()
     {
-        Debug.Log("Changing form");
-        if (state.form == 0)
+        // TODO: change to correct sounds
+        switch (state.form)
         {
-            formCube.gameObject.GetComponent<Renderer>().material.color = Color.red;
-        }
-        else if ((int)state.form == 1)
-        {
-            formCube.gameObject.GetComponent<Renderer>().material.color = Color.green;
-        }
-        else if ((int)state.form == 2)
-        {
-            formCube.gameObject.GetComponent<Renderer>().material.color = Color.blue;
+            case EnemyType.Mayan:
+                formCube.gameObject.GetComponent<Renderer>().material.color = Color.green;
+                AudioMaster.instance.PlayEvent("maskAttack");
+                break;
+            case EnemyType.Pirate:
+                formCube.gameObject.GetComponent<Renderer>().material.color = Color.red;
+                AudioMaster.instance.PlayEvent("swordAttack");
+                break;
+            case EnemyType.Spaceman:
+                formCube.gameObject.GetComponent<Renderer>().material.color = Color.blue;
+                AudioMaster.instance.PlayEvent("laserAttack");
+                break;
         }
     }
 
     public void Jump()
     {
         jumpStartTime = Time.timeSinceLevelLoad;
+        AudioMaster.instance.PlayEvent("obstacleJump");
     }
 
 }

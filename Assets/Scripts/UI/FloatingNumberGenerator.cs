@@ -28,7 +28,7 @@ public class FloatingNumberGenerator : Singleton<FloatingNumberGenerator>
         parent = GameObject.Find("HUD");
     }
 
-    public void CreateFloatngNumber(int number, Vector3 worldPos)
+    public void CreateFloatingNumber(int number, Vector3 worldPos)
     {
         // create floating number object
         GameObject floatingNumber = Instantiate(numberPrefab);

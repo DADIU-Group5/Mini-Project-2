@@ -27,16 +27,30 @@ public class PlayerAttack : MonoBehaviour {
         {
             return;
         }
+
+        // if is correct enemy type
         if (en.enemyType == player.state.form)
         {
             en.DestroyedByPlayer();
+            switch (player.state.form)
+            {
+                case EnemyType.Pirate:
+                    AudioMaster.instance.PlayEvent("swordAttack");
+                    break;
+                case EnemyType.Mayan:
+                    AudioMaster.instance.PlayEvent("maskAttack");
+                    break;
+                case EnemyType.Spaceman:
+                    AudioMaster.instance.PlayEvent("laserAttack");
+                    break;
+            }
+
         }
         else if (!en.hitByPlayer)
         {
             // Jump
             en.hitByPlayer = true;
             player.Jump();
-            Debug.Log("Yeeaaa 2");
         }
     }
 
@@ -52,6 +66,7 @@ public class PlayerAttack : MonoBehaviour {
         if (ob.weakAgainst == player.state.form)
         {
             ob.PlayerInteraction();
+            AudioMaster.instance.PlayEvent("rewardObstacle");
         }
         else if (!ob.hitByPlayer)
         {

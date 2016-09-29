@@ -24,16 +24,19 @@ public class Enemy : MonoBehaviour
     public void DestroyedByPlayer()
     {
         ScoreManager.instance.ModifyPoint(1 * this.gameObject.GetComponent<Enemy>().enemyPoints);
-        if(enemyType == EnemyType.Pirate)
+        FloatingNumberGenerator.instance.CreateFloatingNumber(enemyPoints, transform.position);
+
+        switch (enemyType)
         {
-            AudioMaster.instance.PlayEvent("enemySharkDeath");
-        }else if (enemyType == EnemyType.Mayan)
-        {
-            AudioMaster.instance.PlayEvent("enemySkeletonDeath");
-        }
-        else if (enemyType == EnemyType.Spaceman)
-        {
-            AudioMaster.instance.PlayEvent("enemyBlobDeath");
+            case EnemyType.Pirate:
+                AudioMaster.instance.PlayEvent("enemySharkDeath");
+                break;
+            case EnemyType.Mayan:
+                AudioMaster.instance.PlayEvent("enemySkeletonDeath");
+                break;
+            case EnemyType.Spaceman:
+                AudioMaster.instance.PlayEvent("enemyBlobDeath");
+                break;
         }
         AudioMaster.instance.PlayEvent("rewardEnemy");
         DestroySelf();
