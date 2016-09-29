@@ -150,6 +150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 286886b892aa800488eff32889df6f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemySpeed: 5
+  enemySpeed: 10
   destroyPoint: -5
   moveSoundFrequency: 1
