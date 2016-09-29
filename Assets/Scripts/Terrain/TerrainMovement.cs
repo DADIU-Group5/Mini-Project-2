@@ -25,4 +25,9 @@ public class TerrainMovement : MonoBehaviour {
     {
         Destroy(gameObject);
     }
+
+    public void StopMovement()
+    {
+        speed = 0;
+    }
 }

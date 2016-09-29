@@ -37,7 +37,7 @@ public class MainMenuButton : MonoBehaviour {
             int temp = SaveData.instance.GetStarsForLevel(level);
             for (int i = 0; i < temp; i++)
             {
-                stars[i].color = Color.yellow;
+                stars[i].color = Color.white;
             }
         }
     }

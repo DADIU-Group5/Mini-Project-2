@@ -13,6 +13,13 @@ public class UIController : Singleton<UIController> {
     public GameObject star3;
     GameObject[] starImages;
 
+    public Text levelEndText;
+    public Text MainMenuText;
+    public Text RetryText;
+    public Text NextLevelText;
+    public GameObject NextLevelButton;
+
+
     void Start()
     {
         starImages = new GameObject[3];
@@ -23,10 +30,14 @@ public class UIController : Singleton<UIController> {
         starImages[0] = star1;
         starImages[1] = star2;
         starImages[2] = star3;
+        UpdateLanguage();
     }
 
     public void ShowEndScreen()
     {
+        GameObject.FindObjectOfType<TerrainGenerator>().StopTerrainMovement();
+        GameObject.FindObjectOfType<ScrollBG>().speed = 0;
+        GameObject.FindObjectOfType<Boss>().enabled = false;
         scoreT.text = "Score: "+ScoreManager.instance.score;
         AudioMaster.instance.PlayEvent("levelEnd");
         endPanel.SetActive(true);
@@ -46,8 +57,47 @@ public class UIController : Singleton<UIController> {
         SaveData.instance.SaveStarsForCurrentLevel(stars);
     }
 
-    public void RestartGame()
+    void UpdateLanguage()
+    {
+        if (SaveData.instance.IsLanguageEnglish())
+        {
+            levelEndText.text = "Level finished!";
+            MainMenuText.text = "Main Menu";
+            RetryText.text = "Retry!";
+            NextLevelText.text = "Next level";
+        }
+        else
+        {
+            levelEndText.text = "Niveau færdig";
+            MainMenuText.text = "Hoved menu";
+            RetryText.text = "Prøv igen";
+            NextLevelText.text = "Næste niveau";
+        }
+        if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings-1)
+        {
+            NextLevelButton.SetActive(false);
+        }
+    }
+
+    public void MainMenu()
     {
         SceneManager.LoadScene(0);
+    }
+
+    public void NextLevel()
+    {
+        if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings-1)
+        {
+            SceneManager.LoadScene(0);
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+    }
+
+    public void RetryLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
