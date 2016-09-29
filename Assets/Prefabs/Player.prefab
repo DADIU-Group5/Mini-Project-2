@@ -685,6 +685,7 @@ GameObject:
   - 114: {fileID: 114000011938422256}
   - 114: {fileID: 114000010423995310}
   - 114: {fileID: 114000013565142638}
+  - 114: {fileID: 114000011305348724}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2141,7 +2142,7 @@ MeshRenderer:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011936622822}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -2179,7 +2180,7 @@ Animator:
   m_GameObject: {fileID: 1000013257347000}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 689a720107f77a34e918f9ae6249e32d, type: 3}
-  m_Controller: {fileID: 9100000, guid: 8dba5891387b06a4aa3683fc5bb884ba, type: 2}
+  m_Controller: {fileID: 9100000, guid: 301488e5554130e44953cfa1baf64618, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2200,6 +2201,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 114000013565142638}
   attackRange: 1.5
+--- !u!114 &114000011305348724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012858325244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe2a51fd31238cc488dc24567993e3cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pixelsForSwipe: 25
 --- !u!114 &114000011938422256
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2222,6 +2235,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94bf5b21213b2e74584bb67da08f5e18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpTime: 1
+  jumpHeight: 1
+  groundHeight: 0
   state:
     lane: 1
     form: 0
@@ -2233,7 +2249,7 @@ SkinnedMeshRenderer:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011969205114}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
