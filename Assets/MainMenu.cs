@@ -13,13 +13,13 @@ public class MainMenu : MonoBehaviour {
     public GameObject main;
     public GameObject levels;
 
-    public int amountOfLevels = 3;
+    int amountOfLevels = 3;
 
 	// Use this for initialization
 	void Start () {
         if(SaveData.instance.BeenPlayed(1) == false)
         {
-            SaveData.instance.SaveStarsForLevel(1, 0);
+            SaveData.instance.SaveStarsForLevel(1, -1);
         }
         ShowLevels();
 	}
@@ -57,5 +57,11 @@ public class MainMenu : MonoBehaviour {
 	public void LoadLevel(int i)
     {
         SceneManager.LoadScene(i);
+    }
+
+    public void RESET()
+    {
+        PlayerPrefs.DeleteAll();
+        SaveData.instance.SaveStarsForLevel(1, -1);
     }
 }
