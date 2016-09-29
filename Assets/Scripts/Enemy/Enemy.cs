@@ -34,7 +34,8 @@ public class Enemy : MonoBehaviour
         {
             AudioMaster.instance.PlayEvent("enemyBlobDeath");
         }
-            DestroySelf();
+        AudioMaster.instance.PlayEvent("rewardEnemy");
+        DestroySelf();
     }
 
     public void AssignEnemyType(int _lane, EnemyType _type)
