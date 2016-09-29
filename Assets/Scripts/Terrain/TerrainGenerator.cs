@@ -17,6 +17,8 @@ public class TerrainGenerator : MonoBehaviour {
     [Space(10)]
     [Tooltip("An empty with the EmptyEnemy script attached")]
     public GameObject emptyEnemy;
+    [Tooltip("The ground Object")]
+    public ScrollBG ground;
     [Tooltip("The z-value where the enemies should spawn")]
     public float enemySpawnX = 5;
 
@@ -38,6 +40,7 @@ public class TerrainGenerator : MonoBehaviour {
     void Start () {
         lastChunk = gameObject; //TODO: new way of getting the first spawn position.
         terrains = levelData.levelInfo.ToCharArray();
+        ground.speed = moveSpeed / 20;
         CreateNewChunk();
         AvailablePoints();
 	}
@@ -144,6 +147,9 @@ public class TerrainGenerator : MonoBehaviour {
         spawnedTerrains.Remove(tm);
     }
 
+    /// <summary>
+    /// Stops the terrain movement.
+    /// </summary>
     public void StopTerrainMovement()
     {
         foreach (TerrainMovement item in spawnedTerrains)
@@ -152,6 +158,62 @@ public class TerrainGenerator : MonoBehaviour {
         }
     }
 
+    /// <summary>
+    /// Resumes the terrain movement.
+    /// </summary>
+    public void ResumeTerrainMovement()
+    {
+        foreach (TerrainMovement item in spawnedTerrains)
+        {
+            item.ResumeMovement();
+        }
+    }
+
+    /// <summary>
+    /// Changes the speed of all enemies.
+    /// </summary>
+    /// <param name="f"></param>
+    public void ChangeAllEnemySpeed(float f)
+    {
+        List<GameObject>[] enemies = EnemyManager.instance.GetAllEnemies();
+        for (int i = 0; i < enemies.Length; i++)
+        {
+            foreach (GameObject e in enemies[i])
+            {
+                e.GetComponent<EnemyMovement>().enemySpeed = f;
+            }
+        }
+    }
+
+    /// <summary>
+    /// Pauses the terrain, the enemies and the (back)ground
+    /// </summary>
+    public void PauseAllMovement()
+    {
+        StopTerrainMovement();
+        ChangeAllEnemySpeed(0);
+        ScrollBG[] temp = GameObject.FindObjectsOfType<ScrollBG>();
+        foreach (ScrollBG item in temp)
+        {
+            item.Stop();
+        }
+        GameObject.FindObjectOfType<Boss>().enabled = false;
+    }
+
+    /// <summary>
+    /// Resumes the terrain, the enemies and the (back)ground
+    /// </summary>
+    public void ResumeAllMovement()
+    {
+        ResumeTerrainMovement();
+        ChangeAllEnemySpeed(moveSpeed);
+        ScrollBG[] temp = GameObject.FindObjectsOfType<ScrollBG>();
+        foreach (ScrollBG item in temp)
+        {
+            item.Resume();
+        }
+        GameObject.FindObjectOfType<Boss>().enabled = true;
+    }
 }
 
 [System.Serializable]

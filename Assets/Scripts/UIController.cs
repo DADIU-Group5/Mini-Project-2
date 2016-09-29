@@ -35,9 +35,7 @@ public class UIController : Singleton<UIController> {
 
     public void ShowEndScreen()
     {
-        GameObject.FindObjectOfType<TerrainGenerator>().StopTerrainMovement();
-        GameObject.FindObjectOfType<ScrollBG>().speed = 0;
-        GameObject.FindObjectOfType<Boss>().enabled = false;
+        StopAllTerrain();
         scoreT.text = "Score: "+ScoreManager.instance.score;
         AudioMaster.instance.PlayEvent("levelEnd");
         endPanel.SetActive(true);
@@ -55,6 +53,11 @@ public class UIController : Singleton<UIController> {
         }
         SaveData.instance.CompletedCurrentLevel();
         SaveData.instance.SaveStarsForCurrentLevel(stars);
+    }
+
+    void StopAllTerrain()
+    {
+        GameObject.FindObjectOfType<TerrainGenerator>().PauseAllMovement();
     }
 
     void UpdateLanguage()
