@@ -37,7 +37,23 @@ public class TerrainGenerator : MonoBehaviour {
         lastChunk = gameObject; //TODO: new way of getting the first spawn position.
         terrains = levelData.levelInfo.ToCharArray();
         CreateNewChunk();
+        AvailablePoints();
 	}
+
+    public void AvailablePoints()
+    {
+        int maxPoints = 0;
+        //Finds max and min available points.
+        foreach (char letter in terrains)
+        {
+            ChunkData chunk = ParseCharToGO(letter);
+            if (chunk.type != TerrainType.Empty)
+            {
+                maxPoints++;
+            }
+        }
+        StarSystem.instance.maxPointsAvailable = maxPoints;
+    }
 
     //Checks if the last chunk has moved far enough to spawn a new chunk.
     void FixedUpdate()
