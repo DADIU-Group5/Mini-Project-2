@@ -15,7 +15,6 @@ public class Player : MonoBehaviour
     private float jumpStartTime = -1;
 
     public PlayerState state;
-    public GameObject formCube;
 
     public GameObject pirateModel;
     public GameObject mayanModel;
@@ -85,21 +84,18 @@ public class Player : MonoBehaviour
         
         if (state.form == 0)
         {
-            formCube.gameObject.GetComponent<Renderer>().material.color = Color.red;
             pirateModel.SetActive(true);
             mayanModel.SetActive(false);
             spacemanModel.SetActive(false);
         }
         else if ((int)state.form == 1)
         {
-            formCube.gameObject.GetComponent<Renderer>().material.color = Color.green;
             pirateModel.SetActive(false);
             mayanModel.SetActive(true);
             spacemanModel.SetActive(false);
         }
         else if ((int)state.form == 2)
         {
-            formCube.gameObject.GetComponent<Renderer>().material.color = Color.blue;
             pirateModel.SetActive(false);
             mayanModel.SetActive(false);
             spacemanModel.SetActive(true);
