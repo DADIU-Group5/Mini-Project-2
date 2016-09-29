@@ -23,7 +23,7 @@ public class PlayerAttack : MonoBehaviour {
     void AttackEnemy()
     {
         Enemy en = EnemyManager.instance.GetEnemyInLaneWithinDist(attackRange, lane);
-        if(en == null)
+        if(en == null || en.hitByPlayer)
         {
             return;
         }
@@ -43,7 +43,7 @@ public class PlayerAttack : MonoBehaviour {
     void AttackObstacle()
     {
         Obstacle ob = Obstacles.instance.GetNearestObstacleCloserThan(attackRange);
-        if(ob == null)
+        if(ob == null || ob.hitByPlayer)
         {
             return;
         }
