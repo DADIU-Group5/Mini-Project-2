@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
 	<RootPaths>
-		<ProjectRoot>/Users/Victor/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/WwiseProjects/gruppe5 minigame2/</ProjectRoot>
-		<SourceFilesRoot>/Users/Victor/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/WwiseProjects/gruppe5 minigame2/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/Victor/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/WwiseProjects/gruppe5 minigame2/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/Victor/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/WwiseProjects/gruppe5 minigame2/GeneratedSoundBanks/Windows/</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -67,7 +67,7 @@
 				</File>
 				<File Id="199487326" Language="SFX">
 					<ShortName>Fart_BW.16107.wav</ShortName>
-					<Path>SFX/Fart_BW.16107_F74084CA.wem</Path>
+					<Path>SFX\Fart_BW.16107_F74084CA.wem</Path>
 				</File>
 				<File Id="204934564" Language="SFX">
 					<ShortName>kniv4.wav</ShortName>
@@ -87,7 +87,7 @@
 				</File>
 				<File Id="466880421" Language="SFX">
 					<ShortName>Fart_BW.16108.wav</ShortName>
-					<Path>SFX/Fart_BW.16108_F74084CA.wem</Path>
+					<Path>SFX\Fart_BW.16108_F74084CA.wem</Path>
 				</File>
 				<File Id="475251126" Language="SFX">
 					<ShortName>skelet step3.wav</ShortName>
@@ -103,15 +103,15 @@
 				</File>
 				<File Id="547303617" Language="SFX">
 					<ShortName>laser2.wav</ShortName>
-					<Path>SFX/laser2_7310B160.wem</Path>
+					<Path>SFX\laser2_BD23150F.wem</Path>
 				</File>
 				<File Id="559645394" Language="SFX">
 					<ShortName>Fart_SFXB.2033.wav</ShortName>
-					<Path>SFX/Fart_SFXB.2033_F74084CA.wem</Path>
+					<Path>SFX\Fart_SFXB.2033_F74084CA.wem</Path>
 				</File>
 				<File Id="614790623" Language="SFX">
 					<ShortName>Fart_BW.61633.wav</ShortName>
-					<Path>SFX/Fart_BW.61633_DFB4B055.wem</Path>
+					<Path>SFX\Fart_BW.61633_3B500B30.wem</Path>
 				</File>
 				<File Id="641084870" Language="SFX">
 					<ShortName>mask voodoo3.wav</ShortName>
@@ -127,11 +127,11 @@
 				</File>
 				<File Id="721673538" Language="SFX">
 					<ShortName>laser1.wav</ShortName>
-					<Path>SFX/laser1_44BD0578.wem</Path>
+					<Path>SFX\laser1_44BD0578.wem</Path>
 				</File>
 				<File Id="762084009" Language="SFX">
 					<ShortName>laser4.wav</ShortName>
-					<Path>SFX/laser4_3F4E9A61.wem</Path>
+					<Path>SFX\laser4_3F4E9A61.wem</Path>
 				</File>
 				<File Id="769500426" Language="SFX">
 					<ShortName>skelet death3.wav</ShortName>
@@ -159,7 +159,7 @@
 				</File>
 				<File Id="962984383" Language="SFX">
 					<ShortName>laser3.wav</ShortName>
-					<Path>SFX/laser3_164D752C.wem</Path>
+					<Path>SFX\laser3_164D752C.wem</Path>
 				</File>
 				<File Id="980460444" Language="SFX">
 					<ShortName>kniv3.wav</ShortName>
@@ -171,7 +171,7 @@
 				</File>
 				<File Id="1018279328" Language="SFX">
 					<ShortName>PoopFart_SFXB.2095.wav</ShortName>
-					<Path>SFX/PoopFart_SFXB.2095_F74084CA.wem</Path>
+					<Path>SFX\PoopFart_SFXB.2095_F74084CA.wem</Path>
 				</File>
 				<File Id="1073089635" Language="SFX">
 					<ShortName>skelet step8.wav</ShortName>
