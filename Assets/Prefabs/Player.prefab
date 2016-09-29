@@ -2099,10 +2099,10 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012858325244}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_Children:
   - {fileID: 4000010540179364}
   - {fileID: 4000010199056014}
@@ -2179,7 +2179,7 @@ Animator:
   m_GameObject: {fileID: 1000013257347000}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 689a720107f77a34e918f9ae6249e32d, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8dba5891387b06a4aa3683fc5bb884ba, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2226,7 +2226,6 @@ MonoBehaviour:
     lane: 1
     form: 0
   formCube: {fileID: 1000011936622822}
-  scoreManager: {fileID: 0}
 --- !u!137 &137000011266427680
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
