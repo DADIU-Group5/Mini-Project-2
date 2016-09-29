@@ -19,7 +19,7 @@ public class MainMenu : MonoBehaviour {
 	void Start () {
         if(SaveData.instance.BeenPlayed(1) == false)
         {
-            SaveData.instance.SaveStarsForLevel(1, 0);
+            SaveData.instance.SaveStarsForLevel(1, -1);
         }
         ShowLevels();
 	}
