@@ -34,7 +34,7 @@ public class UIController : Singleton<UIController> {
         int stars = StarSystem.instance.starRating;
         Debug.Log("stars: " + stars);
         if (stars != 0) {
-            for (int i = 0; i < Mathf.Abs(stars)-1; i++)
+            for (int i = 0; i < Mathf.Abs(stars); i++)
             {
                 starImages[i].gameObject.GetComponent<Image>().enabled = true;
                 if (stars < 0)
