@@ -16,6 +16,7 @@ public class SaveData : Singleton<SaveData> {
 	
 	public int GetStarsForLevel(int level)
     {
+        Debug.Log(PlayerPrefs.GetInt("LevelStars" + level) + " Stars gotten from level: " + level);
         return PlayerPrefs.GetInt("LevelStars" + level);
     }
 
@@ -29,7 +30,7 @@ public class SaveData : Singleton<SaveData> {
 
     public void SaveStarsForCurrentLevel(int stars)
     {
-        if (PlayerPrefs.GetInt("LevelStars" + UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex) > stars)
+        if (PlayerPrefs.GetInt("LevelStars" + UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex) < stars)
         {
             PlayerPrefs.SetInt("LevelStars" + UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex, stars);
         }

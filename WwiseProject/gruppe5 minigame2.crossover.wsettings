@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{D7D3EF38-8642-4053-9326-CCA1CB834B62}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Desktop\Dadiu\Hold 5\minigame 2\attack sounds"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Desktop\Dadiu\Hold 5\minigame 2\enemy sounds"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Mac"></Value>
@@ -44,7 +44,7 @@
 				<Property Name="ProjectExplorer\Expanded_19_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_1_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ818DEss7y/xOr0Zt7gXzS1A="/>
 				<Property Name="ProjectExplorer\Expanded_20_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\Expanded_2_1" Type="string" Value="9wZXXdXQCUOCWB2e+ImF0fxER9V2I4BGr6lG5M0V05GXIQDV0AHHTL7VtU+wBsYyNCPBUNuYykyR6iXunoWIl7tK0Q8d5w5OvVXHRshia+N6Lbw5WLDVTpoqQWKkAy2Tk9ddu4XydE+NHd96S4kygA=="/>
+				<Property Name="ProjectExplorer\Expanded_2_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_3_1" Type="string" Value="GkE7N6EQyUK+dmIncsdTsA=="/>
 				<Property Name="ProjectExplorer\Expanded_4_1" Type="string" Value="zEuuTFZJ1UuNeskT0Yw00g=="/>
 				<Property Name="ProjectExplorer\Expanded_5_1" Type="string" Value=""/>
@@ -68,7 +68,7 @@
 				<Property Name="RTPC\GameParameterSimValue\{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}" Type="Real64" Value="75"/>
 				<Property Name="RTPC\GameParameterSimValue\{EDA87B19-73AA-40A0-9F19-2073606DB710}" Type="Real64" Value="6"/>
 				<Property Name="RTPC\GameParameterSimValue\{F72E0659-4346-4E1C-A1B1-DAB46A05101E}" Type="Real64" Value="50"/>
-				<Property Name="SoundBank Manager\Expand States" Type="string" Value=""/>
+				<Property Name="SoundBank Manager\Expand States" Type="string" Value="1Ccvm6OV9kWfOEWGQr87ZQ=="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>

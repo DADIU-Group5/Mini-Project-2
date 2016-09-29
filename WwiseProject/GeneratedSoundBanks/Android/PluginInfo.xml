@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PluginInfo Project="gruppe5 minigame2" Platform="Android" BasePlatform="Android">
 	<Plugins>
+		<Plugin Name="Wwise Silence" ID="6619138" DLL="SilenceGenerator"/>
 		<Plugin Name="Wwise Parametric EQ" ID="6881283" DLL="ParametricEQ"/>
 		<Plugin Name="Wwise Matrix Reverb" ID="7536643" DLL="AkMatrixReverb"/>
+		<Plugin Name="SoundSeed Air/SoundSeed Wind" ID="7798786" DLL="AkSoundSeedAir"/>
 		<Plugin Name="SoundSeed Air/SoundSeed Woosh" ID="7864322" DLL="AkSoundSeedAir"/>
 	</Plugins>
 </PluginInfo>
