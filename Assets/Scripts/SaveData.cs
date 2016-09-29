@@ -6,7 +6,7 @@ public class SaveData : Singleton<SaveData> {
 
 	// Use this for initialization
 	void Start () {
-        DontDestroyOnLoad(gameObject);
+       // DontDestroyOnLoad(gameObject);
 	}
 
     public bool BeenPlayed(int level)
@@ -29,7 +29,7 @@ public class SaveData : Singleton<SaveData> {
 
     public void SaveStarsForCurrentLevel(int stars)
     {
-        if (PlayerPrefs.GetInt("LevelStars" + UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex) > stars)
+        if (PlayerPrefs.GetInt("LevelStars" + UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex) < stars)
         {
             PlayerPrefs.SetInt("LevelStars" + UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex, stars);
         }
