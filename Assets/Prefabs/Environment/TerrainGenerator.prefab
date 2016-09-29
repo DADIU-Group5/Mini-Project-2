@@ -55,7 +55,7 @@ MonoBehaviour:
   moveSpeed: 2
   spawnPoint: {x: 0, y: 0, z: 10}
   destroyXPos: -5
-  emptyEnemy: {fileID: 0}
+  emptyEnemy: {fileID: 1000010938069714, guid: 0e3f39bc53c64f54b8065e88676f98a4, type: 2}
   ground: {fileID: 0}
   enemySpawnX: 5
   levelData:
