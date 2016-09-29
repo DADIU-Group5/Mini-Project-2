@@ -13,9 +13,10 @@ public class Obstacle : TerrainMovement {
         Obstacles.instance.AddObstacle(this);
     }
 
-    public override void Remove()
+    public override void Remove() //miss obstacle
     {
         Obstacles.instance.RemoveObstacle(this);
+        //ScoreManager.instance.ModifyPoint(1, false);
         Destroy(gameObject);
     }
 
@@ -31,7 +32,7 @@ public class Obstacle : TerrainMovement {
         {
             return;
         }
-        ScoreManager.instance.ModifyPoint(1); //Needs to be better.
+        ScoreManager.instance.ModifyPoint(1, true, transform.position);
         if (weakAgainst == EnemyType.Pirate)
         {
             AudioMaster.instance.PlayEvent("obstacleSuccesPirate");

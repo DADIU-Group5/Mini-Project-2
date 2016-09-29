@@ -28,7 +28,7 @@ public class EnemyMovement : MonoBehaviour
     {
         if (this.gameObject.transform.position.x <= destroyPoint)
         {
-            ScoreManager.instance.ModifyPoint(-1* this.gameObject.GetComponent<Enemy>().enemyPoints);
+            ScoreManager.instance.ModifyPoint(0, false, transform.position); //type: enemy (0), give points: false
             this.gameObject.GetComponent<Enemy>().DestroySelf();
         }
         else
@@ -54,7 +54,7 @@ public class EnemyMovement : MonoBehaviour
             }
             else if (enemyType == EnemyType.Spaceman)
             {
-                AudioMaster.instance.PlayEvent("enemyBlobMove");
+                AudioMaster.instance.PlayEvent("enemyBlolbMove");
             }
             lastMoveSoundTime = Time.timeSinceLevelLoad;
         }

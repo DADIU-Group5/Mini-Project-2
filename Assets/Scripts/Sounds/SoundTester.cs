@@ -14,7 +14,7 @@ public class SoundTester : MonoBehaviour {
     {
 	    if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            AudioMaster.instance.PlayEvent("enemyBlolbMove");
+            AudioMaster.instance.PlayEvent("enemySharkMove");
         }
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {

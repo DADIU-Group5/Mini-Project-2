@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class TerrainGenerator : MonoBehaviour {
     [Header("Setup")]
@@ -31,6 +32,7 @@ public class TerrainGenerator : MonoBehaviour {
     private int spawnedChunks = 0;
     private bool spawnedAllChunks = false;
     private char[] terrains;
+    private List<TerrainMovement> spawnedTerrains = new List<TerrainMovement>();
 
     // Use this for initialization
     void Start () {
@@ -43,13 +45,21 @@ public class TerrainGenerator : MonoBehaviour {
     public void AvailablePoints()
     {
         int maxPoints = 0;
+        int minPoints = 0;
+
         //Finds max and min available points.
         foreach (char letter in terrains)
         {
             ChunkData chunk = ParseCharToGO(letter);
-            if (chunk.type != TerrainType.Empty)
+            if (chunk.type == TerrainType.Enemy)
             {
-                maxPoints++;
+                maxPoints += ScoreManager.instance.enemyPoints;
+                minPoints -= ScoreManager.instance.missEnemyPoints;
+            } else if (chunk.type == TerrainType.Obstacle)
+            {
+                maxPoints += ScoreManager.instance.obstaclePoints;
+                //missed obstacles do not currently count
+                //minPoints -= ScoreManager.instance.missObstaclePoints;
             }
         }
         StarSystem.instance.maxPointsAvailable = maxPoints;
@@ -101,6 +111,7 @@ public class TerrainGenerator : MonoBehaviour {
         GameObject newChunk = Instantiate(CD.obj, lastChunk.transform.position + Vector3.right * chunkLength, Quaternion.identity) as GameObject;
         newChunk.transform.parent = transform;
         newChunk.GetComponent<TerrainMovement>().Setup(moveSpeed, destroyXPos);
+        spawnedTerrains.Add(newChunk.GetComponent<TerrainMovement>());
         lastChunk = newChunk;
     }
 
@@ -128,18 +139,19 @@ public class TerrainGenerator : MonoBehaviour {
         return null;
     }
 
-    void Update()
+    public void RemoveTerrainFromSpawnedList(TerrainMovement tm)
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        spawnedTerrains.Remove(tm);
+    }
+
+    public void StopTerrainMovement()
+    {
+        foreach (TerrainMovement item in spawnedTerrains)
         {
-            Debug.Log("space");
-            Obstacle temp = Obstacles.instance.GetNearestObstacle();
-            if (temp != null)
-            {
-                temp.PlayerInteraction();
-            }
+            item.StopMovement();
         }
     }
+
 }
 
 [System.Serializable]

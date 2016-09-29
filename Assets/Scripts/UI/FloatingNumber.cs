@@ -5,6 +5,7 @@ public class FloatingNumber : MonoBehaviour {
 
     private const float duration = 2f; 
     private float destroyTime; // time to destroy object
+    private Vector3 destination;
 
 	// Use this for initialization
 	void Start () {

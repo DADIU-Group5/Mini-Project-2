@@ -327,6 +327,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   scoreLabel: {fileID: 0}
+  enemyPoints: 1
+  obstaclePoints: 1
+  missObstaclePoints: -1
+  missEnemyPoints: -1
 --- !u!4 &178748769
 Transform:
   m_ObjectHideFlags: 0

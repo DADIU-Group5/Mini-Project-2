@@ -8739,6 +8739,21 @@ Foes will take more time to load bigger arrows and bolts, unless they're furious
 								</Sound>
 								<Sound Name="pirateSword" ID="{F140C56C-F708-4634-ACBB-E07E484661D0}" ShortID="1029902638" Type="SoundFX">
 									<PropertyList>
+										<Property Name="BypassEffect0" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="BypassEffect1" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="BypassEffect2" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -8779,6 +8794,7 @@ Foes will take more time to load bigger arrows and bolts, unless they're furious
 									<ChildrenList>
 										<SourcePlugin Name="SoundSeed Woosh" ID="{2C82C226-6C6F-4059-A97C-064E220D9F17}" ShortID="59720546" PluginName="SoundSeed Air/SoundSeed Woosh" CompanyID="0" PluginID="120">
 											<PropertyList>
+												<Property Name="GainOffsetAutomate" Type="bool" Value="True"/>
 												<Property Name="SpeedAutomate" Type="bool" Value="True"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -8814,6 +8830,35 @@ Foes will take more time to load bigger arrows and bolts, unless they're furious
 					</PointList>
 				</Curve>
 			</CurveInfo>
+			<CurveInfo Name="GainOffset">
+				<Curve Name="" ID="{CFA283A8-0600-4562-BE9A-52FB42893ED9}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>0.15233</XPos>
+							<YPos>0.01381</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>0.16436</XPos>
+							<YPos>-96.3</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>0.5</XPos>
+							<YPos>-96.3</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
 			<CurveInfo Name="Speed">
 				<Curve Name="" ID="{4ABDA787-2EA8-4331-B412-819508950DEC}">
 					<PropertyList>
@@ -8836,8 +8881,8 @@ Foes will take more time to load bigger arrows and bolts, unless they're furious
 							<Flags>0</Flags>
 						</Point>
 						<Point>
-							<XPos>0.18433</XPos>
-							<YPos>0.6135</YPos>
+							<XPos>0.16004</XPos>
+							<YPos>0</YPos>
 							<Flags>0</Flags>
 						</Point>
 						<Point>
