@@ -141,6 +141,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3cfc7ea4a2c51a142b8bbe79211e993d, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &336891223 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114000010296606934, guid: 3cfc7ea4a2c51a142b8bbe79211e993d,
+    type: 2}
+  m_PrefabInternal: {fileID: 336891222}
+  m_Script: {fileID: 11500000, guid: 42205afb0c32c074b93c9f9ade77d132, type: 3}
 --- !u!1001 &496828323
 Prefab:
   m_ObjectHideFlags: 0
@@ -288,7 +294,7 @@ Prefab:
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
       propertyPath: levelData.levelInfo
-      value: bbbbbbbbbbabbbbbabbbbbabbbbbbbRbbbbabbbbkbbbbsbbbWbbbbkbbbabbbsbbbabbbTbbkbbbabbkbbbsbbbabbbsbbkbbRbbabbkbkbbsbsbbabbkbkbbababbsbsbbTbbababbkbbWebbbbbbbb
+      value: bbbbbbbbbbabbbbbabbbbbabbbbbbbRbbbbabbbbkbbbbsbbbWbbbbkbbbabbbsbbbabbbTbbkbbbabbkbbbsbbbabbbsbbkbbRbbabbkbkbbsbsbbabbkbkbbababbsbsbbTbbababbkbbRebbbbbbbb
       objectReference: {fileID: 0}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
@@ -423,6 +429,11 @@ Prefab:
       value: 
       objectReference: {fileID: 1000012519122946, guid: da4978ddc5aa8d04a97094e1c2632d21,
         type: 2}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: ground
+      value: 
+      objectReference: {fileID: 336891223}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc, type: 2}
   m_IsPrefabParent: 0
@@ -804,6 +815,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   scoreLabel: {fileID: 505449618}
+  enemyPoints: 1
+  obstaclePoints: 1
+  missObstaclePoints: -1
+  missEnemyPoints: -1
 --- !u!4 &780052306
 Transform:
   m_ObjectHideFlags: 0
