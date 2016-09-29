@@ -14,6 +14,7 @@ public class UIController : Singleton<UIController> {
         scoreT.text = "Score: "+ScoreManager.instance.score;
         AudioMaster.instance.PlayEvent("levelEnd");
         endPanel.SetActive(true);
+        StarSystem.instance.CalculateScore();
     }
 
     public void RestartGame()
