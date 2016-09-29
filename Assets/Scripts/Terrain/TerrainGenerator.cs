@@ -43,13 +43,21 @@ public class TerrainGenerator : MonoBehaviour {
     public void AvailablePoints()
     {
         int maxPoints = 0;
+        int minPoints = 0;
+
         //Finds max and min available points.
         foreach (char letter in terrains)
         {
             ChunkData chunk = ParseCharToGO(letter);
-            if (chunk.type != TerrainType.Empty)
+            if (chunk.type == TerrainType.Enemy)
             {
-                maxPoints++;
+                maxPoints += ScoreManager.instance.enemyPoints;
+                minPoints -= ScoreManager.instance.missEnemyPoints;
+            } else if (chunk.type == TerrainType.Obstacle)
+            {
+                maxPoints += ScoreManager.instance.obstaclePoints;
+                //missed obstacles do not currently count
+                //minPoints -= ScoreManager.instance.missObstaclePoints;
             }
         }
         StarSystem.instance.maxPointsAvailable = maxPoints;

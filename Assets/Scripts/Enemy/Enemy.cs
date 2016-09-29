@@ -23,7 +23,7 @@ public class Enemy : MonoBehaviour
 
     public void DestroyedByPlayer()
     {
-        ScoreManager.instance.ModifyPoint(1 * this.gameObject.GetComponent<Enemy>().enemyPoints);
+        ScoreManager.instance.ModifyPoint(0, true); //0: enemy
         if(enemyType == EnemyType.Pirate)
         {
             AudioMaster.instance.PlayEvent("enemySharkDeath");
