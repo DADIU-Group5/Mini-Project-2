@@ -451,6 +451,7 @@ GameObject:
   - 124: {fileID: 303675070}
   - 114: {fileID: 303675069}
   - 114: {fileID: 303675068}
+  - 114: {fileID: 303675074}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -469,7 +470,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33aa4cda78041f149a16b6acbd492785, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  listenerId: 0
 --- !u!114 &303675069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -543,6 +543,18 @@ Transform:
   - {fileID: 1637134642}
   m_Father: {fileID: 0}
   m_RootOrder: 7
+--- !u!114 &303675074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 303675067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5be06c6f7cbd9a4499cc1f2cf66919a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listenerId: 0
 --- !u!1 &336717289
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,6 +766,66 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pixelsForSwipe: 25
+--- !u!1 &874058852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 874058855}
+  - 114: {fileID: 874058854}
+  - 114: {fileID: 874058853}
+  m_Layer: 0
+  m_Name: WwiseGlobal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &874058853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 874058852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3233430ba231cea4187e34ca3e30d2e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basePath: Audio\GeneratedSoundBanks
+  language: English(US)
+  defaultPoolSize: 4096
+  lowerPoolSize: 2048
+  streamingPoolSize: 1024
+  preparePoolSize: 0
+  memoryCutoffThreshold: 0.95
+  engineLogging: 1
+--- !u!114 &874058854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 874058852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d25314afc946de349831e47b23f1e8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &874058855
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 874058852}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
 --- !u!1 &1192968897
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,6 +967,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   scoreLabel: {fileID: 1522138293}
+  enemyPoints: 1
+  obstaclePoints: 1
+  missObstaclePoints: -1
+  missEnemyPoints: -1
 --- !u!4 &1355338597
 Transform:
   m_ObjectHideFlags: 0
@@ -1049,7 +1125,17 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1000011262679930, guid: e0f63768e6db5234eb59ff5d90cb6576, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000010720009594, guid: e0f63768e6db5234eb59ff5d90cb6576,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -581
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000013323116372, guid: e0f63768e6db5234eb59ff5d90cb6576,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 599
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e0f63768e6db5234eb59ff5d90cb6576, type: 2}
@@ -1220,14 +1306,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2214d0f4eca5574c8e20b66589be85c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  basePath: Audio\GeneratedSoundBanks
-  language: English(US)
-  defaultPoolSize: 4096
-  lowerPoolSize: 2048
-  streamingPoolSize: 1024
-  preparePoolSize: 0
-  memoryCutoffThreshold: 0.95
-  engineLogging: 1
 --- !u!114 &1730944503
 MonoBehaviour:
   m_ObjectHideFlags: 0
