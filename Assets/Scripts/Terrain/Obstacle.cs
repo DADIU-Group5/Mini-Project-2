@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Obstacle : TerrainMovement {
 
+    public bool hitByPlayer = false; // Whether the player has reached this enemy yet.
     public EnemyType weakAgainst;
     public GameObject obstacleModel;
     bool beaten = false;
