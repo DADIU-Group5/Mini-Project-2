@@ -15,7 +15,7 @@ public class FloatingNumber : MonoBehaviour {
 	void Update () {
 	    if (Time.time > destroyTime)
         {
-            Destroy(this);
+            Destroy(gameObject);
         }
 	}
 }
