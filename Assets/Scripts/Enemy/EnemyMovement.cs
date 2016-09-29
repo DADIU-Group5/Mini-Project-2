@@ -22,6 +22,7 @@ public class EnemyMovement : MonoBehaviour
     {
         enemyRb = this.gameObject.GetComponent<Rigidbody>();
         enemyType = this.gameObject.GetComponent<Enemy>().enemyType;
+        enemySpeed = GameObject.FindObjectOfType<TerrainGenerator>().moveSpeed;
     }
 	
 	void Update ()
