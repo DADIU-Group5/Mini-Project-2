@@ -26,11 +26,11 @@ public class MainMenu : MonoBehaviour {
 
     public void ShowLevels()
     {
-        amountOfLevels = SceneManager.sceneCount;
-        for (int i = 0; i < amountOfLevels; i++)
+        amountOfLevels = SceneManager.sceneCountInBuildSettings;
+        for (int i = 1; i < amountOfLevels; i++)
         {
             GameObject GO = Instantiate(basicButton, transform) as GameObject;
-            GO.GetComponent<MainMenuButton>().Setup(i + 1, this);
+            GO.GetComponent<MainMenuButton>().Setup(i, this);
         }
     }
 
