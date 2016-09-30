@@ -14,6 +14,22 @@ public class Enemy : MonoBehaviour
     [Range(1, 10f)]
     [Tooltip("Score points gained/lost from enemy")]
     public int enemyPoints = 1;
+    private Animator enemyAnimator;
+
+    void Start()
+    {
+        enemyAnimator = gameObject.GetComponent<Animator>();
+    }
+
+    void Update()
+    {
+        // Die
+        if (hitByPlayer || ScoreManager.instance.score >= 1)
+        {
+            //Enable animator:
+            enemyAnimator.enabled = true;
+        }
+    }
 
     public void DestroySelf()
     {
