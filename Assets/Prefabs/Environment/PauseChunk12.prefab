@@ -52,6 +52,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseUI: {fileID: 1000011826118446, guid: 93f9e40b05646eb469429bcb0daf82ff, type: 2}
-  danishText: "Kun Tribal Hugo kan fjerne \xE5nden v\xE6ggen!"
-  englishText: Only Tribal Hugo can remove the spirit wall!
+  danishText: "Kun Tribal Hugo kan fjerne \xE5nden v\xE6ggen! (Stryg ned at forts\xE6tte)"
+  englishText: Only Tribal Hugo can remove the spirit wall! (Swipe down to continue)
   stopMethod: 1

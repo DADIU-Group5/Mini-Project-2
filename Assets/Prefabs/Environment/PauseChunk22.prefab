@@ -52,6 +52,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseUI: {fileID: 1000011826118446, guid: 93f9e40b05646eb469429bcb0daf82ff, type: 2}
-  danishText: "Rum krystaller! G\xE5, Spaceman Hugo!"
-  englishText: Space rocks! Go, Spaceman Hugo!
+  danishText: "Rum krystaller! G\xE5, Spaceman Hugo! (Stryg op at forts\xE6tte)"
+  englishText: Space rocks! Go, Spaceman Hugo! (Swipe up to continue)
   stopMethod: 2
