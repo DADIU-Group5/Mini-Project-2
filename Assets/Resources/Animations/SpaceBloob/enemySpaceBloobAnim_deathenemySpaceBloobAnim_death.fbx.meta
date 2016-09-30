@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: a63fc52b199064b498fa322b08dcbb86
-timeCreated: 1475234976
+timeCreated: 1475241562
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
@@ -12,7 +12,13 @@ ModelImporter:
     100008: cnt_pelvis_01
     100010: //RootNode
     100012: grp_cnt
-    100014: master_01
+    100014: grp_geo
+    100016: master_01
+    100018: pPlane3
+    100020: pPlane6
+    100022: pPlane7
+    100024: pPlane8
+    100026: pPlane9
     400000: cnt_arm_1
     400002: cnt_arm_2
     400004: cnt_arm_3
@@ -20,7 +26,28 @@ ModelImporter:
     400008: cnt_pelvis_01
     400010: //RootNode
     400012: grp_cnt
-    400014: master_01
+    400014: grp_geo
+    400016: master_01
+    400018: pPlane3
+    400020: pPlane6
+    400022: pPlane7
+    400024: pPlane8
+    400026: pPlane9
+    2300000: pPlane3
+    2300002: pPlane6
+    2300004: pPlane7
+    2300006: pPlane8
+    2300008: pPlane9
+    3300000: pPlane3
+    3300002: pPlane6
+    3300004: pPlane7
+    3300006: pPlane8
+    3300008: pPlane9
+    4300000: pPlane9
+    4300002: pPlane6
+    4300004: pPlane7
+    4300006: pPlane8
+    4300008: pPlane3
     7400000: enemySpaceBloobAnim_death
     9500000: //RootNode
     11100000: //RootNode
