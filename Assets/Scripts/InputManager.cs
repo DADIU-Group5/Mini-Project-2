@@ -146,6 +146,10 @@ public class InputManager : MonoBehaviour {
             waitingForinput();
             DoneWaiting();
         }
+        else if (waitingForSpecificInput != waitForSpecificSwipe.none)
+        {
+            return;
+        }
         canSwipe = false;
         playerMovement.SwipeUp();
     }
@@ -159,6 +163,10 @@ public class InputManager : MonoBehaviour {
         {
             waitingForinput();
             DoneWaiting();
+        }
+        else if (waitingForSpecificInput != waitForSpecificSwipe.none)
+        {
+            return;
         }
         canSwipe = false;
         playerMovement.SwipeDown();
@@ -178,6 +186,10 @@ public class InputManager : MonoBehaviour {
             waitingForinput();
             DoneWaiting();
         }
+        else if(waitingForSpecificInput != waitForSpecificSwipe.none)
+        {
+            return;
+        }
         canSwipe = false;
         player.SwipeRight();
     }
@@ -195,6 +207,10 @@ public class InputManager : MonoBehaviour {
         {
             waitingForinput();
             DoneWaiting();
+        }
+        else if(waitingForSpecificInput != waitForSpecificSwipe.none)
+        {
+            return;
         }
         canSwipe = false;
         player.SwipeLeft();

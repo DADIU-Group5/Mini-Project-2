@@ -7,6 +7,7 @@ public class PauseChunk : TerrainMovement {
 
     public string danishText;
     public string englishText;
+    [Tooltip("Do NOT use none (cannot resume the game), do NOT use all (Cannot resume the game)")]
     public waitForSpecificSwipe stopMethod;
 
     public override void Remove()
@@ -32,5 +33,5 @@ public class PauseChunk : TerrainMovement {
 
 public enum waitForSpecificSwipe
 {
-    none, swipeDown, swipeUp, swipeLeft, swipeRight
+    none, swipeDown, swipeUp, swipeLeft, swipeRight, all
 }
