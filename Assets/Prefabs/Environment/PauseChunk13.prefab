@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000011110599568}
   - 114: {fileID: 114000011759425182}
   m_Layer: 0
-  m_Name: PauseChunk05
+  m_Name: PauseChunk13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52,6 +52,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseUI: {fileID: 1000011826118446, guid: 93f9e40b05646eb469429bcb0daf82ff, type: 2}
-  danishText: "Kun Tribal Hugo kan fjerne \xE5nden v\xE6ggen!"
-  englishText: Only Tribal Hugo can remove the spirit wall!
-  stopMethod: 1
+  danishText: Stryg til venstre til at blive Pirate Hugo igen!
+  englishText: Swipe left to become Pirate Hugo once more!
+  stopMethod: 3
