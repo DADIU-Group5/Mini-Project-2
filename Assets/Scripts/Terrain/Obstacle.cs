@@ -36,14 +36,17 @@ public class Obstacle : TerrainMovement {
         if (weakAgainst == EnemyType.Pirate)
         {
             AudioMaster.instance.PlayEvent("obstacleSuccesPirate");
+            AudioMaster.instance.PlayEvent("rewardObstaclePirate");
         }
         else if (weakAgainst == EnemyType.Mayan)
         {
             AudioMaster.instance.PlayEvent("obstacleSuccesMayan");
+            AudioMaster.instance.PlayEvent("rewardObstacleMayan");
         }
         else if (weakAgainst == EnemyType.Spaceman)
         {
             AudioMaster.instance.PlayEvent("obstacleSuccesSpaceman");
+            AudioMaster.instance.PlayEvent("rewardObstacleSpaceman");
         }
         RemoveObstacle();
     }

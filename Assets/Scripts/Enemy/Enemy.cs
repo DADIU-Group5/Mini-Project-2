@@ -42,14 +42,17 @@ public class Enemy : MonoBehaviour
             if (enemyType == EnemyType.Pirate)
             {
                 AudioMaster.instance.PlayEvent("enemySharkDeath");
+                AudioMaster.instance.PlayEvent("rewardKillPirate");
             }
             else if (enemyType == EnemyType.Mayan)
             {
                 AudioMaster.instance.PlayEvent("enemySkeletonDeath");
+                AudioMaster.instance.PlayEvent("rewardKillMayan");
             }
             else if (enemyType == EnemyType.Spaceman)
             {
                 AudioMaster.instance.PlayEvent("enemyBlobDeath");
+                AudioMaster.instance.PlayEvent("rewardKillSpaceman");
             }
             // Die
             if (GameObject.FindObjectOfType<Player>().state.form == EnemyType.Mayan)// && enemyType == GameObject.FindObjectOfType<Player>().state.form)//and enemyType == player.enemyType
