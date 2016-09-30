@@ -63,6 +63,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	2333396960	comb2	Wwise Parametric EQ			
 	2333396963	comb1	Wwise Parametric EQ			
 	2454616260	sword	Wwise Parametric EQ			
+	2653529179	Three_Voices	Wwise Harmonizer			
 	3615058975	tentacle	Wwise Compressor			
 	4145301329	reaward_choir	Wwise Parametric EQ			
 	4202347640	Repeat_after_me	Wwise Harmonizer			
@@ -109,6 +110,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	642198329	SoundSeed Air Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Vehicles\Chopper\SoundSeed Air Woosh	Variations on a mechanical theme. Made for looping.
 	663109749	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Wind Ambiences\Eerie Tunnel\SoundSeed Air Wind	
 	675627263	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Wind Ambiences\Weeping Willows\SoundSeed Air Wind	
+	676290211	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\soundsforminigame\jump\SoundSeed Woosh	
 	685503655	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Urban Scene\Random Car Pass-by_02\Car Pass-by\SoundSeed Woosh	
 	687451945	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Ogre's Club Swing\SoundSeed Woosh	
 	699772409	SoundSeed Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Surf\Surf\SoundSeed Wind	
@@ -132,82 +134,82 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	3687924	skelet step6	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step6_FBB9E98F.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step6		8134
-	8036727	point gained4	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point gained4_54880755.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point gained\point gained4		46615
+	8036727	point gained4	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point gained4_5DF6B692.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point gained\point gained4		46615
 	14170797	rock explosion	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\rock explosion_F96EAE2A.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\rock explosion		717920
 	20974474	reward1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\reward1_80037953.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\reward enemy\reward1		27470
 	27717524	laser no hit1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\laser no hit1_402D3E53.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\laser\laser no hit1		6743
 	35348800	skelet step2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step2_DCE47E09.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step2		7588
-	40423426	point gained	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point gained_B679980D.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point gained\point gained		49174
-	45169568	tentaclecut3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\tentaclecut3_CD051266.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\sharkMove\tentaclecut3		2462
+	40423426	point gained	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point gained_BF17E3AF.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point gained\point gained		49174
+	45169568	tentaclecut3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\tentaclecut3_35B33D81.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\sharkMove\tentaclecut3		2462
 	49989946	kniv5	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv5_93AE3EEE.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv5		3268
-	59408730	point lost5	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point lost5_006A3B4C.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point lost\point lost5		47265
-	75613090	point gained6	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point gained6_2709F074.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point gained\point gained6		48099
+	59408730	point lost5	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point lost5_F842E336.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point lost\point lost5		47265
+	75613090	point gained6	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point gained6_F74C06AE.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point gained\point gained6		48099
 	77686141	tentaclecut1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\tentaclecut1_88EB7952.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\blobMove\tentaclecut1		3294
 	84998545	tentaclecut3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\tentaclecut3_AC0A428D.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\blobMove\tentaclecut3		9119
 	88987367	kniv8	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv8_C0D0DC1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv8		2704
-	96605360	minion summon alt 3 short	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon alt 3 short_311DBB29.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon lightning magic\minion summon alt 3 short		11658
+	96605360	minion summon alt 3 short	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon alt 3 short_3D8BD1A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon lightning magic\minion summon alt 3 short		11658
 	106976220	skelet step4	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step4_A940167A.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step4		7438
 	124375181	piratmusik1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\piratmusik1_4C70C0A4.wem		\Interactive Music Hierarchy\Default Work Unit\piratemusic\piratmusik1\piratmusik1		4772044
 	125529509	shark death	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\shark death_CDFE0F68.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\shark death		31720
-	127512394	minion summon alt 2 short	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon alt 2 short_57807FEA.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon lightning magic\minion summon alt 2 short		15422
-	129691722	point lost4	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point lost4_481413C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point lost\point lost4		51316
+	127512394	minion summon alt 2 short	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon alt 2 short_6BDE5C0A.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon lightning magic\minion summon alt 2 short		15422
+	129691722	point lost4	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point lost4_DDF680A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point lost\point lost4		51316
 	130296752	eveil spirits2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\eveil spirits2_CDFE0F68.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\evil spirits\eveil spirits2		12466
-	187903421	minion summon7	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon7_668B2611.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon\minion summon7		13174
-	195817552	minion summon3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon3_D350502D.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon\minion summon3		13398
+	187903421	minion summon7	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon7_6B7C8C85.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon\minion summon7		13174
+	195817552	minion summon3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon3_6AC3D54D.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon\minion summon3		13398
 	199487326	Fart_BW_16107	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\Fart_BW.16107_CDFE0F68.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\farts\Fart_BW_16107		21246
 	204934564	kniv4	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv4_27F37B5C.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv4		3093
 	249956793	skelet step9	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step9_6FC03525.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step9		7866
-	262697774	minion summon4	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon4_36D847D7.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon\minion summon4		14658
+	262697774	minion summon4	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon4_8553A9EA.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon\minion summon4		14658
 	279581122	rewardchoir2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\rewardchoir2_CC23F133.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\reward obstacle\rewardchoir2		41922
-	280725247	minion summon5	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon5_4804D5FA.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon\minion summon5		15178
+	280725247	minion summon5	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon5_6F344C5F.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon\minion summon5		15178
 	333721009	eveil spirits3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\eveil spirits3_CDFE0F68.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\evil spirits\eveil spirits3		13888
 	338687880	skelet death	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet death_6D8B5E7F.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonDeath\skelet death		18165
-	355491556	point gained5	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point gained5_65BF7E28.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point gained\point gained5		44040
+	355491556	point gained5	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point gained5_92EFE7C3.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point gained\point gained5		44040
 	366181034	piratmusik2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\piratmusik2_4C70C0A4.wem		\Interactive Music Hierarchy\Default Work Unit\piratemusic\piratmusik2\piratmusik2		8786780
 	409736899	eveil spirits1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\eveil spirits1_CDFE0F68.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\evil spirits\eveil spirits1		14700
 	425034902	kniv7	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv7_C0381AF7.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv7		2665
 	431098716	rewardchoir3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\rewardchoir3_AF64DF3A.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\reward obstacle\rewardchoir3		78820
-	437324699	minion summon alt 4 short	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon alt 4 short_C1002067.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon lightning magic\minion summon alt 4 short		12511
-	439065754	point lost1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point lost1_EF718F48.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point lost\point lost1		48319
-	452338450	tentaclecut1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\tentaclecut1_7786DC3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\sharkMove\tentaclecut1		940
+	437324699	minion summon alt 4 short	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon alt 4 short_DAFA01C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon lightning magic\minion summon alt 4 short		12511
+	439065754	point lost1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point lost1_4AB7D5FC.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point lost\point lost1		48319
+	452338450	tentaclecut1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\tentaclecut1_8AB2BCD4.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\sharkMove\tentaclecut1		940
 	466880421	Fart_BW_16108	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\Fart_BW.16108_CDFE0F68.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\farts\Fart_BW_16108		11170
 	475251126	skelet step3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step3_A8927CC8.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step3		7357
 	481533011	skelet step1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step1_C253992C.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step1		4500
 	502623383	rockshatter	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\rockshatter_CDFE0F68.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\rockdebris\rockshatter		29943
 	522403318	mask voodoo	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\mask voodoo_7A30324C.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\maskAttack\mask voodoo		1019092
-	531238653	tentaclecut2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\tentaclecut2_9DF1934A.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\sharkMove\tentaclecut2		2413
+	531238653	tentaclecut2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\tentaclecut2_442F2CA7.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\sharkMove\tentaclecut2		2413
 	547303617	laser2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\laser2_7310B160.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser2		11030
 	553952317	laser no hit2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\laser no hit2_ABEE2F36.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\laser\laser no hit2		6273
 	559645394	Fart_SFXB_2033	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\Fart_SFXB.2033_CDFE0F68.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\farts\Fart_SFXB_2033		8912
 	585737715	rewardchoir1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\rewardchoir1_E1D9F866.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\reward obstacle\rewardchoir1		77288
 	614790623	Fart_BW_61633	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\Fart_BW.61633_B3362EB3.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\farts\Fart_BW_61633		5701
-	635276309	point gained3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point gained3_7C67998E.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point gained\point gained3		51017
+	635276309	point gained3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point gained3_6FB370EC.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point gained\point gained3		51017
 	641084870	mask voodoo3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\mask voodoo3_FD18B7EA.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\maskAttack\mask voodoo3		1214960
 	650274525	kniv6	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv6_DFE3E433.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv6		2886
 	662973777	kniv1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv1_63EA2919.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv1		5100
 	704912709	reward3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\reward3_FB07216A.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\reward enemy\reward3		27497
-	711114988	point lost2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point lost2_7732750E.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point lost\point lost2		53649
+	711114988	point lost2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point lost2_E3D13AE6.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point lost\point lost2		53649
 	717330701	rockshatter2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\rockshatter2_CDFE0F68.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\rockdebris\rockshatter2		34621
 	721673538	laser1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\laser1_44BD0578.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser1		11695
 	762084009	laser4	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\laser4_3F4E9A61.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser4		9875
-	765546739	minion summon6	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon6_77964961.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon\minion summon6		15429
+	765546739	minion summon6	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon6_62C40C37.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon\minion summon6		15429
 	769500426	skelet death3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet death3_41EFFB1E.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonDeath\skelet death3		12808
 	805093994	skelet step7	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step7_5F84CD6D.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step7		3568
 	834934271	kniv9	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv9_16C4E7CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv9		2938
 	858796464	mask voodoo2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\mask voodoo2_7BF06443.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\maskAttack\mask voodoo2		1106436
 	864567352	skelet step5	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step5_FE2F2C3E.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step5		7457
 	871601554	tentaclecut2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\tentaclecut2_2408C1B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\blobMove\tentaclecut2		11720
-	910030847	point gained2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point gained2_9C2F6097.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point gained\point gained2		46618
+	910030847	point gained2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point gained2_EA374D6B.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point gained\point gained2		46618
 	922238736	kniv2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv2_6F852CA7.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv2		7528
-	931143382	minion summon1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon1_3EE313A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon\minion summon1		14688
+	931143382	minion summon1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon1_7876C365.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon\minion summon1		14688
 	962984383	laser3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\laser3_164D752C.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser3		10710
 	969169178	rockshatter3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\rockshatter3_CDFE0F68.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\rockdebris\rockshatter3		44824
 	980460444	kniv3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv3_5A114385.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv3		2172
 	991799614	skelet death2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet death2_E5920AA6.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonDeath\skelet death2		13746
-	1013570556	point lost3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point lost3_01C33DA3.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point lost\point lost3		48056
-	1016854918	reward2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\reward2_AAC31F22.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\reward enemy\reward2		24136
+	1013570556	point lost3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\point lost3_EFCF5A4A.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\point lost\point lost3		48056
+	1016854918	reward2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\reward2_E8ECC82A.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\reward enemy\reward2		24136
 	1018279328	PoopFart_SFXB_2095	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\PoopFart_SFXB.2095_CDFE0F68.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\farts\PoopFart_SFXB_2095		50585
-	1050366790	minion summon alt 1 short	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon alt 1 short_DEB97C86.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon lightning magic\minion summon alt 1 short		15476
-	1066797103	minion summon2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon2_E77B7212.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon\minion summon2		13125
+	1050366790	minion summon alt 1 short	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon alt 1 short_D4F7DFFA.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon lightning magic\minion summon alt 1 short		15476
+	1066797103	minion summon2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\minion summon2_1B8A2776.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon\minion summon2		13125
 	1073089635	skelet step8	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step8_3780C4BA.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step8		6435
 
