@@ -9,6 +9,7 @@
 						<ObjectRef Name="rewardKillSpaceman" ID="{CC0AAE57-9D9F-408E-A096-27BACE26390B}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="enemySkeletonDeath" ID="{C2374DD3-9231-40ED-8787-9CFCF84E209E}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="rewardObstacleMayan" ID="{A79A6770-48FC-41B6-A8CE-066DA35AB5D6}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="soundsforminigame" ID="{19235EDC-8514-41DB-A1C6-2009F0C934A6}" WorkUnitID="{BB5DD793-F285-4F74-8D1D-DF7A4B893280}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="switchMayan" ID="{5215F289-35D8-4275-B29D-E79B34EE1C67}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Default Work Unit" ID="{373B411A-10A1-42C9-BE76-622772C753B0}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="obstacleJump" ID="{53412FCC-E1A2-4307-8A3F-767556AD24A1}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
