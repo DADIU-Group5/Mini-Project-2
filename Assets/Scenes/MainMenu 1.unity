@@ -387,8 +387,8 @@ MonoBehaviour:
   pirate: {fileID: 1243488469}
   mayan: {fileID: 1740854864}
   space: {fileID: 2051989311}
-  levelBack: {fileID: 0}
-  levelMenu: {fileID: 0}
+  levelBack: {fileID: 454018193}
+  levelMenu: {fileID: 1805663242}
 --- !u!114 &65407488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -403,8 +403,8 @@ MonoBehaviour:
   mayan: {fileID: 1176872991}
   space: {fileID: 2056712173}
   pirateLevels: 3
-  mayanLevels: 5
-  spaceLevels: 7
+  mayanLevels: 0
+  spaceLevels: 0
 --- !u!1 &121268172
 GameObject:
   m_ObjectHideFlags: 0

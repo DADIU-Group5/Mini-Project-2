@@ -42,7 +42,6 @@ namespace Mini2.Menu
 
         public void ChangeStateTo(MenuState MS)
         {
-            Debug.Log("changes state from: " + state);
             LeaveState(state);
             EnterState(MS);
             state = MS;

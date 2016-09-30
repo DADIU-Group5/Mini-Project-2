@@ -27,6 +27,13 @@ public class LevelLoader : MonoBehaviour {
 
     public void LoadLevel(string levelName)
     {
-        SceneManager.LoadScene(levelName);
+        if (levelName == "Pirate1")
+        {
+            SceneManager.LoadScene("Intro");
+        }
+        else
+        {
+            SceneManager.LoadScene(levelName);
+        }
     }
 }
