@@ -14,6 +14,11 @@ public class EnemyManager : Singleton<EnemyManager>
         enemiesInLane[2] = new List<GameObject>();
     }
 
+    public List<GameObject>[] GetAllEnemies()
+    {
+        return enemiesInLane;
+    }
+
     public void AddEnemyToLane(int lane, GameObject go)
     {
         if (lane > 2 || lane < 0)

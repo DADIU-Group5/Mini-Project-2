@@ -8,6 +8,13 @@
 						<Property Name="LfoFrequency" Type="Real64" Value="0.1"/>
 					</PropertyList>
 				</ModulatorLfo>
+				<ModulatorLfo Name="smokelfo" ID="{C40D990C-E188-4EAF-A49B-B6F5E82E35C4}" ShortID="214464881">
+					<PropertyList>
+						<Property Name="LfoAttack" Type="Real64" Value="1"/>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.5"/>
+						<Property Name="LfoInitialPhase" Type="Real64" Value="-114"/>
+					</PropertyList>
+				</ModulatorLfo>
 			</ChildrenList>
 		</WorkUnit>
 	</Modulators>

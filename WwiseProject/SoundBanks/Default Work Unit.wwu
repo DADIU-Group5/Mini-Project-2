@@ -5,9 +5,37 @@
 			<ChildrenList>
 				<SoundBank Name="Soundbank1" ID="{65546F62-9755-484C-8059-0DC81E450CBD}">
 					<ObjectInclusionList>
+						<ObjectRef Name="levelEnd" ID="{5DF9185A-1C1B-401B-98DF-6988005535C7}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="rewardKillSpaceman" ID="{CC0AAE57-9D9F-408E-A096-27BACE26390B}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="enemySkeletonDeath" ID="{C2374DD3-9231-40ED-8787-9CFCF84E209E}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="rewardObstacleMayan" ID="{A79A6770-48FC-41B6-A8CE-066DA35AB5D6}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="soundsforminigame" ID="{19235EDC-8514-41DB-A1C6-2009F0C934A6}" WorkUnitID="{BB5DD793-F285-4F74-8D1D-DF7A4B893280}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="switchMayan" ID="{5215F289-35D8-4275-B29D-E79B34EE1C67}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Default Work Unit" ID="{373B411A-10A1-42C9-BE76-622772C753B0}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="obstacleJump" ID="{53412FCC-E1A2-4307-8A3F-767556AD24A1}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Default Work Unit" ID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="rewardObstacleSpaceman" ID="{63D6C183-62BE-4383-9EDD-A0F803EAD7E9}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="enemySharkDeath" ID="{2411FAA7-A248-43A4-9DC8-C5E5BA44D0B0}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="levelStart" ID="{B0E16A84-A943-455A-B767-E77F9BA4422F}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="switchSpaceman" ID="{B1CA9553-1152-4565-8B61-AEE3CD2912C8}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="obstacleSuccesMayan" ID="{9673E186-5102-4577-BA62-F23EF945DB5A}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="obstacleSuccesPirate" ID="{5802FC06-D862-45F6-8909-C7402C240CA0}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="rewardKillPirate" ID="{4AC7D564-9922-4658-B579-00F5BCBB96D1}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Default Work Unit" ID="{AEDB506B-D893-466E-B78B-0A28E1A48AA8}" WorkUnitID="{AEDB506B-D893-466E-B78B-0A28E1A48AA8}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="enemySkeletonMove" ID="{E5A0E0B7-B50E-4705-B4EE-D32CF027782B}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="rewardKillMayan" ID="{8BCB57A8-D7D9-4729-A7EE-811F082939E0}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="enemySharkMove" ID="{76345450-7B6E-476E-9A26-ACEAB45DCD2F}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="rewardObstaclePirate" ID="{7A7BB01C-DD02-4809-8AB0-E9C1574AB128}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="pointLoss" ID="{C96254FD-708D-48E1-9B02-4336169A584F}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="maskAttack" ID="{43D482CC-9517-49D2-AB1A-840358548BB4}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="obstacleSuccesSpaceman" ID="{BD578EFF-3C62-4BFC-96A8-B2EB785E1C83}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="switchPirate" ID="{F808EAA8-51C3-4C32-9BEF-33ABF4195B6F}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="swordAttack" ID="{45041578-A317-4C77-8511-A099634E4774}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="enemyBlolbMove" ID="{00BA249F-6B0F-4E38-B080-AD32A0566911}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Default Work Unit" ID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Factory SoundSeed Air Objects" ID="{BB5DD793-F285-4F74-8D1D-DF7A4B893280}" WorkUnitID="{BB5DD793-F285-4F74-8D1D-DF7A4B893280}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="laserAttack" ID="{9648CC2E-442E-4FE1-8E5A-E07C51093104}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="enemyBlobDeath" ID="{59ADFDA7-A9E0-4FF2-AA7A-60BCAD30895B}" WorkUnitID="{373B411A-10A1-42C9-BE76-622772C753B0}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

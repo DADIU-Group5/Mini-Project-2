@@ -23,20 +23,28 @@ public class PlayerAttack : MonoBehaviour {
     void AttackEnemy()
     {
         Enemy en = EnemyManager.instance.GetEnemyInLaneWithinDist(attackRange, lane);
-        if(en == null)
+        if(en == null || en.hitByPlayer)
         {
             return;
         }
         if (en.enemyType == player.state.form)
         {
             en.DestroyedByPlayer();
+            player.Attack();
+        }
+        else if (!en.hitByPlayer)
+        {
+            // Jump
+            en.hitByPlayer = true;
+            player.Jump();
+            Debug.Log("Yeeaaa 2");
         }
     }
 
     void AttackObstacle()
     {
         Obstacle ob = Obstacles.instance.GetNearestObstacleCloserThan(attackRange);
-        if(ob == null)
+        if(ob == null || ob.hitByPlayer)
         {
             return;
         }
@@ -45,9 +53,14 @@ public class PlayerAttack : MonoBehaviour {
         if (ob.weakAgainst == player.state.form)
         {
             ob.PlayerInteraction();
-        } /*else if (ob.weakAgainst != player.state.form)
+            player.Attack();
+        }
+        else if (!ob.hitByPlayer)
         {
-            ob.PlayerInteraction(); // we should be doing something else here.
-        }*/
+            // Jump
+            ob.hitByPlayer = true;
+            player.Jump();
+            Debug.Log("Yeeaaa");
+        }
     }
 }

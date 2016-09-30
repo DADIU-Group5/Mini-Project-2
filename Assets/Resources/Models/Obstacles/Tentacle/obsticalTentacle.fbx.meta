@@ -1,0 +1,118 @@
+fileFormatVersion: 2
+guid: 0f8d2ee865ddc2b4c853f477161c8bec
+timeCreated: 1475227851
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: be_tentacle_9
+    100002: bind_tentacle_1
+    100004: bind_tentacle_2
+    100006: bind_tentacle_3
+    100008: bind_tentacle_4
+    100010: bind_tentacle_5
+    100012: bind_tentacle_6
+    100014: bind_tentacle_7
+    100016: bind_tentacle_8
+    100018: cnt_tentacle_1
+    100020: cnt_tentacle_2
+    100022: cnt_tentacle_3
+    100024: cnt_tentacle_4
+    100026: cnt_tentacle_5
+    100028: cnt_tentacle_6
+    100030: cnt_tentacle_7
+    100032: cnt_tentacle_8
+    100034: grp_cnt
+    100036: grp_geo
+    100038: grp_jnt_
+    100040: //RootNode
+    100042: tentacle 1
+    400000: be_tentacle_9
+    400002: bind_tentacle_1
+    400004: bind_tentacle_2
+    400006: bind_tentacle_3
+    400008: bind_tentacle_4
+    400010: bind_tentacle_5
+    400012: bind_tentacle_6
+    400014: bind_tentacle_7
+    400016: bind_tentacle_8
+    400018: cnt_tentacle_1
+    400020: cnt_tentacle_2
+    400022: cnt_tentacle_3
+    400024: cnt_tentacle_4
+    400026: cnt_tentacle_5
+    400028: cnt_tentacle_6
+    400030: cnt_tentacle_7
+    400032: cnt_tentacle_8
+    400034: grp_cnt
+    400036: grp_geo
+    400038: grp_jnt_
+    400040: //RootNode
+    400042: tentacle 1
+    4300000: tentacle
+    9500000: //RootNode
+    13700000: tentacle 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

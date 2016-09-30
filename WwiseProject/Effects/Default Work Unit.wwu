@@ -17,7 +17,7 @@
 						<Property Name="HFRatio" Type="Real32" Value="0.5"/>
 						<Property Name="NumberOfDelays" Type="int32" Value="16"/>
 						<Property Name="ReverbTime" Type="Real32" Value="0.3"/>
-						<Property Name="WetLevel" Type="Real32" Value="-13"/>
+						<Property Name="WetLevel" Type="Real32" Value="-20"/>
 					</PropertyList>
 				</Effect>
 				<Effect Name="sword" ID="{D56859F5-8A8A-4A07-95EC-4BB5453F0A43}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
@@ -131,6 +131,216 @@
 					<PropertyList>
 						<Property Name="FrequencyBand1" Type="Real32" Value="548"/>
 						<Property Name="GainBand1" Type="Real32" Value="12"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="comb1" ID="{0B134514-D49A-40ED-AC46-66E0E4C86219}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="1600">
+							<RTPCList>
+								<RTPC Name="" ID="{94F31AEE-4C9E-4EFD-B20C-7635FDA0894D}" ShortID="366801131">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="smokelfo" ID="{C40D990C-E188-4EAF-A49B-B6F5E82E35C4}" WorkUnitID="{0F15CFB7-1962-4173-BDD6-0A5FCD79CF50}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{170C7D9E-396A-4F5D-B7E6-E4BDE07526DD}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>1000</YPos>
+												<Flags>21</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>1200</YPos>
+												<Flags>53</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FrequencyBand2" Type="Real32" Value="1200">
+							<RTPCList>
+								<RTPC Name="" ID="{19FEE8AE-1E87-4A1C-89E1-951F5D00320A}" ShortID="660917293">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="smokelfo" ID="{C40D990C-E188-4EAF-A49B-B6F5E82E35C4}" WorkUnitID="{0F15CFB7-1962-4173-BDD6-0A5FCD79CF50}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{A046339C-576C-4498-9CFC-7D2BEE6EAA23}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>2000</YPos>
+												<Flags>21</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>2100</YPos>
+												<Flags>53</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FrequencyBand3" Type="Real32" Value="2000">
+							<RTPCList>
+								<RTPC Name="" ID="{DB683F06-D732-4BCE-AFF1-1701D514AD9A}" ShortID="932517781">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="smokelfo" ID="{C40D990C-E188-4EAF-A49B-B6F5E82E35C4}" WorkUnitID="{0F15CFB7-1962-4173-BDD6-0A5FCD79CF50}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{69BC5230-CDFF-4641-9565-8744A69FED81}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>1400</YPos>
+												<Flags>21</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>1600</YPos>
+												<Flags>53</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="GainBand1" Type="Real32" Value="8"/>
+						<Property Name="GainBand2" Type="Real32" Value="8"/>
+						<Property Name="GainBand3" Type="Real32" Value="8"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="35"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="35"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="35"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="comb2" ID="{C1CC570F-5E3C-426B-A5E8-F346221F8396}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="6"/>
+						<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="2600">
+							<RTPCList>
+								<RTPC Name="" ID="{9D2B1EED-F318-4B96-AA19-35AECC58F675}" ShortID="527503779">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="smokelfo" ID="{C40D990C-E188-4EAF-A49B-B6F5E82E35C4}" WorkUnitID="{0F15CFB7-1962-4173-BDD6-0A5FCD79CF50}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{A4A0CD19-234B-4BFD-9D15-084C03D0DF36}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>2000</YPos>
+												<Flags>21</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>2400</YPos>
+												<Flags>53</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FrequencyBand2" Type="Real32" Value="3000">
+							<RTPCList>
+								<RTPC Name="" ID="{9C1B2DA3-C56D-4C2E-83F2-8702C787CC0A}" ShortID="882937126">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="smokelfo" ID="{C40D990C-E188-4EAF-A49B-B6F5E82E35C4}" WorkUnitID="{0F15CFB7-1962-4173-BDD6-0A5FCD79CF50}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{C88910E1-3589-49FF-9A7F-7B0E0F69C877}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>2400</YPos>
+												<Flags>21</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>3000</YPos>
+												<Flags>53</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="FrequencyBand3" Type="Real32" Value="4000">
+							<RTPCList>
+								<RTPC Name="" ID="{5684B899-5DAC-4687-AC87-2CA300ECA068}" ShortID="551117210">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="smokelfo" ID="{C40D990C-E188-4EAF-A49B-B6F5E82E35C4}" WorkUnitID="{0F15CFB7-1962-4173-BDD6-0A5FCD79CF50}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{09AE60E9-53EC-4A09-A808-5DAFC0B57C5D}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>1600</YPos>
+												<Flags>21</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>1200</YPos>
+												<Flags>53</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="GainBand1" Type="Real32" Value="8"/>
+						<Property Name="GainBand2" Type="Real32" Value="8"/>
+						<Property Name="GainBand3" Type="Real32" Value="8"/>
+						<Property Name="QFactorBand1" Type="Real32" Value="35"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="35"/>
+						<Property Name="QFactorBand3" Type="Real32" Value="35"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="reaward_choir" ID="{5EEFD128-4516-4AE0-8A78-CEA4642C395B}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand1" Type="Real32" Value="433"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="849"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="4517"/>
+						<Property Name="GainBand1" Type="Real32" Value="-24"/>
+						<Property Name="GainBand2" Type="Real32" Value="-24"/>
+						<Property Name="GainBand3" Type="Real32" Value="-5"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="1.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="tentacle" ID="{5889BFC4-8ECC-4D52-A810-54CF02DEE88A}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="OutputGain" Type="Real32" Value="6.4"/>
+						<Property Name="Ratio" Type="Real32" Value="14.4"/>
+						<Property Name="Threshold" Type="Real32" Value="-35"/>
 					</PropertyList>
 				</Effect>
 			</ChildrenList>
