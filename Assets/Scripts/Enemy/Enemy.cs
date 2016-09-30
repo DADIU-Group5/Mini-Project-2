@@ -22,9 +22,9 @@ public class Enemy : MonoBehaviour
     {
         // Die
         
-        if (hitByPlayer && enemyType == GameObject.FindObjectOfType<Player>().state.form)//and enemyType == player.enemyType
+        if (hitByPlayer)// && enemyType == GameObject.FindObjectOfType<Player>().state.form)//and enemyType == player.enemyType
         {
-            //Debug.Log("Enabling animator!");
+            Debug.Log("Enabling animator! enemytype: " + enemyType + " and playertype: " + GameObject.FindObjectOfType<Player>().state.form);
             //Enable animator:
             enemyAnimator.enabled = true;
             test = true;
