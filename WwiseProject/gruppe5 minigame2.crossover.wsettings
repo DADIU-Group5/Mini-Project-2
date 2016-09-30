@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{D7D3EF38-8642-4053-9326-CCA1CB834B62}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Desktop\Dadiu\Hold 5\minigame 2\enemy sounds"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Desktop\Dadiu\Hold 5\minigame 2\reward"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Mac"></Value>
@@ -44,7 +44,7 @@
 				<Property Name="ProjectExplorer\Expanded_19_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\Expanded_1_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ818DEss7y/xOr0Zt7gXzS1A="/>
 				<Property Name="ProjectExplorer\Expanded_20_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\Expanded_2_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\Expanded_2_1" Type="string" Value="cQiT+fLdo0CyQULwaHKGltxeIxkUhdtBocYgCfDJNKZU7uCDciVzQqkRgTPV9Jf/eook1dtywkKaXwRmQqMwXvcGV13V0AlDglgdnviJhdHYnJiHoi2hQ715VypLAVyO/caADH05+UWTjbLF1cKoDfxER9V2I4BGr6lG5M0V05GpvaJZPc3yRolSpftgpcSLK2sKogMw/kqqFhFJk7UwvZchANXQAcdMvtW1T7AGxjI0I8FQ25jKTJHqJe6ehYiXyrqoLv0k0Ey7qiTQyNaUxbtK0Q8d5w5OvVXHRshia+Pf4ZQvPOAlTobxA0eu7SJ20NBf3JrnXk6xdNb64DuKrmW/cgOZZ91Ohxxg1tZ3Hk+T1127hfJ0T40d33pLiTKA"/>
 				<Property Name="ProjectExplorer\Expanded_3_1" Type="string" Value="GkE7N6EQyUK+dmIncsdTsA=="/>
 				<Property Name="ProjectExplorer\Expanded_4_1" Type="string" Value="zEuuTFZJ1UuNeskT0Yw00g=="/>
 				<Property Name="ProjectExplorer\Expanded_5_1" Type="string" Value=""/>
