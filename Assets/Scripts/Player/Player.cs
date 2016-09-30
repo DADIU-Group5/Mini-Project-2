@@ -139,4 +139,19 @@ public class Player : MonoBehaviour
         AudioMaster.instance.PlayEvent("obstacleJump");
     }
 
+    public void Attack()
+    {
+        if (state.form == 0)
+        {
+            playerAnimatorPirate.SetTrigger("pirateAttack");
+        }
+        else if ((int)state.form == 1)
+        {
+            playerAnimatorMayan.SetTrigger("mayanAttack");
+        }
+        else if ((int)state.form == 2)
+        {
+            playerAnimatorSpaceman.SetTrigger("spacemanAttack");
+        }
+    }
 }

@@ -30,18 +30,7 @@ public class PlayerAttack : MonoBehaviour {
         if (en.enemyType == player.state.form)
         {
             en.DestroyedByPlayer();
-            switch(player.state.form)
-            {
-                case EnemyType.Mayan:
-                    AudioMaster.instance.PlayEvent("maskAttack");
-                    break;
-                case EnemyType.Pirate:
-                    AudioMaster.instance.PlayEvent("swordAttack");
-                    break;
-                case EnemyType.Spaceman:
-                    AudioMaster.instance.PlayEvent("laserAttack");
-                    break;
-            }
+            player.Attack();
         }
         else if (!en.hitByPlayer)
         {
@@ -64,6 +53,7 @@ public class PlayerAttack : MonoBehaviour {
         if (ob.weakAgainst == player.state.form)
         {
             ob.PlayerInteraction();
+            player.Attack();
         }
         else if (!ob.hitByPlayer)
         {
