@@ -33,7 +33,7 @@ public class MainMenu : MonoBehaviour {
         for (int i = 1; i < amountOfLevels; i++)
         {
             GameObject GO = Instantiate(basicButton, transform) as GameObject;
-            GO.GetComponent<MainMenuButton>().Setup(i, this);
+           // GO.GetComponent<MainMenuButton>().Setup(i, this);
             levelButtons[i - 1] = GO;
         }
     }

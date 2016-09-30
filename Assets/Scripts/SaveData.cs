@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 using Mini2.Utils;
 
@@ -6,38 +7,69 @@ public class SaveData : Singleton<SaveData> {
 
 	// Use this for initialization
 	void Start () {
-       // DontDestroyOnLoad(gameObject);
-	}
+        PlayerPrefs.SetInt("Completed" + "Pirate0", 1);
+    }
 
     public bool BeenPlayed(int level)
     {
+        Debug.LogError("Use the string version instead!");
         return PlayerPrefs.HasKey("LevelStars" + level);
     }
-	
-	public int GetStarsForLevel(int level)
+
+    public bool BeenPlayed(string level)
     {
+        return PlayerPrefs.HasKey(level);
+    }
+
+    public int GetStarsForLevel(int level)
+    {
+        Debug.LogError("Use the string version instead!");
         return PlayerPrefs.GetInt("LevelStars" + level);
+    }
+
+    public int GetStarsForLevel(string level)
+    {
+        return PlayerPrefs.GetInt(level);
     }
 
     public void SaveStarsForLevel(int level, int stars)
     {
+        Debug.LogError("Use the string version instead!");
         if (PlayerPrefs.GetInt("LevelStars" + level) > stars)
         {
             PlayerPrefs.SetInt("LevelStars" + level, stars);
         }
     }
 
+    public void SaveStarsForLevel(string level, int stars)
+    {
+        if (PlayerPrefs.GetInt(level) > stars)
+        {
+            PlayerPrefs.SetInt(level, stars);
+        }
+    }
+
     public void SaveStarsForCurrentLevel(int stars)
     {
-        if (PlayerPrefs.GetInt("LevelStars" + UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex) < stars)
+        if (PlayerPrefs.GetInt(SceneManager.GetActiveScene().name) < stars)
         {
-            PlayerPrefs.SetInt("LevelStars" + UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex, stars);
+            PlayerPrefs.SetInt(SceneManager.GetActiveScene().name, stars);
         }
     }
 
     public void CompletedCurrentLevel()
     {
-        PlayerPrefs.SetInt("LevelStars" + (UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex+1), 0);
+        PlayerPrefs.SetInt("Completed"+SceneManager.GetActiveScene().name, 1);
+    }
+
+    public bool WasLevelCompleted(string level)
+    {
+        return PlayerPrefs.HasKey("Completed" + level);
+    }
+
+    public void RESETALL()
+    {
+        PlayerPrefs.DeleteAll();
     }
 
     public bool IsLanguageEnglish()
