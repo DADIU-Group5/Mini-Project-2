@@ -3,20 +3,27 @@ Event	ID	Name			Wwise Object Path	Notes
 	230529865	enemyBlolbMove			\Default Work Unit\enemyBlolbMove	
 	312184219	obstacleSuccesPirate			\Default Work Unit\obstacleSuccesPirate	
 	387995228	enemySkeletonDeath			\Default Work Unit\enemySkeletonDeath	
+	710693750	rewardKillSpaceman			\Default Work Unit\rewardKillSpaceman	
 	989497648	enemyBlobDeath			\Default Work Unit\enemyBlobDeath	
+	1151144359	switchSpaceman			\Default Work Unit\switchSpaceman	
 	1232697816	swordAttack			\Default Work Unit\swordAttack	
-	1269726684	rewardEnemy			\Default Work Unit\rewardEnemy	
+	1697987345	switchMayan			\Default Work Unit\switchMayan	
 	1787186961	maskAttack			\Default Work Unit\maskAttack	
 	1872687458	laserAttack			\Default Work Unit\laserAttack	
+	1940550729	rewardObstacleSpaceman			\Default Work Unit\rewardObstacleSpaceman	
 	2015977838	obstacleSuccesSpaceman			\Default Work Unit\obstacleSuccesSpaceman	
 	2030660008	pointLoss			\Default Work Unit\pointLoss	
 	2037204996	levelEnd			\Default Work Unit\levelEnd	
-	2200869491	rewardObstacle			\Default Work Unit\rewardObstacle	
+	2333887642	switchPirate			\Default Work Unit\switchPirate	
 	2722909678	obstacleSuccesMayan			\Default Work Unit\obstacleSuccesMayan	
+	2753918419	rewardKillPirate			\Default Work Unit\rewardKillPirate	
 	2924038817	enemySkeletonMove			\Default Work Unit\enemySkeletonMove	
 	3002559768	enemySharkDeath			\Default Work Unit\enemySharkDeath	
 	3147649906	obstacleJump			\Default Work Unit\obstacleJump	
+	3151268764	rewardObstaclePirate			\Default Work Unit\rewardObstaclePirate	
 	3372421815	levelStart			\Default Work Unit\levelStart	
+	3409395318	rewardKillMayan			\Default Work Unit\rewardKillMayan	
+	4269068319	rewardObstacleMayan			\Default Work Unit\rewardObstacleMayan	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	822163944	SS_Air_RPM			\Factory SoundSeed Air Game Syncs\SS_Air_RPM	
@@ -32,17 +39,25 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 Modulator LFO	ID	Name			Wwise Object Path	Notes
 	34850292	sword metal			\Default Work Unit\sword metal	
+	214464881	smokelfo			\Default Work Unit\smokelfo	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Effect plug-ins	ID	Name	Type				Notes
 	361241791	sword3	Wwise Parametric EQ			
 	1934039728	New_Wwise_Matrix_Reverb	Wwise Matrix Reverb			
+	2333396960	comb2	Wwise Parametric EQ			
+	2333396963	comb1	Wwise Parametric EQ			
 	2454616260	sword	Wwise Parametric EQ			
+	4202347640	Repeat_after_me	Wwise Harmonizer			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	25868842	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Wind Ambiences\Polar Winds\SoundSeed Air Wind	
 	39885879	SoundSeed Air Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Weapons\Arrows\Arrow\SoundSeed Air Woosh	
 	45385959	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Golf Club\SoundSeed Woosh	
-	59720546	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Weapons\pirateSword\SoundSeed Woosh	
+	59720546	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\soundsforminigame\pirateSword\SoundSeed Woosh	
 	60142098	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Vehicles\Airplane\Rumble\SoundSeed Air Wind	
 	60410286	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Weapons\Arrows\Silence\Wwise Silence	
 	71084047	SoundSeed Air Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Arrows\Arrows_02\Arrow\SoundSeed Air Woosh	
@@ -66,6 +81,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	365762760	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Urban Scene\Random Car Pass-by_03\Car Pass-by\SoundSeed Woosh	
 	372799448	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Non-Windy Ambiences\Urban Scene\Random Car Pass-by_02\Silence\Wwise Silence	
 	400146702	SoundSeed Air Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Vehicles\Locomotive\SoundSeed Air Woosh	Variations on a mechanical theme. Made for looping.
+	412623009	SoundSeed Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\soundsforminigame\New Sound SFX\SoundSeed Woosh	
 	414142681	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Arrows\Arrows_03\Silence\Wwise Silence	
 	480750206	SoundSeed Air Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Arrows\Arrows_01\Arrow\SoundSeed Air Woosh	
 	482980946	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Static Presets (wave file substitutions)\Weapons\Arrows\Arrows_06\Silence\Wwise Silence	
@@ -101,38 +117,53 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	1055663783	SoundSeed Air Woosh	SoundSeed Air/SoundSeed Woosh		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Wings\SoundSeed Air Woosh	Each wing beating, made for looping.
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	3687924	skelet step6	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step6_4089EDE8.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step6		47686
-	35348800	skelet step2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step2_B26CAF63.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step2		38204
-	49989946	kniv5	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv5_1FA6C38F.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv5		24668
-	88987367	kniv8	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv8_F44040FA.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv8		21004
-	106976220	skelet step4	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step4_EFC0CB74.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step4		37334
+	3687924	skelet step6	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step6_90AEC1D1.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step6		47686
+	14170797	rock explosion	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\rock explosion_D45E8B10.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\rock explosion		717920
+	20974474	reward1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\reward1_EBF8B08F.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\reward enemy\reward1		1091496
+	27717524	laser no hit1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\laser no hit1_DBDB161E.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\laser\laser no hit1		170896
+	35348800	skelet step2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step2_50BB39A3.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step2		38204
+	47152480	tentaclecut2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\tentaclecut2_61801951.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\blobMove\tentaclecut2		71220
+	49989946	kniv5	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv5_2EEBF9D4.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv5		24668
+	88987367	kniv8	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv8_94FECF14.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv8		21004
+	106976220	skelet step4	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step4_8694F6BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step4		37334
 	125529509	shark death	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\shark death_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\shark death		645024
-	199487326	Fart_BW_16107	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\Fart_BW.16107_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\Fart_BW_16107		302060
-	204934564	kniv4	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv4_81B2DCA6.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv4		20714
-	249956793	skelet step9	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step9_286C180C.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step9		45588
-	338687880	skelet death	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet death_7D882960.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonDeath\skelet death		151736
-	425034902	kniv7	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv7_F4C0D355.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv7		18494
-	466880421	Fart_BW_16108	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\Fart_BW.16108_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\Fart_BW_16108		153412
-	475251126	skelet step3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step3_1FE83BF6.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step3		37650
-	481533011	skelet step1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step1_5521D68C.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step1		24670
-	522403318	mask voodoo	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\mask voodoo_46AFBF40.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\maskAttack\mask voodoo		1019092
+	199487326	Fart_BW_16107	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\Fart_BW.16107_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\farts\Fart_BW_16107		302060
+	204934564	kniv4	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv4_448BC01E.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv4		20714
+	249956793	skelet step9	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step9_7C87E97B.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step9		45588
+	264129047	tentaclecut1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\tentaclecut1_7FBF1A40.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\blobMove\tentaclecut1		16248
+	279581122	rewardchoir2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\rewardchoir2_ED262880.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\reward obstacle\rewardchoir2		526012
+	338687880	skelet death	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet death_A8529665.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonDeath\skelet death		151736
+	425034902	kniv7	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv7_E716F3B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv7		18494
+	431098716	rewardchoir3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\rewardchoir3_F5C29132.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\reward obstacle\rewardchoir3		977672
+	466880421	Fart_BW_16108	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\Fart_BW.16108_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\farts\Fart_BW_16108		153412
+	475251126	skelet step3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step3_7FC48EAE.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step3		37650
+	481533011	skelet step1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step1_9B73B34A.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step1		24670
+	502623383	rockshatter	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\rockshatter_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\rockdebris\rockshatter		263900
+	510315317	tentaclecut3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\tentaclecut3_506F1083.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\blobMove\tentaclecut3		70742
+	522403318	mask voodoo	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\mask voodoo_7A30324C.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\maskAttack\mask voodoo		1019092
 	547303617	laser2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\laser2_7310B160.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser2		11030
-	559645394	Fart_SFXB_2033	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\Fart_SFXB.2033_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\Fart_SFXB_2033		108252
-	614790623	Fart_BW_61633	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\Fart_BW.61633_DFB4B055.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\Fart_BW_61633		73848
-	641084870	mask voodoo3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\mask voodoo3_1048CB4F.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\maskAttack\mask voodoo3		1214960
-	650274525	kniv6	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv6_6C377423.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv6		21342
-	662973777	kniv1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv1_E75DA812.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv1		78470
+	553952317	laser no hit2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\laser no hit2_5C33292D.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\laser\laser no hit2		199280
+	559645394	Fart_SFXB_2033	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\Fart_SFXB.2033_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\farts\Fart_SFXB_2033		108252
+	585737715	rewardchoir1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\rewardchoir1_D37B7BD6.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\reward obstacle\rewardchoir1		1009860
+	614790623	Fart_BW_61633	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\Fart_BW.61633_DFB4B055.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\farts\Fart_BW_61633		73848
+	641084870	mask voodoo3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\mask voodoo3_FD18B7EA.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\maskAttack\mask voodoo3		1214960
+	650274525	kniv6	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv6_83321DDD.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv6		21342
+	662973777	kniv1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv1_0D539073.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv1		78470
+	704912709	reward3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\reward3_F5111296.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\reward enemy\reward3		903900
+	717330701	rockshatter2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\rockshatter2_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\rockdebris\rockshatter2		266256
 	721673538	laser1	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\laser1_44BD0578.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser1		11695
 	762084009	laser4	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\laser4_3F4E9A61.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser4		9875
-	769500426	skelet death3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet death3_6D6AAD3A.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonDeath\skelet death3		81556
-	805093994	skelet step7	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step7_F22DA6E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step7		19700
-	834934271	kniv9	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv9_FFBF8498.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv9		20232
-	858796464	mask voodoo2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\mask voodoo2_B870CED5.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\maskAttack\mask voodoo2		1106436
-	864567352	skelet step5	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step5_DC4F9EFF.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step5		45226
-	922238736	kniv2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv2_E8F93F43.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv2		75814
+	769500426	skelet death3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet death3_8E5048E4.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonDeath\skelet death3		81556
+	805093994	skelet step7	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step7_9C1EE0AF.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step7		19700
+	834934271	kniv9	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv9_5746E175.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv9		20232
+	858796464	mask voodoo2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\mask voodoo2_7BF06443.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\maskAttack\mask voodoo2		1106436
+	864567352	skelet step5	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step5_4D4BB428.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step5		45226
+	922238736	kniv2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv2_8B76B865.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv2		75814
 	962984383	laser3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\laser3_164D752C.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser3		10710
-	980460444	kniv3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv3_E18A81AF.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv3		12800
-	991799614	skelet death2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet death2_91B86F10.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonDeath\skelet death2		68674
-	1018279328	PoopFart_SFXB_2095	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\PoopFart_SFXB.2095_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\PoopFart_SFXB_2095		473284
-	1073089635	skelet step8	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step8_689F5F44.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step8		39940
+	969169178	rockshatter3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\rockshatter3_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\rockdebris\rockshatter3		376972
+	980460444	kniv3	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\kniv3_FD66AE47.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv3		12800
+	991799614	skelet death2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet death2_1A0B6B74.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonDeath\skelet death2		68674
+	1016854918	reward2	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\reward2_BBAA398F.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\reward enemy\reward2		886436
+	1018279328	PoopFart_SFXB_2095	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\PoopFart_SFXB.2095_F74084CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder farts\farts\PoopFart_SFXB_2095		473284
+	1073089635	skelet step8	Y:\Documents\WwiseProjects\gruppe5 minigame2\.cache\Windows\SFX\skelet step8_54499A34.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonSteps\skelet step8		39940
 
