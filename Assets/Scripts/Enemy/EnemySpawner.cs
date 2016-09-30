@@ -15,9 +15,13 @@ public class EnemySpawner : Singleton<EnemySpawner>{
         return laneWidth;
     }
     
-    public void SpawnEnemy(float pos, EmptyEnemy Ee, EnemyType type)
+    public void SpawnEnemy(float pos, EmptyEnemy Ee, EnemyType type, int _lane)
     {
-        int lane = GetLane();
+        int lane = _lane;
+        if(lane == -1)
+        {
+            lane = GetLane();
+        }
         GameObject toSpawn;
         if(type == EnemyType.Mayan)
         {
