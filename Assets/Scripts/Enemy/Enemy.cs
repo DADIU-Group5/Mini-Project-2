@@ -14,22 +14,12 @@ public class Enemy : MonoBehaviour
     [Range(1, 10f)]
     [Tooltip("Score points gained/lost from enemy")]
     public int enemyPoints = 1;
-    public Animator enemyAnimator;
     bool test = false;
     bool pointsGiven = false;
 
     void Update()
     {
-        // Die
-        
-        if (hitByPlayer)// && enemyType == GameObject.FindObjectOfType<Player>().state.form)//and enemyType == player.enemyType
-        {
-            Debug.Log("Enabling animator! enemytype: " + enemyType + " and playertype: " + GameObject.FindObjectOfType<Player>().state.form);
-            //Enable animator:
-            enemyAnimator.enabled = true;
-            test = true;
-        }
-
+       
     }
 
     public void DestroySelf()//is being called continuosly...
@@ -60,6 +50,14 @@ public class Enemy : MonoBehaviour
             else if (enemyType == EnemyType.Spaceman)
             {
                 AudioMaster.instance.PlayEvent("enemyBlobDeath");
+            }
+            // Die
+            if (GameObject.FindObjectOfType<Player>().state.form == EnemyType.Mayan)// && enemyType == GameObject.FindObjectOfType<Player>().state.form)//and enemyType == player.enemyType
+            {
+                Debug.Log("Enabling animator! enemytype: " + enemyType + " and playertype: " + GameObject.FindObjectOfType<Player>().state.form);
+                //Enable animator:
+                this.gameObject.GetComponentInChildren<Animation>().Play();
+                test = true;
             }
             DestroySelf();
             pointsGiven = true;

@@ -279,6 +279,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011256809924}
   - 95: {fileID: 95000011645708810}
+  - 111: {fileID: 111000013213684034}
   m_Layer: 0
   m_Name: EnemyASkeleton
   m_TagString: Untagged
@@ -922,6 +923,21 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &111000013213684034
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012870848146}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 2ad69f023963f06429a47c7d24f87724, type: 3}
+  m_Animations:
+  - {fileID: 7400000, guid: 2ad69f023963f06429a47c7d24f87724, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!114 &114000011138879834
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -937,7 +953,6 @@ MonoBehaviour:
   lane: 0
   enemyType: 1
   enemyPoints: 1
-  enemyAnimator: {fileID: 95000011645708810}
 --- !u!114 &114000011601621408
 MonoBehaviour:
   m_ObjectHideFlags: 1
