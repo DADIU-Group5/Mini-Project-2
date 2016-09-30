@@ -114,14 +114,14 @@ public class Player : MonoBehaviour
         {
             case EnemyType.Mayan:
                 AudioMaster.instance.PlayEvent("switchMayan");
-                pirateModel.SetActive(true);
-                mayanModel.SetActive(false);
+                pirateModel.SetActive(false);
+                mayanModel.SetActive(true);
                 spacemanModel.SetActive(false);
                 break;
             case EnemyType.Pirate:
                 AudioMaster.instance.PlayEvent("switchPirate");
-                pirateModel.SetActive(false);
-                mayanModel.SetActive(true);
+                pirateModel.SetActive(true);
+                mayanModel.SetActive(false);
                 spacemanModel.SetActive(false);
                 break;
             case EnemyType.Spaceman:
@@ -141,20 +141,20 @@ public class Player : MonoBehaviour
 
     public void Attack()
     {
-        if (state.form == 0)
+        switch (state.form)
         {
-            playerAnimatorPirate.SetTrigger("pirateAttack");
-            AudioMaster.instance.PlayEvent("swordAttack");
-        }
-        else if ((int)state.form == 1)
-        {
-            playerAnimatorMayan.SetTrigger("mayanAttack");
-            AudioMaster.instance.PlayEvent("maskAttack");
-        }
-        else if ((int)state.form == 2)
-        {
-            playerAnimatorSpaceman.SetTrigger("spacemanAttack");
-            AudioMaster.instance.PlayEvent("laserAttack");
+            case EnemyType.Mayan:
+                playerAnimatorMayan.SetTrigger("mayanAttack");
+                AudioMaster.instance.PlayEvent("maskAttack");
+                break;
+            case EnemyType.Pirate:
+                playerAnimatorPirate.SetTrigger("pirateAttack");
+                AudioMaster.instance.PlayEvent("swordAttack");
+                break;
+            case EnemyType.Spaceman:
+                playerAnimatorSpaceman.SetTrigger("spacemanAttack");
+                AudioMaster.instance.PlayEvent("laserAttack");
+                break;
         }
     }
 }
