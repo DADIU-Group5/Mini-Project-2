@@ -22,13 +22,14 @@ public class EnemyMovement : MonoBehaviour
     {
         enemyRb = this.gameObject.GetComponent<Rigidbody>();
         enemyType = this.gameObject.GetComponent<Enemy>().enemyType;
+        enemySpeed = GameObject.FindObjectOfType<TerrainGenerator>().moveSpeed;
     }
 	
 	void Update ()
     {
         if (this.gameObject.transform.position.x <= destroyPoint)
         {
-            ScoreManager.instance.ModifyPoint(-1* this.gameObject.GetComponent<Enemy>().enemyPoints);
+            ScoreManager.instance.ModifyPoint(0, false); //type: enemy (0), give points: false
             this.gameObject.GetComponent<Enemy>().DestroySelf();
         }
         else

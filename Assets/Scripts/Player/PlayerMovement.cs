@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void SwipeUp()
     {
+        print("up");
         if (playerState.lane < 2)
         {
             MoveUp();
