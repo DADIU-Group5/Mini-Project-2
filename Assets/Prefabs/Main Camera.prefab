@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013748008576}
   - 33: {fileID: 33000013495042094}
-  - 64: {fileID: 64000014274478516}
   - 23: {fileID: 23000012386998976}
   - 114: {fileID: 114000013707475158}
   m_Layer: 0
@@ -39,7 +38,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010344925866}
   - 33: {fileID: 33000010187289916}
-  - 64: {fileID: 64000013812260908}
   - 23: {fileID: 23000012831917892}
   - 114: {fileID: 114000013390191518}
   m_Layer: 0
@@ -60,6 +58,7 @@ GameObject:
   - 20: {fileID: 20000012385336400}
   - 92: {fileID: 92000011254155950}
   - 124: {fileID: 124000011892417254}
+  - 114: {fileID: 114000013750060994}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -214,30 +213,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010438462474}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!64 &64000013812260908
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010913216028}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!64 &64000014274478516
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000010438462474}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!92 &92000011254155950
 Behaviour:
   m_ObjectHideFlags: 1
@@ -269,6 +244,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.1
+--- !u!114 &114000013750060994
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014285864344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c04326db845a747948954517393bd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listenerId: 0
 --- !u!124 &124000011892417254
 Behaviour:
   m_ObjectHideFlags: 1
