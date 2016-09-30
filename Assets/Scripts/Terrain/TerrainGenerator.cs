@@ -121,7 +121,7 @@ public class TerrainGenerator : MonoBehaviour {
     void CreateEnemies(ChunkData CD)
     {
         GameObject newEnemy = Instantiate(emptyEnemy, lastChunk.transform.position, Quaternion.identity) as GameObject;
-        newEnemy.GetComponent<EmptyEnemy>().Setup(enemySpawnX,CD.enemyType);
+        newEnemy.GetComponent<EmptyEnemy>().Setup(enemySpawnX,CD.enemyType,CD.specificLane);
         newEnemy.transform.parent = lastChunk.transform;
     }
 
@@ -230,6 +230,8 @@ public class ChunkData
     public TerrainType type;
     [Tooltip("Only if type is enemy")]
     public EnemyType enemyType;
+    [Tooltip("ONLY if used as part of tutorial! SHOULD NOT be used otherwise.")]
+    public int specificLane = -1;
     public GameObject obj;
 }
 

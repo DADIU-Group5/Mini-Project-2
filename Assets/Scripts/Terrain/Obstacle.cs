@@ -37,16 +37,19 @@ public class Obstacle : TerrainMovement {
         {
             AudioMaster.instance.PlayEvent("obstacleSuccesPirate");
             AudioMaster.instance.PlayEvent("rewardObstaclePirate");
+            this.GetComponentInChildren<Animation>().Play();
         }
         else if (weakAgainst == EnemyType.Mayan)
         {
             AudioMaster.instance.PlayEvent("obstacleSuccesMayan");
             AudioMaster.instance.PlayEvent("rewardObstacleMayan");
+            this.GetComponentInChildren<Animation>().Play();
         }
         else if (weakAgainst == EnemyType.Spaceman)
         {
             AudioMaster.instance.PlayEvent("obstacleSuccesSpaceman");
             AudioMaster.instance.PlayEvent("rewardObstacleSpaceman");
+            this.GetComponentInChildren<Animation>().Play();
         }
         RemoveObstacle();
     }
