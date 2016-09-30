@@ -55,7 +55,7 @@ MonoBehaviour:
   chunkLength: 2
   moveSpeed: 7
   spawnPoint: {x: 20, y: 0, z: 0}
-  destroyXPos: -5
+  destroyXPos: -3
   emptyEnemy: {fileID: 1000010938069714, guid: 0e3f39bc53c64f54b8065e88676f98a4, type: 2}
   ground: {fileID: 0}
   enemySpawnX: 10.5
@@ -66,41 +66,49 @@ MonoBehaviour:
     id: 98
     type: 0
     enemyType: 0
+    specificLane: -1
     obj: {fileID: 1000011602818330, guid: a58e6b6c8b6fb0744bc80d9c63ba149f, type: 2}
   - name: PirateEnemy
     id: 107
     type: 1
     enemyType: 0
+    specificLane: -1
     obj: {fileID: 1000011602818330, guid: a58e6b6c8b6fb0744bc80d9c63ba149f, type: 2}
   - name: MayanEnemy
     id: 115
     type: 1
     enemyType: 1
+    specificLane: -1
     obj: {fileID: 1000011602818330, guid: a58e6b6c8b6fb0744bc80d9c63ba149f, type: 2}
   - name: SpacemanEnemy
     id: 97
     type: 1
     enemyType: 2
+    specificLane: -1
     obj: {fileID: 1000011602818330, guid: a58e6b6c8b6fb0744bc80d9c63ba149f, type: 2}
   - name: PirateObstacle
     id: 84
     type: 2
     enemyType: 0
+    specificLane: -1
     obj: {fileID: 1000010154146112, guid: 9ea6c1be4d258134a9ed3a0e07f1bb5f, type: 2}
   - name: MayanObstacle
     id: 87
     type: 2
     enemyType: 1
+    specificLane: -1
     obj: {fileID: 1000012744144166, guid: 5fc4a761fa51af643a98db20c8e1ea93, type: 2}
   - name: SpacemanObstacle
     id: 82
     type: 2
     enemyType: 2
+    specificLane: -1
     obj: {fileID: 1000012100747884, guid: a89bfbca17efd354498ce8da710098bf, type: 2}
   - name: END
     id: 101
     type: 0
     enemyType: 2
+    specificLane: -1
     obj: {fileID: 1000012519122946, guid: da4978ddc5aa8d04a97094e1c2632d21, type: 2}
 --- !u!114 &114000013920274518
 MonoBehaviour:

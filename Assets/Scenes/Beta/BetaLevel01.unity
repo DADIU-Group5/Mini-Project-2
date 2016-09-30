@@ -151,7 +151,7 @@ Prefab:
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
       propertyPath: chunkDatabase.Array.size
-      value: 8
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4000012115612558, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc, type: 2}
       propertyPath: m_LocalPosition.x
@@ -288,7 +288,7 @@ Prefab:
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
       propertyPath: levelData.levelInfo
-      value: bbbbbbbbbbkbbbbbkbbbbbkbbbbbbbTbbbbkbbbbkbbbbTbbbbkbbbkbbbkbbbkbbbTbbkbbbkbbkbbkbbkbbbkbbkbbTbbkbkbkbbkbkbbkbkbkbkbbkbkbTebbbbbbbb
+      value: bbbbb1bbbbd2bbbbubbbbbdbb3bbbbTbbbbkbbbbkbbbbTbbbbkbbbkbbbkbbbkbbbTbbkbbbkbbkbbkbbkbbbkbbkbbTbbkbkbkbbkbkbbkbkbkbkbbkbkbTebbbbbbbb
       objectReference: {fileID: 0}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
@@ -400,12 +400,12 @@ Prefab:
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
       propertyPath: chunkDatabase.Array.data[7].name
-      value: END
+      value: Tut01
       objectReference: {fileID: 0}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
       propertyPath: chunkDatabase.Array.data[7].id
-      value: 101
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
@@ -421,13 +421,153 @@ Prefab:
         type: 2}
       propertyPath: chunkDatabase.Array.data[7].obj
       value: 
-      objectReference: {fileID: 1000012519122946, guid: da4978ddc5aa8d04a97094e1c2632d21,
+      objectReference: {fileID: 1000013874836388, guid: 03acf6dd072daa140bed8986e2f4aeb4,
         type: 2}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
       propertyPath: ground
       value: 
       objectReference: {fileID: 1696199187}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[8].name
+      value: Tut02
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[8].id
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[8].enemyType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[8].specificLane
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[8].obj
+      value: 
+      objectReference: {fileID: 1000013874836388, guid: 50e87538a90042047b77dd49f6fffe9a,
+        type: 2}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[9].name
+      value: Tut03
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[9].id
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[9].enemyType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[9].specificLane
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[9].obj
+      value: 
+      objectReference: {fileID: 1000013874836388, guid: 2494c471ea067f3479480cd2f80b0885,
+        type: 2}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[10].name
+      value: END
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[10].id
+      value: 101
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[10].enemyType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[10].specificLane
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[10].obj
+      value: 
+      objectReference: {fileID: 1000012519122946, guid: da4978ddc5aa8d04a97094e1c2632d21,
+        type: 2}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[11].name
+      value: PirateUpChunk
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[11].id
+      value: 117
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[11].enemyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[11].specificLane
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[11].obj
+      value: 
+      objectReference: {fileID: 1000011602818330, guid: a58e6b6c8b6fb0744bc80d9c63ba149f,
+        type: 2}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[12].name
+      value: PirateDownChunk
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[12].id
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[12].enemyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[12].specificLane
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[12].obj
+      value: 
+      objectReference: {fileID: 1000011602818330, guid: a58e6b6c8b6fb0744bc80d9c63ba149f,
+        type: 2}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[11].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[12].type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc, type: 2}
   m_IsPrefabParent: 0
@@ -493,22 +633,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
---- !u!1 &551599124 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1000010428370336, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-    type: 2}
-  m_PrefabInternal: {fileID: 415226841}
---- !u!114 &551599125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 551599124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f40baaea67e67649848deeae4644a8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &726241421
 GameObject:
   m_ObjectHideFlags: 0
@@ -1020,6 +1144,11 @@ Prefab:
         type: 2}
       propertyPath: jumpHeight
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011305348724, guid: 1bc2a63d41d4dd04f8407c81987efabb,
+        type: 2}
+      propertyPath: lockHorizontalSwipe
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1bc2a63d41d4dd04f8407c81987efabb, type: 2}

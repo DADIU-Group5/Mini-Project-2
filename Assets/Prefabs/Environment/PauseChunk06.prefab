@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000011110599568}
   - 114: {fileID: 114000011759425182}
   m_Layer: 0
-  m_Name: PauseChunk
+  m_Name: PauseChunk06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52,6 +52,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseUI: {fileID: 1000011826118446, guid: 93f9e40b05646eb469429bcb0daf82ff, type: 2}
-  danishText: Swipe ned
-  englishText: Swipe down
-  stopMethod: 1
+  danishText: "En udl\xE6nding! Stryg til venstre for Spaceman Hugo!"
+  englishText: An alien! Swipe left for Spaceman Hugo!
+  stopMethod: 3

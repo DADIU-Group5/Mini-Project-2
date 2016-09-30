@@ -156,7 +156,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f18dae461ba6d8c4399065c14c20170f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  listenerId: 0
 --- !u!114 &33815360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,6 +232,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.size
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012115612558, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc, type: 2}
       propertyPath: m_LocalPosition.x
       value: -6
@@ -270,6 +274,68 @@ Prefab:
       propertyPath: ground
       value: 
       objectReference: {fileID: 336891223}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[8].name
+      value: Tut1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[8].id
+      value: 49
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[8].enemyType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[8].specificLane
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[8].obj
+      value: 
+      objectReference: {fileID: 1000013874836388, guid: 4e66df4634e435447ac3ef5b5e4c8c5b,
+        type: 2}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: levelData.levelInfo
+      value: bbbbbbbbbbabbbbbabbbbbabbbbbbbRbbbbabbbbkbbbbsbbbWbbbbkbbbabbbsbbbabbbTbbkbbbabbkbbbsbbbabbbsbbkbbRbbabbkbkbbsbsbbabbkbkbbababbsbsbbTbbababbkbbRebbbbbbbb
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[9].name
+      value: piratelan1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[9].id
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[9].enemyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[9].specificLane
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[9].obj
+      value: 
+      objectReference: {fileID: 1000011602818330, guid: a58e6b6c8b6fb0744bc80d9c63ba149f,
+        type: 2}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[9].type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc, type: 2}
   m_IsPrefabParent: 0
