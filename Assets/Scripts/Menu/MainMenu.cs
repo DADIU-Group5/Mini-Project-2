@@ -29,7 +29,7 @@ public class MainMenu : MonoBehaviour {
 
     public void ShowLevels()
     {
-        amountOfLevels = SceneManager.sceneCountInBuildSettings;
+        amountOfLevels = SceneManager.sceneCountInBuildSettings-1;
         for (int i = 1; i < amountOfLevels; i++)
         {
             GameObject GO = Instantiate(basicButton, transform) as GameObject;
@@ -68,7 +68,14 @@ public class MainMenu : MonoBehaviour {
 	
 	public void LoadLevel(int i)
     {
-        SceneManager.LoadScene(i);
+        if (i == 1)
+        {
+            SceneManager.LoadScene(SceneManager.sceneCountInBuildSettings - 1);
+        }
+        else
+        {
+            SceneManager.LoadScene(i);
+        }
     }
 
     public void ReturnToMainMenu()

@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class IntroManager : MonoBehaviour {
+public class IntroSceneManager : MonoBehaviour {
 
     [System.Serializable]
     public struct IntroPart {

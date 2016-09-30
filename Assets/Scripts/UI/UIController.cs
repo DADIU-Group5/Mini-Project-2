@@ -80,7 +80,7 @@ public class UIController : Singleton<UIController> {
             RetryText.text = "Prøv igen";
             NextLevelText.text = "Næste niveau";
         }
-        if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings-1)
+        if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings-2)
         {
             NextLevelButton.SetActive(false);
         }
@@ -95,7 +95,7 @@ public class UIController : Singleton<UIController> {
     public void NextLevel()
     {
         DisableStars();
-        if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings-1)
+        if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings-2)
         {
             SceneManager.LoadScene(0);
         }
