@@ -171,16 +171,15 @@
 								<Effect Name="Mason_Jar" ID="{95ED317D-77AB-42A7-A812-BD8E8CAB6A7B}" PluginName="McDSP FutzBox" CompanyID="256" PluginID="110" PluginType="3">
 									<PropertyList>
 										<Property Name="DistortionAmount" Type="Real32" Value="48.1"/>
+										<Property Name="DistortionEnable" Type="bool" Value="False"/>
 										<Property Name="DistortionIntensity" Type="Real32" Value="41.9"/>
 										<Property Name="DistortionMode" Type="int32" Value="5"/>
 										<Property Name="EQEnable" Type="bool" Value="False"/>
 										<Property Name="FiltersHPFFreq" Type="Real32" Value="76.4"/>
 										<Property Name="FiltersHPFQ" Type="Real32" Value="26.1"/>
 										<Property Name="FiltersLPFFreq" Type="Real32" Value="16600"/>
-										<Property Name="GateEnable" Type="bool" Value="False"/>
 										<Property Name="LoFiEnable" Type="bool" Value="False"/>
-										<Property Name="NoiseEnable" Type="bool" Value="False"/>
-										<Property Name="OutputGain" Type="Real32" Value="-3"/>
+										<Property Name="NoiseLevel" Type="Real32" Value="-30"/>
 										<Property Name="SIMType" Type="int32" Value="15"/>
 									</PropertyList>
 								</Effect>

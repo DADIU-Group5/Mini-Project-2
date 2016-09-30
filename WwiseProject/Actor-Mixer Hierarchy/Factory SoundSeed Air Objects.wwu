@@ -11385,6 +11385,9 @@ Presence is roughly related to distance and occlusion</Comment>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
 								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="rvb1" ID="{3714E54D-BF36-4DD7-A60C-AE519D973518}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<SourcePlugin Name="SoundSeed Woosh" ID="{2C82C226-6C6F-4059-A97C-064E220D9F17}" ShortID="59720546" PluginName="SoundSeed Air/SoundSeed Woosh" CompanyID="0" PluginID="120">
@@ -11550,6 +11553,9 @@ Presence is roughly related to distance and occlusion</Comment>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="rvb1" ID="{3714E54D-BF36-4DD7-A60C-AE519D973518}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>

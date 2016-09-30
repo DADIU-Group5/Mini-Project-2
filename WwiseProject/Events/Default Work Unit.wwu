@@ -93,7 +93,7 @@
 						<Action Name="Play" ID="{9E005624-54D6-48C9-821F-77B53B81AEBB}" ShortID="295627190" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{BC2C4A8F-1F8A-415C-9B0B-509B1A6E8D83}" Global="false">
-									<ObjectRef Name="Fart_BW_16108" ID="{5340A91F-0F59-403D-A385-91CA1314E58C}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+									<ObjectRef Name="sharkMove" ID="{7AFF8BD8-7D5F-4FC7-A9B7-2DC80FCA44EB}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -108,6 +108,13 @@
 								</Element>
 							</ElementList>
 						</Action>
+						<Action Name="Play" ID="{39505247-165C-4413-B3DC-F42EA3BAFE1C}" ShortID="984757080" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0A3BC917-B90F-4635-850C-3A6DE0914BAD}" Global="false">
+									<ObjectRef Name="point gained" ID="{AD42F78B-AD71-4B03-888B-4E7EA60D4B71}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="rewardObstaclePirate" ID="{7A7BB01C-DD02-4809-8AB0-E9C1574AB128}">
@@ -119,6 +126,13 @@
 								</Element>
 							</ElementList>
 						</Action>
+						<Action Name="Play" ID="{D0EE785C-619E-41D5-87F8-E195117929BF}" ShortID="858978817" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E2E0A891-2EB4-4303-B132-414D13559E3F}" Global="false">
+									<ObjectRef Name="point gained" ID="{AD42F78B-AD71-4B03-888B-4E7EA60D4B71}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="pointLoss" ID="{C96254FD-708D-48E1-9B02-4336169A584F}">
@@ -126,7 +140,7 @@
 						<Action Name="Play" ID="{77AEF06C-433C-4EC0-AC23-84AEE99D0C12}" ShortID="192717525" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{4041C8CD-01F3-4F65-ABD9-95DA42BF1D85}" Global="false">
-									<ObjectRef Name="farts" ID="{2F94E1DF-E03C-4E25-86F1-0347AEED2276}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+									<ObjectRef Name="point lost" ID="{75BB24E0-3ED9-4B14-A4EA-B20537EA0AEC}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -179,7 +193,7 @@
 						<Action Name="Play" ID="{68BD70A5-2950-4D9F-BD04-D554C3DE60DA}" ShortID="476355962" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{B1A97558-56A5-47A8-837D-FEDA879A9DC2}" Global="false">
-									<ObjectRef Name="Fart_BW_61633" ID="{123A53C9-34A7-4401-8464-C2CA29CEBB33}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+									<ObjectRef Name="evil spirits" ID="{DD6F650B-93AA-49D8-8B34-8EF74FA3B6A9}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -190,7 +204,7 @@
 						<Action Name="Play" ID="{96449655-3A80-48F2-B2D3-171D37D6787F}" ShortID="332630150" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{FA87B2B6-2A07-43F4-871F-1F19E982468B}" Global="false">
-									<ObjectRef Name="Fart_SFXB_2033" ID="{AE6ADAB9-2C91-4EB1-8A65-A2324094EBEF}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+									<ObjectRef Name="farts" ID="{2F94E1DF-E03C-4E25-86F1-0347AEED2276}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -260,6 +274,13 @@
 								</Element>
 							</ElementList>
 						</Action>
+						<Action Name="Play" ID="{21737F33-57D5-47AC-B46D-71DA6FDB9B69}" ShortID="739481353" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{766AA6A3-65D2-4BB3-A73C-6255B296FBD1}" Global="false">
+									<ObjectRef Name="point gained" ID="{AD42F78B-AD71-4B03-888B-4E7EA60D4B71}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="rewardKillMayan" ID="{8BCB57A8-D7D9-4729-A7EE-811F082939E0}">
@@ -268,6 +289,13 @@
 							<ElementList>
 								<Element ID="{05E5860A-739C-4E67-A71D-2760E6C27DF1}" Global="false">
 									<ObjectRef Name="reward enemy" ID="{83E0EE54-2572-4273-A911-8133D5F497FF}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{74B6F068-1206-4084-9830-8E44DEA6FC64}" ShortID="513098476" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{41A44412-6206-4B99-A5F9-1E125A6DA118}" Global="false">
+									<ObjectRef Name="point gained" ID="{AD42F78B-AD71-4B03-888B-4E7EA60D4B71}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -282,6 +310,13 @@
 								</Element>
 							</ElementList>
 						</Action>
+						<Action Name="Play" ID="{9109C0AC-A4C1-4D54-A8C0-09093191DB32}" ShortID="199590189" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BBD29ED0-DAE2-44F9-9E7D-A6B0861226E0}" Global="false">
+									<ObjectRef Name="point gained" ID="{AD42F78B-AD71-4B03-888B-4E7EA60D4B71}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="rewardObstacleMayan" ID="{A79A6770-48FC-41B6-A8CE-066DA35AB5D6}">
@@ -290,6 +325,89 @@
 							<ElementList>
 								<Element ID="{9E04A6D0-B321-4446-9B0F-34E209F0ABB0}" Global="false">
 									<ObjectRef Name="reward obstacle" ID="{0372BF65-6799-4EDD-871C-60D6D6771E4F}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{EBC2E498-820D-40A0-B48D-503EA1CE5428}" ShortID="765065174" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6ADA625A-2877-4279-932F-75314D78FC30}" Global="false">
+									<ObjectRef Name="point gained" ID="{AD42F78B-AD71-4B03-888B-4E7EA60D4B71}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="summonShark" ID="{42CD556D-3D3A-459B-A055-E48C7C922F5E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E4D02E3C-AFE5-4319-96FD-954432E8E180}" ShortID="566529124" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{FEABB0FF-C73C-4DE0-B62E-A9E539515D16}" Global="false">
+									<ObjectRef Name="minion summon" ID="{3EA4C168-FEF0-4C1D-87AF-E3B15B563236}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{08D4AB52-F016-4E59-AC50-DFB6B372342C}" ShortID="697072745" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3F87E906-8386-431A-9B33-8BEE8AB25F4B}" Global="false">
+									<ObjectRef Name="minion summon lightning magic" ID="{688AB29B-BB96-4D8D-9D7A-7A2219C37837}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="summonSkeleton" ID="{5F20FF8B-4EA9-46D0-BA2F-A10D0D89C608}">
+					<ChildrenList>
+						<Action Name="Play" ID="{5388E3DC-58EA-45F9-BECE-D692A6FED108}" ShortID="688352527" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{ED4DA66B-8D4E-4CCC-8599-B678895D6BF1}" Global="false">
+									<ObjectRef Name="minion summon" ID="{3EA4C168-FEF0-4C1D-87AF-E3B15B563236}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{063FDF3D-8CA2-42DA-846E-C934D795EFFA}" ShortID="427483840" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{5CA3D14C-237A-40FD-B701-C7BA900BC759}" Global="false">
+									<ObjectRef Name="minion summon lightning magic" ID="{688AB29B-BB96-4D8D-9D7A-7A2219C37837}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="summonBlob" ID="{37D4F289-67F1-4801-B438-D417D57423C0}">
+					<ChildrenList>
+						<Action Name="Play" ID="{3F73F633-7457-4192-9BD8-2D405A3573EC}" ShortID="527983496" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{AFD8831D-8AF3-4E0F-8331-6922A3CEF6DA}" Global="false">
+									<ObjectRef Name="minion summon" ID="{3EA4C168-FEF0-4C1D-87AF-E3B15B563236}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{902908EE-8229-472F-804E-FB3822271590}" ShortID="696355828" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4377C204-9517-485F-BC65-7B6A83B1F7DB}" Global="false">
+									<ObjectRef Name="minion summon lightning magic" ID="{688AB29B-BB96-4D8D-9D7A-7A2219C37837}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="musicPlay" ID="{4EF37B3B-277B-43EC-AD6D-87CA59555CC1}">
+					<ChildrenList>
+						<Action Name="Play" ID="{4E6EEAD9-8CE4-44E3-95F7-35184843B771}" ShortID="488306434" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{328493F6-7845-4D50-BABE-ED25AD51714B}" Global="false">
+									<ObjectRef Name="piratemusic" ID="{AE3A1077-CC9D-4F38-ACD7-8E7E18D1321F}" WorkUnitID="{AEDB506B-D893-466E-B78B-0A28E1A48AA8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="musicStop" ID="{32B5C818-AF08-454E-95D4-C1C5229165A5}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{2BA02B60-86EE-407C-8B1F-69F17751D82F}" ShortID="412347540" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C6EEAF07-E4C0-471E-A2A5-A69FA3D1027D}" Global="false">
+									<ObjectRef Name="piratemusic" ID="{AE3A1077-CC9D-4F38-ACD7-8E7E18D1321F}" WorkUnitID="{AEDB506B-D893-466E-B78B-0A28E1A48AA8}"/>
 								</Element>
 							</ElementList>
 						</Action>

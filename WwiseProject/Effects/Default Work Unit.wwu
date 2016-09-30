@@ -325,6 +325,24 @@
 						<Property Name="QFactorBand3" Type="Real32" Value="35"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="reaward_choir" ID="{5EEFD128-4516-4AE0-8A78-CEA4642C395B}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand1" Type="Real32" Value="433"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="849"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="4517"/>
+						<Property Name="GainBand1" Type="Real32" Value="-24"/>
+						<Property Name="GainBand2" Type="Real32" Value="-24"/>
+						<Property Name="GainBand3" Type="Real32" Value="-5"/>
+						<Property Name="QFactorBand2" Type="Real32" Value="1.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="tentacle" ID="{5889BFC4-8ECC-4D52-A810-54CF02DEE88A}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="OutputGain" Type="Real32" Value="6.4"/>
+						<Property Name="Ratio" Type="Real32" Value="14.4"/>
+						<Property Name="Threshold" Type="Real32" Value="-35"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

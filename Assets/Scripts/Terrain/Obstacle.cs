@@ -39,11 +39,13 @@ public class Obstacle : TerrainMovement {
         if (weakAgainst == EnemyType.Pirate)
         {
             AudioMaster.instance.PlayEvent("obstacleSuccesPirate");
+            AudioMaster.instance.PlayEvent("rewardObstaclePirate");
             this.GetComponentInChildren<Animation>().Play();
         }
         else if (weakAgainst == EnemyType.Mayan)
         {
             AudioMaster.instance.PlayEvent("obstacleSuccesMayan");
+            AudioMaster.instance.PlayEvent("rewardObstacleMayan");
             mayanAnimations = GetComponentsInChildren<Animation>();
             //this.GetComponentInChildren<Animation>().Play();
             foreach (Animation animation in mayanAnimations)
@@ -55,6 +57,7 @@ public class Obstacle : TerrainMovement {
         else if (weakAgainst == EnemyType.Spaceman)
         {
             AudioMaster.instance.PlayEvent("obstacleSuccesSpaceman");
+            AudioMaster.instance.PlayEvent("rewardObstacleSpaceman");
             spaceAnimations = GetComponentsInChildren<Animation>();
             //this.GetComponentInChildren<Animation>().Play();
             foreach (Animation animation in spaceAnimations)
