@@ -20,11 +20,15 @@ public class Player : MonoBehaviour
     public GameObject mayanModel;
     public GameObject spacemanModel;
 
-    private Animator playerAnimator;
+    private Animator playerAnimatorPirate;
+    private Animator playerAnimatorMayan;
+    private Animator playerAnimatorSpaceman;
 
     void Start()
     {
-        playerAnimator = this.GetComponentInChildren<Animator>();
+        playerAnimatorPirate = pirateModel.GetComponent<Animator>();
+        playerAnimatorMayan = mayanModel.GetComponent<Animator>();
+        playerAnimatorSpaceman = spacemanModel.GetComponent<Animator>();
 
         ChangeForm();
         jumpStartTime = -jumpTime;
@@ -35,8 +39,20 @@ public class Player : MonoBehaviour
         // Perform jump.
         if (jumpStartTime + jumpTime >= Time.timeSinceLevelLoad && jumpStartTime + jumpTime != 0)
         {
-            //playerAnimator.SetTrigger("Jump");
-            playerAnimator.SetBool("Jump", true);
+            //trigger jump
+            if (state.form == 0)
+            {
+                playerAnimatorPirate.SetBool("Jump", true);
+            }
+            else if ((int)state.form == 1)
+            {
+                playerAnimatorMayan.SetBool("Jump", true);
+            }
+            else if ((int)state.form == 2)
+            {
+                playerAnimatorSpaceman.SetBool("Jump", true);
+            }
+
             float t = (Time.timeSinceLevelLoad - jumpStartTime) / jumpTime;
 
             Vector3 pos = transform.position;
@@ -44,7 +60,20 @@ public class Player : MonoBehaviour
         }
         else
         {
-            playerAnimator.SetBool("Jump", false);
+            //stop jump anim
+            if (state.form == 0)
+            {
+                playerAnimatorPirate.SetBool("Jump", false);
+            }
+            else if ((int)state.form == 1)
+            {
+                playerAnimatorMayan.SetBool("Jump", false);
+            }
+            else if ((int)state.form == 2)
+            {
+                playerAnimatorSpaceman.SetBool("Jump", false);
+            }
+
             Vector3 pos = transform.position;
             transform.position = new Vector3(pos.x, 0, pos.z);
         }
