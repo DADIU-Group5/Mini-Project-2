@@ -1,17 +1,23 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class InputManager : MonoBehaviour {
 
     [Range(0, 200)]
     [Tooltip("Amount of pixels to move the finger on the screen, in order for the game to register a swipe.")]
     public int pixelsForSwipe;
+    [Tooltip("Locks horizontal swipes, e.g. player cannot change states, should only be true in some tutorial levels")]
+    public bool lockHorizontalSwipe = false;
 
     private Vector2 touchOrigin;    // Used to store the origin of the touch.
     private bool canSwipe;  // Used to store whether or not the player can swipe.
     private Touch myTouch;  // Used to detect when the finger is touching the screen.
     private PlayerMovement playerMovement;
     private Player player;
+
+    private Action waitingForinput;
+    private waitForSpecificSwipe waitingForSpecificInput = 0;
 
     // Use this for initialization
     void Start()
@@ -135,6 +141,15 @@ public class InputManager : MonoBehaviour {
      */
     private void SwipeUp()
     {
+        if (waitingForSpecificInput == waitForSpecificSwipe.swipeUp)
+        {
+            waitingForinput();
+            DoneWaiting();
+        }
+        else if (waitingForSpecificInput != waitForSpecificSwipe.none)
+        {
+            return;
+        }
         canSwipe = false;
         playerMovement.SwipeUp();
     }
@@ -144,6 +159,15 @@ public class InputManager : MonoBehaviour {
      */
     private void SwipeDown()
     {
+        if (waitingForSpecificInput == waitForSpecificSwipe.swipeDown)
+        {
+            waitingForinput();
+            DoneWaiting();
+        }
+        else if (waitingForSpecificInput != waitForSpecificSwipe.none)
+        {
+            return;
+        }
         canSwipe = false;
         playerMovement.SwipeDown();
     }
@@ -153,6 +177,19 @@ public class InputManager : MonoBehaviour {
      */
     private void SwipeRight()
     {
+        if (lockHorizontalSwipe)
+        {
+            return;
+        }
+        if(waitingForSpecificInput == waitForSpecificSwipe.swipeRight)
+        {
+            waitingForinput();
+            DoneWaiting();
+        }
+        else if(waitingForSpecificInput != waitForSpecificSwipe.none)
+        {
+            return;
+        }
         canSwipe = false;
         player.SwipeRight();
     }
@@ -162,7 +199,37 @@ public class InputManager : MonoBehaviour {
      */
     private void SwipeLeft()
     {
+        if (lockHorizontalSwipe)
+        {
+            return;
+        }
+        if (waitingForSpecificInput == waitForSpecificSwipe.swipeLeft)
+        {
+            waitingForinput();
+            DoneWaiting();
+        }
+        else if(waitingForSpecificInput != waitForSpecificSwipe.none)
+        {
+            return;
+        }
         canSwipe = false;
         player.SwipeLeft();
+    }
+
+    /// <summary>
+    /// Set the method that should be called when the correct swipe is performed.
+    /// </summary>
+    /// <param name="m"></param>
+    /// <param name="s"></param>
+    public void SetWaitingForInput(Action m, waitForSpecificSwipe s)
+    {
+        waitingForinput = m;
+        waitingForSpecificInput = s;
+    }
+
+    private void DoneWaiting()
+    {
+        waitingForSpecificInput = 0;
+        waitingForinput = null;
     }
 }

@@ -129,6 +129,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 4000010344925866, guid: 0a82bf4b39974ed4e88ce5a05973e79f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013748008576, guid: 0a82bf4b39974ed4e88ce5a05973e79f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.48
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0a82bf4b39974ed4e88ce5a05973e79f, type: 2}
   m_IsPrefabParent: 0
@@ -146,6 +154,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f18dae461ba6d8c4399065c14c20170f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &33815360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 33815358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33aa4cda78041f149a16b6acbd492785, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   listenerId: 0
@@ -216,7 +235,7 @@ Prefab:
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
       propertyPath: chunkDatabase.Array.size
-      value: 8
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4000012115612558, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc, type: 2}
       propertyPath: m_LocalPosition.x
@@ -252,266 +271,116 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
-      propertyPath: chunkDatabase.Array.data[0].name
-      value: Blank
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[0].id
-      value: 98
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[0].type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[0].obj
+      propertyPath: ground
       value: 
-      objectReference: {fileID: 1000011602818330, guid: a58e6b6c8b6fb0744bc80d9c63ba149f,
-        type: 2}
+      objectReference: {fileID: 336891223}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
-      propertyPath: chunkDatabase.Array.data[1].name
-      value: PirateEnemy
+      propertyPath: chunkDatabase.Array.data[8].name
+      value: Tut21
       objectReference: {fileID: 0}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
-      propertyPath: chunkDatabase.Array.data[1].id
-      value: 107
+      propertyPath: chunkDatabase.Array.data[8].id
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
-      propertyPath: chunkDatabase.Array.data[1].type
-      value: 1
+      propertyPath: chunkDatabase.Array.data[8].enemyType
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
-      propertyPath: chunkDatabase.Array.data[1].obj
+      propertyPath: chunkDatabase.Array.data[8].specificLane
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[8].obj
       value: 
-      objectReference: {fileID: 1000011602818330, guid: a58e6b6c8b6fb0744bc80d9c63ba149f,
-        type: 2}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[2].name
-      value: MayanEnemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[2].id
-      value: 115
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[2].type
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[2].obj
-      value: 
-      objectReference: {fileID: 1000011602818330, guid: a58e6b6c8b6fb0744bc80d9c63ba149f,
-        type: 2}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[3].name
-      value: SpacemanEnemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[3].id
-      value: 97
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[3].type
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[3].obj
-      value: 
-      objectReference: {fileID: 1000011602818330, guid: a58e6b6c8b6fb0744bc80d9c63ba149f,
-        type: 2}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[4].name
-      value: PirateObstacle
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[4].id
-      value: 84
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[4].obj
-      value: 
-      objectReference: {fileID: 1000010154146112, guid: 9ea6c1be4d258134a9ed3a0e07f1bb5f,
+      objectReference: {fileID: 1000013874836388, guid: 595f45f3f71f40742a069cdef02e6011,
         type: 2}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
       propertyPath: levelData.levelInfo
-      value: bbbbbbbbbbabbbbbabbbbbabbbbbbbRbbbbabbbbkbbbbsbbbWbbbbkbbbabbbsbbbabbbTbbkbbbabbkbbbsbbbabbbsbbkbbRbbabbkbkbbsbsbbabbkbkbbababbsbsbbTbbababbkbbRebbbbbbbb
+      value: bbbbb1bbbbdbb2bbbbRbbbbabbbbkbbbbsbbbWbbbbkbbbabbbsbbbabbbTbbkbbbabbkbbbsbbbabbbsbbkbbRbbabbkbkbbsbsbbabbkbkbbababbsbsbbTbbababbkbbRebbbbbbbb
       objectReference: {fileID: 0}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
-      propertyPath: chunkLength
-      value: 2
+      propertyPath: chunkDatabase.Array.data[9].name
+      value: Tut22
       objectReference: {fileID: 0}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
-      propertyPath: spawnPoint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4000012115612558, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: destroyZPos
-      value: -10
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: moveSpeed
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: spawnPoint.x
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: emptyEnemy
-      value: 
-      objectReference: {fileID: 1000010938069714, guid: 0e3f39bc53c64f54b8065e88676f98a4,
-        type: 2}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: enemySpawnX
-      value: 10.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[4].type
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[5].name
-      value: MayanObstacle
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[5].id
-      value: 87
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[5].type
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[5].obj
-      value: 
-      objectReference: {fileID: 1000012744144166, guid: 5fc4a761fa51af643a98db20c8e1ea93,
-        type: 2}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[6].name
-      value: SpacemanObstacle
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[6].id
-      value: 82
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[6].type
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[6].obj
-      value: 
-      objectReference: {fileID: 1000012100747884, guid: a89bfbca17efd354498ce8da710098bf,
-        type: 2}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[5].enemyType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[6].enemyType
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[3].enemyType
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[2].enemyType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[7].name
-      value: END
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[7].id
+      propertyPath: chunkDatabase.Array.data[9].id
       value: 101
       objectReference: {fileID: 0}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
-      propertyPath: chunkDatabase.Array.data[7].type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-        type: 2}
-      propertyPath: chunkDatabase.Array.data[7].enemyType
+      propertyPath: chunkDatabase.Array.data[9].enemyType
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
-      propertyPath: chunkDatabase.Array.data[7].obj
+      propertyPath: chunkDatabase.Array.data[9].specificLane
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[9].obj
       value: 
       objectReference: {fileID: 1000012519122946, guid: da4978ddc5aa8d04a97094e1c2632d21,
         type: 2}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
-      propertyPath: ground
+      propertyPath: chunkDatabase.Array.data[9].type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[7].obj
       value: 
-      objectReference: {fileID: 336891223}
+      objectReference: {fileID: 1000013874836388, guid: 9e245a0b222adb241a3b6efdd65afa47,
+        type: 2}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[7].id
+      value: 49
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[10].name
+      value: SpacemanEnemydown
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[10].id
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[10].enemyType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[10].specificLane
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[10].obj
+      value: 
+      objectReference: {fileID: 1000011602818330, guid: a58e6b6c8b6fb0744bc80d9c63ba149f,
+        type: 2}
+    - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
+        type: 2}
+      propertyPath: chunkDatabase.Array.data[10].type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &496828324 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1000010428370336, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
-    type: 2}
-  m_PrefabInternal: {fileID: 496828323}
---- !u!114 &496828325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 496828324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f40baaea67e67649848deeae4644a8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &505449617
 Prefab:
   m_ObjectHideFlags: 0
@@ -721,8 +590,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxPointsAvailable: 0
   starRating: 0
-  oneStarAt: 50
-  twoStarsAt: 75
+  oneStarAt: 75
+  twoStarsAt: 88
   threeStarsAt: 100
 --- !u!114 &780052305
 MonoBehaviour:
@@ -739,8 +608,8 @@ MonoBehaviour:
   scoreLabel: {fileID: 505449618}
   enemyPoints: 1
   obstaclePoints: 1
-  missObstaclePoints: -1
-  missEnemyPoints: -1
+  missObstaclePoints: 0
+  missEnemyPoints: 0
 --- !u!4 &780052306
 Transform:
   m_ObjectHideFlags: 0
@@ -926,66 +795,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d8cda473b2ac1e740886b7a4861186e6, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1262317414
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1262317417}
-  - 114: {fileID: 1262317416}
-  - 114: {fileID: 1262317415}
-  m_Layer: 0
-  m_Name: WwiseGlobal
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1262317415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1262317414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 470568d569ba03f47806aec0cf8cf563, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  basePath: Audio\GeneratedSoundBanks
-  language: English(US)
-  defaultPoolSize: 4096
-  lowerPoolSize: 2048
-  streamingPoolSize: 1024
-  preparePoolSize: 0
-  memoryCutoffThreshold: 0.95
-  engineLogging: 1
---- !u!114 &1262317416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1262317414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ec58534ca0341d409eb4c297e7a9690, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1262317417
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1262317414}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
 --- !u!1 &1332361458
 GameObject:
   m_ObjectHideFlags: 0
@@ -1039,11 +848,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010846632796, guid: db4e21be4d073f149886f4a5afd24561, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 3
+      value: 0.78
       objectReference: {fileID: 0}
     - target: {fileID: 4000010846632796, guid: db4e21be4d073f149886f4a5afd24561, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.58
       objectReference: {fileID: 0}
     - target: {fileID: 4000010846632796, guid: db4e21be4d073f149886f4a5afd24561, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1102,6 +911,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2214d0f4eca5574c8e20b66589be85c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  basePath: Audio\GeneratedSoundBanks
+  language: English(US)
+  defaultPoolSize: 4096
+  lowerPoolSize: 2048
+  streamingPoolSize: 1024
+  preparePoolSize: 0
+  memoryCutoffThreshold: 0.95
+  engineLogging: 1
 --- !u!114 &2133090934
 MonoBehaviour:
   m_ObjectHideFlags: 0
