@@ -51,11 +51,10 @@ public class Enemy : MonoBehaviour
             {
                 AudioMaster.instance.PlayEvent("enemyBlobDeath");
             }
+
             // Die
-            if (GameObject.FindObjectOfType<Player>().state.form == EnemyType.Mayan)// && enemyType == GameObject.FindObjectOfType<Player>().state.form)//and enemyType == player.enemyType
+            if (GameObject.FindObjectOfType<Player>().state.form == enemyType)
             {
-                Debug.Log("Enabling animator! enemytype: " + enemyType + " and playertype: " + GameObject.FindObjectOfType<Player>().state.form);
-                //Enable animator:
                 this.gameObject.GetComponentInChildren<Animation>().Play();
                 test = true;
             }
