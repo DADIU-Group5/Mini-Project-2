@@ -1,162 +1,162 @@
 fileFormatVersion: 2
-guid: bb0dc377e29110043ae66a7ee050a132
-timeCreated: 1475222471
+guid: 28ccfe4d4241b6940b99ccc3671d54bb
+timeCreated: 1475222916
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: playerMayanJump:be_head_01
-    100004: playerMayanJump:be_l_fingers_01
-    100006: playerMayanJump:be_l_toe_01
-    100008: playerMayanJump:be_r_fingers_01
-    100010: playerMayanJump:be_r_toe_01
-    100012: playerMayanJump:bind_chest_01
-    100014: playerMayanJump:bind_head_01
-    100016: playerMayanJump:bind_l_arm_01
-    100018: playerMayanJump:bind_l_fingers_01
-    100020: playerMayanJump:bind_l_foot_01
-    100022: playerMayanJump:bind_l_forearm_01
-    100024: playerMayanJump:bind_l_hand_01
-    100026: playerMayanJump:bind_l_reg_01
-    100028: playerMayanJump:bind_l_shourder_02
-    100030: playerMayanJump:bind_l_toe_01
-    100032: playerMayanJump:bind_l_upreg_01
-    100034: playerMayanJump:bind_marsk_01
-    100036: playerMayanJump:bind_neck_01
-    100038: playerMayanJump:bind_pelvis_01
-    100040: playerMayanJump:bind_r_arm_01
-    100042: playerMayanJump:bind_r_fingers_01
-    100044: playerMayanJump:bind_r_foot_01
-    100046: playerMayanJump:bind_r_forearm_01
-    100048: playerMayanJump:bind_r_hand_01
-    100050: playerMayanJump:bind_r_reg_01
-    100052: playerMayanJump:bind_r_shourder_02
-    100054: playerMayanJump:bind_r_toe_01
-    100056: playerMayanJump:bind_r_upreg_01
-    100058: playerMayanJump:bind_spine_01
-    100060: playerMayanJump:cnt_chest_01
-    100062: playerMayanJump:cnt_head_01
-    100064: playerMayanJump:cnt_l_arm_03
-    100066: playerMayanJump:cnt_l_ball_01
-    100068: playerMayanJump:cnt_l_finger_01
-    100070: playerMayanJump:cnt_l_foot_02
-    100072: playerMayanJump:cnt_l_forearm_01
-    100074: playerMayanJump:cnt_l_hand_01
-    100076: playerMayanJump:cnt_l_heel_01
-    100078: playerMayanJump:cnt_l_knee_01
-    100080: playerMayanJump:cnt_l_shoulder_01
-    100082: playerMayanJump:cnt_l_shoulder_02
-    100084: playerMayanJump:cnt_l_toe_01
-    100086: playerMayanJump:cnt_master_01
-    100088: playerMayanJump:cnt_MayanMask_01
-    100090: playerMayanJump:cnt_neck_01
-    100092: playerMayanJump:cnt_pelvis_01
-    100094: playerMayanJump:cnt_r_arm_01
-    100096: playerMayanJump:cnt_r_ball_01
-    100098: playerMayanJump:cnt_r_finger_01
-    100100: playerMayanJump:cnt_r_foot_01
-    100102: playerMayanJump:cnt_r_forearm_01
-    100104: playerMayanJump:cnt_r_hand_01
-    100106: playerMayanJump:cnt_r_heel_01
-    100108: playerMayanJump:cnt_r_knee_01
-    100110: playerMayanJump:cnt_r_toe_01
-    100112: playerMayanJump:cnt_spine_01
-    100114: playerMayanJump:grp_control
-    100116: playerMayanJump:grp_geo
-    100118: playerMayanJump:grp_l_ik_foot
-    100120: playerMayanJump:grp_r_ik_foot
-    100122: playerMayanJump:grp_rig
-    100124: playerMayanJump:ikHandle1
-    100126: playerMayanJump:ikHandle2
-    100128: playerMayanJump:ikHandle3
-    100130: playerMayanJump:ikHandle4
-    100132: playerMayanJump:ikHandle5
-    100134: playerMayanJump:ikHandle6
-    100136: playerMayanJump:ikHandle_l_leg_01
-    100138: playerMayanJump:ikHandle_r_leg_01
-    100140: playerMayanJump:MayanMask4
-    100142: playerMayanJump:playerMayan 1
-    100144: playerMayanJump:root_01
-    400000: //RootNode
-    400002: playerMayanJump:be_head_01
-    400004: playerMayanJump:be_l_fingers_01
-    400006: playerMayanJump:be_l_toe_01
-    400008: playerMayanJump:be_r_fingers_01
-    400010: playerMayanJump:be_r_toe_01
-    400012: playerMayanJump:bind_chest_01
-    400014: playerMayanJump:bind_head_01
-    400016: playerMayanJump:bind_l_arm_01
-    400018: playerMayanJump:bind_l_fingers_01
-    400020: playerMayanJump:bind_l_foot_01
-    400022: playerMayanJump:bind_l_forearm_01
-    400024: playerMayanJump:bind_l_hand_01
-    400026: playerMayanJump:bind_l_reg_01
-    400028: playerMayanJump:bind_l_shourder_02
-    400030: playerMayanJump:bind_l_toe_01
-    400032: playerMayanJump:bind_l_upreg_01
-    400034: playerMayanJump:bind_marsk_01
-    400036: playerMayanJump:bind_neck_01
-    400038: playerMayanJump:bind_pelvis_01
-    400040: playerMayanJump:bind_r_arm_01
-    400042: playerMayanJump:bind_r_fingers_01
-    400044: playerMayanJump:bind_r_foot_01
-    400046: playerMayanJump:bind_r_forearm_01
-    400048: playerMayanJump:bind_r_hand_01
-    400050: playerMayanJump:bind_r_reg_01
-    400052: playerMayanJump:bind_r_shourder_02
-    400054: playerMayanJump:bind_r_toe_01
-    400056: playerMayanJump:bind_r_upreg_01
-    400058: playerMayanJump:bind_spine_01
-    400060: playerMayanJump:cnt_chest_01
-    400062: playerMayanJump:cnt_head_01
-    400064: playerMayanJump:cnt_l_arm_03
-    400066: playerMayanJump:cnt_l_ball_01
-    400068: playerMayanJump:cnt_l_finger_01
-    400070: playerMayanJump:cnt_l_foot_02
-    400072: playerMayanJump:cnt_l_forearm_01
-    400074: playerMayanJump:cnt_l_hand_01
-    400076: playerMayanJump:cnt_l_heel_01
-    400078: playerMayanJump:cnt_l_knee_01
-    400080: playerMayanJump:cnt_l_shoulder_01
-    400082: playerMayanJump:cnt_l_shoulder_02
-    400084: playerMayanJump:cnt_l_toe_01
-    400086: playerMayanJump:cnt_master_01
-    400088: playerMayanJump:cnt_MayanMask_01
-    400090: playerMayanJump:cnt_neck_01
-    400092: playerMayanJump:cnt_pelvis_01
-    400094: playerMayanJump:cnt_r_arm_01
-    400096: playerMayanJump:cnt_r_ball_01
-    400098: playerMayanJump:cnt_r_finger_01
-    400100: playerMayanJump:cnt_r_foot_01
-    400102: playerMayanJump:cnt_r_forearm_01
-    400104: playerMayanJump:cnt_r_hand_01
-    400106: playerMayanJump:cnt_r_heel_01
-    400108: playerMayanJump:cnt_r_knee_01
-    400110: playerMayanJump:cnt_r_toe_01
-    400112: playerMayanJump:cnt_spine_01
-    400114: playerMayanJump:grp_control
-    400116: playerMayanJump:grp_geo
-    400118: playerMayanJump:grp_l_ik_foot
-    400120: playerMayanJump:grp_r_ik_foot
-    400122: playerMayanJump:grp_rig
-    400124: playerMayanJump:ikHandle1
-    400126: playerMayanJump:ikHandle2
-    400128: playerMayanJump:ikHandle3
-    400130: playerMayanJump:ikHandle4
-    400132: playerMayanJump:ikHandle5
-    400134: playerMayanJump:ikHandle6
-    400136: playerMayanJump:ikHandle_l_leg_01
-    400138: playerMayanJump:ikHandle_r_leg_01
-    400140: playerMayanJump:MayanMask4
-    400142: playerMayanJump:playerMayan 1
-    400144: playerMayanJump:root_01
-    4300000: playerMayanJump:playerMayan
-    4300002: playerMayanJump:MayanMask4
-    7400000: hugoAnim_mayanJump
+    100000: be_head_01
+    100002: be_l_fingers_01
+    100004: be_l_toe_01
+    100006: be_r_fingers_01
+    100008: be_r_toe_01
+    100010: bind_chest_01
+    100012: bind_head_01
+    100014: bind_l_arm_01
+    100016: bind_l_fingers_01
+    100018: bind_l_foot_01
+    100020: bind_l_forearm_01
+    100022: bind_l_hand_01
+    100024: bind_l_reg_01
+    100026: bind_l_shourder_02
+    100028: bind_l_toe_01
+    100030: bind_l_upreg_01
+    100032: bind_neck_01
+    100034: bind_pelvis_01
+    100036: bind_r_arm_01
+    100038: bind_r_fingers_01
+    100040: bind_r_foot_01
+    100042: bind_r_forearm_01
+    100044: bind_r_hand_01
+    100046: bind_r_reg_01
+    100048: bind_r_shourder_02
+    100050: bind_r_toe_01
+    100052: bind_r_upreg_01
+    100054: bind_spine_01
+    100056: cnt_chest_01
+    100058: cnt_head_01
+    100060: cnt_l_arm_03
+    100062: cnt_l_ball_01
+    100064: cnt_l_finger_01
+    100066: cnt_l_foot_02
+    100068: cnt_l_forearm_01
+    100070: cnt_l_hand_01
+    100072: cnt_l_heel_01
+    100074: cnt_l_knee_01
+    100076: cnt_l_shoulder_01
+    100078: cnt_l_shoulder_02
+    100080: cnt_l_toe_01
+    100082: cnt_master_01
+    100084: cnt_neck_01
+    100086: cnt_pelvis_01
+    100088: cnt_r_arm_01
+    100090: cnt_r_ball_01
+    100092: cnt_r_finger_01
+    100094: cnt_r_foot_01
+    100096: cnt_r_forearm_01
+    100098: cnt_r_hand_01
+    100100: cnt_r_heel_01
+    100102: cnt_r_knee_01
+    100104: cnt_r_toe_01
+    100106: cnt_spine_01
+    100108: grp_control
+    100110: grp_geo
+    100112: grp_l_ik_foot
+    100114: grp_r_ik_foot
+    100116: grp_rig
+    100118: //RootNode
+    100120: ikHandle1
+    100122: ikHandle2
+    100124: ikHandle3
+    100126: ikHandle4
+    100128: ikHandle5
+    100130: ikHandle6
+    100132: ikHandle_l_leg_01
+    100134: ikHandle_r_leg_01
+    100136: playerB 1
+    100138: root_01
+    100140: spaceGun
+    100142: spaceHelm
+    400000: be_head_01
+    400002: be_l_fingers_01
+    400004: be_l_toe_01
+    400006: be_r_fingers_01
+    400008: be_r_toe_01
+    400010: bind_chest_01
+    400012: bind_head_01
+    400014: bind_l_arm_01
+    400016: bind_l_fingers_01
+    400018: bind_l_foot_01
+    400020: bind_l_forearm_01
+    400022: bind_l_hand_01
+    400024: bind_l_reg_01
+    400026: bind_l_shourder_02
+    400028: bind_l_toe_01
+    400030: bind_l_upreg_01
+    400032: bind_neck_01
+    400034: bind_pelvis_01
+    400036: bind_r_arm_01
+    400038: bind_r_fingers_01
+    400040: bind_r_foot_01
+    400042: bind_r_forearm_01
+    400044: bind_r_hand_01
+    400046: bind_r_reg_01
+    400048: bind_r_shourder_02
+    400050: bind_r_toe_01
+    400052: bind_r_upreg_01
+    400054: bind_spine_01
+    400056: cnt_chest_01
+    400058: cnt_head_01
+    400060: cnt_l_arm_03
+    400062: cnt_l_ball_01
+    400064: cnt_l_finger_01
+    400066: cnt_l_foot_02
+    400068: cnt_l_forearm_01
+    400070: cnt_l_hand_01
+    400072: cnt_l_heel_01
+    400074: cnt_l_knee_01
+    400076: cnt_l_shoulder_01
+    400078: cnt_l_shoulder_02
+    400080: cnt_l_toe_01
+    400082: cnt_master_01
+    400084: cnt_neck_01
+    400086: cnt_pelvis_01
+    400088: cnt_r_arm_01
+    400090: cnt_r_ball_01
+    400092: cnt_r_finger_01
+    400094: cnt_r_foot_01
+    400096: cnt_r_forearm_01
+    400098: cnt_r_hand_01
+    400100: cnt_r_heel_01
+    400102: cnt_r_knee_01
+    400104: cnt_r_toe_01
+    400106: cnt_spine_01
+    400108: grp_control
+    400110: grp_geo
+    400112: grp_l_ik_foot
+    400114: grp_r_ik_foot
+    400116: grp_rig
+    400118: //RootNode
+    400120: ikHandle1
+    400122: ikHandle2
+    400124: ikHandle3
+    400126: ikHandle4
+    400128: ikHandle5
+    400130: ikHandle6
+    400132: ikHandle_l_leg_01
+    400134: ikHandle_r_leg_01
+    400136: playerB 1
+    400138: root_01
+    400140: spaceGun
+    400142: spaceHelm
+    4300000: playerB
+    4300002: spaceHelm
+    4300004: spaceGun
+    7400000: hugoAnim_spacemanShoot
     9500000: //RootNode
-    13700000: playerMayanJump:MayanMask4
-    13700002: playerMayanJump:playerMayan 1
+    13700000: playerB 1
+    13700002: spaceGun
+    13700004: spaceHelm
   materials:
     importMaterials: 1
     materialName: 0
@@ -168,7 +168,22 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nSource avatar hierarchy doesn't match one found in
+      this file:\n\tBone 'bind_pelvis_01' not found\n\tBone 'bind_l_upreg_01' not
+      found\n\tBone 'bind_r_upreg_01' not found\n\tBone 'bind_l_reg_01' not found\n\tBone
+      'bind_r_reg_01' not found\n\tBone 'bind_l_foot_01' not found\n\tBone 'bind_r_foot_01'
+      not found\n\tBone 'bind_spine_01' not found\n\tBone 'bind_chest_01' not found\n\tBone
+      'bind_neck_01' not found\n\tBone 'bind_head_01' not found\n\tBone 'bind_l_shourder_02'
+      not found\n\tBone 'bind_r_shourder_02' not found\n\tBone 'bind_l_arm_01' not
+      found\n\tBone 'bind_r_arm_01' not found\n\tBone 'bind_l_forearm_01' not found\n\tBone
+      'bind_r_forearm_01' not found\n\tBone 'bind_l_hand_01' not found\n\tBone 'bind_r_hand_01'
+      not found\n\tBone 'bind_l_toe_01' not found\n\tBone 'bind_r_toe_01' not found\n\tBone
+      'bind_marsk_01' not found\n\nClip 'hugoAnim_spacemanShoot' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'bind_r_arm_01' has translation
+      animation that will be discarded.\n\t'bind_r_forearm_01' has translation animation
+      that will be discarded.\n\t'bind_r_hand_01' has translation animation that will
+      be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 3
@@ -177,7 +192,179 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: hugoAnim_spacemanShoot
+      takeName: hugoAnim_spacemanShoot
+      firstFrame: 1
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_control
+        weight: 0
+      - path: grp_control/cnt_l_foot_02
+        weight: 0
+      - path: grp_control/cnt_l_foot_02/cnt_l_heel_01
+        weight: 0
+      - path: grp_control/cnt_l_foot_02/cnt_l_heel_01/cnt_l_toe_01
+        weight: 0
+      - path: grp_control/cnt_l_foot_02/cnt_l_heel_01/cnt_l_toe_01/cnt_l_ball_01
+        weight: 0
+      - path: grp_control/cnt_l_foot_02/cnt_l_heel_01/cnt_l_toe_01/cnt_l_ball_01/ikHandle_l_leg_01
+        weight: 0
+      - path: grp_control/cnt_l_foot_02/cnt_l_heel_01/cnt_l_toe_01/cnt_l_ball_01/ikHandle_l_leg_01/ikHandle4
+        weight: 0
+      - path: grp_control/cnt_l_foot_02/cnt_l_heel_01/cnt_l_toe_01/grp_l_ik_foot
+        weight: 0
+      - path: grp_control/cnt_l_foot_02/cnt_l_heel_01/cnt_l_toe_01/grp_l_ik_foot/ikHandle5
+        weight: 0
+      - path: grp_control/cnt_l_foot_02/cnt_l_heel_01/cnt_l_toe_01/grp_l_ik_foot/ikHandle6
+        weight: 0
+      - path: grp_control/cnt_master_01
+        weight: 0
+      - path: grp_control/cnt_master_01/cnt_l_knee_01
+        weight: 0
+      - path: grp_control/cnt_master_01/cnt_pelvis_01
+        weight: 0
+      - path: grp_control/cnt_master_01/cnt_pelvis_01/cnt_spine_01
+        weight: 0
+      - path: grp_control/cnt_master_01/cnt_pelvis_01/cnt_spine_01/cnt_chest_01
+        weight: 0
+      - path: grp_control/cnt_master_01/cnt_pelvis_01/cnt_spine_01/cnt_chest_01/cnt_l_shoulder_01
+        weight: 0
+      - path: grp_control/cnt_master_01/cnt_pelvis_01/cnt_spine_01/cnt_chest_01/cnt_l_shoulder_01/cnt_r_arm_01
+        weight: 0
+      - path: grp_control/cnt_master_01/cnt_pelvis_01/cnt_spine_01/cnt_chest_01/cnt_l_shoulder_01/cnt_r_arm_01/cnt_r_forearm_01
+        weight: 0
+      - path: grp_control/cnt_master_01/cnt_pelvis_01/cnt_spine_01/cnt_chest_01/cnt_l_shoulder_01/cnt_r_arm_01/cnt_r_forearm_01/cnt_r_hand_01
+        weight: 0
+      - path: grp_control/cnt_master_01/cnt_pelvis_01/cnt_spine_01/cnt_chest_01/cnt_l_shoulder_01/cnt_r_arm_01/cnt_r_forearm_01/cnt_r_hand_01/cnt_r_finger_01
+        weight: 0
+      - path: grp_control/cnt_master_01/cnt_pelvis_01/cnt_spine_01/cnt_chest_01/cnt_l_shoulder_02
+        weight: 0
+      - path: grp_control/cnt_master_01/cnt_pelvis_01/cnt_spine_01/cnt_chest_01/cnt_l_shoulder_02/cnt_l_arm_03
+        weight: 0
+      - path: grp_control/cnt_master_01/cnt_pelvis_01/cnt_spine_01/cnt_chest_01/cnt_l_shoulder_02/cnt_l_arm_03/cnt_l_forearm_01
+        weight: 0
+      - path: grp_control/cnt_master_01/cnt_pelvis_01/cnt_spine_01/cnt_chest_01/cnt_l_shoulder_02/cnt_l_arm_03/cnt_l_forearm_01/cnt_l_hand_01
+        weight: 0
+      - path: grp_control/cnt_master_01/cnt_pelvis_01/cnt_spine_01/cnt_chest_01/cnt_l_shoulder_02/cnt_l_arm_03/cnt_l_forearm_01/cnt_l_hand_01/cnt_l_finger_01
+        weight: 0
+      - path: grp_control/cnt_master_01/cnt_pelvis_01/cnt_spine_01/cnt_chest_01/cnt_neck_01
+        weight: 0
+      - path: grp_control/cnt_master_01/cnt_pelvis_01/cnt_spine_01/cnt_chest_01/cnt_neck_01/cnt_head_01
+        weight: 0
+      - path: grp_control/cnt_master_01/cnt_r_knee_01
+        weight: 0
+      - path: grp_control/cnt_r_foot_01
+        weight: 0
+      - path: grp_control/cnt_r_foot_01/cnt_r_heel_01
+        weight: 0
+      - path: grp_control/cnt_r_foot_01/cnt_r_heel_01/cnt_r_toe_01
+        weight: 0
+      - path: grp_control/cnt_r_foot_01/cnt_r_heel_01/cnt_r_toe_01/cnt_r_ball_01
+        weight: 0
+      - path: grp_control/cnt_r_foot_01/cnt_r_heel_01/cnt_r_toe_01/cnt_r_ball_01/ikHandle_r_leg_01
+        weight: 0
+      - path: grp_control/cnt_r_foot_01/cnt_r_heel_01/cnt_r_toe_01/cnt_r_ball_01/ikHandle_r_leg_01/ikHandle1
+        weight: 0
+      - path: grp_control/cnt_r_foot_01/cnt_r_heel_01/cnt_r_toe_01/grp_r_ik_foot
+        weight: 0
+      - path: grp_control/cnt_r_foot_01/cnt_r_heel_01/cnt_r_toe_01/grp_r_ik_foot/ikHandle2
+        weight: 0
+      - path: grp_control/cnt_r_foot_01/cnt_r_heel_01/cnt_r_toe_01/grp_r_ik_foot/ikHandle3
+        weight: 0
+      - path: grp_geo
+        weight: 0
+      - path: grp_geo/playerB 1
+        weight: 0
+      - path: grp_geo/spaceGun
+        weight: 0
+      - path: grp_geo/spaceHelm
+        weight: 0
+      - path: grp_rig
+        weight: 1
+      - path: grp_rig/root_01
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01/bind_l_upreg_01
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01/bind_l_upreg_01/bind_l_reg_01
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01/bind_l_upreg_01/bind_l_reg_01/bind_l_foot_01
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01/bind_l_upreg_01/bind_l_reg_01/bind_l_foot_01/bind_l_toe_01
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01/bind_l_upreg_01/bind_l_reg_01/bind_l_foot_01/bind_l_toe_01/be_l_toe_01
+        weight: 0
+      - path: grp_rig/root_01/bind_pelvis_01/bind_r_upreg_01
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01/bind_r_upreg_01/bind_r_reg_01
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01/bind_r_upreg_01/bind_r_reg_01/bind_r_foot_01
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01/bind_r_upreg_01/bind_r_reg_01/bind_r_foot_01/bind_r_toe_01
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01/bind_r_upreg_01/bind_r_reg_01/bind_r_foot_01/bind_r_toe_01/be_r_toe_01
+        weight: 0
+      - path: grp_rig/root_01/bind_pelvis_01/bind_spine_01
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01/bind_spine_01/bind_chest_01
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01/bind_spine_01/bind_chest_01/bind_l_shourder_02
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01/bind_spine_01/bind_chest_01/bind_l_shourder_02/bind_l_arm_01
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01/bind_spine_01/bind_chest_01/bind_l_shourder_02/bind_l_arm_01/bind_l_forearm_01
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01/bind_spine_01/bind_chest_01/bind_l_shourder_02/bind_l_arm_01/bind_l_forearm_01/bind_l_hand_01
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01/bind_spine_01/bind_chest_01/bind_l_shourder_02/bind_l_arm_01/bind_l_forearm_01/bind_l_hand_01/bind_l_fingers_01
+        weight: 0
+      - path: grp_rig/root_01/bind_pelvis_01/bind_spine_01/bind_chest_01/bind_l_shourder_02/bind_l_arm_01/bind_l_forearm_01/bind_l_hand_01/bind_l_fingers_01/be_l_fingers_01
+        weight: 0
+      - path: grp_rig/root_01/bind_pelvis_01/bind_spine_01/bind_chest_01/bind_neck_01
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01/bind_spine_01/bind_chest_01/bind_neck_01/bind_head_01
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01/bind_spine_01/bind_chest_01/bind_neck_01/bind_head_01/be_head_01
+        weight: 0
+      - path: grp_rig/root_01/bind_pelvis_01/bind_spine_01/bind_chest_01/bind_r_shourder_02
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01/bind_spine_01/bind_chest_01/bind_r_shourder_02/bind_r_arm_01
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01/bind_spine_01/bind_chest_01/bind_r_shourder_02/bind_r_arm_01/bind_r_forearm_01
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01/bind_spine_01/bind_chest_01/bind_r_shourder_02/bind_r_arm_01/bind_r_forearm_01/bind_r_hand_01
+        weight: 1
+      - path: grp_rig/root_01/bind_pelvis_01/bind_spine_01/bind_chest_01/bind_r_shourder_02/bind_r_arm_01/bind_r_forearm_01/bind_r_hand_01/bind_r_fingers_01
+        weight: 0
+      - path: grp_rig/root_01/bind_pelvis_01/bind_spine_01/bind_chest_01/bind_r_shourder_02/bind_r_arm_01/bind_r_forearm_01/bind_r_hand_01/bind_r_fingers_01/be_r_fingers_01
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.96
     isReadable: 1
   meshes:
     lODScreenPercentages: []

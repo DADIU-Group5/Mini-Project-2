@@ -110,30 +110,51 @@ public class Player : MonoBehaviour
     {
         Debug.Log("Changing form");
 
-        
-        if (state.form == 0)
+        switch (state.form)
         {
-            pirateModel.SetActive(true);
-            mayanModel.SetActive(false);
-            spacemanModel.SetActive(false);
-        }
-        else if ((int)state.form == 1)
-        {
-            pirateModel.SetActive(false);
-            mayanModel.SetActive(true);
-            spacemanModel.SetActive(false);
-        }
-        else if ((int)state.form == 2)
-        {
-            pirateModel.SetActive(false);
-            mayanModel.SetActive(false);
-            spacemanModel.SetActive(true);
+            case EnemyType.Mayan:
+                AudioMaster.instance.PlayEvent("switchMayan");
+                pirateModel.SetActive(false);
+                mayanModel.SetActive(true);
+                spacemanModel.SetActive(false);
+                break;
+            case EnemyType.Pirate:
+                AudioMaster.instance.PlayEvent("switchPirate");
+                pirateModel.SetActive(true);
+                mayanModel.SetActive(false);
+                spacemanModel.SetActive(false);
+                break;
+            case EnemyType.Spaceman:
+                AudioMaster.instance.PlayEvent("switchSpaceman");
+                pirateModel.SetActive(false);
+                mayanModel.SetActive(false);
+                spacemanModel.SetActive(true);
+                break;
         }
     }
 
     public void Jump()
     {
         jumpStartTime = Time.timeSinceLevelLoad;
+        AudioMaster.instance.PlayEvent("obstacleJump");
     }
 
+    public void Attack()
+    {
+        switch (state.form)
+        {
+            case EnemyType.Mayan:
+                playerAnimatorMayan.SetTrigger("mayanAttack");
+                AudioMaster.instance.PlayEvent("maskAttack");
+                break;
+            case EnemyType.Pirate:
+                playerAnimatorPirate.SetTrigger("pirateAttack");
+                AudioMaster.instance.PlayEvent("swordAttack");
+                break;
+            case EnemyType.Spaceman:
+                playerAnimatorSpaceman.SetTrigger("spacemanAttack");
+                AudioMaster.instance.PlayEvent("laserAttack");
+                break;
+        }
+    }
 }

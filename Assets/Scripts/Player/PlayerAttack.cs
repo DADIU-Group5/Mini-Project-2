@@ -30,6 +30,7 @@ public class PlayerAttack : MonoBehaviour {
         if (en.enemyType == player.state.form)
         {
             en.DestroyedByPlayer();
+            player.Attack();
         }
         else if (!en.hitByPlayer)
         {
@@ -52,6 +53,7 @@ public class PlayerAttack : MonoBehaviour {
         if (ob.weakAgainst == player.state.form)
         {
             ob.PlayerInteraction();
+            player.Attack();
         }
         else if (!ob.hitByPlayer)
         {

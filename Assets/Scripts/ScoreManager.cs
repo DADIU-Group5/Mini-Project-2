@@ -29,6 +29,7 @@ public class ScoreManager : Singleton<ScoreManager>
             if (give)
             {
                 point = enemyPoints;
+                AudioMaster.instance.PlayEvent("rewardKillPirate");
             }
             else
             {
@@ -40,6 +41,7 @@ public class ScoreManager : Singleton<ScoreManager>
             if (give)
             {
                 point = obstaclePoints;
+                AudioMaster.instance.PlayEvent("rewardObstaclePirate");
             } else
             {
                 point = missObstaclePoints;
