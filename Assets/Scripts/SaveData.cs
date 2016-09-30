@@ -70,6 +70,7 @@ public class SaveData : Singleton<SaveData> {
     public void RESETALL()
     {
         PlayerPrefs.DeleteAll();
+        PlayerPrefs.SetInt("Completed" + "Pirate0", 1);
     }
 
     public bool IsLanguageEnglish()
