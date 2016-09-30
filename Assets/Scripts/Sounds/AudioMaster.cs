@@ -13,6 +13,7 @@ public class AudioMaster : Singleton<AudioMaster> {
 	void Start()
     {
         AkSoundEngine.LoadBank("Soundbank1", AkSoundEngine.AK_DEFAULT_POOL_ID, out bankID);
+        PlayEvent("musicPlay");
 	}
 
     public void PlayEvent(string eventName)

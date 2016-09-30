@@ -35,6 +35,7 @@ public class UIController : Singleton<UIController> {
         StopAllTerrain();
         GameObject.FindObjectOfType<InputManager>().SetWaitingForInput(null, waitForSpecificSwipe.all);
         scoreT.text = "Score: "+ScoreManager.instance.score;
+        AudioMaster.instance.PlayEvent("musicStop");
         AudioMaster.instance.PlayEvent("levelEnd");
         endPanel.SetActive(true);
         StarSystem.instance.CalculateScore();
