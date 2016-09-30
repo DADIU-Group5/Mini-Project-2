@@ -36,6 +36,7 @@ public class Obstacle : TerrainMovement {
         if (weakAgainst == EnemyType.Pirate)
         {
             AudioMaster.instance.PlayEvent("obstacleSuccesPirate");
+            this.GetComponentInChildren<Animation>().Play();
         }
         else if (weakAgainst == EnemyType.Mayan)
         {
