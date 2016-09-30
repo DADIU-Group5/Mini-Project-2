@@ -55,13 +55,13 @@ public class MainMenu : MonoBehaviour {
         if (SaveData.instance.IsLanguageEnglish())
         {
             playText.text = "Play!";
-            changeLanguageText.text = "Change Language";
+            //changeLanguageText.text = "Change Language";
             backButton.text = "Back";
         }
         else
         {
             playText.text = "Spil!";
-            changeLanguageText.text = "Skift Sprog";
+            //changeLanguageText.text = "Skift Sprog";
             backButton.text = "Tilbage";
         }
     }

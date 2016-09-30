@@ -33,6 +33,7 @@ public class UIController : Singleton<UIController> {
     public void ShowEndScreen()
     {
         StopAllTerrain();
+        GameObject.FindObjectOfType<InputManager>().SetWaitingForInput(null, waitForSpecificSwipe.all);
         scoreT.text = "Score: "+ScoreManager.instance.score;
         AudioMaster.instance.PlayEvent("levelEnd");
         endPanel.SetActive(true);

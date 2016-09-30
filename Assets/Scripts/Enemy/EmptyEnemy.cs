@@ -6,6 +6,7 @@ public class EmptyEnemy : MonoBehaviour {
     float spawnPos = 0;
     EnemyType becomeType;
     bool setup = false;
+    int lane = -1;
 
     public void Setup(float _spawnPos, EnemyType type)
     {
@@ -14,8 +15,16 @@ public class EmptyEnemy : MonoBehaviour {
         setup = true;
     }
 
-	// Update is called once per frame
-	void Update () {
+    public void Setup(float _spawnPos, EnemyType type, int _lane)
+    {
+        spawnPos = _spawnPos;
+        becomeType = type;
+        lane = _lane;
+        setup = true;
+    }
+
+    // Update is called once per frame
+    void Update () {
         if (!setup)
         {
             return;
@@ -28,7 +37,7 @@ public class EmptyEnemy : MonoBehaviour {
 
     void MakeRealEnemy()
     {
-        EnemySpawner.instance.SpawnEnemy(transform.position.x, this, becomeType);
+        EnemySpawner.instance.SpawnEnemy(transform.position.x, this, becomeType, lane);
         Destroy(gameObject);
     }
 }

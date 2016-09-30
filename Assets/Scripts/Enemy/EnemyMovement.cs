@@ -17,6 +17,7 @@ public class EnemyMovement : MonoBehaviour
     private EnemyType enemyType;
     private bool makeMoveSound;
     private float lastMoveSoundTime;
+    private bool pointsGiven = false;
 
 	void Start ()
     {
@@ -27,10 +28,11 @@ public class EnemyMovement : MonoBehaviour
 	
 	void Update ()
     {
-        if (this.gameObject.transform.position.x <= destroyPoint)
+        if (this.gameObject.transform.position.x <= destroyPoint && !pointsGiven)
         {
             ScoreManager.instance.ModifyPoint(0, false); //type: enemy (0), give points: false
             this.gameObject.GetComponent<Enemy>().DestroySelf();
+            pointsGiven = true;
         }
         else
         {

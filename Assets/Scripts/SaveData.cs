@@ -95,4 +95,21 @@ public class SaveData : Singleton<SaveData> {
             PlayerPrefs.SetInt("English", 0);
         }
     }
+
+    public void SetTutorailState(int i)
+    {
+        PlayerPrefs.SetInt("Tutorial", i);
+    }
+
+    public bool ShowTutorial()
+    {
+        if(PlayerPrefs.GetInt("Tutorial") == 1)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
 }

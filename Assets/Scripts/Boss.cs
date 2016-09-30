@@ -3,50 +3,50 @@ using System.Collections;
 
 public class Boss : MonoBehaviour
 {
-    [Tooltip("Multiplier for length of movement in relation to lane size")]
-    [Range(0f, 1f)]
-    public float bossMoveMultiplier = 0.5f;
-    [Tooltip("Multiplier for length of movement in relation to lane size")]
-    [Range(0f, 10.0f)]
-    public float bossMoveTimer = 2.0f;
+    [Tooltip("The maxmum distance the boss can move either direction")]
+    public Vector2 area = new Vector2(0.1f, 1f);
+    [Tooltip("The time in seconds between each time the boss moves towards a new point")]
+    [Range(0, 1)]
+    public float unrest = 0.2f;
+    [Tooltip("Determines the speed at which the boss will move to a new point")]
+    [Range(0, 5)]
+    public float speed = 1f;
 
-    private float laneWidth = 3.0f;
-    private int currentLane = 1;
-    private int newLane = 1;
-    private float nextMove = 2.0f;
-    private float bossMoveWidth = 0f;
+    private float timePassed;
+    private Vector3 startPos;
+    private Vector3 target;
+    private Vector3 velocity;
+
 
     void Start()
     {
-        //laneWidth from somewhere
-        //laneWidth = ;
-        bossMoveWidth = laneWidth * bossMoveMultiplier;
+        startPos = transform.position;
+        NewTargetPos();
+        velocity = Vector3.zero;
     }
 
     void Update ()
     {
-        if (nextMove <= Time.timeSinceLevelLoad)
+        timePassed += Time.deltaTime;
+        if (timePassed > unrest)
         {
-            MoveBoss();
+            NewTargetPos();
         }
+
+        MoveTowardsTarget();
     }
 
-    public void MoveBoss()
+    private void MoveTowardsTarget()
     {
-        nextMove = Time.timeSinceLevelLoad + bossMoveTimer;
-        if (currentLane == newLane)
-        {
-            int random = Random.Range(1, 3);
-            newLane = (currentLane + random) % 3;
-        }
-        SetBossPosition(currentLane, newLane);
-        currentLane = newLane;
+        velocity += (target - transform.position) * speed / 100;
+        transform.position += velocity;
     }
 
-    private void SetBossPosition(int _newLane, int _currentLane)
+    // randoms a new position within the area
+    private void NewTargetPos()
     {
-        int jumps = _newLane - _currentLane;
-        Vector3 tempPosition = new Vector3(0, 0, jumps * bossMoveWidth);
-        this.gameObject.transform.position += tempPosition;
+        float dx = Random.Range(-area.x, area.x);
+        float dz = Random.Range(-area.y, area.y);
+        target = startPos + new Vector3(dx, 0, dz);
     }
 }

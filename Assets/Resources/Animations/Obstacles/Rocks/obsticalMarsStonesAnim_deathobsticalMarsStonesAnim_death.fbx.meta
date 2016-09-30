@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: 22075724365c94d48be3a75c6f98e994
+timeCreated: 1475235172
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bind_crystal_1
+    100002: bind_crystal_2
+    100004: bind_crystal_3
+    100006: bind_crystal_4
+    100008: bind_crystal_5
+    100010: cnt_crystal_1
+    100012: cnt_crystal_2
+    100014: cnt_crystal_3
+    100016: cnt_crystal_4
+    100018: cnt_crystal_5
+    100020: crystal_1
+    100022: crystal_2
+    100024: crystal_3
+    100026: crystal_4
+    100028: crystal_5
+    100030: ground_01
+    100032: grp_cnt
+    100034: grp_crystal
+    100036: grp_geo
+    100038: grp_rig
+    100040: master_01
+    100042: //RootNode
+    100044: root_01
+    400000: bind_crystal_1
+    400002: bind_crystal_2
+    400004: bind_crystal_3
+    400006: bind_crystal_4
+    400008: bind_crystal_5
+    400010: cnt_crystal_1
+    400012: cnt_crystal_2
+    400014: cnt_crystal_3
+    400016: cnt_crystal_4
+    400018: cnt_crystal_5
+    400020: crystal_1
+    400022: crystal_2
+    400024: crystal_3
+    400026: crystal_4
+    400028: crystal_5
+    400030: ground_01
+    400032: grp_cnt
+    400034: grp_crystal
+    400036: grp_geo
+    400038: grp_rig
+    400040: master_01
+    400042: //RootNode
+    400044: root_01
+    4300000: ground_01
+    4300002: crystal_4
+    4300004: crystal_5
+    4300006: crystal_3
+    4300008: crystal_1
+    4300010: crystal_2
+    7400000: obsticalMarsStonesAnim_death
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: crystal_1
+    13700002: crystal_2
+    13700004: crystal_3
+    13700006: crystal_4
+    13700008: crystal_5
+    13700010: ground_01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
