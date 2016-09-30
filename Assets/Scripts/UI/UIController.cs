@@ -89,13 +89,14 @@ public class UIController : Singleton<UIController> {
     public void MainMenu()
     {
         DisableStars();
+        PlayerPrefs.SetInt("PlayedBefore", 2);
         SceneManager.LoadScene(0);
     }
 
     public void NextLevel()
     {
         DisableStars();
-        if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings-2)
+        if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings-3)
         {
             SceneManager.LoadScene(0);
         }
