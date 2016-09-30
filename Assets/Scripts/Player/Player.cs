@@ -134,6 +134,7 @@ public class Player : MonoBehaviour
     public void Jump()
     {
         jumpStartTime = Time.timeSinceLevelLoad;
+        AudioMaster.instance.PlayEvent("obstacleJump");
     }
 
 }
