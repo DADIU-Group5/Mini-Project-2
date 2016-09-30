@@ -144,14 +144,17 @@ public class Player : MonoBehaviour
         if (state.form == 0)
         {
             playerAnimatorPirate.SetTrigger("pirateAttack");
+            AudioMaster.instance.PlayEvent("swordAttack");
         }
         else if ((int)state.form == 1)
         {
             playerAnimatorMayan.SetTrigger("mayanAttack");
+            AudioMaster.instance.PlayEvent("maskAttack");
         }
         else if ((int)state.form == 2)
         {
             playerAnimatorSpaceman.SetTrigger("spacemanAttack");
+            AudioMaster.instance.PlayEvent("laserAttack");
         }
     }
 }
