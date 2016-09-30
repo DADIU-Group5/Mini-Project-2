@@ -1189,8 +1189,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxPointsAvailable: 0
   starRating: 0
-  oneStarAt: 50
-  twoStarsAt: 75
+  oneStarAt: 75
+  twoStarsAt: 88
   threeStarsAt: 100
 --- !u!114 &2076190136
 MonoBehaviour:
@@ -1207,8 +1207,8 @@ MonoBehaviour:
   scoreLabel: {fileID: 1892178698}
   enemyPoints: 1
   obstaclePoints: 1
-  missObstaclePoints: -1
-  missEnemyPoints: -1
+  missObstaclePoints: 0
+  missEnemyPoints: 0
 --- !u!4 &2076190137
 Transform:
   m_ObjectHideFlags: 0
