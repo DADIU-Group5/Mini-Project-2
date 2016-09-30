@@ -6563,7 +6563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpTime: 0.5
-  jumpHeight: 1
+  jumpHeight: 3
   groundHeight: 0
   state:
     lane: 1
