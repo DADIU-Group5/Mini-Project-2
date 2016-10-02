@@ -5,29 +5,25 @@ using Mini2.Utils;
 
 public class EnemyManager : Singleton<EnemyManager>
 {
-    public List<GameObject>[] enemiesInLane = new List<GameObject>[3];
+    public List<GameObject> enemies = new List<GameObject>();
 
     void Start()
+    { }
+
+    public List<GameObject> GetAllEnemies()
     {
-        enemiesInLane[0] = new List<GameObject>();
-        enemiesInLane[1] = new List<GameObject>();
-        enemiesInLane[2] = new List<GameObject>();
+        return enemies;
     }
 
-    public List<GameObject>[] GetAllEnemies()
-    {
-        return enemiesInLane;
-    }
-
-    public void AddEnemyToLane(int lane, GameObject go)
+    public void AddEnemyToLane(int lane, GameObject newEnemy)
     {
         if (lane > 2 || lane < 0)
         {
-            Debug.LogError("Lane: " + lane + " Does not exist");
+            Debug.LogError("Lane: " + lane + " Does not exist");  // TODO: wtf?
             return;
         }
         //add new enemy go to given lane
-        enemiesInLane[lane].Add(go);
+        enemies.Add(newEnemy);
     }
 
     /// <summary>
@@ -42,11 +38,16 @@ public class EnemyManager : Singleton<EnemyManager>
             Debug.LogError("Lane: " + lane + " Does not exist");
             return null;
         }
-        //check first enemy go in given lane
-        if (enemiesInLane[lane].Count > 0)
+
+        foreach(var enemy in enemies)
         {
-            return enemiesInLane[lane][0];
+            if (enemy.GetComponent<Enemy>().lane == lane)
+            {
+                if(enemy.GetComponent<Enemy>().IsTargetable() == true)
+                    return enemy;
+            }
         }
+
         return null;
     }
 
@@ -80,6 +81,14 @@ public class EnemyManager : Singleton<EnemyManager>
     public void RemoveEnemyFromLane(int lane)
     {
         //remove first enemy go in given lane
-        enemiesInLane[lane].RemoveAt(0);
+        foreach (var enemy in enemies)
+        {
+            if (enemy.GetComponent<Enemy>().lane == lane)
+            {
+                enemies.Remove(enemy);                         // TODO: check if removal inside loop causes issues
+
+                return;
+            }
+        }
     }
 }

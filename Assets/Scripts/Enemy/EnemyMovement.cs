@@ -36,6 +36,9 @@ public class EnemyMovement : MonoBehaviour
         }
         else
         {
+            if (this.gameObject.transform.position.x <= GameObject.Find("Player").transform.position.x)    // the enemy has passed hugo and should be marked untargetable
+                this.gameObject.GetComponent<Enemy>().SetTargetable(false);
+
             EnemyMove();
         }
 	}

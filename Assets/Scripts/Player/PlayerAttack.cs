@@ -22,20 +22,20 @@ public class PlayerAttack : MonoBehaviour {
 
     void AttackEnemy()
     {
-        Enemy en = EnemyManager.instance.GetEnemyInLaneWithinDist(attackRange, lane);
-        if(en == null || en.hitByPlayer)
+        Enemy enemy = EnemyManager.instance.GetEnemyInLaneWithinDist(attackRange, lane);
+        if(enemy == null || enemy.hitByPlayer)
         {
             return;
         }
-        if (en.enemyType == player.state.form)
+        if (enemy.enemyType == player.state.form)
         {
-            en.DestroyedByPlayer();
+            enemy.DestroyedByPlayer();
             player.Attack();
         }
-        else if (!en.hitByPlayer)
+        else if (!enemy.hitByPlayer)
         {
             // Jump
-            en.hitByPlayer = true;
+            enemy.hitByPlayer = true;
             player.Jump();
             Debug.Log("Yeeaaa 2");
         }
