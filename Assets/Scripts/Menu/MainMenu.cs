@@ -92,6 +92,11 @@ public class MainMenu : MonoBehaviour {
         }
     }
 
+    public void ShowCredits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
     public void RESET()
     {
         PlayerPrefs.DeleteAll();
