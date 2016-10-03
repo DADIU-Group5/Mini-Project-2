@@ -102,7 +102,19 @@ public class UIController : Singleton<UIController> {
     {
         DisableStars();
         Time.timeScale = 1;
-        PlayerPrefs.SetInt("PlayedBefore", 2);
+        char c = SceneManager.GetActiveScene().name[0];
+        if (c == 'P')
+        {
+            PlayerPrefs.SetInt("PlayedBefore", 4);
+        }
+        else if (c == 'M')
+        {
+            PlayerPrefs.SetInt("PlayedBefore", 5);
+        }
+        else if(c == 'S')
+        {
+            PlayerPrefs.SetInt("PlayedBefore", 6);
+        }
         SceneManager.LoadScene("MainMenu");
     }
 
