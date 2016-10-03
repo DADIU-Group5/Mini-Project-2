@@ -1,13 +1,15 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System;
+using UnityEngine.SceneManagement;
 
 namespace Mini2.Menu
 {
     public class MainMenu2 : MonoBehaviour
     {
-        public MainMenuTextHandler MMT;
-        public LevelButtonCreator LBC;
+        public MainMenuTextHandler mainMenuText;
+        public LevelButtonCreator levelButtonCreator;
 
         public GameObject languageSelect;
         public GameObject mainMenu;
@@ -21,7 +23,7 @@ namespace Mini2.Menu
         void Start()
         {
             GetInitialState();
-            MMT.UpdateLanguage();
+            mainMenuText.UpdateLanguage();
         }
 
         void GetInitialState()
@@ -40,19 +42,24 @@ namespace Mini2.Menu
             }
         }
 
-        public void ChangeStateTo(MenuState MS)
+        public void ChangeStateTo(MenuState newState)
         {
             LeaveState(state);
-            EnterState(MS);
-            state = MS;
+            EnterState(newState);
+            state = newState;
         }
 
-        public void ChangeStateTo(MenuState MS, Theme t)
+        public void ChangeStateTo(MenuState newState, Theme t)
         {
             theme = t;
             LeaveState(state);
-            EnterState(MS);
-            state = MS;
+            EnterState(newState);
+            state = newState;
+        }
+
+        public void ShowCredits()
+        {
+            SceneManager.LoadScene("Credits");
         }
 
         public void Back()
@@ -71,9 +78,9 @@ namespace Mini2.Menu
             }
         }
 
-        void LeaveState(MenuState MS)
+        void LeaveState(MenuState state)
         {
-            switch (MS)
+            switch (state)
             {
                 case MenuState.languageSelect:
                     languageSelect.SetActive(false);
@@ -89,16 +96,16 @@ namespace Mini2.Menu
                     break;
                 case MenuState.LevelSelect:
                     levelSelect.SetActive(false);
-                    LBC.RemoveButtons();
+                    levelButtonCreator.RemoveButtons();
                     break;
                 default:
                     break;
             }
         }
 
-        void EnterState(MenuState MS)
+        void EnterState(MenuState state)
         {
-            switch (MS)
+            switch (state)
             {
                 case MenuState.languageSelect:
                     languageSelect.SetActive(true);
@@ -114,7 +121,7 @@ namespace Mini2.Menu
                     break;
                 case MenuState.LevelSelect:
                     levelSelect.SetActive(true);
-                    LBC.CreateButtons(theme);
+                    levelButtonCreator.CreateButtons(theme);
                     break;
                 default:
                     break;
