@@ -205,7 +205,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013336978130, guid: 3cfc7ea4a2c51a142b8bbe79211e993d, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4000013336978130, guid: 3cfc7ea4a2c51a142b8bbe79211e993d, type: 2}
       propertyPath: m_LocalScale.y
@@ -303,7 +303,7 @@ Prefab:
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
       propertyPath: levelData.levelInfo
-      value: bbbbb1bbbbdbb2bbbbRbbbbabbbbkbbbbsbbbWbbbbkbbbabbbsbbbabbbTbbkbbbabbkbbbsbbbabbbsbbkbbRbbabbkbkbbsbsbbabbkbkbbababbsbsbbTbbababbkbbRebbbbbbbb
+      value: bbbbb1bbbbdbbbbbRbbbbbbabbbbbbkbbbbbbsbbbbbWbbbbbbkbbbbbabbbbbsbbbbbabbbbbTbbbbbkbbbbbabbbbkbbbbbsbbbbbabbbbbsbbbbkbbbbRbbbbabbbbkbbbkbbbbsbbbsbbbbabbbbkbbbkbbbbabbbabbbbsbbbsbbbbTbbbbabbbabbbbkbbbbRebbbbbbbb
       objectReference: {fileID: 0}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
@@ -426,7 +426,7 @@ Prefab:
     - target: {fileID: 224000010582611892, guid: e0f63768e6db5234eb59ff5d90cb6576,
         type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224000010582611892, guid: e0f63768e6db5234eb59ff5d90cb6576,
         type: 2}
@@ -785,7 +785,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013517222972, guid: d8cda473b2ac1e740886b7a4861186e6, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114000010082751656, guid: d8cda473b2ac1e740886b7a4861186e6,
         type: 2}
