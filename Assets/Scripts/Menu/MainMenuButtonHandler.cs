@@ -64,4 +64,9 @@ public class MainMenuButtonHandler : MonoBehaviour {
     public void MusicChange(float f) {
 
     }
+
+    public void ShowCredits()
+    {
+        MM.ShowCredits();
+    }
 }
