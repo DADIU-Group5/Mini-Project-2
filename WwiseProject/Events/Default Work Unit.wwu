@@ -24,6 +24,10 @@
 							</ElementList>
 						</Action>
 						<Action Name="Play" ID="{EAF94180-F935-4EB0-88D3-427F62EB4B98}" ShortID="926827628" Type="Play" Scope="One" Global="false">
+							<ExcludedPlatformList>
+								<Platform>Windows</Platform>
+								<Platform>Android</Platform>
+							</ExcludedPlatformList>
 							<ElementList>
 								<Element ID="{955762EF-DCB2-4118-B9D7-4472DF2FC1EE}" Global="false">
 									<ObjectRef Name="swordAttackmetal" ID="{169B4BC6-C1A5-49F6-97DB-DE1717626F3A}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
@@ -204,7 +208,7 @@
 						<Action Name="Play" ID="{96449655-3A80-48F2-B2D3-171D37D6787F}" ShortID="332630150" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{FA87B2B6-2A07-43F4-871F-1F19E982468B}" Global="false">
-									<ObjectRef Name="farts" ID="{2F94E1DF-E03C-4E25-86F1-0347AEED2276}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+									<ObjectRef Name="jump" ID="{0BF03001-0CBB-4CA0-88B4-FCA874AEACF5}" WorkUnitID="{BB5DD793-F285-4F74-8D1D-DF7A4B893280}"/>
 								</Element>
 							</ElementList>
 						</Action>
