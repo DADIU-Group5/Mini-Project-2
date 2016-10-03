@@ -195,6 +195,7 @@ public class TerrainGenerator : MonoBehaviour {
             item.Stop();
         }
         GameObject.FindObjectOfType<Boss>().enabled = false;
+        Time.timeScale = 0;
     }
 
     /// <summary>
@@ -210,6 +211,7 @@ public class TerrainGenerator : MonoBehaviour {
             item.Resume();
         }
         GameObject.FindObjectOfType<Boss>().enabled = true;
+        Time.timeScale = 1;
     }
 }
 
