@@ -660,7 +660,7 @@ Prefab:
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
       propertyPath: chunkDatabase.Array.size
-      value: 13
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000012115612558, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc, type: 2}
       propertyPath: m_LocalPosition.x
@@ -797,7 +797,7 @@ Prefab:
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
       propertyPath: levelData.levelInfo
-      value: bbbbb1bbbbdbbbbbubbbbbbW3bbbbbkbbbbbsbbbbTbbbbbkbbbbsbbbbsbbbbkbbbbWbbbbsbbbbbkbbbbkbbbbbsbbbbbkbbbbbsbbbbsbbbbTbbbbsbbbbkbbbkbbbbsbbbsbbbsbbbbkbbbkbbbbsbbbbsbbbbkbbbkbbbbWebbbbbbbb
+      value: bbbbbbbbkbbbbkbbbbsbbbbsbbbbsbbbbabbbbkbbbbTbbbbbbsbbbbabbbbabbbbkbbbbsbbbbsbbbbabbbbabbbbkbbbbWbbbbbbsbbbsbbbkbbbkbbbabbbabbbabbbabbbsbbbkbbbRbbbbbbsbbsbbbkbbkbbbabbabbabbbsbbbkbbkbbRbbbbbbkbbkbbkbbkbbbsbbsbbbabbbkbbkbbkbbbWbebbbbbbbbb
       objectReference: {fileID: 0}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
