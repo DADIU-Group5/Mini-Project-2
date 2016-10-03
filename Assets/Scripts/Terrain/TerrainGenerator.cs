@@ -218,7 +218,7 @@ public class TerrainGenerator : MonoBehaviour {
 [System.Serializable]
 public class LevelData
 {
-    [TextArea()]
+    [TextArea(1,10)]
     public string levelInfo;
 }
 
