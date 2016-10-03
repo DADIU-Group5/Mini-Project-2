@@ -13,7 +13,6 @@ public class EnemyMovement : MonoBehaviour
     [Range(0.0f, 10.0f)]
     public float moveSoundFrequency = 1.0f;
 
-    private Rigidbody enemyRb;
     private EnemyType enemyType;
     private bool makeMoveSound;
     private float lastMoveSoundTime;
@@ -21,7 +20,6 @@ public class EnemyMovement : MonoBehaviour
 
 	void Start ()
     {
-        enemyRb = this.gameObject.GetComponent<Rigidbody>();
         enemyType = this.gameObject.GetComponent<Enemy>().enemyType;
         enemySpeed = GameObject.FindObjectOfType<TerrainGenerator>().moveSpeed;
     }
@@ -45,7 +43,7 @@ public class EnemyMovement : MonoBehaviour
 
     private void EnemyMove()
     {
-        enemyRb.velocity = new Vector3(-1.0f * enemySpeed, enemyRb.velocity.y, enemyRb.velocity.z);
+        this.gameObject.transform.Translate(Vector2.left * enemySpeed * Time.deltaTime);
 
         makeMoveSound = (Time.timeSinceLevelLoad - lastMoveSoundTime) > moveSoundFrequency;
         if (makeMoveSound)
