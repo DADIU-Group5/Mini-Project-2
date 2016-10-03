@@ -36,10 +36,11 @@ namespace Mini2.Menu
             {
                 ChangeStateTo(MenuState.MainMenu);
             }
-            else
+            else if(PlayerPrefs.GetInt("PlayedBefore") == 3)
             {
-                PlayerPrefs.SetInt("PlayedBefore", 1);
+                ChangeStateTo(MenuState.Settings);
             }
+            PlayerPrefs.SetInt("PlayedBefore", 1);
         }
 
         public void ChangeStateTo(MenuState newState)
@@ -59,6 +60,7 @@ namespace Mini2.Menu
 
         public void ShowCredits()
         {
+            PlayerPrefs.SetInt("PlayedBefore", 3);
             SceneManager.LoadScene("Credits");
         }
 
