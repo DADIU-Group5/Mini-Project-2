@@ -1,48 +1,52 @@
 fileFormatVersion: 2
-guid: a63fc52b199064b498fa322b08dcbb86
-timeCreated: 1475241562
+guid: 9b84bf1be79c55640936260431a9ad84
+timeCreated: 1475483244
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: cnt_arm_1
-    100002: cnt_arm_2
-    100004: cnt_arm_3
-    100006: cnt_arm_4
-    100008: cnt_pelvis_01
-    100010: //RootNode
-    100012: grp_cnt
-    100014: grp_geo
-    100016: master_01
-    100018: pPlane3
-    100020: pPlane6
-    100022: pPlane7
-    100024: pPlane8
-    100026: pPlane9
-    400000: cnt_arm_1
-    400002: cnt_arm_2
-    400004: cnt_arm_3
-    400006: cnt_arm_4
-    400008: cnt_pelvis_01
-    400010: //RootNode
-    400012: grp_cnt
-    400014: grp_geo
-    400016: master_01
-    400018: pPlane3
-    400020: pPlane6
-    400022: pPlane7
-    400024: pPlane8
-    400026: pPlane9
-    2300000: pPlane3
-    2300002: pPlane6
-    2300004: pPlane7
-    2300006: pPlane8
-    2300008: pPlane9
-    3300000: pPlane3
-    3300002: pPlane6
-    3300004: pPlane7
-    3300006: pPlane8
-    3300008: pPlane9
+    100000: bind_arm_01
+    100002: bind_arm_02
+    100004: bind_arm_03
+    100006: bind_arm_04
+    100008: cnt_arm_1
+    100010: cnt_arm_2
+    100012: cnt_arm_3
+    100014: cnt_arm_4
+    100016: cnt_pelvis_01
+    100018: //RootNode
+    100020: grp_cnt
+    100022: grp_geo
+    100024: grp_rig
+    100026: master_01
+    100028: pelvis
+    100030: pPlane3
+    100032: pPlane6
+    100034: pPlane7
+    100036: pPlane8
+    100038: pPlane9
+    100040: root
+    400000: bind_arm_01
+    400002: bind_arm_02
+    400004: bind_arm_03
+    400006: bind_arm_04
+    400008: cnt_arm_1
+    400010: cnt_arm_2
+    400012: cnt_arm_3
+    400014: cnt_arm_4
+    400016: cnt_pelvis_01
+    400018: //RootNode
+    400020: grp_cnt
+    400022: grp_geo
+    400024: grp_rig
+    400026: master_01
+    400028: pelvis
+    400030: pPlane3
+    400032: pPlane6
+    400034: pPlane7
+    400036: pPlane8
+    400038: pPlane9
+    400040: root
     4300000: pPlane9
     4300002: pPlane6
     4300004: pPlane7
@@ -51,6 +55,11 @@ ModelImporter:
     7400000: enemySpaceBloobAnim_death
     9500000: //RootNode
     11100000: //RootNode
+    13700000: pPlane3
+    13700002: pPlane6
+    13700004: pPlane7
+    13700006: pPlane8
+    13700008: pPlane9
   materials:
     importMaterials: 1
     materialName: 0
