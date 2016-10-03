@@ -54,7 +54,7 @@ public class PlayerAttack : MonoBehaviour {
         {
             ob.hitByPlayer = true;
             ob.PlayerInteraction();
-            player.Attack();
+            player.Attack(true);
         }
         else if (!ob.hitByPlayer)
         {
