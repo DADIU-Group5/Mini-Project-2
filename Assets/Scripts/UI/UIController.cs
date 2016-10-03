@@ -101,6 +101,7 @@ public class UIController : Singleton<UIController> {
     public void MainMenu()
     {
         DisableStars();
+        Time.timeScale = 1;
         PlayerPrefs.SetInt("PlayedBefore", 2);
         SceneManager.LoadScene(0);
     }
@@ -108,6 +109,7 @@ public class UIController : Singleton<UIController> {
     public void NextLevel()
     {
         DisableStars();
+        Time.timeScale = 1;
         if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings-3)
         {
             SceneManager.LoadScene(0);
@@ -121,6 +123,7 @@ public class UIController : Singleton<UIController> {
     public void RetryLevel()
     {
         DisableStars();
+        Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
