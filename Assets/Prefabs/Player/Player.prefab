@@ -6485,7 +6485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pixelsForSwipe: 25
-  lockHorizontalSwipe: 1
+  lockHorizontalSwipe: 0
 --- !u!114 &114000011938422256
 MonoBehaviour:
   m_ObjectHideFlags: 1

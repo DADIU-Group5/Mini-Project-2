@@ -17,6 +17,6 @@ public class CreditsSceneManager : MonoBehaviour
     void Update()
     {
         if (Input.anyKey)
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("MainMenu");
     }
 }
