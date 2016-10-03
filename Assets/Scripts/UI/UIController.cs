@@ -20,7 +20,8 @@ public class UIController : Singleton<UIController> {
     public Text RetryText;
     public Text NextLevelText;
     public GameObject NextLevelButton;
-
+    public PlayerState state;
+    public EnemyType currentForm;
 
     void Start()
     {
@@ -33,6 +34,11 @@ public class UIController : Singleton<UIController> {
         starImages[1].gameObject.GetComponent<Image>().color = Color.clear;
         DisableStars();
         UpdateLanguage();
+    }
+
+    public void SwitchCharacters()
+    {
+        //remember order. current form in middle.
     }
 
     public void ShowEndScreen()
