@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
         playerAnimatorMayan = mayanModel.GetComponent<Animator>();
         playerAnimatorSpaceman = spacemanModel.GetComponent<Animator>();
 
-        ChangeForm();
+        UpdateModel();
         jumpStartTime = -jumpTime;
     }
 
@@ -79,6 +79,30 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void UpdateModel()
+    {
+        EnemyType currentPlayerType = state.form;
+        pirateModel.SetActive(currentPlayerType == EnemyType.Pirate);
+        mayanModel.SetActive(currentPlayerType == EnemyType.Mayan);
+        spacemanModel.SetActive(currentPlayerType == EnemyType.Spaceman);
+    }
+
+    private void PlaySwitchSound()
+    {
+        switch (state.form)
+        {
+            case EnemyType.Mayan:
+                AudioMaster.instance.PlayEvent("switchMayan");
+                break;
+            case EnemyType.Pirate:
+                AudioMaster.instance.PlayEvent("switchPirate");
+                break;
+            case EnemyType.Spaceman:
+                AudioMaster.instance.PlayEvent("switchSpaceman");
+                break;
+        }
+    }
+
     public void SwipeRight()
     {
         if ((int)state.form == 2)
@@ -110,27 +134,8 @@ public class Player : MonoBehaviour
     {
         Debug.Log("Changing form");
 
-        switch (state.form)
-        {
-            case EnemyType.Mayan:
-                AudioMaster.instance.PlayEvent("switchMayan");
-                pirateModel.SetActive(false);
-                mayanModel.SetActive(true);
-                spacemanModel.SetActive(false);
-                break;
-            case EnemyType.Pirate:
-                AudioMaster.instance.PlayEvent("switchPirate");
-                pirateModel.SetActive(true);
-                mayanModel.SetActive(false);
-                spacemanModel.SetActive(false);
-                break;
-            case EnemyType.Spaceman:
-                AudioMaster.instance.PlayEvent("switchSpaceman");
-                pirateModel.SetActive(false);
-                mayanModel.SetActive(false);
-                spacemanModel.SetActive(true);
-                break;
-        }
+        PlaySwitchSound();
+        UpdateModel();
     }
 
     public void Jump()
