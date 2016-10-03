@@ -1,9 +1,7 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(Enemy))]
-
 public class EnemyMovement : MonoBehaviour
 {
     [Range(0.0f, 10.0f)]
@@ -20,22 +18,22 @@ public class EnemyMovement : MonoBehaviour
 
 	void Start ()
     {
-        enemyType = this.gameObject.GetComponent<Enemy>().enemyType;
+        enemyType = gameObject.GetComponent<Enemy>().enemyType;
         enemySpeed = GameObject.FindObjectOfType<TerrainGenerator>().moveSpeed;
     }
 	
 	void Update ()
     {
-        if (this.gameObject.transform.position.x <= destroyPoint && !pointsGiven)
+        if (transform.position.x <= destroyPoint && !pointsGiven)
         {
             ScoreManager.instance.ModifyPoint(0, false); //type: enemy (0), give points: false
-            this.gameObject.GetComponent<Enemy>().DestroySelf();
+            gameObject.GetComponent<Enemy>().DestroySelf();
             pointsGiven = true;
         }
         else
         {
-            if (this.gameObject.transform.position.x <= GameObject.Find("Player").transform.position.x)    // the enemy has passed hugo and should be marked untargetable
-                this.gameObject.GetComponent<Enemy>().SetTargetable(false);
+            if (transform.position.x <= GameObject.Find("Player").transform.position.x)    // the enemy has passed hugo and should be marked untargetable
+                gameObject.GetComponent<Enemy>().SetTargetable(false);
 
             EnemyMove();
         }
@@ -43,7 +41,7 @@ public class EnemyMovement : MonoBehaviour
 
     private void EnemyMove()
     {
-        this.gameObject.transform.Translate(Vector2.left * enemySpeed * Time.deltaTime);
+        transform.Translate(Vector2.left * enemySpeed * Time.deltaTime);
 
         makeMoveSound = (Time.timeSinceLevelLoad - lastMoveSoundTime) > moveSoundFrequency;
         if (makeMoveSound)
