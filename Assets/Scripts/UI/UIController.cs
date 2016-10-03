@@ -30,7 +30,7 @@ public class UIController : Singleton<UIController> {
         starImages[2] = star3;
         starImages[3] = star4;
         starImages[4] = star5;
-        starImages[1].gameObject.GetComponent<Image>().color = Color.clear;
+        starImages[1].gameObject.GetComponent<Image>().color = star2.gameObject.GetComponent<Image>().color;
         DisableStars();
         UpdateLanguage();
     }
