@@ -343,6 +343,14 @@
 						<Property Name="Threshold" Type="Real32" Value="-35"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="mastercomp" ID="{A373633A-4224-44D3-86FC-1AA5F4C52090}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.3"/>
+						<Property Name="OutputGain" Type="Real32" Value="4"/>
+						<Property Name="Ratio" Type="Real32" Value="3"/>
+						<Property Name="Threshold" Type="Real32" Value="-10"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>
