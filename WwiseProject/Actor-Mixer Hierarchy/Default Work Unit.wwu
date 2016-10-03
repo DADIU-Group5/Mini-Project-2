@@ -7,6 +7,7 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="farts" ID="{2F94E1DF-E03C-4E25-86F1-0347AEED2276}" ShortID="341561866">
 							<ExcludedPlatformList>
+								<Platform>Windows</Platform>
 								<Platform>Android</Platform>
 							</ExcludedPlatformList>
 							<ReferenceList>
@@ -71,7 +72,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="Fart_BW_61633" ID="{8A81718E-3BFB-42D9-84BC-09A2216EB948}" ShortID="614790623">
 											<PropertyList>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0137067833698031"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.37067833698031E-02"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Fart_BW.61633.wav</AudioFile>
@@ -166,7 +167,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="laser4" ID="{8EE4943C-5216-4C0B-BC4E-B68AB90B7D74}" ShortID="762084009">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0050301559080963"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="5.0301559080963E-03"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.482894967177243"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -189,7 +190,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="laser3" ID="{ACD6E310-EDF6-48FD-8B4B-81C665B08083}" ShortID="962984383">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00571608315098465"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="5.71608315098465E-03"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.384882932166302"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -212,7 +213,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="laser2" ID="{ED681B72-17F1-4871-9231-67D3DB93C2A3}" ShortID="547303617">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0038869438366157"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.8869438366157E-03"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.676328227571116"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -235,7 +236,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="laser1" ID="{795A3411-E6C8-421C-8278-B66491A399B2}" ShortID="721673538">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00437636761487969"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="4.37636761487969E-03"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.74398249452954"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -289,8 +290,8 @@
 												<Property Name="FadeInDuration" Type="Real64" Value="0.525164341721371"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.750234773887674"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
-												<Property Name="TrimBegin" Type="Real64" Value="3.6761503920496"/>
-												<Property Name="TrimEnd" Type="Real64" Value="4.95154950765864"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.94400765116418"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.72195757127471"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>mask voodoo.wav</AudioFile>
@@ -312,11 +313,11 @@
 									<ChildrenList>
 										<AudioFileSource Name="mask voodoo2" ID="{CADF502C-0B42-4BFC-86E5-702EFB0ECA76}" ShortID="858796464">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.900281728665208"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="1.26039442013129"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.617536998256296"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.617536998256296"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.930291119620715"/>
-												<Property Name="TrimEnd" Type="Real64" Value="2.19068553975201"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.11396466872786"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.76211392516868"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>mask voodoo2.wav</AudioFile>
@@ -339,10 +340,10 @@
 										<AudioFileSource Name="mask voodoo3" ID="{CBFF100A-9D59-4939-9A47-6A254592C720}" ShortID="641084870">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="0.236323873997082"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="1.08033770970094"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.730524118152979"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
 												<Property Name="TrimBegin" Type="Real64" Value="3.71366087709701"/>
-												<Property Name="TrimEnd" Type="Real64" Value="5.0640830142232"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.44418499524999"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>mask voodoo3.wav</AudioFile>
@@ -394,7 +395,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="kniv1" ID="{08AE5B5B-0171-4697-97EE-0342F50DE96B}" ShortID="662973777">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0191466083150984"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.91466083150984E-02"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.13129102844639"/>
 												<Property Name="TrimBegin" Type="Real64" Value="1.61105032822757"/>
 											</PropertyList>
@@ -418,7 +419,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="kniv2" ID="{D600FFC9-C408-4691-914C-1D4F57A0170E}" ShortID="922238736">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0300875273522976"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.00875273522976E-02"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.12855579868709"/>
 												<Property Name="TrimBegin" Type="Real64" Value="1.64113785557987"/>
 											</PropertyList>
@@ -442,8 +443,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="kniv3" ID="{41586BD6-3D49-4E81-9043-1554960C9D24}" ShortID="980460444">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0328227571115973"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0328227571115969"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.28227571115973E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="3.28227571115969E-02"/>
 												<Property Name="TrimBegin" Type="Real64" Value="2.21881838074398"/>
 												<Property Name="TrimEnd" Type="Real64" Value="2.36323851203501"/>
 											</PropertyList>
@@ -467,7 +468,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="kniv4" ID="{4B226397-994F-47D9-9D20-ECAEEF5049E0}" ShortID="204934564">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00875273522975939"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="8.75273522975939E-03"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.135667396061269"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
 												<Property Name="TrimBegin" Type="Real64" Value="1.2144420131291"/>
@@ -493,7 +494,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="kniv5" ID="{3712A8B3-019B-450D-A6BC-5FD28B04C0A7}" ShortID="49989946">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0218818380743984"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.18818380743984E-02"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.183260393873085"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
 												<Property Name="TrimBegin" Type="Real64" Value="2.10065645514223"/>
@@ -519,7 +520,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="kniv6" ID="{D56AAC62-0169-4F5C-9624-B0C460AE774F}" ShortID="650274525">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0590809628008752"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="5.90809628008752E-02"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.12636761487965"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
 												<Property Name="TrimBegin" Type="Real64" Value="1.02407002188184"/>
@@ -545,7 +546,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="kniv7" ID="{B532E13A-B7B0-412A-A8A4-19686E1FE1F7}" ShortID="425034902">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00875273522975928"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="8.75273522975928E-03"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.13019693654267"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.517505470459519"/>
@@ -571,7 +572,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="kniv8" ID="{665BE1E1-2977-4B76-BD0D-6758F56D8E4B}" ShortID="88987367">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00765864332603938"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="7.65864332603938E-03"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.12910284463895"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.393873085339168"/>
@@ -597,8 +598,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="kniv9" ID="{8C4F76AF-B82A-437E-AEC6-56EE6741DD29}" ShortID="834934271">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00875273522975933"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0536105032822757"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="8.75273522975933E-03"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="5.36105032822757E-02"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.456236323851203"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.684901531728665"/>
 											</PropertyList>
@@ -618,6 +619,7 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="skeletonSteps" ID="{FCA42D15-1345-4826-BEAC-444DBDAD72F4}" ShortID="1050761374">
 							<ExcludedPlatformList>
+								<Platform>Windows</Platform>
 								<Platform>Android</Platform>
 							</ExcludedPlatformList>
 							<PropertyList>
@@ -671,7 +673,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="skelet step9" ID="{347298EE-7002-4CBA-9BC6-81139B7C1092}" ShortID="249956793">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0106673960612692"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.06673960612692E-02"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.099288840262582"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.233862144420131"/>
 											</PropertyList>
@@ -695,7 +697,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="skelet step8" ID="{12609CAA-97D8-4998-BE19-35F0872F260E}" ShortID="1073089635">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0172319474835886"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.72319474835886E-02"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.075492341356674"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.297866520787746"/>
@@ -720,7 +722,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="skelet step7" ID="{5E800C05-0DC9-438D-9363-DF1B5A0F3862}" ShortID="805093994">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00328227571115974"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.28227571115974E-03"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.025164113785558"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.277352297592998"/>
@@ -745,7 +747,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="skelet step6" ID="{9A1C9623-A08F-40B5-A998-F328DFB943CC}" ShortID="3687924">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0131291028446389"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.31291028446389E-02"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.199398249452954"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.210065645514223"/>
@@ -770,8 +772,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="skelet step5" ID="{F514C255-1C54-4726-B3BA-762BBD849693}" ShortID="864567352">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0155908096280087"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0861597374179431"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.55908096280087E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="8.61597374179431E-02"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.237964989059081"/>
 											</PropertyList>
@@ -796,7 +798,7 @@
 										<AudioFileSource Name="skelet step4" ID="{F52811DE-46D1-4913-95BC-2A9F85F6B724}" ShortID="106976220">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="0.012308533916849"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0426695842450766"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="4.26695842450766E-02"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.327407002188184"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -819,9 +821,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="skelet step3" ID="{7282BBC9-8E4A-493E-8F1E-B2150405D8C6}" ShortID="475251126">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0891684901531729"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="8.91684901531729E-02"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0738512035010941"/>
+												<Property Name="TrimBegin" Type="Real64" Value="7.38512035010941E-02"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>skelet step3.wav</AudioFile>
@@ -843,8 +845,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="skelet step2" ID="{C7ED1722-0EE8-4EAE-A818-3B5D40257FCD}" ShortID="35348800">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00574398249452951"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0073851203501093"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="5.74398249452951E-03"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="7.3851203501093E-03"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.317560175054705"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -867,8 +869,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="skelet step1" ID="{8F852595-90C4-4D7E-8EC5-8388C1C7C64C}" ShortID="481533011">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00382932166301969"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0235229759299782"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.82932166301969E-03"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.35229759299782E-02"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.221006564551422"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -920,7 +922,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="skelet death3" ID="{03C575B3-14AA-48BB-9A4D-36A0D029EAC9}" ShortID="769500426">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0689277899343545"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="6.89277899343545E-02"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.390590809628009"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.221553610503282"/>
@@ -960,7 +962,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="skelet death2" ID="{49E1A632-1BF1-4E20-A23C-37C485341C5C}" ShortID="991799614">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0213347921225383"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.13347921225383E-02"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.101750547045952"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.722100656455142"/>
@@ -1000,7 +1002,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="skelet death" ID="{9CBC7B6E-D8F0-4A8D-893B-F7197DE157F6}" ShortID="338687880">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0833304157549234"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="8.33304157549234E-02"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.863606126914661"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.588363238512035"/>
@@ -1066,7 +1068,7 @@
 							<ChildrenList>
 								<AudioFileSource Name="shark death" ID="{53535FBA-1F55-4B91-8068-397D62BEB7DB}" ShortID="125529509">
 									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="0.0480032822757112"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="4.80032822757112E-02"/>
 										<Property Name="TrimBegin" Type="Real64" Value="0.184012582056893"/>
 									</PropertyList>
 									<Language>SFX</Language>
@@ -1079,6 +1081,7 @@
 						</Sound>
 						<RandomSequenceContainer Name="blobMove" ID="{F9930871-DDF2-40A3-B241-42F068728696}" ShortID="812200137">
 							<ExcludedPlatformList>
+								<Platform>Windows</Platform>
 								<Platform>Android</Platform>
 							</ExcludedPlatformList>
 							<PropertyList>
@@ -1159,8 +1162,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="tentaclecut1" ID="{0732E220-61B0-4F1B-BF7E-BD4E0C5A40E5}" ShortID="77686141">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0030114879649891"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0124474835886214"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.0114879649891E-03"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.24474835886214E-02"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -1183,10 +1186,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="tentaclecut2" ID="{2A19E83F-7C69-4E3B-A3A1-E22729E16A83}" ShortID="871601554">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00903446389496718"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="9.03446389496718E-03"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.161716903719912"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0189723741794311"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.89723741794311E-02"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>tentaclecut2.wav</AudioFile>
@@ -1208,10 +1211,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="tentaclecut3" ID="{9E678687-E811-48E8-B184-9FF87354D409}" ShortID="84998545">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00722757111597374"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="7.22757111597374E-03"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.35234409190372"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0243930525164114"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.43930525164114E-02"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>tentaclecut3.wav</AudioFile>
@@ -1225,6 +1228,7 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="sharkMove" ID="{7AFF8BD8-7D5F-4FC7-A9B7-2DC80FCA44EB}" ShortID="508770134">
 							<ExcludedPlatformList>
+								<Platform>Windows</Platform>
 								<Platform>Android</Platform>
 							</ExcludedPlatformList>
 							<PropertyList>
@@ -1315,10 +1319,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="tentaclecut1" ID="{862B9BD4-6B97-42F5-A0B5-220C0A1336F8}" ShortID="452338450">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0030114879649891"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0124474835886214"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.0114879649891E-03"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.24474835886214E-02"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.0309179431072211"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.09179431072211E-02"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>tentaclecut1.wav</AudioFile>
@@ -1343,10 +1347,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="tentaclecut2" ID="{B834F291-08F7-4FAA-8784-04021ACE5E8F}" ShortID="531238653">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00903446389496718"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0587240153172868"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="9.03446389496718E-03"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="5.87240153172868E-02"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0939584245076587"/>
+												<Property Name="TrimBegin" Type="Real64" Value="9.39584245076587E-02"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.215923687089716"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -1369,10 +1373,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="tentaclecut3" ID="{EFD2B6BA-44A7-47A3-8A26-A54FE649B735}" ShortID="45169568">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00722757111597374"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="7.22757111597374E-03"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.138227297592998"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0243930525164114"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.43930525164114E-02"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.162620350109409"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -1420,8 +1424,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="tentaclecut1" ID="{0E411D32-7E4C-464E-B10B-9D373576C73F}" ShortID="264129047">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0030114879649891"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0124474835886214"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.0114879649891E-03"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.24474835886214E-02"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -1447,10 +1451,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="tentaclecut2" ID="{CCCE568B-1214-41BB-AA92-E19BD2D44E24}" ShortID="47152480">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00903446389496718"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="9.03446389496718E-03"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.161716903719912"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0189723741794311"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.89723741794311E-02"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>tentaclecut2.wav</AudioFile>
@@ -1475,10 +1479,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="tentaclecut3" ID="{B72CAA37-4D2C-4C48-B4D6-6C738576FC8E}" ShortID="510315317">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00722757111597374"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="7.22757111597374E-03"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.35234409190372"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0243930525164114"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.43930525164114E-02"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>tentaclecut3.wav</AudioFile>
@@ -1577,7 +1581,7 @@
 							<ChildrenList>
 								<AudioFileSource Name="rock explosion" ID="{CCD8562A-BECF-4932-8120-D5CEF3A1247E}" ShortID="14170797">
 									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="0.00940108598751925"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="9.40108598751925E-03"/>
 										<Property Name="FadeOutDuration" Type="Real64" Value="3.54597212091742"/>
 										<Property Name="FadeOutShape" Type="int16" Value="3"/>
 										<Property Name="TrimBegin" Type="Real64" Value="0.166281708404247"/>
@@ -1632,7 +1636,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="laser no hit1" ID="{9650CA40-7A30-4865-88E8-0D2B765D1D6D}" ShortID="27717524">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00820568927789944"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="8.20568927789944E-03"/>
 												<Property Name="TrimBegin" Type="Real64" Value="1.53172866520788"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -1655,7 +1659,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="laser no hit2" ID="{3CB917D3-559E-4A5F-937F-79D20C890CA7}" ShortID="553952317">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00777388767323117"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="7.77388767323117E-03"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.647176148796499"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -1761,6 +1765,7 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="reward enemy" ID="{83E0EE54-2572-4273-A911-8133D5F497FF}" ShortID="441169344">
 							<ExcludedPlatformList>
+								<Platform>Windows</Platform>
 								<Platform>Android</Platform>
 							</ExcludedPlatformList>
 							<PropertyList>
@@ -1833,7 +1838,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="reward1" ID="{9CD0E4D0-C0B9-438E-A3F1-20C705C09D5B}" ShortID="20974474">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0853391684901532"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="8.53391684901532E-02"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.312910284463895"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -1883,7 +1888,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="reward3" ID="{6831A5AC-1929-43D9-BD90-DBDED0C4A0FB}" ShortID="704912709">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0574398249452954"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="5.74398249452954E-02"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.12636761487965"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2033,6 +2038,7 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="point lost" ID="{75BB24E0-3ED9-4B14-A4EA-B20537EA0AEC}" ShortID="450948988">
 							<ExcludedPlatformList>
+								<Platform>Windows</Platform>
 								<Platform>Android</Platform>
 							</ExcludedPlatformList>
 							<ReferenceList>
@@ -2056,7 +2062,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="point lost1" ID="{2B64FEAF-B497-4561-8D2F-CF069CEAE751}" ShortID="439065754">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00902625820568928"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="9.02625820568928E-03"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.141411378555799"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2079,7 +2085,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="point lost2" ID="{78F92E2A-834D-4A3F-A141-78EB83DA4006}" ShortID="711114988">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0106673960612691"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.06673960612691E-02"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.234682713347921"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2102,7 +2108,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="point lost3" ID="{C10B1F36-EC56-49FD-B942-A395339DFB3D}" ShortID="1013570556">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0164113785557987"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.64113785557987E-02"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.318380743982495"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2125,7 +2131,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="point lost4" ID="{8CA78D25-7F43-4D60-8433-B67B18D4B701}" ShortID="129691722">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0218818380743983"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.18818380743983E-02"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.481400437636761"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2148,7 +2154,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="point lost5" ID="{686ABFCD-595C-4C79-AC77-048CCECDB8C3}" ShortID="59408730">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0132347738876732"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.32347738876732E-02"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.393734523158279"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2163,6 +2169,7 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="point gained" ID="{AD42F78B-AD71-4B03-888B-4E7EA60D4B71}" ShortID="851293237">
 							<ExcludedPlatformList>
+								<Platform>Windows</Platform>
 								<Platform>Android</Platform>
 							</ExcludedPlatformList>
 							<ReferenceList>
@@ -2186,7 +2193,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="point gained" ID="{900EE46E-5AD1-475E-A2F6-C9A1801F64E0}" ShortID="40423426">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00986980306345736"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="9.86980306345736E-03"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.555998905908096"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2212,7 +2219,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="point gained2" ID="{B3137DC1-A23C-4AE6-B1C7-5450D4C46745}" ShortID="910030847">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0119910649161196"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.19910649161196E-02"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.671499635302699"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2281,7 +2288,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="point gained5" ID="{A8DB85BD-D238-4196-96F3-7467A5B29017}" ShortID="355491556">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00739284737417939"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="7.39284737417939E-03"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.480535079321663"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2304,7 +2311,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="point gained6" ID="{4322B795-30C2-496A-8175-7DBA8299567F}" ShortID="75613090">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0094124726477024"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="9.4124726477024E-03"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.611810722100657"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2370,7 +2377,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="minion summon1" ID="{880DD03B-2D35-42AC-8334-55B2E3174BEB}" ShortID="931143382">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00492341356673962"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="4.92341356673962E-03"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.364332603938731"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2439,8 +2446,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="minion summon4" ID="{C961A2A4-7C72-47FE-BB9D-089DBA3F0C8C}" ShortID="262697774">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0306345733041576"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0306345733041575"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.06345733041576E-02"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.06345733041575E-02"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>minion summon4.wav</AudioFile>
@@ -2462,8 +2469,8 @@
 									<ChildrenList>
 										<AudioFileSource Name="minion summon5" ID="{C07CED39-7D51-48D9-891B-69E4A7435ECA}" ShortID="280725247">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00437636761487967"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0656455142231948"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="4.37636761487967E-03"/>
+												<Property Name="TrimBegin" Type="Real64" Value="6.56455142231948E-02"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>minion summon5.wav</AudioFile>
@@ -2485,7 +2492,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="minion summon6" ID="{4EC6BFAC-D254-4C63-9FA1-035CC04976DF}" ShortID="765546739">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00920787746170681"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="9.20787746170681E-03"/>
 												<Property Name="TrimBegin" Type="Real64" Value="1.98890153172867"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2508,7 +2515,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="minion summon7" ID="{F8C37ECD-F8B0-4E87-A77E-BBE3122324C6}" ShortID="187903421">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0212399708242159"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.12399708242159E-02"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.373216630196937"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2546,7 +2553,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="minion summon alt 1 short" ID="{48D26127-5ECE-44A7-BC19-5F7B1948B23C}" ShortID="1050366790">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0189992706053974"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.89992706053974E-02"/>
 												<Property Name="TrimBegin" Type="Real64" Value="1.5389409190372"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2569,7 +2576,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="minion summon alt 2 short" ID="{7DBA3240-CA0F-4925-99DB-09B2971683C7}" ShortID="127512394">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00674548687089715"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="6.74548687089715E-03"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.566620897155361"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2592,7 +2599,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="minion summon alt 3 short" ID="{33221B78-583A-4921-A76B-19269A6EE31F}" ShortID="96605360">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00478487417943108"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="4.78487417943108E-03"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.569400027352297"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2615,7 +2622,7 @@
 									<ChildrenList>
 										<AudioFileSource Name="minion summon alt 4 short" ID="{2A1AEA17-CD43-4680-8589-4145B99692B8}" ShortID="437324699">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0120205370167761"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.20205370167761E-02"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.233198418125456"/>
 											</PropertyList>
 											<Language>SFX</Language>

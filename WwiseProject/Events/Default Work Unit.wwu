@@ -25,6 +25,7 @@
 						</Action>
 						<Action Name="Play" ID="{EAF94180-F935-4EB0-88D3-427F62EB4B98}" ShortID="926827628" Type="Play" Scope="One" Global="false">
 							<ExcludedPlatformList>
+								<Platform>Windows</Platform>
 								<Platform>Android</Platform>
 							</ExcludedPlatformList>
 							<ElementList>
