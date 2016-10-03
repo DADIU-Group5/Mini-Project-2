@@ -136,6 +136,7 @@ namespace Mini2.Menu
                 case MenuState.LevelSelect:
                     levelSelect.SetActive(true);
                     levelButtonCreator.CreateButtons(theme);
+                    mainMenuText.UpdateLanguage(theme);
                     break;
                 default:
                     break;

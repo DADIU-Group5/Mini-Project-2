@@ -32,11 +32,7 @@ public class MainMenuButton : MonoBehaviour {
 
     void GetStars()
     {
-        if (!SaveData.instance.WasLevelCompleted(slevel+(level-1)))
-        {
-            Debug.Log("does not have key for level: " + (slevel + (level-1)));
-        }
-        else
+        if (SaveData.instance.WasLevelCompleted(slevel+(level-1)))
         {
             button.interactable = true;
             int temp = SaveData.instance.GetStarsForLevel(levelName);
