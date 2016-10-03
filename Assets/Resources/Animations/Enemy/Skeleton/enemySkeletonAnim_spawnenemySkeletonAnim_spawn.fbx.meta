@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: fb609df17d030f04984e491eea69985b
-timeCreated: 1475483116
+guid: c9b8c932317044f4bad6fa75c3210edb
+timeCreated: 1475498649
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
@@ -69,9 +69,8 @@ ModelImporter:
     4300006: l_head_01
     4300008: r_arm_01
     4300010: r_leg_01
-    7400000: enemySkeleton_death
+    7400000: enemySkeletonAnim_spawn
     9500000: //RootNode
-    11100000: //RootNode
     13700000: l_arm_01
     13700002: l_head_01
     13700004: l_leg_01
@@ -92,7 +91,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5

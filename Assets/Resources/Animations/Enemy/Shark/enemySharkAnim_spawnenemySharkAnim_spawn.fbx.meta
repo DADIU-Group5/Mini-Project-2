@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 3bff2ccd7e27f504ab405d052d407ed0
-timeCreated: 1475482921
+guid: 22df53f8894f6f44cab82b8e050555e2
+timeCreated: 1475498648
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
@@ -66,9 +66,8 @@ ModelImporter:
     4300008: Shark_6
     4300010: Shark_7
     4300012: Shark_8
-    7400000: enemySharkAnim_death
+    7400000: enemySharkAnim_spawn
     9500000: //RootNode
-    11100000: //RootNode
     13700000: Shark_1
     13700002: Shark_2
     13700004: Shark_3
@@ -90,7 +89,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
