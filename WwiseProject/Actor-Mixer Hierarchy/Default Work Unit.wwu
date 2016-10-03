@@ -6,6 +6,9 @@
 				<Folder Name="placeholder farts" ID="{0FD14ABB-E71D-4E0E-BD55-C746C8626BE3}" ShortID="731950587">
 					<ChildrenList>
 						<RandomSequenceContainer Name="farts" ID="{2F94E1DF-E03C-4E25-86F1-0347AEED2276}" ShortID="341561866">
+							<ExcludedPlatformList>
+								<Platform>Android</Platform>
+							</ExcludedPlatformList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="super duper compressed" ID="{57DF8DDD-92B2-404D-B393-BF7317B5B28F}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
@@ -287,7 +290,7 @@
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.750234773887674"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
 												<Property Name="TrimBegin" Type="Real64" Value="3.6761503920496"/>
-												<Property Name="TrimEnd" Type="Real64" Value="9.45295815098468"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.95154950765864"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>mask voodoo.wav</AudioFile>
@@ -310,9 +313,10 @@
 										<AudioFileSource Name="mask voodoo2" ID="{CADF502C-0B42-4BFC-86E5-702EFB0ECA76}" ShortID="858796464">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="0.900281728665208"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="2.88090153172867"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.26039442013129"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
-												<Property Name="TrimEnd" Type="Real64" Value="6.27196270970095"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.930291119620715"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.19068553975201"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>mask voodoo2.wav</AudioFile>
@@ -335,10 +339,10 @@
 										<AudioFileSource Name="mask voodoo3" ID="{CBFF100A-9D59-4939-9A47-6A254592C720}" ShortID="641084870">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="0.236323873997082"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="3.57861866338439"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.08033770970094"/>
 												<Property Name="FadeOutShape" Type="int16" Value="3"/>
-												<Property Name="TrimBegin" Type="Real64" Value="3.67990032366886"/>
-												<Property Name="TrimEnd" Type="Real64" Value="10.5670532230124"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.71366087709701"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.0640830142232"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>mask voodoo3.wav</AudioFile>
@@ -613,6 +617,9 @@
 				<Folder Name="enemies" ID="{DC5FD0D0-E79A-4E5E-B174-D6FAE03B8AAE}" ShortID="837603338">
 					<ChildrenList>
 						<RandomSequenceContainer Name="skeletonSteps" ID="{FCA42D15-1345-4826-BEAC-444DBDAD72F4}" ShortID="1050761374">
+							<ExcludedPlatformList>
+								<Platform>Android</Platform>
+							</ExcludedPlatformList>
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -1058,6 +1065,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="shark death" ID="{53535FBA-1F55-4B91-8068-397D62BEB7DB}" ShortID="125529509">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0480032822757112"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.184012582056893"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>shark death.wav</AudioFile>
 								</AudioFileSource>
@@ -1067,6 +1078,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<RandomSequenceContainer Name="blobMove" ID="{F9930871-DDF2-40A3-B241-42F068728696}" ShortID="812200137">
+							<ExcludedPlatformList>
+								<Platform>Android</Platform>
+							</ExcludedPlatformList>
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ModifierList>
@@ -1210,6 +1224,9 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="sharkMove" ID="{7AFF8BD8-7D5F-4FC7-A9B7-2DC80FCA44EB}" ShortID="508770134">
+							<ExcludedPlatformList>
+								<Platform>Android</Platform>
+							</ExcludedPlatformList>
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ModifierList>
@@ -1743,6 +1760,9 @@
 				<Folder Name="reward" ID="{0C80C6FD-397D-45F9-938D-B2C5D5C2A80D}" ShortID="381975111">
 					<ChildrenList>
 						<RandomSequenceContainer Name="reward enemy" ID="{83E0EE54-2572-4273-A911-8133D5F497FF}" ShortID="441169344">
+							<ExcludedPlatformList>
+								<Platform>Android</Platform>
+							</ExcludedPlatformList>
 							<PropertyList>
 								<Property Name="BypassEffect3" Type="bool">
 									<ValueList>
@@ -2012,6 +2032,9 @@
 							</Playlist>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="point lost" ID="{75BB24E0-3ED9-4B14-A4EA-B20537EA0AEC}" ShortID="450948988">
+							<ExcludedPlatformList>
+								<Platform>Android</Platform>
+							</ExcludedPlatformList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="super duper compressed" ID="{57DF8DDD-92B2-404D-B393-BF7317B5B28F}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
@@ -2139,6 +2162,9 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="point gained" ID="{AD42F78B-AD71-4B03-888B-4E7EA60D4B71}" ShortID="851293237">
+							<ExcludedPlatformList>
+								<Platform>Android</Platform>
+							</ExcludedPlatformList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="super duper compressed" ID="{57DF8DDD-92B2-404D-B393-BF7317B5B28F}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>

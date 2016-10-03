@@ -11,6 +11,14 @@
 							</ValueList>
 						</Property>
 					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+							<ObjectRef Name="mastercomp" ID="{A373633A-4224-44D3-86FC-1AA5F4C52090}" WorkUnitID="{E375462F-1E38-4008-853A-C5F885645CA5}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+							<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+					</ReferenceList>
 					<ChildrenList>
 						<AuxBus Name="rvb1" ID="{3714E54D-BF36-4DD7-A60C-AE519D973518}">
 							<ReferenceList>
