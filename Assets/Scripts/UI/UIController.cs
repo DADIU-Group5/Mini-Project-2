@@ -30,7 +30,7 @@ public class UIController : Singleton<UIController> {
         starImages[2] = star3;
         starImages[3] = star4;
         starImages[4] = star5;
-        starImages[1].gameObject.GetComponent<Image>().color = Color.clear;
+        starImages[1].gameObject.GetComponent<Image>().color = star2.gameObject.GetComponent<Image>().color;
         DisableStars();
         UpdateLanguage();
     }
@@ -101,16 +101,18 @@ public class UIController : Singleton<UIController> {
     public void MainMenu()
     {
         DisableStars();
+        Time.timeScale = 1;
         PlayerPrefs.SetInt("PlayedBefore", 2);
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void NextLevel()
     {
         DisableStars();
+        Time.timeScale = 1;
         if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings-3)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("MainMenu");
         }
         else
         {
@@ -121,6 +123,7 @@ public class UIController : Singleton<UIController> {
     public void RetryLevel()
     {
         DisableStars();
+        Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
