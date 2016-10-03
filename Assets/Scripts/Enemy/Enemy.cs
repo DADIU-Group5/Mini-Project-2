@@ -59,7 +59,9 @@ public class Enemy : MonoBehaviour
             // Die
             if (GameObject.FindObjectOfType<Player>().state.form == enemyType)
             {
-                this.gameObject.GetComponentInChildren<Animation>().Play();
+                Animator enemyAnimator = this.gameObject.GetComponentInChildren<Animator>();
+                enemyAnimator.SetTrigger("Death");
+
                 test = true;
             }
             DestroySelf();

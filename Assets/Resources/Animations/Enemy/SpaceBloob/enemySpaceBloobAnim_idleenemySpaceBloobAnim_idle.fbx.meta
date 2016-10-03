@@ -79,7 +79,77 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: enemySpaceBloobAnim_idle
+      takeName: enemySpaceBloobAnim_idle
+      firstFrame: 1
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_cnt
+        weight: 1
+      - path: grp_cnt/master_01
+        weight: 1
+      - path: grp_cnt/master_01/cnt_arm_1
+        weight: 1
+      - path: grp_cnt/master_01/cnt_arm_2
+        weight: 1
+      - path: grp_cnt/master_01/cnt_arm_3
+        weight: 1
+      - path: grp_cnt/master_01/cnt_arm_4
+        weight: 1
+      - path: grp_cnt/master_01/cnt_pelvis_01
+        weight: 1
+      - path: grp_geo
+        weight: 1
+      - path: grp_geo/pPlane3
+        weight: 1
+      - path: grp_geo/pPlane6
+        weight: 1
+      - path: grp_geo/pPlane7
+        weight: 1
+      - path: grp_geo/pPlane8
+        weight: 1
+      - path: grp_geo/pPlane9
+        weight: 1
+      - path: grp_rig
+        weight: 1
+      - path: grp_rig/root
+        weight: 1
+      - path: grp_rig/root/pelvis
+        weight: 1
+      - path: grp_rig/root/pelvis/bind_arm_01
+        weight: 1
+      - path: grp_rig/root/pelvis/bind_arm_02
+        weight: 1
+      - path: grp_rig/root/pelvis/bind_arm_03
+        weight: 1
+      - path: grp_rig/root/pelvis/bind_arm_04
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
     isReadable: 1
   meshes:
     lODScreenPercentages: []
