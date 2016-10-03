@@ -50,9 +50,6 @@ public class LevelLoader : MonoBehaviour {
                 spaceLevels++;
             }
         }
-        Debug.Log("Pirate: " + pirateLevels);
-        Debug.Log("Mayan: " + mayanLevels);
-        Debug.Log("Space: " + spaceLevels);
     }
 
     public void Reset()

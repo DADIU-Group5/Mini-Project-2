@@ -70,7 +70,7 @@ public class MainMenuButtonHandler : MonoBehaviour {
     }
 
     public void MusicChange(float f) {
-
+        PlayerPrefs.SetFloat("MasterVolume", f);
     }
 
     public void ShowCredits()
