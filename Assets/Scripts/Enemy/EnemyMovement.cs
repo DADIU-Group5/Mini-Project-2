@@ -12,12 +12,19 @@ public class EnemyMovement : MonoBehaviour
     public float destroyPoint = 0.0f;
     [Range(0.0f, 10.0f)]
     public float moveSoundFrequency = 1.0f;
+    [Range(0.0f, 10.0f)]
+    public float jumpingSpeed = 1.0f;
+    [Range(0.0f, 2.0f)]
+    public float jumpingHeight = 0.2f;
 
     private Rigidbody enemyRb;
     private EnemyType enemyType;
     private bool makeMoveSound;
     private float lastMoveSoundTime;
     private bool pointsGiven = false;
+    private bool jumping = true;
+    private float jumpedTime;
+    private float fraction;
 
 	void Start ()
     {
@@ -41,6 +48,8 @@ public class EnemyMovement : MonoBehaviour
 
             EnemyMove();
         }
+
+        EnemyJump();
 	}
 
     private void EnemyMove()
@@ -66,5 +75,44 @@ public class EnemyMovement : MonoBehaviour
         }
     }
 
-
+    /**
+     * Controls jumping of enemies.
+     */
+    private void EnemyJump()
+    {
+        // Only jump if enemy is not dead
+        if (!gameObject.GetComponent<Enemy>().getPointsGiven())
+        {
+            // If player is currently jumping but has reached peak of jump
+            if (jumping && gameObject.transform.position.y >= jumpingHeight)
+            {
+                jumping = false;
+                gameObject.transform.Translate(Vector3.down * jumpingSpeed * Time.deltaTime);
+            }
+            // If player is jumping and hasn't reached peak of jump
+            else if (jumping && gameObject.transform.position.y < jumpingHeight)
+            {
+                gameObject.transform.Translate(Vector3.up * jumpingSpeed * Time.deltaTime);
+            }
+            // If player is not jumping and has landed
+            else if (!jumping && gameObject.transform.position.y <= 0.0f)
+            {
+                jumping = true;
+                gameObject.transform.Translate(Vector3.up * jumpingSpeed * Time.deltaTime);
+            }
+            // If player is not jumping but still falling
+            else if (!jumping && gameObject.transform.position.y > 0.0f)
+            {
+                gameObject.transform.Translate(Vector3.down * jumpingSpeed * Time.deltaTime);
+            }
+        }
+        // Fall gracefully to the ground when killed in the air
+        else
+        {
+            if (gameObject.transform.position.y > 0.0)
+            {
+                gameObject.transform.Translate(Vector3.down * jumpingSpeed * Time.deltaTime);
+            }
+        }
+    }
 }

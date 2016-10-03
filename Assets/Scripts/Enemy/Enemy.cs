@@ -83,4 +83,9 @@ public class Enemy : MonoBehaviour
     {
         this.targetable = targetable;
     }
+
+    public bool getPointsGiven()
+    {
+        return pointsGiven;
+    }
 }
