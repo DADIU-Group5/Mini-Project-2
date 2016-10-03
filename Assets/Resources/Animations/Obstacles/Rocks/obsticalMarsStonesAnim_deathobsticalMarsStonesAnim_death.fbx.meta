@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 22075724365c94d48be3a75c6f98e994
-timeCreated: 1475235172
+guid: f1b8378218a444446adc62aa933ad809
+timeCreated: 1475483459
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
@@ -110,7 +110,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
   importAnimation: 1
-  copyAvatar: 1
+  copyAvatar: 0
   humanDescription:
     human: []
     skeleton: []

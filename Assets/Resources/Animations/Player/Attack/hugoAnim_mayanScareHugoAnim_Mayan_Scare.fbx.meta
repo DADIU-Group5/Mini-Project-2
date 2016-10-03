@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: da73ff6c306c0844b86f3cdaca00276a
-timeCreated: 1475224891
+guid: 9f0f0a6ebbd23da4b91e12853de1aed1
+timeCreated: 1475484100
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
@@ -196,7 +196,7 @@ ModelImporter:
       name: HugoAnim_Mayan_Scare
       takeName: HugoAnim_Mayan_Scare
       firstFrame: 1
-      lastFrame: 26
+      lastFrame: 19
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
