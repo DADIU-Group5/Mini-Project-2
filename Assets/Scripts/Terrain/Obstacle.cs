@@ -69,4 +69,8 @@ public class Obstacle : TerrainMovement {
         RemoveObstacle();
     }
 
+    public bool getBeaten()
+    {
+        return beaten;
+    }
 }
