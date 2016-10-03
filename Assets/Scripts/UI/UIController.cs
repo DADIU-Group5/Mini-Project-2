@@ -11,6 +11,8 @@ public class UIController : Singleton<UIController> {
     public GameObject star1;
     public GameObject star2;
     public GameObject star3;
+    public GameObject star4;
+    public GameObject star5;
     GameObject[] starImages;
 
     public Text levelEndText;
@@ -22,11 +24,14 @@ public class UIController : Singleton<UIController> {
 
     void Start()
     {
-        starImages = new GameObject[3];
-        DisableStars();
+        starImages = new GameObject[5];
         starImages[0] = star1;
         starImages[1] = star2;
         starImages[2] = star3;
+        starImages[3] = star4;
+        starImages[4] = star5;
+        starImages[1].gameObject.GetComponent<Image>().color = Color.clear;
+        DisableStars();
         UpdateLanguage();
     }
 
@@ -40,23 +45,28 @@ public class UIController : Singleton<UIController> {
         endPanel.SetActive(true);
         StarSystem.instance.CalculateScore();
         int stars = StarSystem.instance.starRating;
-        if (stars != 0) {
-            float range = Mathf.Abs (star3.transform.position.x+2) - Mathf.Abs (star1.transform.position.x+2);
-            Debug.Log("the range is: " + range + " with star 1 at : " + star1.transform.position.x + " with star 3 at : " + star3.transform.position.x);
-            
-            for (int i = 0; i < Mathf.Abs(stars); i++)
+        if (stars == 3)
+        {
+            for (int i = 0; i < 3; i++)
             {
-                float point = (range / (stars+1)) * (i + 1);
-                Debug.Log(range + " / " + (stars + 1) + " * " + (i + 1) + " = " + point);
                 starImages[i].gameObject.GetComponent<Image>().enabled = true;
-                if (stars < 0)
-                {
-                    starImages[i].gameObject.GetComponent<Image>().color = Color.red;
-                }
-                starImages[i].transform.position = new Vector3(star1.transform.position.x + point, starImages[i].transform.position.y, starImages[i].transform.position.z);
-                Debug.Log("Star " + (i+1) + " at star1.transform.position.x + point: " + (star1.transform.position.x + point));
             }
         }
+        else if (stars == 1)
+        {
+            starImages[1].gameObject.GetComponent<Image>().enabled = true;
+        }
+        else if (stars == 2)
+        {
+            starImages[3].gameObject.GetComponent<Image>().enabled = true;
+            starImages[4].gameObject.GetComponent<Image>().enabled = true;
+        }
+        else if (stars < 0)
+        {
+            starImages[1].gameObject.GetComponent<Image>().enabled = true;
+            starImages[1].gameObject.GetComponent<Image>().color = Color.red;
+        }
+        
         SaveData.instance.CompletedCurrentLevel();
         SaveData.instance.SaveStarsForCurrentLevel(stars);
     }
@@ -117,8 +127,10 @@ public class UIController : Singleton<UIController> {
     public void DisableStars()
     {
         //disable the image component of all the star images
-        star1.GetComponent<Image>().enabled = false;
-        star2.GetComponent<Image>().enabled = false;
-        star3.GetComponent<Image>().enabled = false;
+        for (int i = 0; i < starImages.Length; i++)
+        {
+            Debug.Log("Disable stars!");
+            starImages[i].GetComponent<Image>().enabled = false;
+        }
     }
 }
