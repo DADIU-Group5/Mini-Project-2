@@ -42,7 +42,7 @@ public class Obstacle : TerrainMovement {
         {
             AudioMaster.instance.PlayEvent("obstacleSuccesPirate");
             AudioMaster.instance.PlayEvent("rewardObstaclePirate");
-            this.GetComponentInChildren<Animation>().Play();
+            this.GetComponentInChildren<Animator>().SetTrigger("Death");
         }
         else if (weakAgainst == EnemyType.Mayan)
         {

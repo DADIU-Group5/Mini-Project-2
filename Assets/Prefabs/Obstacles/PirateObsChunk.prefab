@@ -172,7 +172,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011354878144}
   - 95: {fileID: 95000012897832476}
-  - 111: {fileID: 111000011550512432}
   m_Layer: 0
   m_Name: obsticalTentacle
   m_TagString: Untagged
@@ -698,21 +697,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!111 &111000011550512432
-Animation:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000012319765790}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 63931ec40e627e1408fbd90121f6d7a2, type: 3}
-  m_Animations:
-  - {fileID: 7400000, guid: 63931ec40e627e1408fbd90121f6d7a2, type: 3}
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &114000011201306706
 MonoBehaviour:
   m_ObjectHideFlags: 1
