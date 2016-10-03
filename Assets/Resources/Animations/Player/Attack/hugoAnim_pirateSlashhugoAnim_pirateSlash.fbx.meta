@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 792d1b6d5de09b940a27ab972adcbf68
-timeCreated: 1475224891
+guid: 21a50f62d93083945b133934ad4927a9
+timeCreated: 1475483888
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
@@ -205,7 +205,7 @@ ModelImporter:
       name: hugoAnim_pirateSlash
       takeName: hugoAnim_pirateSlash
       firstFrame: 1
-      lastFrame: 15
+      lastFrame: 11
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
