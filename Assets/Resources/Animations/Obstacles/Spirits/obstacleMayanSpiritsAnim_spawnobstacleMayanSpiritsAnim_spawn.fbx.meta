@@ -1,59 +1,65 @@
 fileFormatVersion: 2
-guid: 63931ec40e627e1408fbd90121f6d7a2
-timeCreated: 1475483415
+guid: 26568d9d30688b24e82ff9cc60189334
+timeCreated: 1475498648
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: be_tentacle_9
-    100002: bind_tentacle_1
-    100004: bind_tentacle_2
-    100006: bind_tentacle_3
-    100008: bind_tentacle_4
-    100010: bind_tentacle_5
-    100012: bind_tentacle_6
-    100014: bind_tentacle_7
-    100016: bind_tentacle_8
-    100018: cnt_tentacle_1
-    100020: cnt_tentacle_2
-    100022: cnt_tentacle_3
-    100024: cnt_tentacle_4
-    100026: cnt_tentacle_5
-    100028: cnt_tentacle_6
-    100030: cnt_tentacle_7
-    100032: cnt_tentacle_8
-    100034: grp_cnt
-    100036: grp_geo
-    100038: grp_jnt_
-    100040: //RootNode
-    100042: tentacle 1
-    400000: be_tentacle_9
-    400002: bind_tentacle_1
-    400004: bind_tentacle_2
-    400006: bind_tentacle_3
-    400008: bind_tentacle_4
-    400010: bind_tentacle_5
-    400012: bind_tentacle_6
-    400014: bind_tentacle_7
-    400016: bind_tentacle_8
-    400018: cnt_tentacle_1
-    400020: cnt_tentacle_2
-    400022: cnt_tentacle_3
-    400024: cnt_tentacle_4
-    400026: cnt_tentacle_5
-    400028: cnt_tentacle_6
-    400030: cnt_tentacle_7
-    400032: cnt_tentacle_8
-    400034: grp_cnt
-    400036: grp_geo
-    400038: grp_jnt_
-    400040: //RootNode
-    400042: tentacle 1
-    4300000: tentacle
-    7400000: obstacleTentacle_slashOff
+    100000: bind_ghostBig_01
+    100002: bind_mediumBig_01
+    100004: bind_tinyBig_01
+    100006: cnt_ghostBig_01
+    100008: cnt_mediumBig_01
+    100010: cnt_tinyBig_01
+    100012: crox_01
+    100014: ghostBig_01
+    100016: ground_01
+    100018: grp_cnt
+    100020: grp_dirt
+    100022: grp_geo
+    100024: grp_rig
+    100026: grp_spirt
+    100028: master_01
+    100030: mediumBig_01
+    100032: //RootNode
+    100034: root
+    100036: tinyBig_01
+    100038: tome_01
+    400000: bind_ghostBig_01
+    400002: bind_mediumBig_01
+    400004: bind_tinyBig_01
+    400006: cnt_ghostBig_01
+    400008: cnt_mediumBig_01
+    400010: cnt_tinyBig_01
+    400012: crox_01
+    400014: ghostBig_01
+    400016: ground_01
+    400018: grp_cnt
+    400020: grp_dirt
+    400022: grp_geo
+    400024: grp_rig
+    400026: grp_spirt
+    400028: master_01
+    400030: mediumBig_01
+    400032: //RootNode
+    400034: root
+    400036: tinyBig_01
+    400038: tome_01
+    4300000: ground_01
+    4300002: tome_01
+    4300004: crox_01
+    4300006: mediumBig_01
+    4300008: ghostBig_01
+    4300010: tinyBig_01
+    7400000: obstacleMayanSpiritsAnim_spawn
     9500000: //RootNode
     11100000: //RootNode
-    13700000: tentacle 1
+    13700000: crox_01
+    13700002: ghostBig_01
+    13700004: ground_01
+    13700006: mediumBig_01
+    13700008: tinyBig_01
+    13700010: tome_01
   materials:
     importMaterials: 1
     materialName: 0

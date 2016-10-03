@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 63931ec40e627e1408fbd90121f6d7a2
-timeCreated: 1475483415
+guid: 523aa6cee6ebc4944bdf072efdb9ffc5
+timeCreated: 1475498649
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
@@ -50,9 +50,8 @@ ModelImporter:
     400040: //RootNode
     400042: tentacle 1
     4300000: tentacle
-    7400000: obstacleTentacle_slashOff
+    7400000: obstacleTentacle_spawn
     9500000: //RootNode
-    11100000: //RootNode
     13700000: tentacle 1
   materials:
     importMaterials: 1
@@ -68,7 +67,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5

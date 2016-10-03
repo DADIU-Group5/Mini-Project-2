@@ -8,8 +8,10 @@ public class Obstacle : TerrainMovement {
     public GameObject obstacleModel;
     bool beaten = false;
 
-    private Animation[] mayanAnimations;
+    private Animator[] mayanAnimators;
     private Animation[] spaceAnimations;
+
+    private Animator obstacleAnimator;
 
     void Start()
     {
@@ -40,19 +42,17 @@ public class Obstacle : TerrainMovement {
         {
             AudioMaster.instance.PlayEvent("obstacleSuccesPirate");
             AudioMaster.instance.PlayEvent("rewardObstaclePirate");
-            this.GetComponentInChildren<Animation>().Play();
+            this.GetComponentInChildren<Animator>().SetTrigger("Death");
         }
         else if (weakAgainst == EnemyType.Mayan)
         {
             AudioMaster.instance.PlayEvent("obstacleSuccesMayan");
             AudioMaster.instance.PlayEvent("rewardObstacleMayan");
-            mayanAnimations = GetComponentsInChildren<Animation>();
-            //this.GetComponentInChildren<Animation>().Play();
-            foreach (Animation animation in mayanAnimations)
+            mayanAnimators = GetComponentsInChildren<Animator>();
+            foreach (Animator animator in mayanAnimators)
             {
-                animation.Play();
+                animator.SetTrigger("Death");
             }
-
         }
         else if (weakAgainst == EnemyType.Spaceman)
         {
@@ -60,7 +60,6 @@ public class Obstacle : TerrainMovement {
             // Removed line below for now
             //AudioMaster.instance.PlayEvent("rewardObstacleSpaceman");
             spaceAnimations = GetComponentsInChildren<Animation>();
-            //this.GetComponentInChildren<Animation>().Play();
             foreach (Animation animation in spaceAnimations)
             {
                 animation.Play();
