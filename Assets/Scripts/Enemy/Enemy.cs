@@ -16,6 +16,7 @@ public class Enemy : MonoBehaviour
     public int enemyPoints = 1;
     bool test = false;
     bool pointsGiven = false;
+    private bool targetable = true;
 
     void Update()
     {
@@ -71,5 +72,15 @@ public class Enemy : MonoBehaviour
         lane = _lane;
         enemyType = _type;
         EnemyManager.instance.AddEnemyToLane(lane, gameObject);
+    }
+
+    public bool IsTargetable()
+    {
+        return targetable;
+    }
+
+    public void SetTargetable(bool targetable)
+    {
+        this.targetable = targetable;
     }
 }

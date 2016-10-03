@@ -175,14 +175,11 @@ public class TerrainGenerator : MonoBehaviour {
     /// <param name="f"></param>
     public void ChangeAllEnemySpeed(float f)
     {
-        List<GameObject>[] enemies = EnemyManager.instance.GetAllEnemies();
-        for (int i = 0; i < enemies.Length; i++)
-        {
-            foreach (GameObject e in enemies[i])
-            {
-                e.GetComponent<EnemyMovement>().enemySpeed = f;
-            }
-        }
+        List<GameObject> enemies = EnemyManager.instance.GetAllEnemies();
+   
+        foreach (GameObject e in enemies)
+            e.GetComponent<EnemyMovement>().enemySpeed = f;
+        
     }
 
     /// <summary>
