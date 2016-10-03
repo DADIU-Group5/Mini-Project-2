@@ -53,6 +53,7 @@ ModelImporter:
     4300010: tinyBig_01
     7400000: obstacleMayanSpiritsAnim_spawn
     9500000: //RootNode
+    11100000: //RootNode
     13700000: crox_01
     13700002: ghostBig_01
     13700004: ground_01
@@ -73,7 +74,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5

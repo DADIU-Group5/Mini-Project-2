@@ -79,7 +79,75 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: obstacleMayanSpiritsAnim_idle
+      takeName: obstacleMayanSpiritsAnim_idle
+      firstFrame: 1
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_cnt
+        weight: 1
+      - path: grp_cnt/master_01
+        weight: 1
+      - path: grp_cnt/master_01/cnt_ghostBig_01
+        weight: 1
+      - path: grp_cnt/master_01/cnt_mediumBig_01
+        weight: 1
+      - path: grp_cnt/master_01/cnt_tinyBig_01
+        weight: 1
+      - path: grp_geo
+        weight: 1
+      - path: grp_geo/grp_dirt
+        weight: 1
+      - path: grp_geo/grp_dirt/crox_01
+        weight: 1
+      - path: grp_geo/grp_dirt/ground_01
+        weight: 1
+      - path: grp_geo/grp_dirt/tome_01
+        weight: 1
+      - path: grp_geo/grp_spirt
+        weight: 1
+      - path: grp_geo/grp_spirt/ghostBig_01
+        weight: 1
+      - path: grp_geo/grp_spirt/mediumBig_01
+        weight: 1
+      - path: grp_geo/grp_spirt/tinyBig_01
+        weight: 1
+      - path: grp_rig
+        weight: 1
+      - path: grp_rig/root
+        weight: 1
+      - path: grp_rig/root/bind_ghostBig_01
+        weight: 1
+      - path: grp_rig/root/bind_mediumBig_01
+        weight: 1
+      - path: grp_rig/root/bind_tinyBig_01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
     isReadable: 1
   meshes:
     lODScreenPercentages: []
