@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     private float jumpStartTime = -1;
 
     public PlayerState state;
+    public UIController uiController;
 
     public GameObject pirateModel;
     public GameObject mayanModel;
@@ -85,6 +86,7 @@ public class Player : MonoBehaviour
         pirateModel.SetActive(currentPlayerType == EnemyType.Pirate);
         mayanModel.SetActive(currentPlayerType == EnemyType.Mayan);
         spacemanModel.SetActive(currentPlayerType == EnemyType.Spaceman);
+        UIController.instance.SwitchCharacters();
     }
 
     private void PlaySwitchSound()

@@ -8,6 +8,14 @@ public class UIController : Singleton<UIController> {
 
     public GameObject endPanel;
     public Text scoreT;
+
+    public GameObject char1;
+    public GameObject char2;
+    public GameObject char3;
+    public Image pirateImage;
+    public Image mayanImage;
+    public Image spacemanImage;
+
     public GameObject star1;
     public GameObject star2;
     public GameObject star3;
@@ -20,7 +28,7 @@ public class UIController : Singleton<UIController> {
     public Text RetryText;
     public Text NextLevelText;
     public GameObject NextLevelButton;
-    public PlayerState state;
+    public Player player;
     public EnemyType currentForm;
 
     void Start()
@@ -32,13 +40,36 @@ public class UIController : Singleton<UIController> {
         starImages[3] = star4;
         starImages[4] = star5;
         starImages[1].gameObject.GetComponent<Image>().color = Color.clear;
+
+        SwitchCharacters();
+
         DisableStars();
         UpdateLanguage();
     }
 
     public void SwitchCharacters()
     {
+        Debug.Log("Switching characters...");
         //remember order. current form in middle.
+        //char2.GetComponent<Image>().sprite = pirateImage.sprite;
+        if (player.state.form == EnemyType.Spaceman)
+        {
+            char1.GetComponent<Image>().sprite = pirateImage.sprite;
+            char2.GetComponent<Image>().sprite = spacemanImage.sprite;
+            char3.GetComponent<Image>().sprite = mayanImage.sprite;
+        }
+        else if (player.state.form == EnemyType.Mayan)
+        {
+            char1.GetComponent<Image>().sprite = spacemanImage.sprite;
+            char2.GetComponent<Image>().sprite = mayanImage.sprite;
+            char3.GetComponent<Image>().sprite = pirateImage.sprite;
+        }
+        else if (player.state.form == EnemyType.Pirate)
+        {
+            char1.GetComponent<Image>().sprite = mayanImage.sprite;
+            char2.GetComponent<Image>().sprite = pirateImage.sprite;
+            char3.GetComponent<Image>().sprite = spacemanImage.sprite;
+        }
     }
 
     public void ShowEndScreen()
