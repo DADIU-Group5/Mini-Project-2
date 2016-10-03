@@ -288,7 +288,7 @@ Prefab:
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
       propertyPath: levelData.levelInfo
-      value: bbbbbb1bbbbbd2bbbbbubbbbbbdbbb3bbbbbTbbbbbbkbbbbbbkbbbbbbTbbbbbbkbbbbbkbbbbbkbbbbbkbbbbbTbbbbkbbbbbkbbbbkbbbbkbbbbkbbbbbkbbbbkbbbbTbbbbkbbbkbbbkbbbbkbbbkbbbbkbbbkbbbkbbbkbbbbbkbbbkbbbTebbbbbbbb
+      value: bbbbb1bbbbbd2bbbbubbbbbd3bbbbT4bbbbsbbbbbsbbbbbW5bbbbkbbbbkbbbbsbbbbsbbbbW6bbbbabbbbbRbbb
       objectReference: {fileID: 0}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
@@ -1261,7 +1261,7 @@ Prefab:
     - target: {fileID: 114000011305348724, guid: 1bc2a63d41d4dd04f8407c81987efabb,
         type: 2}
       propertyPath: lockHorizontalSwipe
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1bc2a63d41d4dd04f8407c81987efabb, type: 2}
