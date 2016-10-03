@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 28ccfe4d4241b6940b99ccc3671d54bb
-timeCreated: 1475222916
+guid: e1405094b8399e0439fee04b06f3b2b1
+timeCreated: 1475483889
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
@@ -197,7 +197,7 @@ ModelImporter:
       name: hugoAnim_spacemanShoot
       takeName: hugoAnim_spacemanShoot
       firstFrame: 1
-      lastFrame: 16
+      lastFrame: 9
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

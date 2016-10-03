@@ -288,7 +288,7 @@ Prefab:
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
       propertyPath: levelData.levelInfo
-      value: bbbbb1bbbbd2bbbbubbbbbdbb3bbbbTbbbbkbbbbkbbbbTbbbbkbbbkbbbkbbbkbbbTbbkbbbkbbkbbkbbkbbbkbbkbbTbbkbkbkbbkbkbbkbkbkbkbbkbkbTebbbbbbbb
+      value: bbbbbb1bbbbbd2bbbbbubbbbbbdbbb3bbbbbTbbbbbbkbbbbbbkbbbbbbTbbbbbbkbbbbbkbbbbbkbbbbbkbbbbbTbbbbkbbbbbkbbbbkbbbbkbbbbkbbbbbkbbbbkbbbbTbbbbkbbbkbbbkbbbbkbbbkbbbbkbbbkbbbkbbbkbbbbbkbbbkbbbTebbbbbbbb
       objectReference: {fileID: 0}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
@@ -997,6 +997,14 @@ Prefab:
       propertyPath: bossMoveMultiplier
       value: 0.8
       objectReference: {fileID: 0}
+    - target: {fileID: 4000012434783428, guid: db4e21be4d073f149886f4a5afd24561, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012434783428, guid: db4e21be4d073f149886f4a5afd24561, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1.7
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 65000010705025284, guid: db4e21be4d073f149886f4a5afd24561, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: db4e21be4d073f149886f4a5afd24561, type: 2}
@@ -1119,11 +1127,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000014236616464, guid: 1bc2a63d41d4dd04f8407c81987efabb, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.227
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4000014236616464, guid: 1bc2a63d41d4dd04f8407c81987efabb, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -0.64
+      value: -1.1
       objectReference: {fileID: 0}
     - target: {fileID: 4000014236616464, guid: 1bc2a63d41d4dd04f8407c81987efabb, type: 2}
       propertyPath: m_LocalRotation.x
