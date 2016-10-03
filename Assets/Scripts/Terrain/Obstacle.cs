@@ -57,7 +57,8 @@ public class Obstacle : TerrainMovement {
         else if (weakAgainst == EnemyType.Spaceman)
         {
             AudioMaster.instance.PlayEvent("obstacleSuccesSpaceman");
-            AudioMaster.instance.PlayEvent("rewardObstacleSpaceman");
+            // Removed line below for now
+            //AudioMaster.instance.PlayEvent("rewardObstacleSpaceman");
             spaceAnimations = GetComponentsInChildren<Animation>();
             //this.GetComponentInChildren<Animation>().Play();
             foreach (Animation animation in spaceAnimations)
