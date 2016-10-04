@@ -417,6 +417,7 @@ MonoBehaviour:
     type: 2}
   spacemanFadedImage: {fileID: 114000012407228336, guid: 13319c44e06bf6443bf526bee65d07e4,
     type: 2}
+  player: {fileID: 0}
   star1: {fileID: 1000011908235240}
   star2: {fileID: 1000013049422526}
   star3: {fileID: 1000010760641004}
@@ -548,7 +549,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300010, guid: f9f4ad147ef078b469d7db73e43e2dff, type: 3}
+  m_Sprite: {fileID: 21300004, guid: f9f4ad147ef078b469d7db73e43e2dff, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -865,7 +866,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300004, guid: f9f4ad147ef078b469d7db73e43e2dff, type: 3}
+  m_Sprite: {fileID: 21300010, guid: f9f4ad147ef078b469d7db73e43e2dff, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
