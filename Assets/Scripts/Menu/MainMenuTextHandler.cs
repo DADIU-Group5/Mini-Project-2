@@ -8,6 +8,7 @@ public class MainMenuTextHandler : MonoBehaviour {
     [Header("MainMenu")]
     public Text map;
     public Text settings;
+    public Text unlockablesButton;
 
     [Header("Settings")]
     public Text settingsBack;
@@ -24,6 +25,9 @@ public class MainMenuTextHandler : MonoBehaviour {
     public Text themeName;
     public Text levelBack;
     public Text levelMenu;
+
+    [Header("Unlockables")]
+    public Text unlockablesText;
 
     public void UpdateLanguage()
     {
@@ -54,6 +58,7 @@ public class MainMenuTextHandler : MonoBehaviour {
         //Main menu
         map.text = "Map";
         settings.text = "Settings";
+        unlockablesButton.text = "Unlockables";
 
         //Settings
         settingsBack.text = "Back";
@@ -66,13 +71,16 @@ public class MainMenuTextHandler : MonoBehaviour {
         mayan.text = "Mayan";
         space.text = "Space";
 
-    }
+        //Unlockables
+        unlockablesText.text = SaveData.instance.GetAllEarnedStars() + "/" + SaveData.instance.GetAllPossibleStars() + " Stars";
+     }
 
     public void UpdateTextToDanish()
     {
         //Main menu
         map.text = "Kort";
         settings.text = "Indstillinger";
+        unlockablesButton.text = "dunno";
 
         //Settings
         settingsBack.text = "Tilbage";
@@ -84,6 +92,9 @@ public class MainMenuTextHandler : MonoBehaviour {
         pirate.text = "Pirat";
         mayan.text = "Mayaner";
         space.text = "Rum";
+
+        //Unlockables
+        unlockablesText.text = SaveData.instance.GetAllEarnedStars() + "/" + SaveData.instance.GetAllPossibleStars() + " Stjerner";
     }
 
     public void UpdateLevelTextToEnglish(Theme theme)
@@ -111,13 +122,13 @@ public class MainMenuTextHandler : MonoBehaviour {
         switch (theme)
         {
             case Theme.Pirate:
-                themeName.text = "Pirat niveauer";
+                themeName.text = "Pirat baner";
                 break;
             case Theme.Mayan:
-                themeName.text = "Mayaner niveauer";
+                themeName.text = "Mayaner baner";
                 break;
             case Theme.Space:
-                themeName.text = "Rum niveauer";
+                themeName.text = "Rum baner";
                 break;
             default:
                 break;
