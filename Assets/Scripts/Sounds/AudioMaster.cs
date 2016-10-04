@@ -8,13 +8,26 @@ using Mini2.Utils;
 public class AudioMaster : Singleton<AudioMaster> {
 
     uint bankID;
+    [Range(0, 100)]
+    public float CurrentVolume = 100;
 
 	// Loads the soundbank containing all necessary sounds (events)
 	void Start()
     {
+        CurrentVolume = PlayerPrefs.GetFloat("MasterVolume");
+        SetMasterVolume(CurrentVolume);
         AkSoundEngine.LoadBank("Soundbank1", AkSoundEngine.AK_DEFAULT_POOL_ID, out bankID);
         PlayEvent("musicPlay");
 	}
+
+    void Update()
+    {
+        //if (CurrentVolume != PlayerPrefs.GetFloat("MasterVolume"))
+        //{
+        //    AkSoundEngine.SetRTPCValue("MasterVolume", CurrentVolume);
+        //    CurrentVolume = PlayerPrefs.GetFloat("MasterVolume");
+        //}
+    }
 
     public void PlayEvent(string eventName)
     {
@@ -65,5 +78,10 @@ public class AudioMaster : Singleton<AudioMaster> {
             gameObject, 
             fadeinMs, 
             AkCurveInterpolation.AkCurveInterpolation_Sine);
+    }
+
+    public void SetMasterVolume(float volume)
+    {
+        AkSoundEngine.SetRTPCValue("MasterVolume", volume);
     }
 }
