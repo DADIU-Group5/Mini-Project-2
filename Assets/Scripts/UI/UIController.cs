@@ -20,7 +20,7 @@ public class UIController : Singleton<UIController> {
     public Text RetryText;
     public Text NextLevelText;
     public GameObject NextLevelButton;
-
+    bool paused = false;
 
     void Start()
     {
@@ -76,6 +76,11 @@ public class UIController : Singleton<UIController> {
         GameObject.FindObjectOfType<TerrainGenerator>().PauseAllMovement();
     }
 
+    void ResumeAllTerrain()
+    {
+        GameObject.FindObjectOfType<TerrainGenerator>().ResumeAllMovement();
+    }
+
     void UpdateLanguage()
     {
         if (SaveData.instance.IsLanguageEnglish())
@@ -102,17 +107,34 @@ public class UIController : Singleton<UIController> {
     {
         DisableStars();
         Time.timeScale = 1;
-        PlayerPrefs.SetInt("PlayedBefore", 2);
-        SceneManager.LoadScene(0);
+        char c = SceneManager.GetActiveScene().name[0];
+        if (c == 'P')
+        {
+            PlayerPrefs.SetInt("PlayedBefore", 4);
+        }
+        else if (c == 'M')
+        {
+            PlayerPrefs.SetInt("PlayedBefore", 5);
+        }
+        else if(c == 'S')
+        {
+            PlayerPrefs.SetInt("PlayedBefore", 6);
+        }
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void NextLevel()
     {
+        if (paused)
+        {
+            Unpause();
+            return;
+        }
         DisableStars();
         Time.timeScale = 1;
         if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings-3)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("MainMenu");
         }
         else
         {
@@ -135,5 +157,22 @@ public class UIController : Singleton<UIController> {
             Debug.Log("Disable stars!");
             starImages[i].GetComponent<Image>().enabled = false;
         }
+    }
+
+    public void Pause()
+    {
+        paused = true;
+        scoreT.text = "Score: " + ScoreManager.instance.score;
+        endPanel.SetActive(true);
+        StopAllTerrain();
+        levelEndText.text = "Pause";
+        NextLevelText.text = "Resume";
+    }
+
+    public void Unpause()
+    {
+        paused = false;
+        endPanel.SetActive(false);
+        ResumeAllTerrain();
     }
 }

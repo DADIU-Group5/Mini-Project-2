@@ -29,6 +29,7 @@ public class PlayerAttack : MonoBehaviour {
         }
         if (enemy.enemyType == player.state.form && !enemy.getPointsGiven())
         {
+            enemy.hitByPlayer = true;
             enemy.DestroyedByPlayer();
             player.Attack();
         }
