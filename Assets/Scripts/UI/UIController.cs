@@ -8,6 +8,18 @@ public class UIController : Singleton<UIController> {
 
     public GameObject endPanel;
     public Text scoreT;
+
+    public GameObject char1;
+    public GameObject char2;
+    public GameObject char3;
+    public Image pirateImage;
+    public Image mayanImage;
+    public Image spacemanImage;
+    public Image pirateFadedImage;
+    public Image mayanFadedImage;
+    public Image spacemanFadedImage;
+    public Player player;
+
     public GameObject star1;
     public GameObject star2;
     public GameObject star3;
@@ -24,6 +36,7 @@ public class UIController : Singleton<UIController> {
 
     void Start()
     {
+        player = FindObjectOfType<Player>();
         starImages = new GameObject[5];
         starImages[0] = star1;
         starImages[1] = star2;
@@ -33,6 +46,54 @@ public class UIController : Singleton<UIController> {
         starImages[1].gameObject.GetComponent<Image>().color = star2.gameObject.GetComponent<Image>().color;
         DisableStars();
         UpdateLanguage();
+        UIController.instance.SwitchCharacters();
+    }
+
+    public void SwitchCharacters()
+    {
+        Debug.Log("Switching characters...");
+        //remember order. current form in middle.
+    
+        //This code switches between character and sets unused as faded images.
+        if (player.state.form == EnemyType.Spaceman)
+        {
+            char1.GetComponent<Image>().sprite = spacemanImage.sprite;
+            char2.GetComponent<Image>().sprite = pirateFadedImage.sprite;
+            char3.GetComponent<Image>().sprite = mayanFadedImage.sprite;
+        }
+        else if (player.state.form == EnemyType.Mayan)
+        {
+            char1.GetComponent<Image>().sprite = spacemanFadedImage.sprite;
+            char2.GetComponent<Image>().sprite = pirateFadedImage.sprite;
+            char3.GetComponent<Image>().sprite = mayanImage.sprite;
+        }
+        else if (player.state.form == EnemyType.Pirate)
+        {
+            char1.GetComponent<Image>().sprite = spacemanFadedImage.sprite;
+            char2.GetComponent<Image>().sprite = pirateImage.sprite;
+            char3.GetComponent<Image>().sprite = mayanFadedImage.sprite;
+        }
+
+        /*
+         //Exchanges image to keep current in the middle
+        if (player.state.form == EnemyType.Spaceman)
+        {
+            char1.GetComponent<Image>().sprite = mayanFadedImage.sprite;
+            char2.GetComponent<Image>().sprite = spacemanImage.sprite;
+            char3.GetComponent<Image>().sprite = pirateFadedImage.sprite;
+        }
+        else if (player.state.form == EnemyType.Mayan)
+        {
+            char1.GetComponent<Image>().sprite = pirateFadedImage.sprite;
+            char2.GetComponent<Image>().sprite = mayanImage.sprite;
+            char3.GetComponent<Image>().sprite = spacemanFadedImage.sprite;
+        }
+        else if (player.state.form == EnemyType.Pirate)
+        {
+            char1.GetComponent<Image>().sprite = spacemanFadedImage.sprite;
+            char2.GetComponent<Image>().sprite = pirateImage.sprite;
+            char3.GetComponent<Image>().sprite = mayanFadedImage.sprite;
+        }*/
     }
 
     public void ShowEndScreen()

@@ -82,9 +82,11 @@ public class Player : MonoBehaviour
     private void UpdateModel()
     {
         EnemyType currentPlayerType = state.form;
+        Debug.Log("Switching chars!");
         pirateModel.SetActive(currentPlayerType == EnemyType.Pirate);
         mayanModel.SetActive(currentPlayerType == EnemyType.Mayan);
         spacemanModel.SetActive(currentPlayerType == EnemyType.Spaceman);
+        UIController.instance.SwitchCharacters();
     }
 
     private void PlaySwitchSound()
