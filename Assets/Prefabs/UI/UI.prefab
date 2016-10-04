@@ -402,9 +402,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   endPanel: {fileID: 1000011262679930}
   scoreT: {fileID: 114000012858097660}
-  char1: {fileID: 0}
-  char2: {fileID: 0}
-  char3: {fileID: 0}
+  char1: {fileID: 1000010696415898}
+  char2: {fileID: 1000010880962012}
+  char3: {fileID: 1000010431901546}
   pirateImage: {fileID: 114000014111746398, guid: 55de8a7ad1eda2e44950105c7d1da23d,
     type: 2}
   mayanImage: {fileID: 114000013347756260, guid: 513a52e3f6738ff49a8b395ed2e26fe5,

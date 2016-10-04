@@ -18,7 +18,7 @@ public class UIController : Singleton<UIController> {
     public Image pirateFadedImage;
     public Image mayanFadedImage;
     public Image spacemanFadedImage;
-
+    public Player player;
 
     public GameObject star1;
     public GameObject star2;
@@ -34,8 +34,6 @@ public class UIController : Singleton<UIController> {
     public GameObject NextLevelButton;
     bool paused = false;
 
-    private Player player;
-
     void Start()
     {
         starImages = new GameObject[5];
@@ -47,13 +45,13 @@ public class UIController : Singleton<UIController> {
         starImages[1].gameObject.GetComponent<Image>().color = star2.gameObject.GetComponent<Image>().color;
         DisableStars();
         UpdateLanguage();
+        UIController.instance.SwitchCharacters();
     }
 
     public void SwitchCharacters()
     {
         Debug.Log("Switching characters...");
         //remember order. current form in middle.
-        //char2.GetComponent<Image>().sprite = pirateImage.sprite;
         if (player.state.form == EnemyType.Spaceman)
         {
             char1.GetComponent<Image>().sprite = pirateImage.sprite;
