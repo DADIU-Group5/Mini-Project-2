@@ -52,6 +52,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseUI: {fileID: 1000011826118446, guid: 93f9e40b05646eb469429bcb0daf82ff, type: 2}
-  danishText: Stryg til venstre til at blive Pirate Hugo igen!
+  danishText: Swipe til venstre for at blive Pirate Hugo igen!
   englishText: Swipe left to become Pirate Hugo once more!
   stopMethod: 3

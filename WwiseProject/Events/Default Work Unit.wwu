@@ -219,7 +219,7 @@
 						<Action Name="Play" ID="{7ACAFC73-8850-4DB3-A3F2-00CBC0241F3C}" ShortID="1004327517" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{01192669-74FD-41B0-AD5D-6403D4D4F078}" Global="false">
-									<ObjectRef Name="PoopFart_SFXB_2095" ID="{814B176C-8F5B-4A53-8228-E5048C2F1836}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+									<ObjectRef Name="gamestart" ID="{352FC931-624C-428D-86B9-5206A9DE94E4}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -230,7 +230,7 @@
 						<Action Name="Play" ID="{952B86C5-7D8C-4005-800B-98CEC08D8A1C}" ShortID="855322749" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{F38D1C8B-50E1-4863-9434-8C2744851869}" Global="false">
-									<ObjectRef Name="Fart_BW_16107" ID="{1EC9D04C-3033-4582-BB86-B0AF87212A8C}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
+									<ObjectRef Name="piratmusik win" ID="{CE97F1A6-CE41-4053-94F1-F56FDB1057BF}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -400,7 +400,7 @@
 						<Action Name="Play" ID="{4E6EEAD9-8CE4-44E3-95F7-35184843B771}" ShortID="488306434" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{328493F6-7845-4D50-BABE-ED25AD51714B}" Global="false">
-									<ObjectRef Name="piratemusic" ID="{AE3A1077-CC9D-4F38-ACD7-8E7E18D1321F}" WorkUnitID="{AEDB506B-D893-466E-B78B-0A28E1A48AA8}"/>
+									<ObjectRef Name="pirateMusic" ID="{B7A8D5BD-FF03-409B-800E-4328F7541F42}" WorkUnitID="{AEDB506B-D893-466E-B78B-0A28E1A48AA8}"/>
 								</Element>
 							</ElementList>
 						</Action>
@@ -411,7 +411,18 @@
 						<Action Name="Stop" ID="{2BA02B60-86EE-407C-8B1F-69F17751D82F}" ShortID="412347540" Type="Stop" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{C6EEAF07-E4C0-471E-A2A5-A69FA3D1027D}" Global="false">
-									<ObjectRef Name="piratemusic" ID="{AE3A1077-CC9D-4F38-ACD7-8E7E18D1321F}" WorkUnitID="{AEDB506B-D893-466E-B78B-0A28E1A48AA8}"/>
+									<ObjectRef Name="pirateMusic" ID="{B7A8D5BD-FF03-409B-800E-4328F7541F42}" WorkUnitID="{AEDB506B-D893-466E-B78B-0A28E1A48AA8}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="menuClick" ID="{8A04A163-71B8-492D-983D-7F30B3C5800F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{630C17CA-3BEF-4C33-9200-995B494B5213}" ShortID="714763514" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E95A1BBF-7D16-40CC-89FF-C9D94963BB7C}" Global="false">
+									<ObjectRef Name="menuClick" ID="{EC957966-E17F-4A29-8E2A-BFECA8DC38D8}" WorkUnitID="{5D5706F7-D0D5-4309-8258-1D9EF88985D1}"/>
 								</Element>
 							</ElementList>
 						</Action>

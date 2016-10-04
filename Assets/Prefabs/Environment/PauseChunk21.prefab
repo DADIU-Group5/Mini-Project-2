@@ -52,6 +52,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseUI: {fileID: 1000011826118446, guid: 93f9e40b05646eb469429bcb0daf82ff, type: 2}
-  danishText: "En udl\xE6nding! Stryg til h\xF8jre for Spaceman Hugo!"
+  danishText: "En alien! Swipe til h\xF8jre for at blive Spaceman Hugo!"
   englishText: An alien! Swipe right for Spaceman Hugo!
   stopMethod: 4
