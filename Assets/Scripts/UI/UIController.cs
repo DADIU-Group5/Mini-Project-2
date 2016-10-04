@@ -233,6 +233,7 @@ public class UIController : Singleton<UIController> {
     public void Pause()
     {
         paused = true;
+        AudioMaster.instance.PlayEvent("menuClick");
         scoreT.text = "Score: " + ScoreManager.instance.score;
         endPanel.SetActive(true);
         StopAllTerrain();
@@ -243,6 +244,7 @@ public class UIController : Singleton<UIController> {
     public void Unpause()
     {
         paused = false;
+        AudioMaster.instance.PlayEvent("menuClick");
         endPanel.SetActive(false);
         ResumeAllTerrain();
     }
