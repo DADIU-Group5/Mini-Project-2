@@ -23,6 +23,7 @@ public class ScoreManager : Singleton<ScoreManager>
     {
         scoreLabel = GameObject.Find("ScoreLabel").GetComponent<Text>();
         numberGenerator = GetComponent<FloatingNumberGenerator>();
+        UpdateText();
     }
 
     public void ModifyPoint(int collisionType, bool give)

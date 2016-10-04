@@ -234,11 +234,20 @@ public class UIController : Singleton<UIController> {
     {
         paused = true;
         AudioMaster.instance.PlayEvent("menuClick");
-        scoreT.text = "Score: " + ScoreManager.instance.score;
+       
         endPanel.SetActive(true);
         StopAllTerrain();
         levelEndText.text = "Pause";
-        NextLevelText.text = "Resume";
+        if (SaveData.instance.IsLanguageEnglish())
+        {
+            NextLevelText.text = "Resume";
+            scoreT.text = "Score: " + ScoreManager.instance.score;
+        }
+        else
+        {
+            NextLevelText.text = "Fortsæt";
+            scoreT.text = "Point: " + ScoreManager.instance.score;
+        }
     }
 
     public void Unpause()
