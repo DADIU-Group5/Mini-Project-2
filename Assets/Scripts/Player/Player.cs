@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
     public GameObject pirateModel;
     public GameObject mayanModel;
     public GameObject spacemanModel;
+    public ParticleSystem[] effects;
 
     private Animator playerAnimatorPirate;
     private Animator playerAnimatorMayan;
@@ -138,6 +139,10 @@ public class Player : MonoBehaviour
 
         PlaySwitchSound();
         UpdateModel();
+        foreach (var effect in effects)
+        {
+            effect.Play();
+        }
     }
 
     public void Jump()

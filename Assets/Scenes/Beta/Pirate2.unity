@@ -407,6 +407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 961c61977dea53444b7e6994362124b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentVolume: 100
 --- !u!4 &978861654
 Transform:
   m_ObjectHideFlags: 0
@@ -1186,6 +1187,10 @@ Prefab:
     - target: {fileID: 224000010582611892, guid: e0f63768e6db5234eb59ff5d90cb6576,
         type: 2}
       propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011262679930, guid: e0f63768e6db5234eb59ff5d90cb6576, type: 2}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

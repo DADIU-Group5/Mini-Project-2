@@ -9,6 +9,7 @@ public class MainMenuButton : MonoBehaviour {
     public Button button;
     public Image[] stars;
     public Image lockImage;
+    public Sprite[] sprites;
     int level;
     LevelLoader LL;
     string levelName;
@@ -28,6 +29,7 @@ public class MainMenuButton : MonoBehaviour {
             buttonText.text = "Bane " + i;
         }
         level = i;
+        GetComponent<Image>().sprite = sprites[Random.Range(0, sprites.Length)];
         GetStars();
     }
 

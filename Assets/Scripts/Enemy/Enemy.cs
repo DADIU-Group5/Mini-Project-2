@@ -18,6 +18,14 @@ public class Enemy : MonoBehaviour
     bool pointsGiven = false;
     private bool targetable = true;
 
+    void Start()
+    {
+        // display spawn effect
+        var effect = GameObject.Find("SpawnEffect");
+        effect.transform.SetParent(transform, false);
+        effect.GetComponent<ParticleSystem>().Play();
+    }
+
     void Update()
     {
        
