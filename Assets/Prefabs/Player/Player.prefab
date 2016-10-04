@@ -7134,11 +7134,11 @@ ParticleSystem:
   speed: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   moveWithTransform: 1
   autoRandomSeed: 1
   scalingMode: 2
-  randomSeed: -530149133
+  randomSeed: 1327437063
   InitialModule:
     serializedVersion: 2
     enabled: 1
@@ -8898,11 +8898,11 @@ ParticleSystem:
   speed: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   moveWithTransform: 1
   autoRandomSeed: 1
   scalingMode: 2
-  randomSeed: 1274491867
+  randomSeed: -184480203
   InitialModule:
     serializedVersion: 2
     enabled: 1
@@ -10632,11 +10632,11 @@ ParticleSystem:
   speed: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   moveWithTransform: 1
   autoRandomSeed: 1
   scalingMode: 2
-  randomSeed: -755057066
+  randomSeed: 1795467195
   InitialModule:
     serializedVersion: 2
     enabled: 1
