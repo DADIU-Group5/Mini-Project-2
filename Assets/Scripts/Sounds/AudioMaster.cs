@@ -8,13 +8,19 @@ using Mini2.Utils;
 public class AudioMaster : Singleton<AudioMaster> {
 
     uint bankID;
+    public float CurrentVolume = 100;
 
 	// Loads the soundbank containing all necessary sounds (events)
 	void Start()
     {
+        //CurrentVolume = 100;
         AkSoundEngine.LoadBank("Soundbank1", AkSoundEngine.AK_DEFAULT_POOL_ID, out bankID);
         PlayEvent("musicPlay");
 	}
+
+    void Update()
+    {
+    }
 
     public void PlayEvent(string eventName)
     {
