@@ -6472,7 +6472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 114000013565142638}
-  attackRange: 4
+  attackRange: 1.2
 --- !u!114 &114000011305348724
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6509,7 +6509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94bf5b21213b2e74584bb67da08f5e18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpTime: 1
+  jumpTime: 0.5
   jumpHeight: 3
   groundHeight: 0
   state:
