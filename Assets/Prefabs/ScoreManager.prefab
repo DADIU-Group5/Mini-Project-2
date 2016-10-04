@@ -88,9 +88,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxPointsAvailable: 0
   starRating: 0
-  oneStarAt: 75
-  twoStarsAt: 88
-  threeStarsAt: 100
+  oneStarAt: 60
+  twoStarsAt: 80
+  threeStarsAt: 95
 --- !u!114 &114000013672062410
 MonoBehaviour:
   m_ObjectHideFlags: 1
