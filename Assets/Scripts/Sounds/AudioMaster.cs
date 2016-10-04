@@ -14,14 +14,12 @@ public class AudioMaster : Singleton<AudioMaster> {
 	// Loads the soundbank containing all necessary sounds (events)
 	void Start()
     {
-        CurrentVolume = PlayerPrefs.GetFloat("MasterVolume");
-        SetMasterVolume(CurrentVolume);
-        AkSoundEngine.LoadBank("Soundbank1", AkSoundEngine.AK_DEFAULT_POOL_ID, out bankID);
+        LoadSoundbank();
         if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name != "MainMenu")
         {
             PlayEvent("musicPlay");
         }
-	}
+    }
 
     void Update()
     {
@@ -30,6 +28,13 @@ public class AudioMaster : Singleton<AudioMaster> {
         //    AkSoundEngine.SetRTPCValue("MasterVolume", CurrentVolume);
         //    CurrentVolume = PlayerPrefs.GetFloat("MasterVolume");
         //}
+    }
+
+    public void LoadSoundbank()
+    {
+        CurrentVolume = PlayerPrefs.GetFloat("MasterVolume");
+        SetMasterVolume(CurrentVolume);
+        AkSoundEngine.LoadBank("Soundbank1", AkSoundEngine.AK_DEFAULT_POOL_ID, out bankID);
     }
 
     public void PlayEvent(string eventName)

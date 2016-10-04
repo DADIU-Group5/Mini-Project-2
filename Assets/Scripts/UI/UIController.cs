@@ -182,6 +182,7 @@ public class UIController : Singleton<UIController> {
             PlayerPrefs.SetInt("PlayedBefore", 6);
         }
         AudioMaster.instance.PlayEvent("menuClick");
+        AudioMaster.instance.PlayEvent("musicStop");
         SceneManager.LoadScene("MainMenu");
     }
 
@@ -197,6 +198,7 @@ public class UIController : Singleton<UIController> {
         Time.timeScale = 1;
         if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings-3)
         {
+            AudioMaster.instance.PlayEvent("musicStop");
             SceneManager.LoadScene("MainMenu");
         }
         else
@@ -210,6 +212,7 @@ public class UIController : Singleton<UIController> {
         AudioMaster.instance.PlayEvent("menuClick");
         DisableStars();
         Time.timeScale = 1;
+        AudioMaster.instance.PlayEvent("musicStop");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -226,6 +229,7 @@ public class UIController : Singleton<UIController> {
     public void Pause()
     {
         paused = true;
+        AudioMaster.instance.PlayEvent("menuClick");
         scoreT.text = "Score: " + ScoreManager.instance.score;
         endPanel.SetActive(true);
         StopAllTerrain();
@@ -236,6 +240,7 @@ public class UIController : Singleton<UIController> {
     public void Unpause()
     {
         paused = false;
+        AudioMaster.instance.PlayEvent("menuClick");
         endPanel.SetActive(false);
         ResumeAllTerrain();
     }
