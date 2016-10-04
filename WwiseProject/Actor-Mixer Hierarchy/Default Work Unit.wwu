@@ -2652,7 +2652,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="menubutton steeldrum1" ID="{411C26EA-3D64-4750-AB07-25A1860B5E86}" ShortID="689845558" Type="SoundFX">
+								<Sound Name="menubutton steeldrum1" ID="{1974259E-11F5-46C8-BBC5-9A4621915203}" ShortID="979426862" Type="SoundFX">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
@@ -2662,9 +2662,9 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="menubutton steeldrum1" ID="{ACD22DDE-56C8-4242-9170-9EFB12093780}" ShortID="283725529">
+										<AudioFileSource Name="menubutton steeldrum1" ID="{00E6B694-7114-4C62-8942-D4B22715FB9E}" ShortID="972272850">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="7.10077194940473E-03"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="3.55038597470236E-03"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.859193405877976"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2672,10 +2672,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="menubutton steeldrum1" ID="{ACD22DDE-56C8-4242-9170-9EFB12093780}" Platform="Linked"/>
+										<ActiveSource Name="menubutton steeldrum1" ID="{00E6B694-7114-4C62-8942-D4B22715FB9E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="menubutton steeldrum2" ID="{0F184FE5-C58B-4BE7-BADB-647BF0384E77}" ShortID="823668089" Type="SoundFX">
+								<Sound Name="menubutton steeldrum2" ID="{35AE00A3-D9F0-48EA-980A-D6F6B1F484AB}" ShortID="82790174" Type="SoundFX">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
@@ -2685,7 +2685,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="menubutton steeldrum2" ID="{364CABBF-3B3A-4E78-8E0B-6CD56169EAEF}" ShortID="1045700881">
+										<AudioFileSource Name="menubutton steeldrum2" ID="{8DF4774C-BC33-4576-9227-82E44CBDD383}" ShortID="820457561">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="9.91259765624997E-03"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.7070986328125"/>
@@ -2695,10 +2695,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="menubutton steeldrum2" ID="{364CABBF-3B3A-4E78-8E0B-6CD56169EAEF}" Platform="Linked"/>
+										<ActiveSource Name="menubutton steeldrum2" ID="{8DF4774C-BC33-4576-9227-82E44CBDD383}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="menubutton steeldrum3" ID="{622D72A4-B87C-455D-8479-01A36432F78C}" ShortID="825529613" Type="SoundFX">
+								<Sound Name="menubutton steeldrum3" ID="{13188CF5-5475-4430-9694-41E14C6C1593}" ShortID="798581164" Type="SoundFX">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
@@ -2708,23 +2708,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="menubutton steeldrum3" ID="{20B21208-D6ED-43A9-AA10-823696B7792F}" ShortID="413374196">
+										<AudioFileSource Name="menubutton steeldrum3" ID="{2B0D2907-0E11-41DB-B6D4-205CE13F01C7}" ShortID="280899272">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="2.85067894345237E-03"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.627149367559523"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.627149367559524"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>menubutton steeldrum3.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="684176879"/>
-											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="menubutton steeldrum3" ID="{20B21208-D6ED-43A9-AA10-823696B7792F}" Platform="Linked"/>
+										<ActiveSource Name="menubutton steeldrum3" ID="{2B0D2907-0E11-41DB-B6D4-205CE13F01C7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="menubutton steeldrum4" ID="{83CE935A-9D4D-44D5-8A6F-96E9C88D2F2F}" ShortID="142109996" Type="SoundFX">
+								<Sound Name="menubutton steeldrum4" ID="{45CCD479-7267-4429-9E90-8DDC6A9D90BA}" ShortID="308818147" Type="SoundFX">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
@@ -2734,20 +2731,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="menubutton steeldrum4" ID="{E706349D-8990-4785-B065-F99EAB436B34}" ShortID="944375626">
+										<AudioFileSource Name="menubutton steeldrum4" ID="{B33F8F37-8475-4BC5-B41E-A30DADE723D4}" ShortID="586313763">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="5.72726004464286E-03"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.5211806640625"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="8.59089006696429E-03"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.518317034040178"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>menubutton steeldrum4.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="menubutton steeldrum4" ID="{E706349D-8990-4785-B065-F99EAB436B34}" Platform="Linked"/>
+										<ActiveSource Name="menubutton steeldrum4" ID="{B33F8F37-8475-4BC5-B41E-A30DADE723D4}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="menubutton steeldrum5" ID="{EEE0B032-434A-4C72-B876-8085CE5F948F}" ShortID="1012779329" Type="SoundFX">
+								<Sound Name="menubutton steeldrum5" ID="{F769C53F-04C8-4861-B80B-6803A6BC542F}" ShortID="910235481" Type="SoundFX">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
@@ -2757,20 +2754,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="menubutton steeldrum5" ID="{6F04F1A5-EFBC-434A-A164-350B9347BB41}" ShortID="391824159">
+										<AudioFileSource Name="menubutton steeldrum5" ID="{2CE656C2-F61B-432C-86C7-84EBFB4AE5CC}" ShortID="136830005">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="5.62360491071429E-03"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.565172293526786"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.81180245535712E-03"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.562360491071429"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>menubutton steeldrum5.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="menubutton steeldrum5" ID="{6F04F1A5-EFBC-434A-A164-350B9347BB41}" Platform="Linked"/>
+										<ActiveSource Name="menubutton steeldrum5" ID="{2CE656C2-F61B-432C-86C7-84EBFB4AE5CC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="menubutton steeldrum6" ID="{39C45C3E-18C4-49B1-8156-E6D3E398955C}" ShortID="12665039" Type="SoundFX">
+								<Sound Name="menubutton steeldrum6" ID="{F4733FEB-65E6-495C-BA46-5721D16A0680}" ShortID="634245600" Type="SoundFX">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
@@ -2780,9 +2777,9 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="menubutton steeldrum6" ID="{4C8DB621-0DF6-439B-BF60-5082BA140B60}" ShortID="1043360183">
+										<AudioFileSource Name="menubutton steeldrum6" ID="{77CBD3D8-E127-454C-89F2-A83DF1AD197C}" ShortID="524583862">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="6.60839843750005E-03"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="6.60839843749994E-03"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.73683642578125"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2790,10 +2787,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="menubutton steeldrum6" ID="{4C8DB621-0DF6-439B-BF60-5082BA140B60}" Platform="Linked"/>
+										<ActiveSource Name="menubutton steeldrum6" ID="{77CBD3D8-E127-454C-89F2-A83DF1AD197C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="menubutton steeldrum7" ID="{56B098E5-2B81-43FA-9C73-95B5EA8F9E9A}" ShortID="732087986" Type="SoundFX">
+								<Sound Name="menubutton steeldrum7" ID="{5AAC63DC-5A85-4F8B-8C30-3708B2C7BD01}" ShortID="733174068" Type="SoundFX">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
@@ -2803,9 +2800,9 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="menubutton steeldrum7" ID="{CC4B149A-7175-4FAE-9CEB-FB92E5CA9CD4}" ShortID="669540910">
+										<AudioFileSource Name="menubutton steeldrum7" ID="{4467DE3B-51E9-448A-9B36-C13603A02302}" ShortID="581066820">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="5.36444382440476E-03"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="2.68222191220238E-03"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.28163330078125"/>
 											</PropertyList>
 											<Language>SFX</Language>
@@ -2813,19 +2810,10 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="menubutton steeldrum7" ID="{CC4B149A-7175-4FAE-9CEB-FB92E5CA9CD4}" Platform="Linked"/>
+										<ActiveSource Name="menubutton steeldrum7" ID="{4467DE3B-51E9-448A-9B36-C13603A02302}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<Playlist>
-								<ItemRef Name="menubutton steeldrum3" ID="{622D72A4-B87C-455D-8479-01A36432F78C}"/>
-								<ItemRef Name="menubutton steeldrum4" ID="{83CE935A-9D4D-44D5-8A6F-96E9C88D2F2F}"/>
-								<ItemRef Name="menubutton steeldrum5" ID="{EEE0B032-434A-4C72-B876-8085CE5F948F}"/>
-								<ItemRef Name="menubutton steeldrum6" ID="{39C45C3E-18C4-49B1-8156-E6D3E398955C}"/>
-								<ItemRef Name="menubutton steeldrum7" ID="{56B098E5-2B81-43FA-9C73-95B5EA8F9E9A}"/>
-								<ItemRef Name="menubutton steeldrum1" ID="{411C26EA-3D64-4750-AB07-25A1860B5E86}"/>
-								<ItemRef Name="menubutton steeldrum2" ID="{0F184FE5-C58B-4BE7-BADB-647BF0384E77}"/>
-							</Playlist>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
@@ -2893,20 +2881,23 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="gamestart" ID="{0CE4EC74-30D9-48C5-8656-DDFCCFC74DC5}" ShortID="223742618">
+								<AudioFileSource Name="gamestart_01" ID="{21BD1EF3-CDFE-415F-AEF9-361AAE68F648}" ShortID="1000429336">
 									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="4.12051246279765E-03"/>
-										<Property Name="TrimBegin" Type="Real64" Value="1.038369140625"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="4.12051246279754E-03"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.0424896530878"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>gamestart.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="gamestart" ID="{0CE4EC74-30D9-48C5-8656-DDFCCFC74DC5}" Platform="Linked"/>
+								<ActiveSource Name="gamestart_01" ID="{21BD1EF3-CDFE-415F-AEF9-361AAE68F648}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="menubutton steeldrum3" ID="{0D58261D-46F0-47B0-8FF4-AB5E97B31E05}" ShortID="583910599" Type="SoundFX">
+							<ExcludedPlatformList>
+								<Platform>Windows</Platform>
+							</ExcludedPlatformList>
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
@@ -2949,17 +2940,17 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="piratmusik win" ID="{1314B7E8-047C-434F-8788-6F598B051E49}" ShortID="431486985">
+								<AudioFileSource Name="piratmusik win_01" ID="{4CD9429F-4E9D-49B9-98A2-6FE96339DE59}" ShortID="160912728">
 									<PropertyList>
 										<Property Name="FadeInDuration" Type="Real64" Value="7.03125000000004E-03"/>
-										<Property Name="TrimBegin" Type="Real64" Value="1.70859375"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.69453125"/>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>piratmusik win.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="piratmusik win" ID="{1314B7E8-047C-434F-8788-6F598B051E49}" Platform="Linked"/>
+								<ActiveSource Name="piratmusik win_01" ID="{4CD9429F-4E9D-49B9-98A2-6FE96339DE59}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

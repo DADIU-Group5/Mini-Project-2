@@ -196,6 +196,68 @@
 								</MusicCue>
 							</CueList>
 						</MusicSegment>
+						<MusicSegment Name="piratmusik short_01" ID="{97807D7A-DEEE-431D-943A-519E63D2D9DD}" ShortID="857352272">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="65700"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="piratmusik short" ID="{927DDA6C-D9DE-40BC-8E76-2E3BCA2E80E1}" ShortID="477668878">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="piratmusik short" ID="{4B1040CB-E4B8-4BF3-9B4A-95D183B6CBF2}" ShortID="342618366">
+											<Language>SFX</Language>
+											<AudioFile>piratmusik short.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="226495857"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{0DB66904-7EA7-40EE-A699-19812F7C30DE}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{C0C9B413-EF39-4667-94D1-E78F6CB0FF1D}">
+											<ClipList>
+												<MusicClip Name="piratmusik short" ID="{377FE0A7-F2A8-4E4F-AAE9-FACC57BCAC0D}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="65700"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="piratmusik short" ID="{4B1040CB-E4B8-4BF3-9B4A-95D183B6CBF2}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{A00F75BC-4537-4798-BF54-B15DD64065B7}"/>
+								<MusicCue Name="Exit Cue" ID="{C7CB0ACF-C7B1-4F50-BE79-9B18D5A9CD53}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="65700"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{A5554B52-F966-449E-AB0C-45733DD48CEE}">
