@@ -16,6 +16,7 @@ public class MainMenuTextHandler : MonoBehaviour {
     public Text credits;
 
     [Header("ThemeSelect")]
+    public Text themeText;
     public Text themeBack;
     public Text pirate;
     public Text mayan;
@@ -58,7 +59,7 @@ public class MainMenuTextHandler : MonoBehaviour {
         //Main menu
         map.text = "Map";
         settings.text = "Settings";
-        unlockablesButton.text = "Unlockables";
+        unlockablesButton.text = "Gallery";
 
         //Settings
         settingsBack.text = "Back";
@@ -66,6 +67,7 @@ public class MainMenuTextHandler : MonoBehaviour {
         credits.text = "Credits";
 
         //Theme
+        themeText.text = "Theme";
         themeBack.text = "Back";
         pirate.text = "Pirate";
         mayan.text = "Mayan";
@@ -80,7 +82,7 @@ public class MainMenuTextHandler : MonoBehaviour {
         //Main menu
         map.text = "Kort";
         settings.text = "Indstillinger";
-        unlockablesButton.text = "dunno";
+        unlockablesButton.text = "Galleri";
 
         //Settings
         settingsBack.text = "Tilbage";
@@ -88,6 +90,7 @@ public class MainMenuTextHandler : MonoBehaviour {
         credits.text = "Lavet af";
 
         //Theme
+        themeText.text = "Tema";
         themeBack.text = "Tilbage";
         pirate.text = "Pirat";
         mayan.text = "Mayaner";

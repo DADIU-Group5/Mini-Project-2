@@ -65,7 +65,14 @@ public class ScoreManager : Singleton<ScoreManager>
 
     public void UpdateText()
     {
-        scoreLabel.text = "Score: " + score;
+        if (SaveData.instance.IsLanguageEnglish())
+        {
+            scoreLabel.text = "Score: " + score;
+        }
+        else
+        {
+            scoreLabel.text = "Point: " + score;
+        }
     }
 
 }

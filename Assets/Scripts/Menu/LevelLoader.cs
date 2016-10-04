@@ -18,14 +18,14 @@ public class LevelLoader : MonoBehaviour {
 
     void Start()
     {
-        if (SaveData.instance.WasLevelCompleted("Pirate" + pirateLevels))
+        /*if (SaveData.instance.WasLevelCompleted("Pirate" + pirateLevels))
         {
             mayan.interactable = true;
         }
         if (SaveData.instance.WasLevelCompleted("Mayan" + mayanLevels))
         {
             space.interactable = true;
-        }
+        }*/
     }
 
     public void Reset()
