@@ -82,6 +82,7 @@ public class MainMenuButtonHandler : MonoBehaviour {
     public void Unlockables()
     {
         MM.ChangeStateTo(MenuState.Unlockables);
+        AudioMaster.instance.PlayEvent("menuClick");
     }
 
     public void Back()
