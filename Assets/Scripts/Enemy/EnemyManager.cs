@@ -78,6 +78,12 @@ public class EnemyManager : Singleton<EnemyManager>
         return null;
     }
 
+    public void RemoveEnemy(GameObject enemy)
+    {
+        enemies.Remove(enemy);
+    }
+
+    /*
     public void RemoveEnemyFromLane(int lane)
     {
         //remove first enemy go in given lane
@@ -91,4 +97,5 @@ public class EnemyManager : Singleton<EnemyManager>
             }
         }
     }
+    */
 }
