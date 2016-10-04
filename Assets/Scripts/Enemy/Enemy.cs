@@ -31,7 +31,7 @@ public class Enemy : MonoBehaviour
     IEnumerator WaitingCoroutine()
     {
         yield return new WaitForSeconds(1);
-        EnemyManager.instance.RemoveEnemyFromLane(lane);
+        EnemyManager.instance.RemoveEnemy(gameObject);
         Destroy(gameObject);
     }
 

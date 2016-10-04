@@ -910,6 +910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 961c61977dea53444b7e6994362124b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentVolume: 100
 --- !u!4 &1105733794
 Transform:
   m_ObjectHideFlags: 0
@@ -1252,16 +1253,6 @@ Prefab:
     - target: {fileID: 4000014236616464, guid: 1bc2a63d41d4dd04f8407c81987efabb, type: 2}
       propertyPath: m_RootOrder
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000013565142638, guid: 1bc2a63d41d4dd04f8407c81987efabb,
-        type: 2}
-      propertyPath: jumpHeight
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000011305348724, guid: 1bc2a63d41d4dd04f8407c81987efabb,
-        type: 2}
-      propertyPath: lockHorizontalSwipe
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1bc2a63d41d4dd04f8407c81987efabb, type: 2}

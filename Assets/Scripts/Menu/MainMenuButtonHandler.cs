@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using Mini2.Menu;
 
@@ -6,8 +7,14 @@ public class MainMenuButtonHandler : MonoBehaviour {
 
     public MainMenu2 MM;
     public MainMenuTextHandler MMT;
+    public Slider soundSlider;
 
-    public void Update()
+    void Start()
+    {
+        soundSlider.value = PlayerPrefs.GetFloat("MasterVolume");
+    }
+
+    void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -70,6 +77,11 @@ public class MainMenuButtonHandler : MonoBehaviour {
     {
         MM.ChangeStateTo(MenuState.LevelSelect, Theme.Space);
         AudioMaster.instance.PlayEvent("menuClick");
+    }
+
+    public void Unlockables()
+    {
+        MM.ChangeStateTo(MenuState.Unlockables);
     }
 
     public void Back()
