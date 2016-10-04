@@ -8,6 +8,8 @@ public class MainMenuButton : MonoBehaviour {
     public Text buttonText;
     public Button button;
     public Image[] stars;
+    public Image lockImage;
+    public Sprite[] sprites;
     int level;
     LevelLoader LL;
     string levelName;
@@ -24,26 +26,30 @@ public class MainMenuButton : MonoBehaviour {
         }
         else
         {
-            buttonText.text = "Niveau " + i;
+            buttonText.text = "Bane " + i;
         }
         level = i;
+        GetComponent<Image>().sprite = sprites[Random.Range(0, sprites.Length)];
         GetStars();
     }
 
     void GetStars()
     {
-        if (!SaveData.instance.WasLevelCompleted(slevel+(level-1)))
-        {
-            Debug.Log("does not have key for level: " + (slevel + (level-1)));
-        }
-        else
+        if (SaveData.instance.WasLevelCompleted(slevel+(level-1)))
         {
             button.interactable = true;
+            lockImage.enabled = false;
             int temp = SaveData.instance.GetStarsForLevel(levelName);
             for (int i = 0; i < temp; i++)
             {
                 stars[i].color = Color.white;
             }
+        }
+        else
+        {
+            stars[0].enabled = false;
+            stars[1].enabled = false;
+            stars[2].enabled = false;
         }
     }
 

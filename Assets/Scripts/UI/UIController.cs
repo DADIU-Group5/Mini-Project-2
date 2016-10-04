@@ -8,9 +8,23 @@ public class UIController : Singleton<UIController> {
 
     public GameObject endPanel;
     public Text scoreT;
+
+    public GameObject char1;
+    public GameObject char2;
+    public GameObject char3;
+    public Image pirateImage;
+    public Image mayanImage;
+    public Image spacemanImage;
+    public Image pirateFadedImage;
+    public Image mayanFadedImage;
+    public Image spacemanFadedImage;
+    public Player player;
+
     public GameObject star1;
     public GameObject star2;
     public GameObject star3;
+    public GameObject star4;
+    public GameObject star5;
     GameObject[] starImages;
 
     public Text levelEndText;
@@ -18,20 +32,77 @@ public class UIController : Singleton<UIController> {
     public Text RetryText;
     public Text NextLevelText;
     public GameObject NextLevelButton;
-
+    bool paused = false;
 
     void Start()
     {
-        starImages = new GameObject[3];
-        DisableStars();
+        player = FindObjectOfType<Player>();
+        starImages = new GameObject[5];
         starImages[0] = star1;
         starImages[1] = star2;
         starImages[2] = star3;
+        starImages[3] = star4;
+        starImages[4] = star5;
+        starImages[1].gameObject.GetComponent<Image>().color = star2.gameObject.GetComponent<Image>().color;
+        DisableStars();
         UpdateLanguage();
+        UIController.instance.SwitchCharacters();
+    }
+
+    public void SwitchCharacters()
+    {
+        Debug.Log("Switching characters...");
+        if(player == null)
+        {
+            return;
+        }
+        //remember order. current form in middle.
+    
+        //This code switches between character and sets unused as faded images.
+        if (player.state.form == EnemyType.Spaceman)
+        {
+            char1.GetComponent<Image>().sprite = spacemanImage.sprite;
+            char2.GetComponent<Image>().sprite = pirateFadedImage.sprite;
+            char3.GetComponent<Image>().sprite = mayanFadedImage.sprite;
+        }
+        else if (player.state.form == EnemyType.Mayan)
+        {
+            char1.GetComponent<Image>().sprite = spacemanFadedImage.sprite;
+            char2.GetComponent<Image>().sprite = pirateFadedImage.sprite;
+            char3.GetComponent<Image>().sprite = mayanImage.sprite;
+        }
+        else if (player.state.form == EnemyType.Pirate)
+        {
+            char1.GetComponent<Image>().sprite = spacemanFadedImage.sprite;
+            char2.GetComponent<Image>().sprite = pirateImage.sprite;
+            char3.GetComponent<Image>().sprite = mayanFadedImage.sprite;
+        }
+
+        /*
+         //Exchanges image to keep current in the middle
+        if (player.state.form == EnemyType.Spaceman)
+        {
+            char1.GetComponent<Image>().sprite = mayanFadedImage.sprite;
+            char2.GetComponent<Image>().sprite = spacemanImage.sprite;
+            char3.GetComponent<Image>().sprite = pirateFadedImage.sprite;
+        }
+        else if (player.state.form == EnemyType.Mayan)
+        {
+            char1.GetComponent<Image>().sprite = pirateFadedImage.sprite;
+            char2.GetComponent<Image>().sprite = mayanImage.sprite;
+            char3.GetComponent<Image>().sprite = spacemanFadedImage.sprite;
+        }
+        else if (player.state.form == EnemyType.Pirate)
+        {
+            char1.GetComponent<Image>().sprite = spacemanFadedImage.sprite;
+            char2.GetComponent<Image>().sprite = pirateImage.sprite;
+            char3.GetComponent<Image>().sprite = mayanFadedImage.sprite;
+        }*/
     }
 
     public void ShowEndScreen()
     {
+        UpdateLanguage();
         StopAllTerrain();
         GameObject.FindObjectOfType<InputManager>().SetWaitingForInput(null, waitForSpecificSwipe.all);
         scoreT.text = "Score: "+ScoreManager.instance.score;
@@ -40,23 +111,28 @@ public class UIController : Singleton<UIController> {
         endPanel.SetActive(true);
         StarSystem.instance.CalculateScore();
         int stars = StarSystem.instance.starRating;
-        if (stars != 0) {
-            float range = Mathf.Abs (star3.transform.position.x+2) - Mathf.Abs (star1.transform.position.x+2);
-            Debug.Log("the range is: " + range + " with star 1 at : " + star1.transform.position.x + " with star 3 at : " + star3.transform.position.x);
-            
-            for (int i = 0; i < Mathf.Abs(stars); i++)
+        if (stars == 3)
+        {
+            for (int i = 0; i < 3; i++)
             {
-                float point = (range / (stars+1)) * (i + 1);
-                Debug.Log(range + " / " + (stars + 1) + " * " + (i + 1) + " = " + point);
                 starImages[i].gameObject.GetComponent<Image>().enabled = true;
-                if (stars < 0)
-                {
-                    starImages[i].gameObject.GetComponent<Image>().color = Color.red;
-                }
-                starImages[i].transform.position = new Vector3(star1.transform.position.x + point, starImages[i].transform.position.y, starImages[i].transform.position.z);
-                Debug.Log("Star " + (i+1) + " at star1.transform.position.x + point: " + (star1.transform.position.x + point));
             }
         }
+        else if (stars == 1)
+        {
+            starImages[1].gameObject.GetComponent<Image>().enabled = true;
+        }
+        else if (stars == 2)
+        {
+            starImages[3].gameObject.GetComponent<Image>().enabled = true;
+            starImages[4].gameObject.GetComponent<Image>().enabled = true;
+        }
+        else if (stars < 0)
+        {
+            starImages[1].gameObject.GetComponent<Image>().enabled = true;
+            starImages[1].gameObject.GetComponent<Image>().color = Color.red;
+        }
+        
         SaveData.instance.CompletedCurrentLevel();
         SaveData.instance.SaveStarsForCurrentLevel(stars);
     }
@@ -64,6 +140,11 @@ public class UIController : Singleton<UIController> {
     void StopAllTerrain()
     {
         GameObject.FindObjectOfType<TerrainGenerator>().PauseAllMovement();
+    }
+
+    void ResumeAllTerrain()
+    {
+        GameObject.FindObjectOfType<TerrainGenerator>().ResumeAllMovement();
     }
 
     void UpdateLanguage()
@@ -80,7 +161,7 @@ public class UIController : Singleton<UIController> {
             levelEndText.text = "Niveau færdig";
             MainMenuText.text = "Hoved menu";
             RetryText.text = "Prøv igen";
-            NextLevelText.text = "Næste niveau";
+            NextLevelText.text = "Næste bane";
         }
         if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings-2)
         {
@@ -91,16 +172,39 @@ public class UIController : Singleton<UIController> {
     public void MainMenu()
     {
         DisableStars();
-        PlayerPrefs.SetInt("PlayedBefore", 2);
-        SceneManager.LoadScene(0);
+        Time.timeScale = 1;
+        char c = SceneManager.GetActiveScene().name[0];
+        if (c == 'P')
+        {
+            PlayerPrefs.SetInt("PlayedBefore", 4);
+        }
+        else if (c == 'M')
+        {
+            PlayerPrefs.SetInt("PlayedBefore", 5);
+        }
+        else if(c == 'S')
+        {
+            PlayerPrefs.SetInt("PlayedBefore", 6);
+        }
+        AudioMaster.instance.PlayEvent("menuClick");
+        AudioMaster.instance.PlayEvent("musicStop");
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void NextLevel()
     {
+        if (paused)
+        {
+            Unpause();
+            return;
+        }
+        AudioMaster.instance.PlayEvent("menuClick");
         DisableStars();
+        Time.timeScale = 1;
         if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings-3)
         {
-            SceneManager.LoadScene(0);
+            AudioMaster.instance.PlayEvent("musicStop");
+            SceneManager.LoadScene("MainMenu");
         }
         else
         {
@@ -110,15 +214,47 @@ public class UIController : Singleton<UIController> {
 
     public void RetryLevel()
     {
+        AudioMaster.instance.PlayEvent("menuClick");
         DisableStars();
+        Time.timeScale = 1;
+        AudioMaster.instance.PlayEvent("musicStop");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void DisableStars()
     {
         //disable the image component of all the star images
-        star1.GetComponent<Image>().enabled = false;
-        star2.GetComponent<Image>().enabled = false;
-        star3.GetComponent<Image>().enabled = false;
+        for (int i = 0; i < starImages.Length; i++)
+        {
+            Debug.Log("Disable stars!");
+            starImages[i].GetComponent<Image>().enabled = false;
+        }
+    }
+
+    public void Pause()
+    {
+        paused = true;
+        AudioMaster.instance.PlayEvent("menuClick");
+        endPanel.SetActive(true);
+        StopAllTerrain();
+        levelEndText.text = "Pause";
+        if (SaveData.instance.IsLanguageEnglish())
+        {
+            NextLevelText.text = "Resume";
+            scoreT.text = "Score: " + ScoreManager.instance.score;
+        }
+        else
+        {
+            NextLevelText.text = "Fortsæt";
+            scoreT.text = "Point: " + ScoreManager.instance.score;
+        }
+    }
+
+    public void Unpause()
+    {
+        paused = false;
+        AudioMaster.instance.PlayEvent("menuClick");
+        endPanel.SetActive(false);
+        ResumeAllTerrain();
     }
 }

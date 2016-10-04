@@ -16,6 +16,15 @@ public class Enemy : MonoBehaviour
     public int enemyPoints = 1;
     bool test = false;
     bool pointsGiven = false;
+    private bool targetable = true;
+
+    void Start()
+    {
+        // display spawn effect
+        var effect = GameObject.Find("SpawnEffect");
+        effect.transform.SetParent(transform, false);
+        effect.GetComponent<ParticleSystem>().Play();
+    }
 
     void Update()
     {
@@ -30,7 +39,15 @@ public class Enemy : MonoBehaviour
     IEnumerator WaitingCoroutine()
     {
         yield return new WaitForSeconds(1);
-        EnemyManager.instance.RemoveEnemyFromLane(lane);
+        EnemyManager.instance.RemoveEnemy(gameObject);
+
+        // remove the particle effect if still child of the game object
+        var effect = GetComponentInChildren<ParticleSystem>();
+        if (effect != null)
+        {
+            effect.transform.SetParent(null, false);
+        }
+
         Destroy(gameObject);
     }
 
@@ -58,7 +75,9 @@ public class Enemy : MonoBehaviour
             // Die
             if (GameObject.FindObjectOfType<Player>().state.form == enemyType)
             {
-                this.gameObject.GetComponentInChildren<Animation>().Play();
+                Animator enemyAnimator = this.gameObject.GetComponentInChildren<Animator>();
+                enemyAnimator.SetTrigger("Death");
+
                 test = true;
             }
             DestroySelf();
@@ -71,5 +90,20 @@ public class Enemy : MonoBehaviour
         lane = _lane;
         enemyType = _type;
         EnemyManager.instance.AddEnemyToLane(lane, gameObject);
+    }
+
+    public bool IsTargetable()
+    {
+        return targetable;
+    }
+
+    public void SetTargetable(bool targetable)
+    {
+        this.targetable = targetable;
+    }
+
+    public bool getPointsGiven()
+    {
+        return pointsGiven;
     }
 }

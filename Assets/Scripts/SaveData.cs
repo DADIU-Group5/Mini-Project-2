@@ -43,8 +43,13 @@ public class SaveData : Singleton<SaveData> {
 
     public void SaveStarsForLevel(string level, int stars)
     {
+        Debug.Log("Saves stars!");
         if (PlayerPrefs.GetInt(level) > stars)
         {
+            int extraStars = 0;
+            extraStars = stars - PlayerPrefs.GetInt("LevelStars" + level);
+            Debug.Log("extra stars " + extraStars);
+            AddToTotalEarnedStars(extraStars);
             PlayerPrefs.SetInt(level, stars);
         }
     }
@@ -53,6 +58,10 @@ public class SaveData : Singleton<SaveData> {
     {
         if (PlayerPrefs.GetInt(SceneManager.GetActiveScene().name) < stars)
         {
+            int extraStars = 0;
+            extraStars = stars - PlayerPrefs.GetInt(SceneManager.GetActiveScene().name);
+            //Debug.Log("extra stars " + extraStars);
+            AddToTotalEarnedStars(extraStars);
             PlayerPrefs.SetInt(SceneManager.GetActiveScene().name, stars);
         }
     }
@@ -112,5 +121,20 @@ public class SaveData : Singleton<SaveData> {
         {
             return true;
         }
+    }
+
+    public void AddToTotalEarnedStars(int extra)
+    {
+        PlayerPrefs.SetInt("TotalStarsEarned", (PlayerPrefs.GetInt("TotalStarsEarned") + extra));
+    }
+
+    public int GetAllEarnedStars()
+    {
+        return PlayerPrefs.GetInt("TotalStarsEarned");
+    }
+
+    public int GetAllPossibleStars()
+    {
+        return 9;//PlayerPrefs.GetInt("TOTALSTARS");
     }
 }

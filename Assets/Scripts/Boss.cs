@@ -4,13 +4,13 @@ using System.Collections;
 public class Boss : MonoBehaviour
 {
     [Tooltip("The maxmum distance the boss can move either direction")]
-    public Vector2 area = new Vector2(0.1f, 1f);
+    public Vector2 area = new Vector2(0.3f, 3f);
     [Tooltip("The time in seconds between each time the boss moves towards a new point")]
     [Range(0, 1)]
-    public float unrest = 0.2f;
+    public float unrest = 0.75f;
     [Tooltip("Determines the speed at which the boss will move to a new point")]
     [Range(0, 5)]
-    public float speed = 1f;
+    public float speed = 3f;
 
     private float timePassed;
     private Vector3 startPos;
@@ -38,8 +38,12 @@ public class Boss : MonoBehaviour
 
     private void MoveTowardsTarget()
     {
-        velocity += (target - transform.position) * speed / 100;
+        velocity = (target - transform.position).normalized * speed / 100;
         transform.position += velocity;
+        if (Vector3.Distance(target, transform.position) < 0.5f)
+        {
+            NewTargetPos();
+        }
     }
 
     // randoms a new position within the area
@@ -48,5 +52,6 @@ public class Boss : MonoBehaviour
         float dx = Random.Range(-area.x, area.x);
         float dz = Random.Range(-area.y, area.y);
         target = startPos + new Vector3(dx, 0, dz);
+        timePassed = 0;
     }
 }

@@ -11650,6 +11650,132 @@ Presence is roughly related to distance and occlusion</Comment>
 								<ActiveSource Name="SoundSeed Woosh" ID="{03D418F0-B554-48A3-AE3A-63BDC33513E1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="jump" ID="{0BF03001-0CBB-4CA0-88B4-FCA874AEACF5}" ShortID="92733666" Type="SoundFX">
+							<PropertyList>
+								<Property Name="BypassEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="BypassEffect1" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+								</Reference>
+								<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="sword3" ID="{B151E46F-C51F-453C-8478-03F14948FC33}" WorkUnitID="{E375462F-1E38-4008-853A-C5F885645CA5}"/>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+									<ObjectRef Name="Three_Voices" ID="{71CA20BE-8C1D-4A0C-92AF-BFCE183D5651}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="SoundSeed Woosh" ID="{8E92C0D1-BECE-47E0-87B5-05A04184D78E}" ShortID="676290211" PluginName="SoundSeed Air/SoundSeed Woosh" CompanyID="0" PluginID="120">
+									<PropertyList>
+										<Property Name="DurationRandom" Type="Real32" Value="0.2"/>
+										<Property Name="FrequencyScaleRandom" Type="Real32" Value="4"/>
+										<Property Name="QFactorScaleRandom" Type="Real32" Value="2"/>
+										<Property Name="SpeedAutomate" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<PluginData>
+	<WooshData>
+		<CurveList Version="1">
+			<CurveInfo Name="Speed">
+				<Curve Name="" ID="{3E4BCC24-EBD7-47F4-8DE4-640B7F4865F7}">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>0.1116</XPos>
+							<YPos>100</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>0.12141</XPos>
+							<YPos>75.27297</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>0.16225</XPos>
+							<YPos>43.17605</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>0.2075</XPos>
+							<YPos>30.06135</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>0.25838</XPos>
+							<YPos>19.17514</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>0.3256</XPos>
+							<YPos>12.13344</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>0.5</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+		<Path Version="1">
+			<Path2D Name="" ID="{39CFC6F7-89F6-49A7-A718-551DDDD81265}">
+				<PropertyList>
+					<Property Name="LinearTime" Type="bool" Value="False"/>
+				</PropertyList>
+				<PointList>
+					<Point>
+						<XPos>0</XPos>
+						<YPos>0</YPos>
+						<Flags>12</Flags>
+						<Time>0</Time>
+					</Point>
+				</PointList>
+			</Path2D>
+		</Path>
+	</WooshData>
+</PluginData>
+									<PluginInnerObjectList>
+										<List Name="Deflectors">
+											<PluginInnerObject Name="" ID="{64ECB747-2D02-42B3-8D9F-88A50D1ECB43}" PluginName="Deflector" CompanyID="0" PluginID="122">
+												<PropertyList>
+													<Property Name="Frequency" Type="Real32" Value="218"/>
+												</PropertyList>
+											</PluginInnerObject>
+										</List>
+									</PluginInnerObjectList>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SoundSeed Woosh" ID="{8E92C0D1-BECE-47E0-87B5-05A04184D78E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

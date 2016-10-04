@@ -22,20 +22,21 @@ public class PlayerAttack : MonoBehaviour {
 
     void AttackEnemy()
     {
-        Enemy en = EnemyManager.instance.GetEnemyInLaneWithinDist(attackRange, lane);
-        if(en == null || en.hitByPlayer)
+        Enemy enemy = EnemyManager.instance.GetEnemyInLaneWithinDist(attackRange, lane);
+        if(enemy == null || enemy.hitByPlayer)
         {
             return;
         }
-        if (en.enemyType == player.state.form)
+        if (enemy.enemyType == player.state.form && !enemy.getPointsGiven())
         {
-            en.DestroyedByPlayer();
+            enemy.hitByPlayer = true;
+            enemy.DestroyedByPlayer();
             player.Attack();
         }
-        else if (!en.hitByPlayer)
+        else if (!enemy.hitByPlayer)
         {
             // Jump
-            en.hitByPlayer = true;
+            enemy.hitByPlayer = true;
             player.Jump();
             Debug.Log("Yeeaaa 2");
         }
@@ -50,10 +51,11 @@ public class PlayerAttack : MonoBehaviour {
         }
 
         //If the player is strong against this obstacle type:
-        if (ob.weakAgainst == player.state.form)
+        if (ob.weakAgainst == player.state.form && !ob.hitByPlayer)
         {
+            ob.hitByPlayer = true;
             ob.PlayerInteraction();
-            player.Attack();
+            player.Attack(true);
         }
         else if (!ob.hitByPlayer)
         {

@@ -3,19 +3,23 @@
 	<InteractiveMusic>
 		<WorkUnit Name="Default Work Unit" ID="{AEDB506B-D893-466E-B78B-0A28E1A48AA8}" PersistMode="Standalone">
 			<ChildrenList>
-				<MusicPlaylistContainer Name="piratemusic" ID="{AE3A1077-CC9D-4F38-ACD7-8E7E18D1321F}" ShortID="247790429">
+				<MusicPlaylistContainer Name="pirateMusic" ID="{B7A8D5BD-FF03-409B-800E-4328F7541F42}" ShortID="307619165">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="200"/>
+						<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
+							<ObjectRef Name="super duper compressed" ID="{57DF8DDD-92B2-404D-B393-BF7317B5B28F}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicSegment Name="piratmusik2" ID="{5561C611-374C-4F84-9E30-0FE9678B8A56}" ShortID="749504425">
+						<MusicSegment Name="piratmusik short" ID="{939800F8-6DB9-4DB7-B996-DBB982FF94F0}" ShortID="313442491">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="64585.8813559322"/>
+								<Property Name="EndPosition" Type="Real64" Value="65700"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -26,20 +30,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="piratmusik2" ID="{8B2D75F8-ADDF-4ED3-B29D-3A498D88409B}" ShortID="246730197">
+								<MusicTrack Name="piratmusik short" ID="{6D171C8E-4DA3-4570-9067-6A66E2A4ABDA}" ShortID="727617406">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="piratmusik2" ID="{EB832AF4-85DD-41F8-BB33-8986DD25F699}" ShortID="366181034">
+										<AudioFileSource Name="piratmusik short" ID="{221FBECE-A670-4789-80BF-B2874F77C32E}" ShortID="226495857">
 											<Language>SFX</Language>
-											<AudioFile>piratmusik2.wav</AudioFile>
+											<AudioFile>piratmusik short.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{4711A1FB-F798-460E-B467-E1622684F29F}">
+										<MusicTransition Name="Root" ID="{18E72B09-8A29-467C-9212-11EA3FE60276}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -47,31 +51,31 @@
 										</MusicTransition>
 									</TransitionList>
 									<SequenceList>
-										<MusicTrackSequence Name="" ID="{F52E4F9F-95CE-4CE8-9D36-7D0D9921E296}">
+										<MusicTrackSequence Name="" ID="{09E28FAD-007D-405D-B49E-FF20B8FB1A1B}">
 											<ClipList>
-												<MusicClip Name="piratmusik2" ID="{F08B4692-8D20-402F-BF9D-2967604CE59B}">
+												<MusicClip Name="piratmusik short" ID="{E0EAFA9F-07F9-4D12-B17E-A5248246C894}">
 													<PropertyList>
-														<Property Name="BeginTrimOffset" Type="Real64" Value="500"/>
-														<Property Name="EndTrimOffset" Type="Real64" Value="48000"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="1688.5197740113"/>
-														<Property Name="FadeOutShape" Type="int16" Value="3"/>
+														<Property Name="BeginTrimOffset" Type="Real64" Value="19800"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="65700"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="129.490022172949"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="161.862527716192"/>
+														<Property Name="PlayAt" Type="Real64" Value="-19800"/>
 													</PropertyList>
-													<AudioSourceRef Name="piratmusik2" ID="{EB832AF4-85DD-41F8-BB33-8986DD25F699}"/>
+													<AudioSourceRef Name="piratmusik short" ID="{221FBECE-A670-4789-80BF-B2874F77C32E}"/>
 													<PropertyCurveList>
 														<PropertyCurve PropertyName="Highpass">
-															<Curve Name="" ID="{16D32BDE-21F7-4F24-9265-C5A69EE48DB9}">
+															<Curve Name="" ID="{09592AFF-A5E4-43CA-AAF7-8FEDF784EC06}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="1"/>
 																</PropertyList>
 																<PointList>
 																	<Point>
-																		<XPos>0.5</XPos>
+																		<XPos>19.8</XPos>
 																		<YPos>0</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>48</XPos>
+																		<XPos>65.7</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -79,18 +83,18 @@
 															</Curve>
 														</PropertyCurve>
 														<PropertyCurve PropertyName="Lowpass">
-															<Curve Name="" ID="{CD393B7F-0F3A-492B-91C9-D74BFBCA29E2}">
+															<Curve Name="" ID="{0120F0E8-AF18-4FC3-9537-B00E6EED0E33}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="1"/>
 																</PropertyList>
 																<PointList>
 																	<Point>
-																		<XPos>0.5</XPos>
+																		<XPos>19.8</XPos>
 																		<YPos>0</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>48</XPos>
+																		<XPos>65.7</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -98,18 +102,18 @@
 															</Curve>
 														</PropertyCurve>
 														<PropertyCurve PropertyName="Volume">
-															<Curve Name="" ID="{6015E3DC-E460-4644-85BF-BE8D46DC90E2}">
+															<Curve Name="" ID="{57E7420B-546C-4BD4-BE21-CAF7EC3DB4C8}">
 																<PropertyList>
 																	<Property Name="Flags" Type="int32" Value="3"/>
 																</PropertyList>
 																<PointList>
 																	<Point>
-																		<XPos>0.5</XPos>
+																		<XPos>19.8</XPos>
 																		<YPos>0</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>48</XPos>
+																		<XPos>65.7</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -124,18 +128,18 @@
 								</MusicTrack>
 							</ChildrenList>
 							<CueList>
-								<MusicCue Name="Entry Cue" ID="{9DA7FD61-5C9D-46AA-8C3A-20D3DE5C6893}"/>
-								<MusicCue Name="Exit Cue" ID="{01E9BB44-735F-4482-98C6-4B981BF1D102}">
+								<MusicCue Name="Entry Cue" ID="{E0957815-A7F9-4C34-8CF3-BADA489D3D83}"/>
+								<MusicCue Name="Exit Cue" ID="{26910A45-272F-45F4-B5E3-C92BECB62A98}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="48000"/>
+										<Property Name="TimeMs" Type="Real64" Value="45900"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>
 						</MusicSegment>
-						<MusicSegment Name="piratmusik1" ID="{70EB2D4E-C56A-4F03-9A7E-DC903682703E}" ShortID="1011181451">
+						<MusicSegment Name="piratmusik short_01" ID="{97807D7A-DEEE-431D-943A-519E63D2D9DD}" ShortID="857352272">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="27052.0416666667"/>
+								<Property Name="EndPosition" Type="Real64" Value="65700"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -146,20 +150,23 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="piratmusik1" ID="{FB6FBDC2-72DB-4534-ADFB-2367EFE13960}" ShortID="137396654">
+								<MusicTrack Name="piratmusik short" ID="{927DDA6C-D9DE-40BC-8E76-2E3BCA2E80E1}" ShortID="477668878">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="piratmusik1" ID="{05B02192-CA27-41A1-8D1A-720635F39297}" ShortID="124375181">
+										<AudioFileSource Name="piratmusik short" ID="{4B1040CB-E4B8-4BF3-9B4A-95D183B6CBF2}" ShortID="342618366">
 											<Language>SFX</Language>
-											<AudioFile>piratmusik1.wav</AudioFile>
+											<AudioFile>piratmusik short.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="226495857"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{AEC47308-6A0B-4883-A9EC-D0CFE094AE50}">
+										<MusicTransition Name="Root" ID="{0DB66904-7EA7-40EE-A699-19812F7C30DE}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -167,75 +174,15 @@
 										</MusicTransition>
 									</TransitionList>
 									<SequenceList>
-										<MusicTrackSequence Name="" ID="{0CDE2139-E00A-45F3-AF08-A7F64E394C11}">
+										<MusicTrackSequence Name="" ID="{C0C9B413-EF39-4667-94D1-E78F6CB0FF1D}">
 											<ClipList>
-												<MusicClip Name="piratmusik1" ID="{2F29078C-4D0B-4AEE-AFE0-8A3E43B6A5AF}">
+												<MusicClip Name="piratmusik short" ID="{377FE0A7-F2A8-4E4F-AAE9-FACC57BCAC0D}">
 													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="21500"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="65700"/>
 														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutDuration" Type="Real64" Value="1146.2729519774"/>
-														<Property Name="FadeOutShape" Type="int16" Value="3"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
 													</PropertyList>
-													<AudioSourceRef Name="piratmusik1" ID="{05B02192-CA27-41A1-8D1A-720635F39297}"/>
-													<PropertyCurveList>
-														<PropertyCurve PropertyName="Highpass">
-															<Curve Name="" ID="{540024FA-5FF8-4C10-A38B-18E8D85C930D}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="1"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>0</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>21.5</XPos>
-																		<YPos>0</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</PropertyCurve>
-														<PropertyCurve PropertyName="Lowpass">
-															<Curve Name="" ID="{9DFF1A77-9334-43CE-8BAB-FC3A00BE0B31}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="1"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>0</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>21.5</XPos>
-																		<YPos>0</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</PropertyCurve>
-														<PropertyCurve PropertyName="Volume">
-															<Curve Name="" ID="{32586A04-409C-4520-A423-9F4FF12A035C}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="3"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>0</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>21.5</XPos>
-																		<YPos>0</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</PropertyCurve>
-													</PropertyCurveList>
+													<AudioSourceRef Name="piratmusik short" ID="{4B1040CB-E4B8-4BF3-9B4A-95D183B6CBF2}"/>
 												</MusicClip>
 											</ClipList>
 										</MusicTrackSequence>
@@ -243,23 +190,23 @@
 								</MusicTrack>
 							</ChildrenList>
 							<CueList>
-								<MusicCue Name="Entry Cue" ID="{FC00D8EE-4289-4375-93AD-33E27E4259C4}"/>
-								<MusicCue Name="Exit Cue" ID="{182E5062-81A0-4D96-B601-3E4DA4FF6C77}">
+								<MusicCue Name="Entry Cue" ID="{A00F75BC-4537-4798-BF54-B15DD64065B7}"/>
+								<MusicCue Name="Exit Cue" ID="{C7CB0ACF-C7B1-4F50-BE79-9B18D5A9CD53}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="21500"/>
+										<Property Name="TimeMs" Type="Real64" Value="65700"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>
 						</MusicSegment>
 					</ChildrenList>
 					<TransitionList>
-						<MusicTransition Name="Root" ID="{13C9F473-B1B7-488C-9769-C01EDDAEAE4E}">
+						<MusicTransition Name="Root" ID="{A5554B52-F966-449E-AB0C-45733DD48CEE}">
 							<PropertyList>
 								<Property Name="IsFolder" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<MusicTransition Name="Transition" ID="{A93DE0B1-99DF-4E15-BF90-CA1AFBEA7A21}">
+								<MusicTransition Name="Transition" ID="{B17E6322-58F0-4613-9660-6D38426220D1}">
 									<TransitionInfo/>
 								</MusicTransition>
 							</ChildrenList>
@@ -267,22 +214,16 @@
 						</MusicTransition>
 					</TransitionList>
 					<Playlist>
-						<MusicPlaylistItem Name="" ID="{301201D0-0030-4517-8C2A-CB4F219B931E}" ShortID="987259944">
+						<MusicPlaylistItem Name="" ID="{20B6585A-AE5D-4E9A-98E9-205AD2B5DB4E}" ShortID="489752156">
 							<PropertyList>
 								<Property Name="LoopCount" Type="int16" Value="0"/>
 							</PropertyList>
 							<ChildrenList>
-								<MusicPlaylistItem Name="" ID="{3EE71CB6-DEB7-4E5A-9906-4D40065EAA8D}" ShortID="416438295">
+								<MusicPlaylistItem Name="" ID="{5528015D-2760-4721-9833-7FB3BA47EEAB}" ShortID="647397649">
 									<PropertyList>
 										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 									</PropertyList>
-									<SegmentRef Name="piratmusik1" ID="{70EB2D4E-C56A-4F03-9A7E-DC903682703E}"/>
-								</MusicPlaylistItem>
-								<MusicPlaylistItem Name="" ID="{1AF52D92-4C6A-42DE-8DB2-4181A53FEC7E}" ShortID="218448868">
-									<PropertyList>
-										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-									</PropertyList>
-									<SegmentRef Name="piratmusik2" ID="{5561C611-374C-4F84-9E30-0FE9678B8A56}"/>
+									<SegmentRef Name="piratmusik short" ID="{939800F8-6DB9-4DB7-B996-DBB982FF94F0}"/>
 								</MusicPlaylistItem>
 							</ChildrenList>
 						</MusicPlaylistItem>

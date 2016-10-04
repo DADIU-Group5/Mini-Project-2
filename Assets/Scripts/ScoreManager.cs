@@ -3,6 +3,7 @@ using System.Collections;
 using Mini2.Utils;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(FloatingNumberGenerator))]
 public class ScoreManager : Singleton<ScoreManager>
 {
     public int score = 0;
@@ -16,9 +17,13 @@ public class ScoreManager : Singleton<ScoreManager>
     public int missObstaclePoints = -1;
     public int missEnemyPoints = -1;
 
+    private FloatingNumberGenerator numberGenerator;
+
     void Start()
     {
         scoreLabel = GameObject.Find("ScoreLabel").GetComponent<Text>();
+        numberGenerator = GetComponent<FloatingNumberGenerator>();
+        UpdateText();
     }
 
     public void ModifyPoint(int collisionType, bool give)
@@ -51,7 +56,24 @@ public class ScoreManager : Singleton<ScoreManager>
             AudioMaster.instance.PlayEvent("pointLoss");
         }
 
+        // display the number in as floating ui number
+        if (point != 0)
+            numberGenerator.CreateFloatingNumber(point);
+
         score += point;
-        scoreLabel.text = "Score: " + score;
+        //scoreLabel.text = "Score: " + score; Floating number now updates the score label
     }
+
+    public void UpdateText()
+    {
+        if (SaveData.instance.IsLanguageEnglish())
+        {
+            scoreLabel.text = "Score: " + score;
+        }
+        else
+        {
+            scoreLabel.text = "Point: " + score;
+        }
+    }
+
 }

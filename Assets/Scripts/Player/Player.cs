@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
     public GameObject pirateModel;
     public GameObject mayanModel;
     public GameObject spacemanModel;
+    public ParticleSystem[] effects;
 
     private Animator playerAnimatorPirate;
     private Animator playerAnimatorMayan;
@@ -30,7 +31,7 @@ public class Player : MonoBehaviour
         playerAnimatorMayan = mayanModel.GetComponent<Animator>();
         playerAnimatorSpaceman = spacemanModel.GetComponent<Animator>();
 
-        ChangeForm();
+        UpdateModel();
         jumpStartTime = -jumpTime;
     }
 
@@ -79,6 +80,32 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void UpdateModel()
+    {
+        EnemyType currentPlayerType = state.form;
+        Debug.Log("Switching chars!");
+        pirateModel.SetActive(currentPlayerType == EnemyType.Pirate);
+        mayanModel.SetActive(currentPlayerType == EnemyType.Mayan);
+        spacemanModel.SetActive(currentPlayerType == EnemyType.Spaceman);
+        UIController.instance.SwitchCharacters();
+    }
+
+    private void PlaySwitchSound()
+    {
+        switch (state.form)
+        {
+            case EnemyType.Mayan:
+                AudioMaster.instance.PlayEvent("switchMayan");
+                break;
+            case EnemyType.Pirate:
+                AudioMaster.instance.PlayEvent("switchPirate");
+                break;
+            case EnemyType.Spaceman:
+                AudioMaster.instance.PlayEvent("switchSpaceman");
+                break;
+        }
+    }
+
     public void SwipeRight()
     {
         if ((int)state.form == 2)
@@ -110,26 +137,11 @@ public class Player : MonoBehaviour
     {
         Debug.Log("Changing form");
 
-        switch (state.form)
+        PlaySwitchSound();
+        UpdateModel();
+        foreach (var effect in effects)
         {
-            case EnemyType.Mayan:
-                AudioMaster.instance.PlayEvent("switchMayan");
-                pirateModel.SetActive(false);
-                mayanModel.SetActive(true);
-                spacemanModel.SetActive(false);
-                break;
-            case EnemyType.Pirate:
-                AudioMaster.instance.PlayEvent("switchPirate");
-                pirateModel.SetActive(true);
-                mayanModel.SetActive(false);
-                spacemanModel.SetActive(false);
-                break;
-            case EnemyType.Spaceman:
-                AudioMaster.instance.PlayEvent("switchSpaceman");
-                pirateModel.SetActive(false);
-                mayanModel.SetActive(false);
-                spacemanModel.SetActive(true);
-                break;
+            effect.Play();
         }
     }
 
@@ -139,7 +151,7 @@ public class Player : MonoBehaviour
         AudioMaster.instance.PlayEvent("obstacleJump");
     }
 
-    public void Attack()
+    public void Attack(bool obstacle = false)
     {
         switch (state.form)
         {
@@ -153,7 +165,10 @@ public class Player : MonoBehaviour
                 break;
             case EnemyType.Spaceman:
                 playerAnimatorSpaceman.SetTrigger("spacemanAttack");
-                AudioMaster.instance.PlayEvent("laserAttack");
+                if (!obstacle)
+                {
+                    AudioMaster.instance.PlayEvent("laserAttack");
+                }
                 break;
         }
     }

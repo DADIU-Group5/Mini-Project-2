@@ -175,14 +175,11 @@ public class TerrainGenerator : MonoBehaviour {
     /// <param name="f"></param>
     public void ChangeAllEnemySpeed(float f)
     {
-        List<GameObject>[] enemies = EnemyManager.instance.GetAllEnemies();
-        for (int i = 0; i < enemies.Length; i++)
-        {
-            foreach (GameObject e in enemies[i])
-            {
-                e.GetComponent<EnemyMovement>().enemySpeed = f;
-            }
-        }
+        List<GameObject> enemies = EnemyManager.instance.GetAllEnemies();
+   
+        foreach (GameObject e in enemies)
+            e.GetComponent<EnemyMovement>().enemySpeed = f;
+        
     }
 
     /// <summary>
@@ -198,6 +195,7 @@ public class TerrainGenerator : MonoBehaviour {
             item.Stop();
         }
         GameObject.FindObjectOfType<Boss>().enabled = false;
+        Time.timeScale = 0;
     }
 
     /// <summary>
@@ -213,12 +211,14 @@ public class TerrainGenerator : MonoBehaviour {
             item.Resume();
         }
         GameObject.FindObjectOfType<Boss>().enabled = true;
+        Time.timeScale = 1;
     }
 }
 
 [System.Serializable]
 public class LevelData
 {
+    [TextArea(1,10)]
     public string levelInfo;
 }
 

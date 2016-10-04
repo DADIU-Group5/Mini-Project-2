@@ -1,19 +1,22 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System;
+using UnityEngine.SceneManagement;
 
 namespace Mini2.Menu
 {
     public class MainMenu2 : MonoBehaviour
     {
-        public MainMenuTextHandler MMT;
-        public LevelButtonCreator LBC;
+        public MainMenuTextHandler mainMenuText;
+        public LevelButtonCreator levelButtonCreator;
 
         public GameObject languageSelect;
         public GameObject mainMenu;
         public GameObject settings;
         public GameObject themeSelect;
         public GameObject levelSelect;
+        public GameObject unlockables;
 
         private MenuState state = MenuState.languageSelect;
         private Theme theme;
@@ -21,7 +24,7 @@ namespace Mini2.Menu
         void Start()
         {
             GetInitialState();
-            MMT.UpdateLanguage();
+            mainMenuText.UpdateLanguage();
         }
 
         void GetInitialState()
@@ -34,25 +37,49 @@ namespace Mini2.Menu
             {
                 ChangeStateTo(MenuState.MainMenu);
             }
-            else
+            else if(PlayerPrefs.GetInt("PlayedBefore") == 3)
             {
-                PlayerPrefs.SetInt("PlayedBefore", 1);
+                ChangeStateTo(MenuState.Settings);
             }
+            else if(PlayerPrefs.GetInt("PlayedBefore") == 4)
+            {
+                ChangeStateTo(MenuState.LevelSelect, Theme.Pirate);
+            }
+            else if (PlayerPrefs.GetInt("PlayedBefore") == 5)
+            {
+                ChangeStateTo(MenuState.LevelSelect, Theme.Mayan);
+            }
+            else if (PlayerPrefs.GetInt("PlayedBefore") == 6)
+            {
+                ChangeStateTo(MenuState.LevelSelect, Theme.Space);
+            }
+            else if(PlayerPrefs.GetInt("PlayedBefore") == 0)
+            {
+                PlayerPrefs.SetFloat("MasterVolume", 100);
+                
+            }
+                PlayerPrefs.SetInt("PlayedBefore", 1);
         }
 
-        public void ChangeStateTo(MenuState MS)
+        public void ChangeStateTo(MenuState newState)
         {
             LeaveState(state);
-            EnterState(MS);
-            state = MS;
+            EnterState(newState);
+            state = newState;
         }
 
-        public void ChangeStateTo(MenuState MS, Theme t)
+        public void ChangeStateTo(MenuState newState, Theme t)
         {
             theme = t;
             LeaveState(state);
-            EnterState(MS);
-            state = MS;
+            EnterState(newState);
+            state = newState;
+        }
+
+        public void ShowCredits()
+        {
+            PlayerPrefs.SetInt("PlayedBefore", 3);
+            SceneManager.LoadScene("Credits");
         }
 
         public void Back()
@@ -69,11 +96,15 @@ namespace Mini2.Menu
             {
                 ChangeStateTo(MenuState.ThemeSelect);
             }
+            else if(state == MenuState.Unlockables)
+            {
+                ChangeStateTo(MenuState.MainMenu);
+            }
         }
 
-        void LeaveState(MenuState MS)
+        void LeaveState(MenuState state)
         {
-            switch (MS)
+            switch (state)
             {
                 case MenuState.languageSelect:
                     languageSelect.SetActive(false);
@@ -89,16 +120,19 @@ namespace Mini2.Menu
                     break;
                 case MenuState.LevelSelect:
                     levelSelect.SetActive(false);
-                    LBC.RemoveButtons();
+                    levelButtonCreator.RemoveButtons();
+                    break;
+                case MenuState.Unlockables:
+                    unlockables.SetActive(false);
                     break;
                 default:
                     break;
             }
         }
 
-        void EnterState(MenuState MS)
+        void EnterState(MenuState state)
         {
-            switch (MS)
+            switch (state)
             {
                 case MenuState.languageSelect:
                     languageSelect.SetActive(true);
@@ -114,7 +148,11 @@ namespace Mini2.Menu
                     break;
                 case MenuState.LevelSelect:
                     levelSelect.SetActive(true);
-                    LBC.CreateButtons(theme);
+                    levelButtonCreator.CreateButtons(theme);
+                    mainMenuText.UpdateLanguage(theme);
+                    break;
+                case MenuState.Unlockables:
+                    unlockables.SetActive(true);
                     break;
                 default:
                     break;
@@ -124,7 +162,7 @@ namespace Mini2.Menu
 
     public enum MenuState
     {
-        languageSelect, MainMenu, Settings, ThemeSelect, LevelSelect
+        languageSelect, MainMenu, Settings, ThemeSelect, LevelSelect, Unlockables
     }
 
     public enum Theme
