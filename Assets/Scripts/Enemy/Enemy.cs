@@ -40,6 +40,14 @@ public class Enemy : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         EnemyManager.instance.RemoveEnemy(gameObject);
+
+        // remove the particle effect if still child of the game object
+        var effect = GetComponentInChildren<ParticleSystem>();
+        if (effect != null)
+        {
+            effect.transform.SetParent(null, false);
+        }
+
         Destroy(gameObject);
     }
 
