@@ -78,21 +78,21 @@ public class UIController : Singleton<UIController> {
          //Exchanges image to keep current in the middle
         if (player.state.form == EnemyType.Spaceman)
         {
-            char1.GetComponent<Image>().sprite = pirateFadedImage.sprite;
+            char1.GetComponent<Image>().sprite = mayanFadedImage.sprite;
             char2.GetComponent<Image>().sprite = spacemanImage.sprite;
-            char3.GetComponent<Image>().sprite = mayanFadedImage.sprite;
+            char3.GetComponent<Image>().sprite = pirateFadedImage.sprite;
         }
         else if (player.state.form == EnemyType.Mayan)
         {
-            char1.GetComponent<Image>().sprite = spacemanFadedImage.sprite;
+            char1.GetComponent<Image>().sprite = pirateFadedImage.sprite;
             char2.GetComponent<Image>().sprite = mayanImage.sprite;
-            char3.GetComponent<Image>().sprite = pirateFadedImage.sprite;
+            char3.GetComponent<Image>().sprite = spacemanFadedImage.sprite;
         }
         else if (player.state.form == EnemyType.Pirate)
         {
-            char1.GetComponent<Image>().sprite = mayanFadedImage.sprite;
+            char1.GetComponent<Image>().sprite = spacemanFadedImage.sprite;
             char2.GetComponent<Image>().sprite = pirateImage.sprite;
-            char3.GetComponent<Image>().sprite = spacemanFadedImage.sprite;
+            char3.GetComponent<Image>().sprite = mayanFadedImage.sprite;
         }
     }
 
