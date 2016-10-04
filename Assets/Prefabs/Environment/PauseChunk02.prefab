@@ -52,6 +52,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseUI: {fileID: 1000011826118446, guid: 93f9e40b05646eb469429bcb0daf82ff, type: 2}
-  danishText: Der er en andre haj! Stryg op til sin bane!
+  danishText: Der er endnu en haj! Swipe op til dens bane!
   englishText: There's another shark! Swipe up to its lane!
   stopMethod: 2

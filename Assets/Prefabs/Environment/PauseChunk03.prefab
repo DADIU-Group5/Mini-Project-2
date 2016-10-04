@@ -52,6 +52,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseUI: {fileID: 1000011826118446, guid: 93f9e40b05646eb469429bcb0daf82ff, type: 2}
-  danishText: "Pirate Hugo kan sk\xE6re fangarm fra enhver bane! (Stryg op at forts\xE6tte)"
+  danishText: "Pirate Hugo kan sk\xE6re fangarmen af fra enhver bane! (Swipe op at
+    forts\xE6tte)"
   englishText: Pirate Hugo can slash the tentacle from any lane! (Swipe up to continue)
   stopMethod: 2
