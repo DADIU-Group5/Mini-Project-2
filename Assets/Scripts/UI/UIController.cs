@@ -181,6 +181,7 @@ public class UIController : Singleton<UIController> {
         {
             PlayerPrefs.SetInt("PlayedBefore", 6);
         }
+        AudioMaster.instance.PlayEvent("menuClick");
         SceneManager.LoadScene("MainMenu");
     }
 
@@ -191,6 +192,7 @@ public class UIController : Singleton<UIController> {
             Unpause();
             return;
         }
+        AudioMaster.instance.PlayEvent("menuClick");
         DisableStars();
         Time.timeScale = 1;
         if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings-3)
@@ -205,6 +207,7 @@ public class UIController : Singleton<UIController> {
 
     public void RetryLevel()
     {
+        AudioMaster.instance.PlayEvent("menuClick");
         DisableStars();
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

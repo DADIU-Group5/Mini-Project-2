@@ -17,7 +17,10 @@ public class AudioMaster : Singleton<AudioMaster> {
         CurrentVolume = PlayerPrefs.GetFloat("MasterVolume");
         SetMasterVolume(CurrentVolume);
         AkSoundEngine.LoadBank("Soundbank1", AkSoundEngine.AK_DEFAULT_POOL_ID, out bankID);
-        PlayEvent("musicPlay");
+        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name != "MainMenu")
+        {
+            PlayEvent("musicPlay");
+        }
 	}
 
     void Update()

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="118">
 	<RootPaths>
-		<ProjectRoot>/Users/Victor/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/WwiseProjects/gruppe5 minigame2/</ProjectRoot>
-		<SourceFilesRoot>/Users/Victor/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/WwiseProjects/gruppe5 minigame2/.cache/Mac/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/Victor/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/WwiseProjects/gruppe5 minigame2/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ProjectRoot>C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/Victor/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/WwiseProjects/gruppe5 minigame2/GeneratedSoundBanks/Mac/</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -31,6 +31,7 @@
 				<Event Id="2037204996" Name="levelEnd" ObjectPath="\Events\Default Work Unit\levelEnd"/>
 				<Event Id="3372421815" Name="levelStart" ObjectPath="\Events\Default Work Unit\levelStart"/>
 				<Event Id="1787186961" Name="maskAttack" ObjectPath="\Events\Default Work Unit\maskAttack"/>
+				<Event Id="3711598968" Name="menuClick" ObjectPath="\Events\Default Work Unit\menuClick"/>
 				<Event Id="1205645828" Name="musicPlay" ObjectPath="\Events\Default Work Unit\musicPlay"/>
 				<Event Id="3978196478" Name="musicStop" ObjectPath="\Events\Default Work Unit\musicStop"/>
 				<Event Id="3147649906" Name="obstacleJump" ObjectPath="\Events\Default Work Unit\obstacleJump"/>
@@ -55,319 +56,351 @@
 			<IncludedMemoryFiles>
 				<File Id="3687924" Language="SFX">
 					<ShortName>skelet step6.wav</ShortName>
-					<Path>SFX/skelet step6_FBB9E98F.wem</Path>
+					<Path>SFX\skelet step6_8D7E5522.wem</Path>
 				</File>
 				<File Id="8036727" Language="SFX">
 					<ShortName>point gained4.wav</ShortName>
-					<Path>SFX/point gained4_5DF6B692.wem</Path>
+					<Path>SFX\point gained4_06841F69.wem</Path>
 				</File>
 				<File Id="14170797" Language="SFX">
 					<ShortName>rock explosion.wav</ShortName>
-					<Path>SFX/rock explosion_F96EAE2A.wem</Path>
+					<Path>SFX\rock explosion_FF4B9E43.wem</Path>
 				</File>
 				<File Id="20974474" Language="SFX">
 					<ShortName>reward1.wav</ShortName>
-					<Path>SFX/reward1_80037953.wem</Path>
+					<Path>SFX\reward1_80037953.wem</Path>
 				</File>
 				<File Id="27717524" Language="SFX">
 					<ShortName>laser no hit1.wav</ShortName>
-					<Path>SFX/laser no hit1_402D3E53.wem</Path>
+					<Path>SFX\laser no hit1_909B90F2.wem</Path>
 				</File>
 				<File Id="35348800" Language="SFX">
 					<ShortName>skelet step2.wav</ShortName>
-					<Path>SFX/skelet step2_DCE47E09.wem</Path>
+					<Path>SFX\skelet step2_0CCDFBDA.wem</Path>
 				</File>
 				<File Id="40423426" Language="SFX">
 					<ShortName>point gained.wav</ShortName>
-					<Path>SFX/point gained_BF17E3AF.wem</Path>
+					<Path>SFX\point gained_BF17E3AF.wem</Path>
 				</File>
 				<File Id="45169568" Language="SFX">
 					<ShortName>tentaclecut3.wav</ShortName>
-					<Path>SFX/tentaclecut3_35B33D81.wem</Path>
+					<Path>SFX\tentaclecut3_50A51417.wem</Path>
 				</File>
 				<File Id="49989946" Language="SFX">
 					<ShortName>kniv5.wav</ShortName>
-					<Path>SFX/kniv5_93AE3EEE.wem</Path>
+					<Path>SFX\kniv5_2D56F4D3.wem</Path>
 				</File>
 				<File Id="59408730" Language="SFX">
 					<ShortName>point lost5.wav</ShortName>
-					<Path>SFX/point lost5_F842E336.wem</Path>
+					<Path>SFX\point lost5_57F11C19.wem</Path>
 				</File>
 				<File Id="75613090" Language="SFX">
 					<ShortName>point gained6.wav</ShortName>
-					<Path>SFX/point gained6_F74C06AE.wem</Path>
+					<Path>SFX\point gained6_F74C06AE.wem</Path>
 				</File>
 				<File Id="77686141" Language="SFX">
 					<ShortName>tentaclecut1.wav</ShortName>
-					<Path>SFX/tentaclecut1_88EB7952.wem</Path>
+					<Path>SFX\tentaclecut1_88EB7952.wem</Path>
 				</File>
 				<File Id="84998545" Language="SFX">
 					<ShortName>tentaclecut3.wav</ShortName>
-					<Path>SFX/tentaclecut3_AC0A428D.wem</Path>
+					<Path>SFX\tentaclecut3_7F9CA189.wem</Path>
 				</File>
 				<File Id="88987367" Language="SFX">
 					<ShortName>kniv8.wav</ShortName>
-					<Path>SFX/kniv8_C0D0DC1E.wem</Path>
+					<Path>SFX\kniv8_022DACA2.wem</Path>
 				</File>
 				<File Id="96605360" Language="SFX">
 					<ShortName>minion summon alt 3 short.wav</ShortName>
-					<Path>SFX/minion summon alt 3 short_3D8BD1A2.wem</Path>
+					<Path>SFX\minion summon alt 3 short_3D8BD1A2.wem</Path>
 				</File>
 				<File Id="106976220" Language="SFX">
 					<ShortName>skelet step4.wav</ShortName>
-					<Path>SFX/skelet step4_A940167A.wem</Path>
-				</File>
-				<File Id="124375181" Language="SFX">
-					<ShortName>piratmusik1.wav</ShortName>
-					<Path>SFX/piratmusik1_4C70C0A4.wem</Path>
+					<Path>SFX\skelet step4_32D7C8E9.wem</Path>
 				</File>
 				<File Id="125529509" Language="SFX">
 					<ShortName>shark death.wav</ShortName>
-					<Path>SFX/shark death_078B4EF8.wem</Path>
+					<Path>SFX\shark death_B737CA67.wem</Path>
 				</File>
 				<File Id="127512394" Language="SFX">
 					<ShortName>minion summon alt 2 short.wav</ShortName>
-					<Path>SFX/minion summon alt 2 short_6BDE5C0A.wem</Path>
+					<Path>SFX\minion summon alt 2 short_6BDE5C0A.wem</Path>
 				</File>
 				<File Id="129691722" Language="SFX">
 					<ShortName>point lost4.wav</ShortName>
-					<Path>SFX/point lost4_DDF680A4.wem</Path>
+					<Path>SFX\point lost4_DDF680A4.wem</Path>
 				</File>
 				<File Id="130296752" Language="SFX">
 					<ShortName>eveil spirits2.wav</ShortName>
-					<Path>SFX/eveil spirits2_CDFE0F68.wem</Path>
+					<Path>SFX\eveil spirits2_CDFE0F68.wem</Path>
+				</File>
+				<File Id="136830005" Language="SFX">
+					<ShortName>menubutton steeldrum5.wav</ShortName>
+					<Path>SFX\menubutton steeldrum5_D5D5FD85.wem</Path>
+				</File>
+				<File Id="160912728" Language="SFX">
+					<ShortName>piratmusik win.wav</ShortName>
+					<Path>SFX\piratmusik win_BE718B03.wem</Path>
 				</File>
 				<File Id="187903421" Language="SFX">
 					<ShortName>minion summon7.wav</ShortName>
-					<Path>SFX/minion summon7_6B7C8C85.wem</Path>
+					<Path>SFX\minion summon7_598C3786.wem</Path>
 				</File>
 				<File Id="195817552" Language="SFX">
 					<ShortName>minion summon3.wav</ShortName>
-					<Path>SFX/minion summon3_6AC3D54D.wem</Path>
+					<Path>SFX\minion summon3_00238AC8.wem</Path>
 				</File>
 				<File Id="199487326" Language="SFX">
 					<ShortName>Fart_BW.16107.wav</ShortName>
-					<Path>SFX/Fart_BW.16107_CDFE0F68.wem</Path>
+					<Path>SFX\Fart_BW.16107_CDFE0F68.wem</Path>
 				</File>
 				<File Id="204934564" Language="SFX">
 					<ShortName>kniv4.wav</ShortName>
-					<Path>SFX/kniv4_27F37B5C.wem</Path>
+					<Path>SFX\kniv4_BF33B59A.wem</Path>
+				</File>
+				<File Id="226495857" Language="SFX">
+					<ShortName>piratmusik short.wav</ShortName>
+					<Path>SFX\piratmusik short_37B59102.wem</Path>
 				</File>
 				<File Id="249956793" Language="SFX">
 					<ShortName>skelet step9.wav</ShortName>
-					<Path>SFX/skelet step9_6FC03525.wem</Path>
+					<Path>SFX\skelet step9_6FC03525.wem</Path>
 				</File>
 				<File Id="262697774" Language="SFX">
 					<ShortName>minion summon4.wav</ShortName>
-					<Path>SFX/minion summon4_8553A9EA.wem</Path>
+					<Path>SFX\minion summon4_8553A9EA.wem</Path>
 				</File>
 				<File Id="279581122" Language="SFX">
 					<ShortName>rewardchoir2.wav</ShortName>
-					<Path>SFX/rewardchoir2_CC23F133.wem</Path>
+					<Path>SFX\rewardchoir2_1ECA668F.wem</Path>
 				</File>
 				<File Id="280725247" Language="SFX">
 					<ShortName>minion summon5.wav</ShortName>
-					<Path>SFX/minion summon5_6F344C5F.wem</Path>
+					<Path>SFX\minion summon5_94DCC3B6.wem</Path>
+				</File>
+				<File Id="280899272" Language="SFX">
+					<ShortName>menubutton steeldrum3.wav</ShortName>
+					<Path>SFX\menubutton steeldrum3_1A0EEDF1.wem</Path>
 				</File>
 				<File Id="333721009" Language="SFX">
 					<ShortName>eveil spirits3.wav</ShortName>
-					<Path>SFX/eveil spirits3_CDFE0F68.wem</Path>
+					<Path>SFX\eveil spirits3_CDFE0F68.wem</Path>
 				</File>
 				<File Id="338687880" Language="SFX">
 					<ShortName>skelet death.wav</ShortName>
-					<Path>SFX/skelet death_6D8B5E7F.wem</Path>
+					<Path>SFX\skelet death_FB9FD8C8.wem</Path>
 				</File>
 				<File Id="355491556" Language="SFX">
 					<ShortName>point gained5.wav</ShortName>
-					<Path>SFX/point gained5_92EFE7C3.wem</Path>
-				</File>
-				<File Id="366181034" Language="SFX">
-					<ShortName>piratmusik2.wav</ShortName>
-					<Path>SFX/piratmusik2_4C70C0A4.wem</Path>
+					<Path>SFX\point gained5_65BF7E28.wem</Path>
 				</File>
 				<File Id="409736899" Language="SFX">
 					<ShortName>eveil spirits1.wav</ShortName>
-					<Path>SFX/eveil spirits1_CDFE0F68.wem</Path>
+					<Path>SFX\eveil spirits1_CDFE0F68.wem</Path>
 				</File>
 				<File Id="425034902" Language="SFX">
 					<ShortName>kniv7.wav</ShortName>
-					<Path>SFX/kniv7_C0381AF7.wem</Path>
+					<Path>SFX\kniv7_C0381AF7.wem</Path>
 				</File>
 				<File Id="431098716" Language="SFX">
 					<ShortName>rewardchoir3.wav</ShortName>
-					<Path>SFX/rewardchoir3_AF64DF3A.wem</Path>
+					<Path>SFX\rewardchoir3_C8F9F721.wem</Path>
 				</File>
 				<File Id="437324699" Language="SFX">
 					<ShortName>minion summon alt 4 short.wav</ShortName>
-					<Path>SFX/minion summon alt 4 short_DAFA01C9.wem</Path>
+					<Path>SFX\minion summon alt 4 short_DAFA01C9.wem</Path>
 				</File>
 				<File Id="439065754" Language="SFX">
 					<ShortName>point lost1.wav</ShortName>
-					<Path>SFX/point lost1_4AB7D5FC.wem</Path>
+					<Path>SFX\point lost1_4AB7D5FC.wem</Path>
 				</File>
 				<File Id="452338450" Language="SFX">
 					<ShortName>tentaclecut1.wav</ShortName>
-					<Path>SFX/tentaclecut1_8AB2BCD4.wem</Path>
+					<Path>SFX\tentaclecut1_8AB2BCD4.wem</Path>
 				</File>
 				<File Id="466880421" Language="SFX">
 					<ShortName>Fart_BW.16108.wav</ShortName>
-					<Path>SFX/Fart_BW.16108_CDFE0F68.wem</Path>
+					<Path>SFX\Fart_BW.16108_CDFE0F68.wem</Path>
 				</File>
 				<File Id="475251126" Language="SFX">
 					<ShortName>skelet step3.wav</ShortName>
-					<Path>SFX/skelet step3_A8927CC8.wem</Path>
+					<Path>SFX\skelet step3_A8927CC8.wem</Path>
 				</File>
 				<File Id="481533011" Language="SFX">
 					<ShortName>skelet step1.wav</ShortName>
-					<Path>SFX/skelet step1_C253992C.wem</Path>
+					<Path>SFX\skelet step1_8C959B63.wem</Path>
 				</File>
 				<File Id="502623383" Language="SFX">
 					<ShortName>rockshatter.wav</ShortName>
-					<Path>SFX/rockshatter_CDFE0F68.wem</Path>
+					<Path>SFX\rockshatter_CDFE0F68.wem</Path>
 				</File>
 				<File Id="522403318" Language="SFX">
 					<ShortName>mask voodoo.wav</ShortName>
-					<Path>SFX/mask voodoo_C524C395.wem</Path>
+					<Path>SFX\mask voodoo_F2406A16.wem</Path>
+				</File>
+				<File Id="524583862" Language="SFX">
+					<ShortName>menubutton steeldrum6.wav</ShortName>
+					<Path>SFX\menubutton steeldrum6_54276C9D.wem</Path>
 				</File>
 				<File Id="531238653" Language="SFX">
 					<ShortName>tentaclecut2.wav</ShortName>
-					<Path>SFX/tentaclecut2_442F2CA7.wem</Path>
+					<Path>SFX\tentaclecut2_620C4911.wem</Path>
 				</File>
 				<File Id="547303617" Language="SFX">
 					<ShortName>laser2.wav</ShortName>
-					<Path>SFX/laser2_7310B160.wem</Path>
+					<Path>SFX\laser2_BD23150F.wem</Path>
 				</File>
 				<File Id="553952317" Language="SFX">
 					<ShortName>laser no hit2.wav</ShortName>
-					<Path>SFX/laser no hit2_ABEE2F36.wem</Path>
+					<Path>SFX\laser no hit2_DE90F19F.wem</Path>
 				</File>
 				<File Id="559645394" Language="SFX">
 					<ShortName>Fart_SFXB.2033.wav</ShortName>
-					<Path>SFX/Fart_SFXB.2033_CDFE0F68.wem</Path>
+					<Path>SFX\Fart_SFXB.2033_CDFE0F68.wem</Path>
+				</File>
+				<File Id="581066820" Language="SFX">
+					<ShortName>menubutton steeldrum7.wav</ShortName>
+					<Path>SFX\menubutton steeldrum7_F9F0392F.wem</Path>
 				</File>
 				<File Id="585737715" Language="SFX">
 					<ShortName>rewardchoir1.wav</ShortName>
-					<Path>SFX/rewardchoir1_E1D9F866.wem</Path>
+					<Path>SFX\rewardchoir1_12AC9A88.wem</Path>
+				</File>
+				<File Id="586313763" Language="SFX">
+					<ShortName>menubutton steeldrum4.wav</ShortName>
+					<Path>SFX\menubutton steeldrum4_8625D1FB.wem</Path>
 				</File>
 				<File Id="614790623" Language="SFX">
 					<ShortName>Fart_BW.61633.wav</ShortName>
-					<Path>SFX/Fart_BW.61633_B3362EB3.wem</Path>
+					<Path>SFX\Fart_BW.61633_3E82ABE2.wem</Path>
 				</File>
 				<File Id="635276309" Language="SFX">
 					<ShortName>point gained3.wav</ShortName>
-					<Path>SFX/point gained3_6FB370EC.wem</Path>
+					<Path>SFX\point gained3_6FB370EC.wem</Path>
 				</File>
 				<File Id="641084870" Language="SFX">
 					<ShortName>mask voodoo3.wav</ShortName>
-					<Path>SFX/mask voodoo3_C15CCE36.wem</Path>
+					<Path>SFX\mask voodoo3_1721CF8E.wem</Path>
 				</File>
 				<File Id="650274525" Language="SFX">
 					<ShortName>kniv6.wav</ShortName>
-					<Path>SFX/kniv6_DFE3E433.wem</Path>
+					<Path>SFX\kniv6_B78FA628.wem</Path>
 				</File>
 				<File Id="662973777" Language="SFX">
 					<ShortName>kniv1.wav</ShortName>
-					<Path>SFX/kniv1_63EA2919.wem</Path>
+					<Path>SFX\kniv1_63EA2919.wem</Path>
 				</File>
 				<File Id="704912709" Language="SFX">
 					<ShortName>reward3.wav</ShortName>
-					<Path>SFX/reward3_FB07216A.wem</Path>
+					<Path>SFX\reward3_FB07216A.wem</Path>
 				</File>
 				<File Id="711114988" Language="SFX">
 					<ShortName>point lost2.wav</ShortName>
-					<Path>SFX/point lost2_E3D13AE6.wem</Path>
+					<Path>SFX\point lost2_E3D13AE6.wem</Path>
 				</File>
 				<File Id="717330701" Language="SFX">
 					<ShortName>rockshatter2.wav</ShortName>
-					<Path>SFX/rockshatter2_CDFE0F68.wem</Path>
+					<Path>SFX\rockshatter2_CDFE0F68.wem</Path>
 				</File>
 				<File Id="721673538" Language="SFX">
 					<ShortName>laser1.wav</ShortName>
-					<Path>SFX/laser1_44BD0578.wem</Path>
+					<Path>SFX\laser1_44BD0578.wem</Path>
 				</File>
 				<File Id="762084009" Language="SFX">
 					<ShortName>laser4.wav</ShortName>
-					<Path>SFX/laser4_3F4E9A61.wem</Path>
+					<Path>SFX\laser4_3F4E9A61.wem</Path>
 				</File>
 				<File Id="765546739" Language="SFX">
 					<ShortName>minion summon6.wav</ShortName>
-					<Path>SFX/minion summon6_62C40C37.wem</Path>
+					<Path>SFX\minion summon6_60BFD59E.wem</Path>
 				</File>
 				<File Id="769500426" Language="SFX">
 					<ShortName>skelet death3.wav</ShortName>
-					<Path>SFX/skelet death3_41EFFB1E.wem</Path>
+					<Path>SFX\skelet death3_E921E96F.wem</Path>
 				</File>
 				<File Id="805093994" Language="SFX">
 					<ShortName>skelet step7.wav</ShortName>
-					<Path>SFX/skelet step7_5F84CD6D.wem</Path>
+					<Path>SFX\skelet step7_6BEC3DAC.wem</Path>
+				</File>
+				<File Id="820457561" Language="SFX">
+					<ShortName>menubutton steeldrum2.wav</ShortName>
+					<Path>SFX\menubutton steeldrum2_66DC8900.wem</Path>
 				</File>
 				<File Id="834934271" Language="SFX">
 					<ShortName>kniv9.wav</ShortName>
-					<Path>SFX/kniv9_16C4E7CB.wem</Path>
+					<Path>SFX\kniv9_16C4E7CB.wem</Path>
 				</File>
 				<File Id="858796464" Language="SFX">
 					<ShortName>mask voodoo2.wav</ShortName>
-					<Path>SFX/mask voodoo2_B820A9D5.wem</Path>
+					<Path>SFX\mask voodoo2_D0288DD4.wem</Path>
 				</File>
 				<File Id="864567352" Language="SFX">
 					<ShortName>skelet step5.wav</ShortName>
-					<Path>SFX/skelet step5_FE2F2C3E.wem</Path>
+					<Path>SFX\skelet step5_3FF8BEC3.wem</Path>
 				</File>
 				<File Id="871601554" Language="SFX">
 					<ShortName>tentaclecut2.wav</ShortName>
-					<Path>SFX/tentaclecut2_2408C1B7.wem</Path>
+					<Path>SFX\tentaclecut2_B0386FA0.wem</Path>
 				</File>
 				<File Id="910030847" Language="SFX">
 					<ShortName>point gained2.wav</ShortName>
-					<Path>SFX/point gained2_EA374D6B.wem</Path>
+					<Path>SFX\point gained2_19E14518.wem</Path>
 				</File>
 				<File Id="922238736" Language="SFX">
 					<ShortName>kniv2.wav</ShortName>
-					<Path>SFX/kniv2_6F852CA7.wem</Path>
+					<Path>SFX\kniv2_B0F26F08.wem</Path>
 				</File>
 				<File Id="931143382" Language="SFX">
 					<ShortName>minion summon1.wav</ShortName>
-					<Path>SFX/minion summon1_7876C365.wem</Path>
+					<Path>SFX\minion summon1_C82654BC.wem</Path>
 				</File>
 				<File Id="962984383" Language="SFX">
 					<ShortName>laser3.wav</ShortName>
-					<Path>SFX/laser3_164D752C.wem</Path>
+					<Path>SFX\laser3_164D752C.wem</Path>
 				</File>
 				<File Id="969169178" Language="SFX">
 					<ShortName>rockshatter3.wav</ShortName>
-					<Path>SFX/rockshatter3_CDFE0F68.wem</Path>
+					<Path>SFX\rockshatter3_CDFE0F68.wem</Path>
+				</File>
+				<File Id="972272850" Language="SFX">
+					<ShortName>menubutton steeldrum1.wav</ShortName>
+					<Path>SFX\menubutton steeldrum1_3EFB6475.wem</Path>
 				</File>
 				<File Id="980460444" Language="SFX">
 					<ShortName>kniv3.wav</ShortName>
-					<Path>SFX/kniv3_5A114385.wem</Path>
+					<Path>SFX\kniv3_6917DBE6.wem</Path>
 				</File>
 				<File Id="991799614" Language="SFX">
 					<ShortName>skelet death2.wav</ShortName>
-					<Path>SFX/skelet death2_E5920AA6.wem</Path>
+					<Path>SFX\skelet death2_E5920AA6.wem</Path>
+				</File>
+				<File Id="1000429336" Language="SFX">
+					<ShortName>gamestart.wav</ShortName>
+					<Path>SFX\gamestart_0773FE1E.wem</Path>
 				</File>
 				<File Id="1013570556" Language="SFX">
 					<ShortName>point lost3.wav</ShortName>
-					<Path>SFX/point lost3_EFCF5A4A.wem</Path>
+					<Path>SFX\point lost3_EFCF5A4A.wem</Path>
 				</File>
 				<File Id="1016854918" Language="SFX">
 					<ShortName>reward2.wav</ShortName>
-					<Path>SFX/reward2_E8ECC82A.wem</Path>
+					<Path>SFX\reward2_9ABF3238.wem</Path>
 				</File>
 				<File Id="1018279328" Language="SFX">
 					<ShortName>PoopFart_SFXB.2095.wav</ShortName>
-					<Path>SFX/PoopFart_SFXB.2095_CDFE0F68.wem</Path>
+					<Path>SFX\PoopFart_SFXB.2095_CDFE0F68.wem</Path>
 				</File>
 				<File Id="1050366790" Language="SFX">
 					<ShortName>minion summon alt 1 short.wav</ShortName>
-					<Path>SFX/minion summon alt 1 short_D4F7DFFA.wem</Path>
+					<Path>SFX\minion summon alt 1 short_D4F7DFFA.wem</Path>
 				</File>
 				<File Id="1066797103" Language="SFX">
 					<ShortName>minion summon2.wav</ShortName>
-					<Path>SFX/minion summon2_1B8A2776.wem</Path>
+					<Path>SFX\minion summon2_70EB83B3.wem</Path>
 				</File>
 				<File Id="1073089635" Language="SFX">
 					<ShortName>skelet step8.wav</ShortName>
-					<Path>SFX/skelet step8_3780C4BA.wem</Path>
+					<Path>SFX\skelet step8_3780C4BA.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

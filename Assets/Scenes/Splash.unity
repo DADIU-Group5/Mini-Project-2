@@ -186,14 +186,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97d45c64ecece4d43a29993511e94cf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  basePath: Audio\GeneratedSoundBanks
-  language: English(US)
-  defaultPoolSize: 4096
-  lowerPoolSize: 2048
-  streamingPoolSize: 1024
-  preparePoolSize: 0
-  memoryCutoffThreshold: 0.95
-  engineLogging: 1
 --- !u!114 &570621595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,6 +224,7 @@ GameObject:
   - 114: {fileID: 880233303}
   - 114: {fileID: 880233308}
   - 114: {fileID: 880233309}
+  - 114: {fileID: 880233310}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -250,7 +243,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93c04326db845a747948954517393bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  listenerId: 0
 --- !u!124 &880233304
 Behaviour:
   m_ObjectHideFlags: 0
@@ -336,6 +328,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1af4eb9c36684ea489145542240e1aa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &880233310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 880233302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af6d0be43efe40243a72ec85120ce011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   listenerId: 0
@@ -426,7 +429,7 @@ RectTransform:
   m_GameObject: {fileID: 1855091392}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 20, y: 20, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 2098776392}
@@ -455,7 +458,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: f99718c6b2e0d5e4f9ef7ce0aeec41c6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 282aa75c50c47d441a5b55696d84a7ee, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -469,6 +472,66 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1855091392}
+--- !u!1 &1910142487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1910142490}
+  - 114: {fileID: 1910142489}
+  - 114: {fileID: 1910142488}
+  m_Layer: 0
+  m_Name: WwiseGlobal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1910142488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1910142487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b5c9bd57a0554a4b98f27130b06d26f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basePath: Audio\GeneratedSoundBanks
+  language: English(US)
+  defaultPoolSize: 4096
+  lowerPoolSize: 2048
+  streamingPoolSize: 1024
+  preparePoolSize: 0
+  memoryCutoffThreshold: 0.95
+  engineLogging: 1
+--- !u!114 &1910142489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1910142487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d704a2590e07be14ab4bdcc8a2c7ca72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1910142490
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1910142487}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
 --- !u!1 &2022516189
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,14 +560,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fedcc182d675457469ab5cc5ec656f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  basePath: Audio\GeneratedSoundBanks
-  language: English(US)
-  defaultPoolSize: 4096
-  lowerPoolSize: 2048
-  streamingPoolSize: 1024
-  preparePoolSize: 0
-  memoryCutoffThreshold: 0.95
-  engineLogging: 1
 --- !u!114 &2022516191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -583,7 +638,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 303512e0d6820094da70d1c8ea938203, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8062f5d460eef0d4ca2dda92d17f294e, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
