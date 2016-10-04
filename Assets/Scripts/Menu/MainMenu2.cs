@@ -53,9 +53,10 @@ namespace Mini2.Menu
             {
                 ChangeStateTo(MenuState.LevelSelect, Theme.Space);
             }
-            else if(PlayerPrefs.GetInt("PlayedBefore") == 6)
+            else if(PlayerPrefs.GetInt("PlayedBefore") == 0)
             {
                 PlayerPrefs.SetFloat("MasterVolume", 100);
+                
             }
                 PlayerPrefs.SetInt("PlayedBefore", 1);
         }

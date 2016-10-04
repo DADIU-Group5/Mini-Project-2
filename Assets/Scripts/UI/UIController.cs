@@ -102,6 +102,7 @@ public class UIController : Singleton<UIController> {
 
     public void ShowEndScreen()
     {
+        UpdateLanguage();
         StopAllTerrain();
         GameObject.FindObjectOfType<InputManager>().SetWaitingForInput(null, waitForSpecificSwipe.all);
         scoreT.text = "Score: "+ScoreManager.instance.score;
@@ -160,7 +161,7 @@ public class UIController : Singleton<UIController> {
             levelEndText.text = "Niveau færdig";
             MainMenuText.text = "Hoved menu";
             RetryText.text = "Prøv igen";
-            NextLevelText.text = "Næste niveau";
+            NextLevelText.text = "Næste bane";
         }
         if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings-2)
         {
@@ -234,7 +235,6 @@ public class UIController : Singleton<UIController> {
     {
         paused = true;
         AudioMaster.instance.PlayEvent("menuClick");
-       
         endPanel.SetActive(true);
         StopAllTerrain();
         levelEndText.text = "Pause";
