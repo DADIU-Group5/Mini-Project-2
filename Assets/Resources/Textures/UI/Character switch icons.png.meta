@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f9f4ad147ef078b469d7db73e43e2dff
-timeCreated: 1475568247
+timeCreated: 1475571207
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -70,7 +70,7 @@ TextureImporter:
         width: 1248
         height: 625
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -79,9 +79,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1315
-        y: 609
+        y: 623
         width: 430
-        height: 578
+        height: 545
       alignment: 9
       pivot: {x: 0.54017276, y: 0.35604715}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -109,7 +109,7 @@ TextureImporter:
         width: 8
         height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -122,7 +122,7 @@ TextureImporter:
         width: 16
         height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -143,12 +143,12 @@ TextureImporter:
       name: Character switch icons_6
       rect:
         serializedVersion: 2
-        x: 84
-        y: 113
-        width: 284
-        height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 40
+        y: 71
+        width: 372
+        height: 410
+      alignment: 9
+      pivot: {x: 0.51749593, y: 0.4444399}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -156,12 +156,12 @@ TextureImporter:
       name: Character switch icons_7
       rect:
         serializedVersion: 2
-        x: 469
-        y: 113
-        width: 288
-        height: 374
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 432
+        y: 76
+        width: 364
+        height: 430
+      alignment: 9
+      pivot: {x: 0.54470104, y: 0.38648015}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -169,12 +169,12 @@ TextureImporter:
       name: Character switch icons_8
       rect:
         serializedVersion: 2
-        x: 888
-        y: 113
-        width: 286
-        height: 332
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 830
+        y: 65
+        width: 389
+        height: 432
+      alignment: 9
+      pivot: {x: 0.5460111, y: 0.4209041}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

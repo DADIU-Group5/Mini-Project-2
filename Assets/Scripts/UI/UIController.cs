@@ -52,6 +52,28 @@ public class UIController : Singleton<UIController> {
     {
         Debug.Log("Switching characters...");
         //remember order. current form in middle.
+
+        if (player.state.form == EnemyType.Spaceman)
+        {
+            char1.GetComponent<Image>().sprite = spacemanImage.sprite;
+            char2.GetComponent<Image>().sprite = pirateFadedImage.sprite;
+            char3.GetComponent<Image>().sprite = mayanFadedImage.sprite;
+        }
+        else if (player.state.form == EnemyType.Mayan)
+        {
+            char1.GetComponent<Image>().sprite = spacemanFadedImage.sprite;
+            char2.GetComponent<Image>().sprite = pirateFadedImage.sprite;
+            char3.GetComponent<Image>().sprite = mayanImage.sprite;
+        }
+        else if (player.state.form == EnemyType.Pirate)
+        {
+            char1.GetComponent<Image>().sprite = spacemanFadedImage.sprite;
+            char2.GetComponent<Image>().sprite = pirateImage.sprite;
+            char3.GetComponent<Image>().sprite = mayanFadedImage.sprite;
+        }
+
+        /*
+         * //Exchanges image to keep current in the middle
         if (player.state.form == EnemyType.Spaceman)
         {
             char1.GetComponent<Image>().sprite = pirateImage.sprite;
@@ -69,7 +91,7 @@ public class UIController : Singleton<UIController> {
             char1.GetComponent<Image>().sprite = mayanImage.sprite;
             char2.GetComponent<Image>().sprite = pirateImage.sprite;
             char3.GetComponent<Image>().sprite = spacemanImage.sprite;
-        }
+        }*/
     }
 
     public void ShowEndScreen()
