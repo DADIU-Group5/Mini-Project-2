@@ -52,6 +52,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseUI: {fileID: 1000011826118446, guid: 93f9e40b05646eb469429bcb0daf82ff, type: 2}
-  danishText: "Pas p\xE5 hajen! Stryg ned til sin bane at besejre det!"
+  danishText: "Pas p\xE5 hajen! Swipe ned til dens bane at besejre den!"
   englishText: Watch out for the shark! Swipe down to its lane to defeat it!
   stopMethod: 1
