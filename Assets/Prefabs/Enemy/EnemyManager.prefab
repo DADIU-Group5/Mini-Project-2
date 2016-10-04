@@ -52,8 +52,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfd3b9efa06087344a7d0b0d6dcb0c43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pirateObj: {fileID: 1000013745173444, guid: e03e3561f59b9294aa9b841c010dbbf4, type: 2}
-  mayanObj: {fileID: 1000013745173444, guid: 69743ed0adc4d5648bd6a3ace837349c, type: 2}
+  pirateObj: {fileID: 1000010160926410, guid: e03e3561f59b9294aa9b841c010dbbf4, type: 2}
+  mayanObj: {fileID: 1000012648197384, guid: d4faf3a5411f1a04c8c2a40ec2cbdda1, type: 2}
   spaceObj: {fileID: 1000013745173444, guid: bfd507d08347f2c4c8468ebbe1516d71, type: 2}
   laneWidth: 1
 --- !u!114 &114000010268969638
