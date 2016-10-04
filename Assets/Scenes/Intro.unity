@@ -169,7 +169,6 @@ GameObject:
   - 92: {fileID: 287638661}
   - 124: {fileID: 287638660}
   - 114: {fileID: 287638659}
-  - 114: {fileID: 287638664}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -185,7 +184,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 287638658}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c04326db845a747948954517393bd7, type: 3}
+  m_Script: {fileID: 11500000, guid: 012bb6bfc291f514fadaa8f9fb91a5a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   listenerId: 0
@@ -250,18 +249,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &287638664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 287638658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1af4eb9c36684ea489145542240e1aa7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  listenerId: 0
 --- !u!1 &509989828
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,16 +445,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
---- !u!1 &1030459267
+--- !u!1 &861556241
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1030459270}
-  - 114: {fileID: 1030459269}
-  - 114: {fileID: 1030459268}
+  - 4: {fileID: 861556244}
+  - 114: {fileID: 861556243}
+  - 114: {fileID: 861556242}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -475,15 +462,15 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1030459268
+--- !u!114 &861556242
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1030459267}
+  m_GameObject: {fileID: 861556241}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97d45c64ecece4d43a29993511e94cf2, type: 3}
+  m_Script: {fileID: 11500000, guid: 88d502723f031664caa2c4407b2317e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   basePath: Audio\GeneratedSoundBanks
@@ -494,23 +481,23 @@ MonoBehaviour:
   preparePoolSize: 0
   memoryCutoffThreshold: 0.95
   engineLogging: 1
---- !u!114 &1030459269
+--- !u!114 &861556243
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1030459267}
+  m_GameObject: {fileID: 861556241}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9d3b1644ab97d242b9b43cae9f77d12, type: 3}
+  m_Script: {fileID: 11500000, guid: 355b0a72041c9fd4dbd7d96741e675ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1030459270
+--- !u!4 &861556244
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1030459267}
+  m_GameObject: {fileID: 861556241}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}

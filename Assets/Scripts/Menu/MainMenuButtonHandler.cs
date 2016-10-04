@@ -93,6 +93,7 @@ public class MainMenuButtonHandler : MonoBehaviour {
 
     public void MusicChange(float f) {
         PlayerPrefs.SetFloat("MasterVolume", f);
+        AudioMaster.instance.SetMasterVolume(f);
     }
 
     public void ShowCredits()

@@ -52,6 +52,10 @@ public class UIController : Singleton<UIController> {
     public void SwitchCharacters()
     {
         Debug.Log("Switching characters...");
+        if(player == null)
+        {
+            return;
+        }
         //remember order. current form in middle.
     
         //This code switches between character and sets unused as faded images.
