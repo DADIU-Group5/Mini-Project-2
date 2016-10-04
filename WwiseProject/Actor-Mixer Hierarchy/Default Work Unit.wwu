@@ -2814,63 +2814,20 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="menubutton steeldrum3" ID="{13188CF5-5475-4430-9694-41E14C6C1593}"/>
+								<ItemRef Name="menubutton steeldrum4" ID="{45CCD479-7267-4429-9E90-8DDC6A9D90BA}"/>
+								<ItemRef Name="menubutton steeldrum5" ID="{F769C53F-04C8-4861-B80B-6803A6BC542F}"/>
+								<ItemRef Name="menubutton steeldrum6" ID="{F4733FEB-65E6-495C-BA46-5721D16A0680}"/>
+								<ItemRef Name="menubutton steeldrum7" ID="{5AAC63DC-5A85-4F8B-8C30-3708B2C7BD01}"/>
+								<ItemRef Name="menubutton steeldrum1" ID="{1974259E-11F5-46C8-BBC5-9A4621915203}"/>
+								<ItemRef Name="menubutton steeldrum2" ID="{35AE00A3-D9F0-48EA-980A-D6F6B1F484AB}"/>
+							</Playlist>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="stingers" ID="{BCBE7D27-7892-4B2E-B8C6-071D9C556340}" ShortID="472532967">
 					<ChildrenList>
-						<Sound Name="gamegoal1" ID="{0E3662DE-B35E-46B3-8702-8F60B301C264}" ShortID="838667931" Type="SoundFX">
-							<ExcludedPlatformList>
-								<Platform>Windows</Platform>
-							</ExcludedPlatformList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="super duper compressed" ID="{57DF8DDD-92B2-404D-B393-BF7317B5B28F}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="gamegoal1" ID="{7B9901DD-E546-435F-9103-CA309689D1D1}" ShortID="994894642">
-									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="4.30192057291667E-03"/>
-										<Property Name="TrimBegin" Type="Real64" Value="1.04966861979167"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>gamegoal1.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="gamegoal1" ID="{7B9901DD-E546-435F-9103-CA309689D1D1}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="gamegoal2" ID="{CB1D363E-CD8D-423A-A026-77D42037A2D7}" ShortID="1024512476" Type="SoundFX">
-							<ExcludedPlatformList>
-								<Platform>Windows</Platform>
-							</ExcludedPlatformList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="super duper compressed" ID="{57DF8DDD-92B2-404D-B393-BF7317B5B28F}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="gamegoal2" ID="{ECD5DA05-297A-4385-8A04-43DA05627A39}" ShortID="721824049">
-									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="1.01847098214287E-02"/>
-										<Property Name="TrimBegin" Type="Real64" Value="1.64313318452381"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>gamegoal2.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="gamegoal2" ID="{ECD5DA05-297A-4385-8A04-43DA05627A39}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="gamestart" ID="{352FC931-624C-428D-86B9-5206A9DE94E4}" ShortID="760622272" Type="SoundFX">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2892,39 +2849,6 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="gamestart_01" ID="{21BD1EF3-CDFE-415F-AEF9-361AAE68F648}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="menubutton steeldrum3" ID="{0D58261D-46F0-47B0-8FF4-AB5E97B31E05}" ShortID="583910599" Type="SoundFX">
-							<ExcludedPlatformList>
-								<Platform>Windows</Platform>
-							</ExcludedPlatformList>
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>1200</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="super duper compressed" ID="{57DF8DDD-92B2-404D-B393-BF7317B5B28F}" WorkUnitID="{C13CB83F-F5A1-4AA7-B440-A3D4752C7A4A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="menubutton steeldrum3" ID="{AED4409C-7836-4478-8A5C-2FFF44777FC5}" ShortID="684176879">
-									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="2.85067894345237E-03"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.627149367559523"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>menubutton steeldrum3.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="menubutton steeldrum3" ID="{AED4409C-7836-4478-8A5C-2FFF44777FC5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="piratmusik win" ID="{CE97F1A6-CE41-4053-94F1-F56FDB1057BF}" ShortID="561375403" Type="SoundFX">
