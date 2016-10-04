@@ -8,6 +8,18 @@ public class UIController : Singleton<UIController> {
 
     public GameObject endPanel;
     public Text scoreT;
+
+    public GameObject char1;
+    public GameObject char2;
+    public GameObject char3;
+    public Image pirateImage;
+    public Image mayanImage;
+    public Image spacemanImage;
+    public Image pirateFadedImage;
+    public Image mayanFadedImage;
+    public Image spacemanFadedImage;
+
+
     public GameObject star1;
     public GameObject star2;
     public GameObject star3;
@@ -22,6 +34,8 @@ public class UIController : Singleton<UIController> {
     public GameObject NextLevelButton;
     bool paused = false;
 
+    private Player player;
+
     void Start()
     {
         starImages = new GameObject[5];
@@ -33,6 +47,31 @@ public class UIController : Singleton<UIController> {
         starImages[1].gameObject.GetComponent<Image>().color = star2.gameObject.GetComponent<Image>().color;
         DisableStars();
         UpdateLanguage();
+    }
+
+    public void SwitchCharacters()
+    {
+        Debug.Log("Switching characters...");
+        //remember order. current form in middle.
+        //char2.GetComponent<Image>().sprite = pirateImage.sprite;
+        if (player.state.form == EnemyType.Spaceman)
+        {
+            char1.GetComponent<Image>().sprite = pirateImage.sprite;
+            char2.GetComponent<Image>().sprite = spacemanImage.sprite;
+            char3.GetComponent<Image>().sprite = mayanImage.sprite;
+        }
+        else if (player.state.form == EnemyType.Mayan)
+        {
+            char1.GetComponent<Image>().sprite = spacemanImage.sprite;
+            char2.GetComponent<Image>().sprite = mayanImage.sprite;
+            char3.GetComponent<Image>().sprite = pirateImage.sprite;
+        }
+        else if (player.state.form == EnemyType.Pirate)
+        {
+            char1.GetComponent<Image>().sprite = mayanImage.sprite;
+            char2.GetComponent<Image>().sprite = pirateImage.sprite;
+            char3.GetComponent<Image>().sprite = spacemanImage.sprite;
+        }
     }
 
     public void ShowEndScreen()
