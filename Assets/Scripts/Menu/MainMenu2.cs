@@ -16,6 +16,7 @@ namespace Mini2.Menu
         public GameObject settings;
         public GameObject themeSelect;
         public GameObject levelSelect;
+        public GameObject unlockables;
 
         private MenuState state = MenuState.languageSelect;
         private Theme theme;
@@ -52,7 +53,11 @@ namespace Mini2.Menu
             {
                 ChangeStateTo(MenuState.LevelSelect, Theme.Space);
             }
-            PlayerPrefs.SetInt("PlayedBefore", 1);
+            else if(PlayerPrefs.GetInt("PlayedBefore") == 6)
+            {
+                PlayerPrefs.SetFloat("MasterVolume", 100);
+            }
+                PlayerPrefs.SetInt("PlayedBefore", 1);
         }
 
         public void ChangeStateTo(MenuState newState)
@@ -90,6 +95,10 @@ namespace Mini2.Menu
             {
                 ChangeStateTo(MenuState.ThemeSelect);
             }
+            else if(state == MenuState.Unlockables)
+            {
+                ChangeStateTo(MenuState.MainMenu);
+            }
         }
 
         void LeaveState(MenuState state)
@@ -111,6 +120,9 @@ namespace Mini2.Menu
                 case MenuState.LevelSelect:
                     levelSelect.SetActive(false);
                     levelButtonCreator.RemoveButtons();
+                    break;
+                case MenuState.Unlockables:
+                    unlockables.SetActive(false);
                     break;
                 default:
                     break;
@@ -138,6 +150,9 @@ namespace Mini2.Menu
                     levelButtonCreator.CreateButtons(theme);
                     mainMenuText.UpdateLanguage(theme);
                     break;
+                case MenuState.Unlockables:
+                    unlockables.SetActive(true);
+                    break;
                 default:
                     break;
             }
@@ -146,7 +161,7 @@ namespace Mini2.Menu
 
     public enum MenuState
     {
-        languageSelect, MainMenu, Settings, ThemeSelect, LevelSelect
+        languageSelect, MainMenu, Settings, ThemeSelect, LevelSelect, Unlockables
     }
 
     public enum Theme
