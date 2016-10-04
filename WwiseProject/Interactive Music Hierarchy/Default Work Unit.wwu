@@ -52,7 +52,7 @@
 												<MusicClip Name="piratmusik2" ID="{F08B4692-8D20-402F-BF9D-2967604CE59B}">
 													<PropertyList>
 														<Property Name="BeginTrimOffset" Type="Real64" Value="500"/>
-														<Property Name="EndTrimOffset" Type="Real64" Value="48000"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="48500"/>
 														<Property Name="FadeInMode" Type="int16" Value="0"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="1688.5197740113"/>
 														<Property Name="FadeOutShape" Type="int16" Value="3"/>
@@ -71,7 +71,7 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>48</XPos>
+																		<XPos>48.5</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -90,7 +90,7 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>48</XPos>
+																		<XPos>48.5</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -109,7 +109,7 @@
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>48</XPos>
+																		<XPos>48.5</XPos>
 																		<YPos>0</YPos>
 																		<Flags>37</Flags>
 																	</Point>
@@ -128,7 +128,7 @@
 								<MusicCue Name="Exit Cue" ID="{01E9BB44-735F-4482-98C6-4B981BF1D102}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="48000"/>
+										<Property Name="TimeMs" Type="Real64" Value="48500"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>
@@ -171,10 +171,12 @@
 											<ClipList>
 												<MusicClip Name="piratmusik1" ID="{2F29078C-4D0B-4AEE-AFE0-8A3E43B6A5AF}">
 													<PropertyList>
+														<Property Name="BeginTrimOffset" Type="Real64" Value="1696.2343819023"/>
 														<Property Name="EndTrimOffset" Type="Real64" Value="21500"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="15.0949524540234"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="1146.2729519774"/>
 														<Property Name="FadeOutShape" Type="int16" Value="3"/>
+														<Property Name="PlayAt" Type="Real64" Value="-1696.2343819023"/>
 													</PropertyList>
 													<AudioSourceRef Name="piratmusik1" ID="{05B02192-CA27-41A1-8D1A-720635F39297}"/>
 													<PropertyCurveList>
@@ -185,7 +187,7 @@
 																</PropertyList>
 																<PointList>
 																	<Point>
-																		<XPos>0</XPos>
+																		<XPos>1.69623</XPos>
 																		<YPos>0</YPos>
 																		<Flags>5</Flags>
 																	</Point>
@@ -204,7 +206,7 @@
 																</PropertyList>
 																<PointList>
 																	<Point>
-																		<XPos>0</XPos>
+																		<XPos>1.69623</XPos>
 																		<YPos>0</YPos>
 																		<Flags>5</Flags>
 																	</Point>
@@ -223,7 +225,7 @@
 																</PropertyList>
 																<PointList>
 																	<Point>
-																		<XPos>0</XPos>
+																		<XPos>1.69623</XPos>
 																		<YPos>0</YPos>
 																		<Flags>5</Flags>
 																	</Point>

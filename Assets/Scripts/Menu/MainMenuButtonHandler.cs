@@ -7,6 +7,14 @@ public class MainMenuButtonHandler : MonoBehaviour {
     public MainMenu2 MM;
     public MainMenuTextHandler MMT;
 
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Back();
+        }
+    }
+
 	public void SetLanguageEnglish()
     {
         if (SaveData.instance.IsLanguageEnglish())
@@ -62,7 +70,7 @@ public class MainMenuButtonHandler : MonoBehaviour {
     }
 
     public void MusicChange(float f) {
-
+        PlayerPrefs.SetFloat("MasterVolume", f);
     }
 
     public void ShowCredits()

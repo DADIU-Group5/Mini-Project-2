@@ -9,8 +9,42 @@
 							<ValueList>
 								<Value>-7</Value>
 							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{723BA4B1-0F78-4C24-9D37-48E46FDA290F}" ShortID="318058628">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="masterVolume" ID="{26AF7611-014C-4011-ACE3-527E310264EB}" WorkUnitID="{7BBD16E5-84C6-4541-85AE-7FDC648556A3}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{C0267FBF-7CFE-4052-8138-461D5748D8F7}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
 						</Property>
 					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+							<ObjectRef Name="mastercomp" ID="{A373633A-4224-44D3-86FC-1AA5F4C52090}" WorkUnitID="{E375462F-1E38-4008-853A-C5F885645CA5}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+							<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+					</ReferenceList>
 					<ChildrenList>
 						<AuxBus Name="rvb1" ID="{3714E54D-BF36-4DD7-A60C-AE519D973518}">
 							<ReferenceList>

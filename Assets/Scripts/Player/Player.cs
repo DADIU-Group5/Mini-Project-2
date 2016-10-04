@@ -144,7 +144,7 @@ public class Player : MonoBehaviour
         AudioMaster.instance.PlayEvent("obstacleJump");
     }
 
-    public void Attack()
+    public void Attack(bool obstacle = false)
     {
         switch (state.form)
         {
@@ -158,7 +158,10 @@ public class Player : MonoBehaviour
                 break;
             case EnemyType.Spaceman:
                 playerAnimatorSpaceman.SetTrigger("spacemanAttack");
-                AudioMaster.instance.PlayEvent("laserAttack");
+                if (!obstacle)
+                {
+                    AudioMaster.instance.PlayEvent("laserAttack");
+                }
                 break;
         }
     }

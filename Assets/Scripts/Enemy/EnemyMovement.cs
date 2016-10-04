@@ -20,8 +20,6 @@ public class EnemyMovement : MonoBehaviour
     private float lastMoveSoundTime;
     private bool pointsGiven = false;
     private bool jumping = true;
-    private float jumpedTime;
-    private float fraction;
 
 	void Start ()
     {

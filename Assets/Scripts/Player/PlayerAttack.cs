@@ -27,7 +27,7 @@ public class PlayerAttack : MonoBehaviour {
         {
             return;
         }
-        if (enemy.enemyType == player.state.form)
+        if (enemy.enemyType == player.state.form && !enemy.getPointsGiven())
         {
             enemy.hitByPlayer = true;
             enemy.DestroyedByPlayer();
@@ -51,11 +51,11 @@ public class PlayerAttack : MonoBehaviour {
         }
 
         //If the player is strong against this obstacle type:
-        if (ob.weakAgainst == player.state.form)
+        if (ob.weakAgainst == player.state.form && !ob.hitByPlayer)
         {
             ob.hitByPlayer = true;
             ob.PlayerInteraction();
-            player.Attack();
+            player.Attack(true);
         }
         else if (!ob.hitByPlayer)
         {

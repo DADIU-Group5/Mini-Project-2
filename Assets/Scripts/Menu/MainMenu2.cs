@@ -40,6 +40,18 @@ namespace Mini2.Menu
             {
                 ChangeStateTo(MenuState.Settings);
             }
+            else if(PlayerPrefs.GetInt("PlayedBefore") == 4)
+            {
+                ChangeStateTo(MenuState.LevelSelect, Theme.Pirate);
+            }
+            else if (PlayerPrefs.GetInt("PlayedBefore") == 5)
+            {
+                ChangeStateTo(MenuState.LevelSelect, Theme.Mayan);
+            }
+            else if (PlayerPrefs.GetInt("PlayedBefore") == 6)
+            {
+                ChangeStateTo(MenuState.LevelSelect, Theme.Space);
+            }
             PlayerPrefs.SetInt("PlayedBefore", 1);
         }
 
@@ -124,6 +136,7 @@ namespace Mini2.Menu
                 case MenuState.LevelSelect:
                     levelSelect.SetActive(true);
                     levelButtonCreator.CreateButtons(theme);
+                    mainMenuText.UpdateLanguage(theme);
                     break;
                 default:
                     break;

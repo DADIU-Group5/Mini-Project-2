@@ -21,6 +21,7 @@ public class MainMenuTextHandler : MonoBehaviour {
     public Text space;
 
     [Header("LevelSelect")]
+    public Text themeName;
     public Text levelBack;
     public Text levelMenu;
 
@@ -33,6 +34,18 @@ public class MainMenuTextHandler : MonoBehaviour {
         else
         {
             UpdateTextToDanish();
+        }
+    }
+
+    public void UpdateLanguage(Theme theme)
+    {
+        if (SaveData.instance.IsLanguageEnglish())
+        {
+            UpdateLevelTextToEnglish(theme);
+        }
+        else
+        {
+            UpdateLevelTextToDanish(theme);
         }
     }
 
@@ -53,9 +66,6 @@ public class MainMenuTextHandler : MonoBehaviour {
         mayan.text = "Mayan";
         space.text = "Space";
 
-        //Level
-        levelBack.text = "Back";
-        levelMenu.text = "Main menu";
     }
 
     public void UpdateTextToDanish()
@@ -74,8 +84,44 @@ public class MainMenuTextHandler : MonoBehaviour {
         pirate.text = "Pirat";
         mayan.text = "Mayaner";
         space.text = "Rum";
+    }
 
-        //Level
+    public void UpdateLevelTextToEnglish(Theme theme)
+    {
+        switch (theme)
+        {
+            case Theme.Pirate:
+                themeName.text = "Pirate levels";
+                break;
+            case Theme.Mayan:
+                themeName.text = "Mayan levels";
+                break;
+            case Theme.Space:
+                themeName.text = "Space levels";
+                break;
+            default:
+                break;
+        }
+        levelBack.text = "Back";
+        levelMenu.text = "Main menu";
+    }
+
+    public void UpdateLevelTextToDanish(Theme theme)
+    {
+        switch (theme)
+        {
+            case Theme.Pirate:
+                themeName.text = "Pirat niveauer";
+                break;
+            case Theme.Mayan:
+                themeName.text = "Mayaner niveauer";
+                break;
+            case Theme.Space:
+                themeName.text = "Rum niveauer";
+                break;
+            default:
+                break;
+        }
         levelBack.text = "Tilbage";
         levelMenu.text = "Hoved menu";
     }
