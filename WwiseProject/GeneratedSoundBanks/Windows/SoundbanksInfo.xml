@@ -31,6 +31,7 @@
 				<Event Id="2037204996" Name="levelEnd" ObjectPath="\Events\Default Work Unit\levelEnd"/>
 				<Event Id="3372421815" Name="levelStart" ObjectPath="\Events\Default Work Unit\levelStart"/>
 				<Event Id="1787186961" Name="maskAttack" ObjectPath="\Events\Default Work Unit\maskAttack"/>
+				<Event Id="3711598968" Name="menuClick" ObjectPath="\Events\Default Work Unit\menuClick"/>
 				<Event Id="1205645828" Name="musicPlay" ObjectPath="\Events\Default Work Unit\musicPlay"/>
 				<Event Id="3978196478" Name="musicStop" ObjectPath="\Events\Default Work Unit\musicStop"/>
 				<Event Id="3147649906" Name="obstacleJump" ObjectPath="\Events\Default Work Unit\obstacleJump"/>
@@ -81,10 +82,6 @@
 					<ShortName>minion summon alt 3 short.wav</ShortName>
 					<Path>SFX\minion summon alt 3 short_3D8BD1A2.wem</Path>
 				</File>
-				<File Id="124375181" Language="SFX">
-					<ShortName>piratmusik1.wav</ShortName>
-					<Path>SFX\piratmusik1_4C70C0A4.wem</Path>
-				</File>
 				<File Id="125529509" Language="SFX">
 					<ShortName>shark death.wav</ShortName>
 					<Path>SFX\shark death_B737CA67.wem</Path>
@@ -109,6 +106,14 @@
 					<ShortName>kniv4.wav</ShortName>
 					<Path>SFX\kniv4_BF33B59A.wem</Path>
 				</File>
+				<File Id="223742618" Language="SFX">
+					<ShortName>gamestart.wav</ShortName>
+					<Path>SFX\gamestart_7A03BC15.wem</Path>
+				</File>
+				<File Id="226495857" Language="SFX">
+					<ShortName>piratmusik short.wav</ShortName>
+					<Path>SFX\piratmusik short_37B59102.wem</Path>
+				</File>
 				<File Id="262697774" Language="SFX">
 					<ShortName>minion summon4.wav</ShortName>
 					<Path>SFX\minion summon4_8553A9EA.wem</Path>
@@ -121,6 +126,10 @@
 					<ShortName>minion summon5.wav</ShortName>
 					<Path>SFX\minion summon5_94DCC3B6.wem</Path>
 				</File>
+				<File Id="283725529" Language="SFX">
+					<ShortName>menubutton steeldrum1.wav</ShortName>
+					<Path>SFX\menubutton steeldrum1_0938F555.wem</Path>
+				</File>
 				<File Id="333721009" Language="SFX">
 					<ShortName>eveil spirits3.wav</ShortName>
 					<Path>SFX\eveil spirits3_CDFE0F68.wem</Path>
@@ -129,9 +138,13 @@
 					<ShortName>skelet death.wav</ShortName>
 					<Path>SFX\skelet death_FB9FD8C8.wem</Path>
 				</File>
-				<File Id="366181034" Language="SFX">
-					<ShortName>piratmusik2.wav</ShortName>
-					<Path>SFX\piratmusik2_4C70C0A4.wem</Path>
+				<File Id="350111068" Language="SFX">
+					<ShortName>piratmusik final.wav</ShortName>
+					<Path>SFX\piratmusik final_37B59102.wem</Path>
+				</File>
+				<File Id="391824159" Language="SFX">
+					<ShortName>menubutton steeldrum5.wav</ShortName>
+					<Path>SFX\menubutton steeldrum5_BDDB9A57.wem</Path>
 				</File>
 				<File Id="409736899" Language="SFX">
 					<ShortName>eveil spirits1.wav</ShortName>
@@ -144,6 +157,10 @@
 				<File Id="431098716" Language="SFX">
 					<ShortName>rewardchoir3.wav</ShortName>
 					<Path>SFX\rewardchoir3_C8F9F721.wem</Path>
+				</File>
+				<File Id="431486985" Language="SFX">
+					<ShortName>piratmusik win.wav</ShortName>
+					<Path>SFX\piratmusik win_9AA32405.wem</Path>
 				</File>
 				<File Id="437324699" Language="SFX">
 					<ShortName>minion summon alt 4 short.wav</ShortName>
@@ -180,6 +197,14 @@
 				<File Id="662973777" Language="SFX">
 					<ShortName>kniv1.wav</ShortName>
 					<Path>SFX\kniv1_63EA2919.wem</Path>
+				</File>
+				<File Id="669540910" Language="SFX">
+					<ShortName>menubutton steeldrum7.wav</ShortName>
+					<Path>SFX\menubutton steeldrum7_39988D44.wem</Path>
+				</File>
+				<File Id="684176879" Language="SFX">
+					<ShortName>menubutton steeldrum3.wav</ShortName>
+					<Path>SFX\menubutton steeldrum3_F36F5433.wem</Path>
 				</File>
 				<File Id="717330701" Language="SFX">
 					<ShortName>rockshatter2.wav</ShortName>
@@ -221,6 +246,10 @@
 					<ShortName>minion summon1.wav</ShortName>
 					<Path>SFX\minion summon1_C82654BC.wem</Path>
 				</File>
+				<File Id="944375626" Language="SFX">
+					<ShortName>menubutton steeldrum4.wav</ShortName>
+					<Path>SFX\menubutton steeldrum4_12B9AEBF.wem</Path>
+				</File>
 				<File Id="962984383" Language="SFX">
 					<ShortName>laser3.wav</ShortName>
 					<Path>SFX\laser3_164D752C.wem</Path>
@@ -236,6 +265,14 @@
 				<File Id="991799614" Language="SFX">
 					<ShortName>skelet death2.wav</ShortName>
 					<Path>SFX\skelet death2_E5920AA6.wem</Path>
+				</File>
+				<File Id="1043360183" Language="SFX">
+					<ShortName>menubutton steeldrum6.wav</ShortName>
+					<Path>SFX\menubutton steeldrum6_37FE1BBC.wem</Path>
+				</File>
+				<File Id="1045700881" Language="SFX">
+					<ShortName>menubutton steeldrum2.wav</ShortName>
+					<Path>SFX\menubutton steeldrum2_F93BD936.wem</Path>
 				</File>
 				<File Id="1050366790" Language="SFX">
 					<ShortName>minion summon alt 1 short.wav</ShortName>

@@ -27,6 +27,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3286124477	summonSkeleton			\Default Work Unit\summonSkeleton	
 	3372421815	levelStart			\Default Work Unit\levelStart	
 	3409395318	rewardKillMayan			\Default Work Unit\rewardKillMayan	
+	3711598968	menuClick			\Default Work Unit\menuClick	
 	3978196478	musicStop			\Default Work Unit\musicStop	
 	4269068319	rewardObstacleMayan			\Default Work Unit\rewardObstacleMayan	
 
@@ -141,22 +142,26 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	84998545	tentaclecut3	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\tentaclecut3_7F9CA189.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\tentacle\tentaclecut3		9120
 	88987367	kniv8	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\kniv8_022DACA2.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv8		2704
 	96605360	minion summon alt 3 short	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\minion summon alt 3 short_3D8BD1A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon lightning magic\minion summon alt 3 short		11651
-	124375181	piratmusik1	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\piratmusik1_4C70C0A4.wem		\Interactive Music Hierarchy\Default Work Unit\piratemusic\piratmusik1\piratmusik1		4772044
 	125529509	shark death	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\shark death_B737CA67.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\shark death		28286
 	127512394	minion summon alt 2 short	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\minion summon alt 2 short_6BDE5C0A.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon lightning magic\minion summon alt 2 short		15424
 	130296752	eveil spirits2	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\eveil spirits2_CDFE0F68.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\evil spirits\eveil spirits2		12466
 	187903421	minion summon7	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\minion summon7_598C3786.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon\minion summon7		13168
 	195817552	minion summon3	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\minion summon3_00238AC8.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon\minion summon3		13399
 	204934564	kniv4	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\kniv4_BF33B59A.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv4		3093
+	223742618	gamestart	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\gamestart_7A03BC15.wem		\Actor-Mixer Hierarchy\Default Work Unit\stingers\gamestart		34980
+	226495857	piratmusik short	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\piratmusik short_37B59102.wem		\Interactive Music Hierarchy\Default Work Unit\pirateMusic\piratmusik short\piratmusik short		1047482
 	262697774	minion summon4	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\minion summon4_8553A9EA.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon\minion summon4		14657
 	279581122	rewardchoir2	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\rewardchoir2_1ECA668F.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\reward obstacle\rewardchoir2		41902
 	280725247	minion summon5	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\minion summon5_94DCC3B6.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon\minion summon5		15181
+	283725529	menubutton steeldrum1	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\menubutton steeldrum1_0938F555.wem		\Actor-Mixer Hierarchy\Default Work Unit\ui\menuClick\menubutton steeldrum1		23618
 	333721009	eveil spirits3	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\eveil spirits3_CDFE0F68.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\evil spirits\eveil spirits3		13897
 	338687880	skelet death	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\skelet death_FB9FD8C8.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonDeath\skelet death		18166
-	366181034	piratmusik2	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\piratmusik2_4C70C0A4.wem		\Interactive Music Hierarchy\Default Work Unit\piratemusic\piratmusik2\piratmusik2		8786780
+	350111068	piratmusik final	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\piratmusik final_37B59102.wem		\Interactive Music Hierarchy\Default Work Unit\pirateMusic\piratmusik final\piratmusik final		1345436
+	391824159	menubutton steeldrum5	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\menubutton steeldrum5_BDDB9A57.wem		\Actor-Mixer Hierarchy\Default Work Unit\ui\menuClick\menubutton steeldrum5		23298
 	409736899	eveil spirits1	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\eveil spirits1_CDFE0F68.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\evil spirits\eveil spirits1		14697
 	425034902	kniv7	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\kniv7_C0381AF7.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv7		2665
 	431098716	rewardchoir3	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\rewardchoir3_C8F9F721.wem		\Actor-Mixer Hierarchy\Default Work Unit\reward\reward obstacle\rewardchoir3		78838
+	431486985	piratmusik win	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\piratmusik win_9AA32405.wem		\Actor-Mixer Hierarchy\Default Work Unit\stingers\piratmusik win		83671
 	437324699	minion summon alt 4 short	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\minion summon alt 4 short_DAFA01C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon lightning magic\minion summon alt 4 short		12510
 	502623383	rockshatter	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\rockshatter_CDFE0F68.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\rockdebris\rockshatter		29948
 	522403318	mask voodoo	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\mask voodoo_F2406A16.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\maskAttack\mask voodoo		137292
@@ -165,8 +170,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	641084870	mask voodoo3	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\mask voodoo3_1721CF8E.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\maskAttack\mask voodoo3		128924
 	650274525	kniv6	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\kniv6_B78FA628.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv6		2886
 	662973777	kniv1	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\kniv1_63EA2919.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv1		5101
+	669540910	menubutton steeldrum7	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\menubutton steeldrum7_39988D44.wem		\Actor-Mixer Hierarchy\Default Work Unit\ui\menuClick\menubutton steeldrum7		23390
+	684176879	menubutton steeldrum3	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\menubutton steeldrum3_F36F5433.wem		\Actor-Mixer Hierarchy\Default Work Unit\ui\menuClick\menubutton steeldrum3		26348
 	717330701	rockshatter2	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\rockshatter2_CDFE0F68.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\rockdebris\rockshatter2		34617
 	721673538	laser1	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\laser1_44BD0578.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser1		11695
+	721824049	gamegoal2	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\gamegoal2_83753F20.wem		\Actor-Mixer Hierarchy\Default Work Unit\stingers\gamegoal2		23038
 	762084009	laser4	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\laser4_3F4E9A61.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser4		9875
 	765546739	minion summon6	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\minion summon6_60BFD59E.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon\minion summon6		15429
 	769500426	skelet death3	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\skelet death3_E921E96F.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonDeath\skelet death3		12813
@@ -175,10 +183,14 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	871601554	tentaclecut2	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\tentaclecut2_B0386FA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\tentacle\tentaclecut2		11720
 	922238736	kniv2	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\kniv2_B0F26F08.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv2		7527
 	931143382	minion summon1	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\minion summon1_C82654BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon\minion summon1		14693
+	944375626	menubutton steeldrum4	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\menubutton steeldrum4_12B9AEBF.wem		\Actor-Mixer Hierarchy\Default Work Unit\ui\menuClick\menubutton steeldrum4		25032
 	962984383	laser3	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\laser3_164D752C.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\laserAttack\laser3		10710
 	969169178	rockshatter3	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\rockshatter3_CDFE0F68.wem		\Actor-Mixer Hierarchy\Default Work Unit\obstacles\rockdebris\rockshatter3		44821
 	980460444	kniv3	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\kniv3_6917DBE6.wem		\Actor-Mixer Hierarchy\Default Work Unit\attackSounds\swordAttackmetal\kniv3		2173
 	991799614	skelet death2	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\skelet death2_E5920AA6.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemies\skeletonDeath\skelet death2		13748
+	994894642	gamegoal1	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\gamegoal1_486FD2B3.wem		\Actor-Mixer Hierarchy\Default Work Unit\stingers\gamegoal1		38811
+	1043360183	menubutton steeldrum6	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\menubutton steeldrum6_37FE1BBC.wem		\Actor-Mixer Hierarchy\Default Work Unit\ui\menuClick\menubutton steeldrum6		24187
+	1045700881	menubutton steeldrum2	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\menubutton steeldrum2_F93BD936.wem		\Actor-Mixer Hierarchy\Default Work Unit\ui\menuClick\menubutton steeldrum2		21750
 	1050366790	minion summon alt 1 short	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\minion summon alt 1 short_D4F7DFFA.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon lightning magic\minion summon alt 1 short		15486
 	1066797103	minion summon2	C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\.cache\Android\SFX\minion summon2_70EB83B3.wem		\Actor-Mixer Hierarchy\Default Work Unit\numeromancer\minion summon\minion summon2		13125
 
