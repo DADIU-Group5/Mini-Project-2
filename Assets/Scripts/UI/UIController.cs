@@ -54,6 +54,7 @@ public class UIController : Singleton<UIController> {
         Debug.Log("Switching characters...");
         //remember order. current form in middle.
 
+        //This code switches between character and sets unused as faded images.
         if (player.state.form == EnemyType.Spaceman)
         {
             char1.GetComponent<Image>().sprite = spacemanImage.sprite;
