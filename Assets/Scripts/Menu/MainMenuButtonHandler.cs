@@ -23,6 +23,7 @@ public class MainMenuButtonHandler : MonoBehaviour {
         }
         SaveData.instance.ChangeLanguage();
         MMT.UpdateLanguage();
+        AudioMaster.instance.PlayEvent("menuClick");
     }
 
     public void SetLanguageDanish()
@@ -32,41 +33,49 @@ public class MainMenuButtonHandler : MonoBehaviour {
             SaveData.instance.ChangeLanguage();
             MMT.UpdateLanguage();
         }
+        AudioMaster.instance.PlayEvent("menuClick");
     }
 
     public void Mainer()
     {
         MM.ChangeStateTo(MenuState.MainMenu);
+        AudioMaster.instance.PlayEvent("menuClick");
     }
 
     public void Map()
     {
         MM.ChangeStateTo(MenuState.ThemeSelect);
+        AudioMaster.instance.PlayEvent("menuClick");
     }
 
     public void Settings()
     {
         MM.ChangeStateTo(MenuState.Settings);
+        AudioMaster.instance.PlayEvent("menuClick");
     }
 
     public void Pirate()
     {
         MM.ChangeStateTo(MenuState.LevelSelect, Theme.Pirate);
+        AudioMaster.instance.PlayEvent("menuClick");
     }
 
     public void Mayan()
     {
         MM.ChangeStateTo(MenuState.LevelSelect, Theme.Mayan);
+        AudioMaster.instance.PlayEvent("menuClick");
     }
 
     public void Space()
     {
         MM.ChangeStateTo(MenuState.LevelSelect, Theme.Space);
+        AudioMaster.instance.PlayEvent("menuClick");
     }
 
     public void Back()
     {
         MM.Back();
+        AudioMaster.instance.PlayEvent("menuClick");
     }
 
     public void MusicChange(float f) {
@@ -76,5 +85,6 @@ public class MainMenuButtonHandler : MonoBehaviour {
     public void ShowCredits()
     {
         MM.ShowCredits();
+        AudioMaster.instance.PlayEvent("menuClick");
     }
 }
