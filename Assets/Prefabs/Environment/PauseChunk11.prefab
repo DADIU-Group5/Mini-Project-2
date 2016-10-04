@@ -53,5 +53,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseUI: {fileID: 1000011826118446, guid: 93f9e40b05646eb469429bcb0daf82ff, type: 2}
   danishText: "Et skelet! Stryg til h\xF8jre til at blive Tribal Hugo og besejre det!"
-  englishText: A skeleton! Swipe right to become the Mayan and defeat it!
+  englishText: A skeleton! Swipe right to become Tribal Hugo and defeat it!
   stopMethod: 4

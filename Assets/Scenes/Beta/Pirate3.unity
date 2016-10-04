@@ -287,7 +287,7 @@ Prefab:
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
       propertyPath: chunkDatabase.Array.size
-      value: 11
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4000012115612558, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc, type: 2}
       propertyPath: m_LocalPosition.x
@@ -355,7 +355,7 @@ Prefab:
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
       propertyPath: levelData.levelInfo
-      value: bbbbb1bbbbdbbbbbRbbbbbbabbbbbbkbbbbbbsbbbbbWbbbbbbkbbbbbabbbbbsbbbbbabbbbbTbbbbkbbbbbabbbbkbbbbbsbbbbbabbbbbsbbbbkbbbbRbbbbabbbbkbbbbkbbbbsbbbbsbbbbabbbbkbbbbkbbbbabbbbabbbbsbbbbsbbbbTbbbbabbbbabbbbkbbbbRebbbbbbbb
+      value: bbbbbbbbsbbbbsbbbbkbbbbkbbbkbbbbsbbbbsbbbbkbbbbsbbbTbbbbbbsbbbbabbbabbbbsbbbsbbbsbbbbabbbbsbbbbabbbbsbbbWbbbbbbabbbkbbkbbbabbabbabbbkbbbabbabbabbabbbkbbbabbbRbbbbbbkbbbkbbbsbbbkbbbabbbabbbsbbbbbsbbbabbbkbbbbsbbbkbbbabbbbbabbbkbbbWbbbbbbkbbkbbbsbbbbsbbsbbbkbbbbabbbkbbbabbabbbsbbbbsbbsbbbabbbkbbbbkbbReeeeeeeeee
       objectReference: {fileID: 0}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
@@ -392,12 +392,12 @@ Prefab:
         type: 2}
       propertyPath: chunkDatabase.Array.data[7].obj
       value: 
-      objectReference: {fileID: 1000013874836388, guid: 9e245a0b222adb241a3b6efdd65afa47,
+      objectReference: {fileID: 1000012519122946, guid: da4978ddc5aa8d04a97094e1c2632d21,
         type: 2}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
       propertyPath: chunkDatabase.Array.data[7].id
-      value: 49
+      value: 101
       objectReference: {fileID: 0}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}

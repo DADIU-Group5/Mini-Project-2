@@ -74,7 +74,79 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: obstacleTentacle_slashOff
+      takeName: obstacleTentacle_slashOff
+      firstFrame: 1
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: grp_cnt
+        weight: 1
+      - path: grp_cnt/cnt_tentacle_1
+        weight: 1
+      - path: grp_cnt/cnt_tentacle_1/cnt_tentacle_2
+        weight: 1
+      - path: grp_cnt/cnt_tentacle_1/cnt_tentacle_2/cnt_tentacle_3
+        weight: 1
+      - path: grp_cnt/cnt_tentacle_1/cnt_tentacle_2/cnt_tentacle_3/cnt_tentacle_4
+        weight: 1
+      - path: grp_cnt/cnt_tentacle_1/cnt_tentacle_2/cnt_tentacle_3/cnt_tentacle_4/cnt_tentacle_5
+        weight: 1
+      - path: grp_cnt/cnt_tentacle_1/cnt_tentacle_2/cnt_tentacle_3/cnt_tentacle_4/cnt_tentacle_5/cnt_tentacle_6
+        weight: 1
+      - path: grp_cnt/cnt_tentacle_1/cnt_tentacle_2/cnt_tentacle_3/cnt_tentacle_4/cnt_tentacle_5/cnt_tentacle_6/cnt_tentacle_7
+        weight: 1
+      - path: grp_cnt/cnt_tentacle_1/cnt_tentacle_2/cnt_tentacle_3/cnt_tentacle_4/cnt_tentacle_5/cnt_tentacle_6/cnt_tentacle_7/cnt_tentacle_8
+        weight: 1
+      - path: grp_geo
+        weight: 1
+      - path: grp_geo/tentacle 1
+        weight: 1
+      - path: grp_jnt_
+        weight: 1
+      - path: grp_jnt_/bind_tentacle_1
+        weight: 1
+      - path: grp_jnt_/bind_tentacle_1/bind_tentacle_2
+        weight: 1
+      - path: grp_jnt_/bind_tentacle_1/bind_tentacle_2/bind_tentacle_3
+        weight: 1
+      - path: grp_jnt_/bind_tentacle_1/bind_tentacle_2/bind_tentacle_3/bind_tentacle_4
+        weight: 1
+      - path: grp_jnt_/bind_tentacle_1/bind_tentacle_2/bind_tentacle_3/bind_tentacle_4/bind_tentacle_5
+        weight: 1
+      - path: grp_jnt_/bind_tentacle_1/bind_tentacle_2/bind_tentacle_3/bind_tentacle_4/bind_tentacle_5/bind_tentacle_6
+        weight: 1
+      - path: grp_jnt_/bind_tentacle_1/bind_tentacle_2/bind_tentacle_3/bind_tentacle_4/bind_tentacle_5/bind_tentacle_6/bind_tentacle_7
+        weight: 1
+      - path: grp_jnt_/bind_tentacle_1/bind_tentacle_2/bind_tentacle_3/bind_tentacle_4/bind_tentacle_5/bind_tentacle_6/bind_tentacle_7/bind_tentacle_8
+        weight: 1
+      - path: grp_jnt_/bind_tentacle_1/bind_tentacle_2/bind_tentacle_3/bind_tentacle_4/bind_tentacle_5/bind_tentacle_6/bind_tentacle_7/bind_tentacle_8/be_tentacle_9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
     isReadable: 1
   meshes:
     lODScreenPercentages: []
