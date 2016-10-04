@@ -36,6 +36,7 @@ public class UIController : Singleton<UIController> {
 
     void Start()
     {
+        player = FindObjectOfType<Player>();
         starImages = new GameObject[5];
         starImages[0] = star1;
         starImages[1] = star2;
