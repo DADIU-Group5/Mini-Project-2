@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     private float fraction;
     private float deltaTime;
 
-    private bool sliding = true;
+    private bool sliding = false;
 
     public void Update()
     {
@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
             deltaTime += Time.deltaTime;
             fraction = (deltaTime - slideStart) / (slideEnd - slideStart);
             transform.position = Vector3.Lerp(startPosition, endPosition, fraction);
-            if (fraction == 1)
+            if (transform.position == endPosition)
             {
                 sliding = false;
             }
