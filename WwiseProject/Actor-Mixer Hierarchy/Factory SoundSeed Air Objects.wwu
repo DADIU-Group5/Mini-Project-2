@@ -404,7 +404,7 @@ An example of trajectories and positioning handled in Wwise as opposed to SS Air
 						<Flags>5</Flags>
 					</Point>
 					<Point>
-						<XPos>0.0519466666666667</XPos>
+						<XPos>5.19466666666667E-02</XPos>
 						<YPos>195.918</YPos>
 						<Flags>0</Flags>
 					</Point>
@@ -639,7 +639,7 @@ An example of trajectories and positioning handled in Wwise as opposed to SS Air
 						<Flags>5</Flags>
 					</Point>
 					<Point>
-						<XPos>0.0584421686746988</XPos>
+						<XPos>5.84421686746988E-02</XPos>
 						<YPos>0</YPos>
 						<Flags>0</Flags>
 					</Point>
@@ -874,7 +874,7 @@ An example of trajectories and positioning handled in Wwise as opposed to SS Air
 						<Flags>5</Flags>
 					</Point>
 					<Point>
-						<XPos>0.0681825301204819</XPos>
+						<XPos>6.81825301204819E-02</XPos>
 						<YPos>0</YPos>
 						<Flags>0</Flags>
 					</Point>
@@ -6337,7 +6337,7 @@ RPM - a throttle control for the engine</Comment>
 				</PropertyList>
 				<PointList>
 					<Point>
-						<XPos>1E-05</XPos>
+						<XPos>0.00001</XPos>
 						<YPos>0</YPos>
 						<Flags>12</Flags>
 						<Time>0</Time>
@@ -10894,7 +10894,7 @@ Presence is roughly related to distance and occlusion</Comment>
 				</PropertyList>
 				<PointList>
 					<Point>
-						<XPos>1E-05</XPos>
+						<XPos>0.00001</XPos>
 						<YPos>-0.59347</YPos>
 						<Flags>12</Flags>
 						<Time>0</Time>
@@ -11537,6 +11537,11 @@ Presence is roughly related to distance and occlusion</Comment>
 										<Value>True</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -11550,6 +11555,9 @@ Presence is roughly related to distance and occlusion</Comment>
 								</Reference>
 								<Reference Name="Effect2" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 									<ObjectRef Name="comb2" ID="{C1CC570F-5E3C-426B-A5E8-F346221F8396}" WorkUnitID="{E375462F-1E38-4008-853A-C5F885645CA5}"/>
+								</Reference>
+								<Reference Name="Effect3" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="topboost" ID="{6ED74F21-0190-44A0-8BB6-46EC2864C737}" WorkUnitID="{E375462F-1E38-4008-853A-C5F885645CA5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>
@@ -11664,7 +11672,7 @@ Presence is roughly related to distance and occlusion</Comment>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -11677,6 +11685,9 @@ Presence is roughly related to distance and occlusion</Comment>
 								</Reference>
 								<Reference Name="Effect1" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
 									<ObjectRef Name="Three_Voices" ID="{71CA20BE-8C1D-4A0C-92AF-BFCE183D5651}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="Effect2" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="topboost" ID="{6ED74F21-0190-44A0-8BB6-46EC2864C737}" WorkUnitID="{E375462F-1E38-4008-853A-C5F885645CA5}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CB12035F-CB3B-4EFC-AF46-6DEE05F34B50}"/>

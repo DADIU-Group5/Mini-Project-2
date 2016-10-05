@@ -71,6 +71,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	4072645614	mastercomp	Wwise Compressor			
 	4145301329	reaward_choir	Wwise Parametric EQ			
 	4202347640	Repeat_after_me	Wwise Harmonizer			
+	4213148367	topboost	Wwise Parametric EQ			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	25868842	SoundSeed Air Wind	SoundSeed Air/SoundSeed Wind		\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects\Game Driven Presets\Wind Ambiences\Polar Winds\SoundSeed Air Wind	
