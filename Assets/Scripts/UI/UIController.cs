@@ -111,26 +111,38 @@ public class UIController : Singleton<UIController> {
         endPanel.SetActive(true);
         StarSystem.instance.CalculateScore();
         int stars = StarSystem.instance.starRating;
-        if (stars == 3)
+        if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings - 3)
         {
-            for (int i = 0; i < 3; i++)
+            NextLevelButton.SetActive(false);
+        }
+            /*if (stars == 3)
             {
-                starImages[i].gameObject.GetComponent<Image>().enabled = true;
+                for (int i = 0; i < 3; i++)
+                {
+                    starImages[i].gameObject.GetComponent<Image>().enabled = true;
+                }
             }
-        }
-        else if (stars == 1)
+            else if (stars == 1)
+            {
+                starImages[1].gameObject.GetComponent<Image>().enabled = true;
+            }
+            else if (stars == 2)
+            {
+                starImages[3].gameObject.GetComponent<Image>().enabled = true;
+                starImages[4].gameObject.GetComponent<Image>().enabled = true;
+            }
+            else if (stars < 0)
+            {
+                starImages[1].gameObject.GetComponent<Image>().enabled = true;
+                starImages[1].gameObject.GetComponent<Image>().color = Color.red;
+            }*/
+            for (int i = 0; i < 3; i++)
         {
-            starImages[1].gameObject.GetComponent<Image>().enabled = true;
-        }
-        else if (stars == 2)
-        {
-            starImages[3].gameObject.GetComponent<Image>().enabled = true;
-            starImages[4].gameObject.GetComponent<Image>().enabled = true;
-        }
-        else if (stars < 0)
-        {
-            starImages[1].gameObject.GetComponent<Image>().enabled = true;
-            starImages[1].gameObject.GetComponent<Image>().color = Color.red;
+            starImages[i].gameObject.GetComponent<Image>().enabled = true;
+            if (i < stars)
+            {
+                starImages[i].gameObject.GetComponent<Image>().color = Color.white;
+            }
         }
         
         SaveData.instance.CompletedCurrentLevel();

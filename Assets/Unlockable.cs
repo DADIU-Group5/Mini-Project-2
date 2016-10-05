@@ -4,6 +4,7 @@ using System.Collections;
 
 public class Unlockable : MonoBehaviour {
 
+    public GameObject lockImg;
     UnlockableManager UM;
     Image image;
 
@@ -13,6 +14,13 @@ public class Unlockable : MonoBehaviour {
         image = GetComponent<Image>();
         GetComponent<Button>().onClick.AddListener(Clicked);
     }   
+
+    public void RemoveLock()
+    {
+        lockImg.SetActive(false);
+        GetComponent<Image>().color = Color.white;
+        GetComponent<Button>().interactable = true;
+    }
 
     public void Clicked()
     {

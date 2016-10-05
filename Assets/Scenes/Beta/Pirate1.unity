@@ -237,7 +237,7 @@ Prefab:
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
       propertyPath: levelData.levelInfo
-      value: bbbbb1bbbbbd2bbbbubbbbbd3bbbbT4bbbbsbbbbbsbbbbbW5bbbbkbbbbkbbbbsbbbbsbbbbW6bbbbabbbbbRbbbbbabbbkbbbkbbbsbbbsbbbsbbbabbbabbbkbbbTbbbbsbbbsbbbabbbabbbkbbbsbbbabbbkbbbWeeeeeeeeeee
+      value: bbbbb1bbbbbd2bbbbubbbbbdbbbbbT4bbbbsbbbbbsbbbbbW5bbbbkbbbbkbbbbsbbbbsbbbbW6bbbbabbbbbRbbbbbabbbkbbbkbbbsbbbsbbbsbbbabbbabbbkbbbTbbbbsbbbsbbbabbbabbbkbbbsbbbabbbkbbbWeeeeeeeeeee
       objectReference: {fileID: 0}
     - target: {fileID: 114000011055888802, guid: 9acdc8d9db0bbe243ab7f4db15e83bbc,
         type: 2}
@@ -832,6 +832,48 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1423960820}
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+--- !u!1001 &1080014014
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1252552146}
+    m_Modifications:
+    - target: {fileID: 4000012208112100, guid: 2b9bef8db0f8b7a49b5efeac12e123be, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 16.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012208112100, guid: 2b9bef8db0f8b7a49b5efeac12e123be, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012208112100, guid: 2b9bef8db0f8b7a49b5efeac12e123be, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 19.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012208112100, guid: 2b9bef8db0f8b7a49b5efeac12e123be, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012208112100, guid: 2b9bef8db0f8b7a49b5efeac12e123be, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012208112100, guid: 2b9bef8db0f8b7a49b5efeac12e123be, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012208112100, guid: 2b9bef8db0f8b7a49b5efeac12e123be, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000012208112100, guid: 2b9bef8db0f8b7a49b5efeac12e123be, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2b9bef8db0f8b7a49b5efeac12e123be, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1105733792
 GameObject:
   m_ObjectHideFlags: 0
@@ -901,7 +943,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1252552139}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 012bb6bfc291f514fadaa8f9fb91a5a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 1af4eb9c36684ea489145542240e1aa7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   listenerId: 0
@@ -970,6 +1012,7 @@ Transform:
   m_Children:
   - {fileID: 1575703423}
   - {fileID: 1730041071}
+  - {fileID: 1554576607}
   m_Father: {fileID: 0}
   m_RootOrder: 5
 --- !u!1001 &1272513290
@@ -1246,6 +1289,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1bc2a63d41d4dd04f8407c81987efabb, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &1554576607 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4000012208112100, guid: 2b9bef8db0f8b7a49b5efeac12e123be,
+    type: 2}
+  m_PrefabInternal: {fileID: 1080014014}
 --- !u!1 &1575703422
 GameObject:
   m_ObjectHideFlags: 0
@@ -1363,7 +1411,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1730041070}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.48, y: 0.42000008, z: 19.07}
+  m_LocalPosition: {x: 0.48, y: 0.42, z: 19}
   m_LocalScale: {x: 20, y: 10, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
   m_Children: []
@@ -1420,16 +1468,16 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1730041070}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1897097816
+--- !u!1 &1886873973
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1897097819}
-  - 114: {fileID: 1897097818}
-  - 114: {fileID: 1897097817}
+  - 4: {fileID: 1886873976}
+  - 114: {fileID: 1886873975}
+  - 114: {fileID: 1886873974}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -1437,15 +1485,15 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1897097817
+--- !u!114 &1886873974
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1897097816}
+  m_GameObject: {fileID: 1886873973}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88d502723f031664caa2c4407b2317e6, type: 3}
+  m_Script: {fileID: 11500000, guid: 97d45c64ecece4d43a29993511e94cf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   basePath: Audio\GeneratedSoundBanks
@@ -1456,23 +1504,23 @@ MonoBehaviour:
   preparePoolSize: 0
   memoryCutoffThreshold: 0.95
   engineLogging: 1
---- !u!114 &1897097818
+--- !u!114 &1886873975
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1897097816}
+  m_GameObject: {fileID: 1886873973}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 355b0a72041c9fd4dbd7d96741e675ed, type: 3}
+  m_Script: {fileID: 11500000, guid: b9d3b1644ab97d242b9b43cae9f77d12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1897097819
+--- !u!4 &1886873976
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1897097816}
+  m_GameObject: {fileID: 1886873973}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
