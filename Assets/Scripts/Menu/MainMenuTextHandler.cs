@@ -21,6 +21,8 @@ public class MainMenuTextHandler : MonoBehaviour {
     public Text pirate;
     public Text mayan;
     public Text space;
+    public Text comingSoon1;
+    public Text comingSoon2;
 
     [Header("LevelSelect")]
     public Text themeName;
@@ -28,6 +30,7 @@ public class MainMenuTextHandler : MonoBehaviour {
     public Text levelMenu;
 
     [Header("Unlockables")]
+    public Text galleryHeadline;
     public Text unlockablesText;
 
     public void UpdateLanguage()
@@ -57,7 +60,7 @@ public class MainMenuTextHandler : MonoBehaviour {
     public void UpdateTextToEnglish()
     {
         //Main menu
-        map.text = "Map";
+        map.text = "Play";
         settings.text = "Settings";
         unlockablesButton.text = "Gallery";
 
@@ -72,15 +75,18 @@ public class MainMenuTextHandler : MonoBehaviour {
         pirate.text = "Pirate";
         mayan.text = "Mayan";
         space.text = "Space";
+        comingSoon1.text = "Coming soon";
+        comingSoon2.text = "Coming soon";
 
         //Unlockables
-        unlockablesText.text = SaveData.instance.GetAllEarnedStars() + "/" + SaveData.instance.GetAllPossibleStars() + " Stars";
+        galleryHeadline.text = "Gallery";
+        unlockablesText.text = SaveData.instance.GetAllEarnedStars() + "/" + SaveData.instance.GetAllPossibleStars();
      }
 
     public void UpdateTextToDanish()
     {
         //Main menu
-        map.text = "Kort";
+        map.text = "Spil";
         settings.text = "Indstillinger";
         unlockablesButton.text = "Galleri";
 
@@ -95,9 +101,12 @@ public class MainMenuTextHandler : MonoBehaviour {
         pirate.text = "Pirat";
         mayan.text = "Mayaner";
         space.text = "Rum";
+        comingSoon1.text = "Kommer Snart";
+        comingSoon2.text = "Kommer Snart";
 
         //Unlockables
-        unlockablesText.text = SaveData.instance.GetAllEarnedStars() + "/" + SaveData.instance.GetAllPossibleStars() + " Stjerner";
+        galleryHeadline.text = "Galleri";
+        unlockablesText.text = SaveData.instance.GetAllEarnedStars() + "/" + SaveData.instance.GetAllPossibleStars();
     }
 
     public void UpdateLevelTextToEnglish(Theme theme)
