@@ -23,6 +23,7 @@ public class EnemyManager : Singleton<EnemyManager>
             return;
         }
         //add new enemy go to given lane
+        AudioMaster.instance.PlayEvent("summonSkeleton");
         enemies.Add(newEnemy);
     }
 

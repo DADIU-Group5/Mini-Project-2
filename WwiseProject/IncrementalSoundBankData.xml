@@ -16,26 +16,26 @@
 	<Platform GUID="{DF874636-8230-463F-A7D8-1C450BB8FDD5}">
 		<Banks>
 			<Language ID="0">
-				<File Name="Init" Hash="1261928098" Timestamp="131201270612132382"/>
-				<File Name="Soundbank1" Hash="748551397" Timestamp="131201270612062389"/>
+				<File Name="Init" Hash="1261928098" Timestamp="131201295922979713"/>
+				<File Name="Soundbank1" Hash="1642293999" Timestamp="131201303550200553"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3902988259" Timestamp="131201270612152380"/>
+				<File Name="" Hash="3071523814" Timestamp="131201303550290544"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{F737E139-2E59-4CDB-B3B6-A25865A16711}">
 		<Banks>
 			<Language ID="0">
-				<File Name="Init" Hash="698576786" Timestamp="131201270611302465"/>
-				<File Name="Soundbank1" Hash="510213778" Timestamp="131201270611222473"/>
+				<File Name="Init" Hash="698576786" Timestamp="131201295922279713"/>
+				<File Name="Soundbank1" Hash="29635706" Timestamp="131201303549650608"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2539304802" Timestamp="131201270611322463"/>
+				<File Name="" Hash="1994186855" Timestamp="131201303549720601"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

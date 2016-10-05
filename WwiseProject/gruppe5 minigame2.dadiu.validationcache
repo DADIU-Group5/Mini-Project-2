@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="72">
 	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1107360930" DateHigh="30547520"/>
-	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="717255617" DateHigh="30547676"/>
+	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1459088321" DateHigh="30547677"/>
 	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="3021457543" DateHigh="30547278"/>
 	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="471626551" DateHigh="30547290"/>
 	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="471646549" DateHigh="30547290"/>
@@ -9,7 +9,7 @@
 	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="471676546" DateHigh="30547290"/>
 	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1301031149" DateHigh="30546057"/>
 	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="471686545" DateHigh="30547290"/>
-	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Effects\Default Work Unit.wwu" DateLow="717335617" DateHigh="30547676"/>
+	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Effects\Default Work Unit.wwu" DateLow="1459108321" DateHigh="30547677"/>
 	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Effects\Factory Auro Headphone.wwu" DateLow="1301050995" DateHigh="30546057"/>
 	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Effects\Factory Effects.wwu" DateLow="471716542" DateHigh="30547290"/>
 	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Effects\Factory iZotope Box Modeler.wwu" DateLow="471756538" DateHigh="30547290"/>
@@ -21,9 +21,9 @@
 	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1301140302" DateHigh="30546057"/>
 	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Effects\Factory McDSP Effects.wwu" DateLow="471736540" DateHigh="30547290"/>
 	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Events\Default Work Unit.wwu" DateLow="1107380930" DateHigh="30547520"/>
-	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="717295617" DateHigh="30547676"/>
+	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1459118321" DateHigh="30547677"/>
 	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1301160148" DateHigh="30546057"/>
-	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\gruppe5 minigame2.dadiu.wsettings" DateLow="456631746" DateHigh="30547524"/>
+	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\gruppe5 minigame2.dadiu.wsettings" DateLow="2411078321" DateHigh="30547677"/>
 	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\gruppe5 minigame2.wproj" DateLow="488314882" DateHigh="30547290"/>
 	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1108350930" DateHigh="30547520"/>
 	<ValidationCacheItem File="C:\Users\dadiu\Documents\Mini-Project-2\WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1269845522" DateHigh="30547518"/>
