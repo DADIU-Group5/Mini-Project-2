@@ -3,7 +3,11 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{7BBD16E5-84C6-4541-85AE-7FDC648556A3}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="masterVolume" ID="{26AF7611-014C-4011-ACE3-527E310264EB}"/>
+				<GameParameter Name="masterVolume" ID="{26AF7611-014C-4011-ACE3-527E310264EB}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

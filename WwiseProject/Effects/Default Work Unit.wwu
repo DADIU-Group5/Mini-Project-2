@@ -351,6 +351,12 @@
 						<Property Name="Threshold" Type="Real32" Value="-10"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="topboost" ID="{6ED74F21-0190-44A0-8BB6-46EC2864C737}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand3" Type="Real32" Value="5000"/>
+						<Property Name="GainBand3" Type="Real32" Value="5"/>
+					</PropertyList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>
