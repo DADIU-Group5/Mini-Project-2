@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba4299b3bd28cb14989d77b9d0abdd59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 60
+  time: 50
   bounceTime: 1
   horizontal:
     serializedVersion: 2
@@ -112,30 +112,30 @@ MonoBehaviour:
       inSlope: 0
       outSlope: 0
       tangentMode: 0
-    - time: 0.25284395
-      value: 17.856983
+    - time: 0.26625317
+      value: 17.462387
       inSlope: 6.470533
       outSlope: 6.470533
       tangentMode: 0
-    - time: 0.44950962
-      value: 14.880474
+    - time: 0.4650361
+      value: 14.801555
       inSlope: 0.561124
       outSlope: 0.561124
       tangentMode: 0
-    - time: 0.6000052
-      value: 17.701948
-      inSlope: 2.7126994
-      outSlope: 2.7126994
+    - time: 0.6529364
+      value: 18.727901
+      inSlope: 28.08669
+      outSlope: 28.08669
       tangentMode: 0
-    - time: 0.79941267
-      value: 14.959033
-      inSlope: 2.4986267
-      outSlope: 2.4986267
+    - time: 0.83665645
+      value: 28.55774
+      inSlope: 32.654915
+      outSlope: 32.654915
       tangentMode: 0
-    - time: 0.9966795
-      value: 24.967518
-      inSlope: 49.157516
-      outSlope: 49.157516
+    - time: 0.9987723
+      value: 30.005903
+      inSlope: 4.2197757
+      outSlope: 4.2197757
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
